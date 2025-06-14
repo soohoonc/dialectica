@@ -1,0 +1,91 @@
+// This is your Prisma schema file,
+// learn more about it in the docs: https://pris.ly/d/prisma-schema
+
+// Looking for ways to speed up your queries, or scale easily with your serverless or edge functions?
+// Try Prisma Accelerate: https://pris.ly/cli/accelerate-init
+
+generator client {
+  provider = "prisma-client-js"
+  output   = "../src/app/generated/prisma"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Author {
+  id          String   @id @default(cuid())
+  name        String
+  birth       String?  @map("birth")
+  death       String?  @map("death")
+  nationality String?
+  createdAt   DateTime @default(now()) @map("created_at")
+  updatedAt   DateTime @updatedAt @map("updated_at")
+  ideas       Idea[]
+}
+
+model Tag {
+  id        String    @id @default(cuid())
+  name      String
+  createdAt DateTime  @default(now()) @map("created_at")
+  updatedAt DateTime  @updatedAt @map("updated_at")
+  ideas     IdeaTag[]
+}
+
+model Idea {
+  id          String   @id @default(cuid())
+  title       String
+  description String?
+  year        Int?
+  createdAt   DateTime @default(now()) @map("created_at")
+  updatedAt   DateTime @updatedAt @map("updated_at")
+  authorId    String   @map("author_id")
+  periodId    String?  @map("period_id")
+
+  author Author    @relation(fields: [authorId], references: [id])
+  period Period?   @relation(fields: [periodId], references: [id])
+  tags   IdeaTag[]
+
+  // Dialectical relationships
+  outgoingRelations IdeaRelationship[] @relation("SourceIdea")
+  incomingRelations IdeaRelationship[] @relation("TargetIdea")
+}
+
+model IdeaTag {
+  id        String   @id @default(cuid())
+  ideaId    String   @map("idea_id")
+  tagId     String   @map("tag_id")
+  createdAt DateTime @default(now()) @map("created_at")
+  updatedAt DateTime @updatedAt @map("updated_at")
+
+  idea Idea @relation(fields: [ideaId], references: [id])
+  tag  Tag  @relation(fields: [tagId], references: [id])
+}
+
+model Period {
+  id          String   @id @default(cuid())
+  name        String
+  description String?
+  start       String   @map("start")
+  end         String?  @map("end")
+  createdAt   DateTime @default(now()) @map("created_at")
+  updatedAt   DateTime @updatedAt @map("updated_at")
+
+  ideas Idea[]
+}
+
+model IdeaRelationship {
+  id           String   @id @default(cuid())
+  sourceIdeaId String   @map("source_idea_id")
+  targetIdeaId String   @map("target_idea_id")
+  type         String   @map("relationship_type") // "influences", "contradicts", "synthesizes", "builds_upon", "refutes"
+  description  String?
+  createdAt    DateTime @default(now()) @map("created_at")
+  updatedAt    DateTime @updatedAt @map("updated_at")
+
+  sourceIdea Idea @relation("SourceIdea", fields: [sourceIdeaId], references: [id])
+  targetIdea Idea @relation("TargetIdea", fields: [targetIdeaId], references: [id])
+
+  @@unique([sourceIdeaId, targetIdeaId, type])
+}
