@@ -8,11 +8,17 @@ export const authorRouter = createTRPCRouter({
   create: publicProcedure
     .input(z.object({
       name: z.string(),
+      birth: z.string().optional(),
+      death: z.string().optional(),
+      nationality: z.string().optional(),
     }))
     .mutation(async ({ ctx, input }) => {
       return ctx.db.author.create({
         data: {
           name: input.name,
+          birth: input.birth,
+          death: input.death,
+          nationality: input.nationality,
         },
       });
     }),
@@ -32,8 +38,10 @@ export const authorRouter = createTRPCRouter({
   update: publicProcedure
     .input(z.object({
       id: z.string(),
-      name: z.string(),
-      tag: z.string().optional(),
+      name: z.string().optional(),
+      birth: z.string().optional(),
+      death: z.string().optional(),
+      nationality: z.string().optional(),
     }))
     .mutation(async ({ ctx, input }) => {
       return ctx.db.author.update({
@@ -42,6 +50,9 @@ export const authorRouter = createTRPCRouter({
         },
         data: {
           name: input.name,
+          birth: input.birth,
+          death: input.death,
+          nationality: input.nationality,
         },
       });
     }),
