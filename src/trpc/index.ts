@@ -2,6 +2,7 @@ import { initTRPC, TRPCError } from "@trpc/server";
 import superjson from "superjson";
 import { ZodError } from "zod";
 import db from "@/lib/prisma";
+import { getFileWatcher } from "@/lib/file-watcher";
 
 /**
  * 1. CONTEXT
@@ -17,6 +18,9 @@ import db from "@/lib/prisma";
  */
 
 export const createTRPCContext = async (opts: { headers: Headers }) => {
+  // Initialize file watcher on server startup (auto-starts if not already running)
+  getFileWatcher(db);
+  
   return {
     db,
     ...opts,

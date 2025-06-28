@@ -1,10 +1,10 @@
 "use client";
 
 import { useState } from "react";
-import { trpc } from "@/trpc/client";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
+import { MarkdownTemplates } from "@/lib/markdown-templates";
 
 export function AuthorForm() {
   const [formData, setFormData] = useState({
@@ -13,35 +13,43 @@ export function AuthorForm() {
     death: '',
     nationality: ''
   });
+  const [isCreating, setIsCreating] = useState(false);
 
-  const createAuthor = trpc.author.create.useMutation({
-    onSuccess: () => {
-      setFormData({ name: '', birth: '', death: '', nationality: '' });
-      alert('Author created successfully!');
-    },
-    onError: (error) => {
-      alert(`Error: ${error.message}`);
-    }
-  });
-
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    createAuthor.mutate({
-      name: formData.name,
-      birth: formData.birth || undefined,
-      death: formData.death || undefined,
-      nationality: formData.nationality || undefined,
-    });
+    setIsCreating(true);
+
+    try {
+      const result = await MarkdownTemplates.createPhilosopherFile({
+        name: formData.name,
+        birth: formData.birth || undefined,
+        death: formData.death || undefined,
+        nationality: formData.nationality || undefined,
+      });
+
+      setFormData({ name: '', birth: '', death: '', nationality: '' });
+      alert(`Philosopher created successfully!\n\nFile: ${result.filename}\nPath: ${result.path}\n\nThe file watcher will automatically sync this to the database.`);
+    } catch (error) {
+      alert(`Error creating philosopher file: ${error instanceof Error ? error.message : 'Unknown error'}`);
+    } finally {
+      setIsCreating(false);
+    }
   };
 
   return (
     <form onSubmit={handleSubmit} className="space-y-4">
+      <div className="text-sm text-muted-foreground mb-4">
+        <p>📝 This will create a markdown file in <code>docs/philosophers/</code></p>
+        <p>🔄 The file watcher will automatically sync it to the database</p>
+      </div>
+      
       <div>
         <Label htmlFor="author-name">Name *</Label>
         <Input
           id="author-name"
           value={formData.name}
           onChange={(e) => setFormData({ ...formData, name: e.target.value })}
+          placeholder="e.g., Immanuel Kant"
           required
         />
       </div>
@@ -51,6 +59,7 @@ export function AuthorForm() {
           id="author-birth"
           value={formData.birth}
           onChange={(e) => setFormData({ ...formData, birth: e.target.value })}
+          placeholder="e.g., 1724 CE or 470 BCE"
         />
       </div>
       <div>
@@ -59,6 +68,7 @@ export function AuthorForm() {
           id="author-death"
           value={formData.death}
           onChange={(e) => setFormData({ ...formData, death: e.target.value })}
+          placeholder="e.g., 1804 CE or leave blank if alive"
         />
       </div>
       <div>
@@ -67,10 +77,11 @@ export function AuthorForm() {
           id="author-nationality"
           value={formData.nationality}
           onChange={(e) => setFormData({ ...formData, nationality: e.target.value })}
+          placeholder="e.g., German, Greek, Chinese"
         />
       </div>
-      <Button type="submit" disabled={createAuthor.isPending}>
-        {createAuthor.isPending ? 'Creating...' : 'Create Author'}
+      <Button type="submit" disabled={isCreating}>
+        {isCreating ? 'Creating File...' : 'Create Philosopher File'}
       </Button>
     </form>
   );
@@ -83,35 +94,43 @@ export function PeriodForm() {
     start: '',
     end: ''
   });
+  const [isCreating, setIsCreating] = useState(false);
 
-  const createPeriod = trpc.period.create.useMutation({
-    onSuccess: () => {
-      setFormData({ name: '', description: '', start: '', end: '' });
-      alert('Period created successfully!');
-    },
-    onError: (error) => {
-      alert(`Error: ${error.message}`);
-    }
-  });
-
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    createPeriod.mutate({
-      name: formData.name,
-      description: formData.description || undefined,
-      start: formData.start,
-      end: formData.end || undefined,
-    });
+    setIsCreating(true);
+
+    try {
+      const result = await MarkdownTemplates.createPeriodFile({
+        name: formData.name,
+        description: formData.description || undefined,
+        start: formData.start,
+        end: formData.end || undefined,
+      });
+
+      setFormData({ name: '', description: '', start: '', end: '' });
+      alert(`Period created successfully!\n\nFile: ${result.filename}\nPath: ${result.path}\n\nThe file watcher will automatically sync this to the database.`);
+    } catch (error) {
+      alert(`Error creating period file: ${error instanceof Error ? error.message : 'Unknown error'}`);
+    } finally {
+      setIsCreating(false);
+    }
   };
 
   return (
     <form onSubmit={handleSubmit} className="space-y-4">
+      <div className="text-sm text-muted-foreground mb-4">
+        <p>📝 This will create a markdown file in <code>docs/periods/</code></p>
+        <p>🔄 The file watcher will automatically sync it to the database</p>
+      </div>
+
       <div>
         <Label htmlFor="period-name">Name *</Label>
         <Input
           id="period-name"
           value={formData.name}
           onChange={(e) => setFormData({ ...formData, name: e.target.value })}
+          placeholder="e.g., Ancient Philosophy, Enlightenment"
           required
         />
       </div>
@@ -121,6 +140,7 @@ export function PeriodForm() {
           id="period-description"
           value={formData.description}
           onChange={(e) => setFormData({ ...formData, description: e.target.value })}
+          placeholder="Brief description of this historical period"
         />
       </div>
       <div>
@@ -129,6 +149,7 @@ export function PeriodForm() {
           id="period-start"
           value={formData.start}
           onChange={(e) => setFormData({ ...formData, start: e.target.value })}
+          placeholder="e.g., 600 BCE, 1400 CE"
           required
         />
       </div>
@@ -138,10 +159,11 @@ export function PeriodForm() {
           id="period-end"
           value={formData.end}
           onChange={(e) => setFormData({ ...formData, end: e.target.value })}
+          placeholder="e.g., 600 CE, or leave blank if ongoing"
         />
       </div>
-      <Button type="submit" disabled={createPeriod.isPending}>
-        {createPeriod.isPending ? 'Creating...' : 'Create Period'}
+      <Button type="submit" disabled={isCreating}>
+        {isCreating ? 'Creating File...' : 'Create Period File'}
       </Button>
     </form>
   );
@@ -151,37 +173,43 @@ export function TagForm() {
   const [formData, setFormData] = useState({
     name: ''
   });
+  const [isCreating, setIsCreating] = useState(false);
 
-  const createTag = trpc.tag.create.useMutation({
-    onSuccess: () => {
-      setFormData({ name: '' });
-      alert('Tag created successfully!');
-    },
-    onError: (error) => {
-      alert(`Error: ${error.message}`);
-    }
-  });
-
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    createTag.mutate({
-      name: formData.name,
-    });
+    setIsCreating(true);
+
+    try {
+      const result = await MarkdownTemplates.createTagFile(formData.name);
+
+      setFormData({ name: '' });
+      alert(`Tag category created successfully!\n\nFile: ${result.filename}\nPath: ${result.path}\n\nYou can now use #${formData.name} in your idea files.`);
+    } catch (error) {
+      alert(`Error creating tag file: ${error instanceof Error ? error.message : 'Unknown error'}`);
+    } finally {
+      setIsCreating(false);
+    }
   };
 
   return (
     <form onSubmit={handleSubmit} className="space-y-4">
+      <div className="text-sm text-muted-foreground mb-4">
+        <p>📝 This will create a tag documentation file in <code>docs/relationships/</code></p>
+        <p>🏷️ Use #{formData.name || 'tagname'} in your idea files to reference this tag</p>
+      </div>
+
       <div>
-        <Label htmlFor="tag-name">Name *</Label>
+        <Label htmlFor="tag-name">Tag Name *</Label>
         <Input
           id="tag-name"
           value={formData.name}
           onChange={(e) => setFormData({ ...formData, name: e.target.value })}
+          placeholder="e.g., Ethics, Metaphysics, Existentialism"
           required
         />
       </div>
-      <Button type="submit" disabled={createTag.isPending}>
-        {createTag.isPending ? 'Creating...' : 'Create Tag'}
+      <Button type="submit" disabled={isCreating}>
+        {isCreating ? 'Creating File...' : 'Create Tag Documentation'}
       </Button>
     </form>
   );
@@ -190,44 +218,67 @@ export function TagForm() {
 export function IdeaForm() {
   const [formData, setFormData] = useState({
     title: '',
+    author: '',
     description: '',
     year: '',
-    authorId: '',
-    periodId: ''
+    period: '',
+    tags: ''
   });
+  const [isCreating, setIsCreating] = useState(false);
 
-  const { data: authors } = trpc.author.list.useQuery();
-  const { data: periods } = trpc.period.list.useQuery();
-
-  const createIdea = trpc.idea.create.useMutation({
-    onSuccess: () => {
-      setFormData({ title: '', description: '', year: '', authorId: '', periodId: '' });
-      alert('Idea created successfully!');
-    },
-    onError: (error) => {
-      alert(`Error: ${error.message}`);
-    }
-  });
-
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    createIdea.mutate({
-      title: formData.title,
-      description: formData.description || undefined,
-      year: formData.year ? parseInt(formData.year) : undefined,
-      authorId: formData.authorId,
-      periodId: formData.periodId || undefined,
-    });
+    setIsCreating(true);
+
+    try {
+      const tags = formData.tags
+        .split(',')
+        .map(tag => tag.trim())
+        .filter(tag => tag.length > 0);
+
+      const result = await MarkdownTemplates.createIdeaFile({
+        title: formData.title,
+        author: formData.author,
+        description: formData.description || undefined,
+        year: formData.year ? parseInt(formData.year) : undefined,
+        period: formData.period || undefined,
+        tags: tags.length > 0 ? tags : undefined,
+      });
+
+      setFormData({ title: '', author: '', description: '', year: '', period: '', tags: '' });
+      alert(`Idea created successfully!\n\nFile: ${result.filename}\nPath: ${result.path}\n\nThe file watcher will automatically sync this to the database.`);
+    } catch (error) {
+      alert(`Error creating idea file: ${error instanceof Error ? error.message : 'Unknown error'}`);
+    } finally {
+      setIsCreating(false);
+    }
   };
 
   return (
     <form onSubmit={handleSubmit} className="space-y-4">
+      <div className="text-sm text-muted-foreground mb-4">
+        <p>📝 This will create a markdown file in <code>docs/ideas/</code></p>
+        <p>🔄 The file watcher will automatically sync it to the database</p>
+        <p>🔗 Use exact names for author and period (they must exist first)</p>
+      </div>
+
       <div>
         <Label htmlFor="idea-title">Title *</Label>
         <Input
           id="idea-title"
           value={formData.title}
           onChange={(e) => setFormData({ ...formData, title: e.target.value })}
+          placeholder="e.g., Categorical Imperative, Theory of Forms"
+          required
+        />
+      </div>
+      <div>
+        <Label htmlFor="idea-author">Author Name *</Label>
+        <Input
+          id="idea-author"
+          value={formData.author}
+          onChange={(e) => setFormData({ ...formData, author: e.target.value })}
+          placeholder="e.g., Immanuel Kant (must match philosopher file exactly)"
           required
         />
       </div>
@@ -237,6 +288,7 @@ export function IdeaForm() {
           id="idea-description"
           value={formData.description}
           onChange={(e) => setFormData({ ...formData, description: e.target.value })}
+          placeholder="Brief description of this philosophical concept"
         />
       </div>
       <div>
@@ -246,150 +298,66 @@ export function IdeaForm() {
           type="number"
           value={formData.year}
           onChange={(e) => setFormData({ ...formData, year: e.target.value })}
+          placeholder="e.g., 1785, -380 (negative for BCE)"
         />
       </div>
       <div>
-        <Label htmlFor="idea-author">Author *</Label>
-        <select
-          id="idea-author"
-          value={formData.authorId}
-          onChange={(e) => setFormData({ ...formData, authorId: e.target.value })}
-          className="w-full p-2 border rounded"
-          required
-        >
-          <option value="">Select an author</option>
-          {authors?.map((author) => (
-            <option key={author.id} value={author.id}>
-              {author.name}
-            </option>
-          ))}
-        </select>
+        <Label htmlFor="idea-period">Period Name</Label>
+        <Input
+          id="idea-period"
+          value={formData.period}
+          onChange={(e) => setFormData({ ...formData, period: e.target.value })}
+          placeholder="e.g., Ancient Philosophy (must match period file exactly)"
+        />
       </div>
       <div>
-        <Label htmlFor="idea-period">Period</Label>
-        <select
-          id="idea-period"
-          value={formData.periodId}
-          onChange={(e) => setFormData({ ...formData, periodId: e.target.value })}
-          className="w-full p-2 border rounded"
-        >
-          <option value="">Select a period (optional)</option>
-          {periods?.map((period) => (
-            <option key={period.id} value={period.id}>
-              {period.name}
-            </option>
-          ))}
-        </select>
+        <Label htmlFor="idea-tags">Tags</Label>
+        <Input
+          id="idea-tags"
+          value={formData.tags}
+          onChange={(e) => setFormData({ ...formData, tags: e.target.value })}
+          placeholder="e.g., Ethics, Metaphysics, Logic (comma-separated)"
+        />
       </div>
-      <Button type="submit" disabled={createIdea.isPending}>
-        {createIdea.isPending ? 'Creating...' : 'Create Idea'}
+      <Button type="submit" disabled={isCreating}>
+        {isCreating ? 'Creating File...' : 'Create Idea File'}
       </Button>
     </form>
   );
 }
 
 export function RelationshipForm() {
-  const [formData, setFormData] = useState({
-    sourceIdeaId: '',
-    targetIdeaId: '',
-    type: '',
-    description: ''
-  });
-
-  const { data: ideas } = trpc.idea.list.useQuery({});
-
-  const createRelationship = trpc.relationship.create.useMutation({
-    onSuccess: () => {
-      setFormData({ sourceIdeaId: '', targetIdeaId: '', type: '', description: '' });
-      alert('Relationship created successfully!');
-    },
-    onError: (error) => {
-      alert(`Error: ${error.message}`);
-    }
-  });
-
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    createRelationship.mutate({
-      sourceIdeaId: formData.sourceIdeaId,
-      targetIdeaId: formData.targetIdeaId,
-      type: formData.type as "influences" | "contradicts" | "synthesizes" | "builds_upon" | "refutes",
-      description: formData.description || undefined,
-    });
-  };
-
-  const relationshipTypes = [
-    { value: 'influences', label: 'Influences' },
-    { value: 'contradicts', label: 'Contradicts' },
-    { value: 'synthesizes', label: 'Synthesizes' },
-    { value: 'builds_upon', label: 'Builds Upon' },
-    { value: 'refutes', label: 'Refutes' }
-  ];
-
   return (
-    <form onSubmit={handleSubmit} className="space-y-4">
-      <div>
-        <Label htmlFor="source-idea">Source Idea *</Label>
-        <select
-          id="source-idea"
-          value={formData.sourceIdeaId}
-          onChange={(e) => setFormData({ ...formData, sourceIdeaId: e.target.value })}
-          className="w-full p-2 border rounded"
-          required
-        >
-          <option value="">Select source idea</option>
-          {ideas?.map((idea) => (
-            <option key={idea.id} value={idea.id}>
-              {idea.title} ({idea.author.name})
-            </option>
-          ))}
-        </select>
+    <div className="space-y-4">
+      <div className="text-sm text-muted-foreground">
+        <p>📝 <strong>Relationships are now managed in markdown files!</strong></p>
+        <p>🔗 Edit idea files directly to add relationships:</p>
+        <div className="mt-2 p-3 bg-gray-50 rounded text-xs font-mono">
+          <p>## Influenced By</p>
+          <p>- **builds_upon**: [[ideas/theory-of-forms|Theory of Forms]] by [[philosophers/plato|Plato]]</p>
+          <p></p>
+          <p>## Influences</p>
+          <p>- **contradicts**: [[ideas/empiricism|Empiricism]] by [[philosophers/locke|John Locke]]</p>
+        </div>
+        <p className="mt-2">Available relationship types:</p>
+        <ul className="list-disc list-inside text-xs">
+          <li><strong>influences</strong> - This idea influences another</li>
+          <li><strong>contradicts</strong> - This idea contradicts another</li>
+          <li><strong>synthesizes</strong> - This idea synthesizes others</li>
+          <li><strong>builds_upon</strong> - This idea builds upon another</li>
+          <li><strong>refutes</strong> - This idea refutes another</li>
+        </ul>
       </div>
-      <div>
-        <Label htmlFor="target-idea">Target Idea *</Label>
-        <select
-          id="target-idea"
-          value={formData.targetIdeaId}
-          onChange={(e) => setFormData({ ...formData, targetIdeaId: e.target.value })}
-          className="w-full p-2 border rounded"
-          required
-        >
-          <option value="">Select target idea</option>
-          {ideas?.map((idea) => (
-            <option key={idea.id} value={idea.id}>
-              {idea.title} ({idea.author.name})
-            </option>
-          ))}
-        </select>
+      
+      <div className="p-4 border rounded bg-blue-50">
+        <h4 className="font-semibold mb-2">How to add relationships:</h4>
+        <ol className="list-decimal list-inside text-sm space-y-1">
+          <li>Open the idea file you want to edit</li>
+          <li>Add relationships in the "Influenced By" or "Influences" sections</li>
+          <li>Use the exact format shown above</li>
+          <li>Save the file - the watcher will sync automatically</li>
+        </ol>
       </div>
-      <div>
-        <Label htmlFor="relationship-type">Relationship Type *</Label>
-        <select
-          id="relationship-type"
-          value={formData.type}
-          onChange={(e) => setFormData({ ...formData, type: e.target.value })}
-          className="w-full p-2 border rounded"
-          required
-        >
-          <option value="">Select relationship type</option>
-          {relationshipTypes.map((type) => (
-            <option key={type.value} value={type.value}>
-              {type.label}
-            </option>
-          ))}
-        </select>
-      </div>
-      <div>
-        <Label htmlFor="relationship-description">Description</Label>
-        <Input
-          id="relationship-description"
-          value={formData.description}
-          onChange={(e) => setFormData({ ...formData, description: e.target.value })}
-        />
-      </div>
-      <Button type="submit" disabled={createRelationship.isPending}>
-        {createRelationship.isPending ? 'Creating...' : 'Create Relationship'}
-      </Button>
-    </form>
+    </div>
   );
 }

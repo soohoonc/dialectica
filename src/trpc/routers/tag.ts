@@ -3,67 +3,70 @@ import {
   createTRPCRouter,
   publicProcedure
 } from "@/trpc";
+import { MarkdownUtils } from "@/lib/markdown";
 
 export const tagRouter = createTRPCRouter({
-  create: publicProcedure
-    .input(z.object({
-      name: z.string(),
-    }))
-    .mutation(async ({ ctx, input }) => {
-      return ctx.db.tag.create({
-        data: {
-          name: input.name,
-        },
-      });
-    }),
+  // DISABLED: Use markdown file creation instead
+  // create: publicProcedure
+  //   .input(z.object({
+  //     name: z.string(),
+  //   }))
+  //   .mutation(async ({ ctx, input }) => {
+  //     throw new Error('Database creation disabled. Use MarkdownTemplates.createTagFile() instead.');
+  //   }),
 
   get: publicProcedure
     .input(z.object({
-      id: z.string(),
+      id: z.string(), // Using slug as ID
     }))
-    .query(async ({ ctx, input }) => {
-      return ctx.db.tag.findUnique({
-        where: {
-          id: input.id,
-        },
-      });
+    .query(async ({ input }) => {
+      // Check if tag documentation exists
+      const data = await MarkdownUtils.readMarkdown('relationships', input.id);
+      
+      // Get tag usage count from ideas
+      const tags = await MarkdownUtils.getAllTagsFromMarkdown();
+      const tag = tags.find(t => MarkdownUtils.slugify(t.name) === input.id);
+      
+      if (!tag) return null;
+      
+      return {
+        id: input.id,
+        name: tag.name,
+      };
     }),
 
-  update: publicProcedure
-    .input(z.object({
-      id: z.string(),
-      name: z.string(),
-      tag: z.string().optional(),
-    }))
-    .mutation(async ({ ctx, input }) => {
-      return ctx.db.tag.update({
-        where: {
-          id: input.id,
-        },
-        data: {
-          name: input.name,
-        },
-      });
-    }),
+  // DISABLED: Edit markdown files directly instead
+  // update: publicProcedure
+  //   .input(z.object({
+  //     id: z.string(),
+  //     name: z.string(),
+  //     tag: z.string().optional(),
+  //   }))
+  //   .mutation(async ({ ctx, input }) => {
+  //     throw new Error('Database updates disabled. Edit markdown files directly.');
+  //   }),
 
-  delete: publicProcedure
-    .input(z.object({
-      id: z.string(),
-    }))
-    .mutation(async ({ ctx, input }) => {
-      return ctx.db.tag.delete({
-        where: {
-          id: input.id,
-        },
-      });
-    }),
+  // DISABLED: Delete markdown files directly instead
+  // delete: publicProcedure
+  //   .input(z.object({
+  //     id: z.string(),
+  //   }))
+  //   .mutation(async ({ ctx, input }) => {
+  //     throw new Error('Database deletion disabled. Delete markdown files directly.');
+  //   }),
 
   list: publicProcedure
-    .query(async ({ ctx }) => {
-      return ctx.db.tag.findMany({
-        orderBy: {
-          name: "asc",
-        },
-      });
+    .query(async () => {
+      // Read tags from markdown files (extracted from ideas)
+      const tags = await MarkdownUtils.getAllTagsFromMarkdown();
+      
+      // Sort by name
+      tags.sort((a, b) => a.name.localeCompare(b.name));
+      
+      // Transform to match expected format
+      return tags.map(tag => ({
+        id: MarkdownUtils.slugify(tag.name), // Using slug as ID
+        name: tag.name,
+      }));
     }),
 });

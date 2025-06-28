@@ -2,29 +2,28 @@
 
 import { trpc } from "@/trpc/client";
 import { Button } from "@/components/ui/button";
+import { MarkdownUtils } from "@/lib/markdown";
 
 export function AuthorEntries() {
-  const { data: authors, isLoading, refetch } = trpc.author.list.useQuery();
-  
-  const deleteAuthor = trpc.author.delete.useMutation({
-    onSuccess: () => {
-      refetch();
-    },
-    onError: (error) => {
-      alert(`Error deleting author: ${error.message}`);
-    }
-  });
+  const { data: authors, isLoading } = trpc.author.list.useQuery();
 
-  const handleDelete = (id: string, name: string) => {
-    if (confirm(`Are you sure you want to delete "${name}"? This action cannot be undone.`)) {
-      deleteAuthor.mutate({ id });
-    }
+  const openMarkdownFile = (name: string) => {
+    const slug = MarkdownUtils.slugify(name);
+    const filePath = `docs/philosophers/${slug}.md`;
+    
+    // Show file path and instructions
+    alert(`📝 Edit this philosopher's markdown file:\n\n${filePath}\n\nOpen this file in your markdown editor to make changes.\nThe file watcher will automatically sync changes to the database.`);
   };
 
   if (isLoading) return <div className="text-center py-4">Loading authors...</div>;
 
   return (
     <div className="space-y-2">
+      <div className="text-sm text-muted-foreground mb-4">
+        <p>📖 These are read-only views from the database</p>
+        <p>📝 Click "Edit File" to open the markdown file for editing</p>
+      </div>
+      
       {authors?.map((author) => (
         <div key={author.id} className="border rounded p-3 flex justify-between items-start">
           <div className="flex-1">
@@ -35,14 +34,16 @@ export function AuthorEntries() {
                author.death ? `Died ${author.death}` : 'Dates unknown'}
               {author.nationality && ` • ${author.nationality}`}
             </div>
+            <div className="text-xs text-muted-foreground mt-1">
+              File: docs/philosophers/{MarkdownUtils.slugify(author.name)}.md
+            </div>
           </div>
           <Button
-            variant="destructive"
+            variant="outline"
             size="sm"
-            onClick={() => handleDelete(author.id, author.name)}
-            disabled={deleteAuthor.isPending}
+            onClick={() => openMarkdownFile(author.name)}
           >
-            {deleteAuthor.isPending ? 'Deleting...' : 'Delete'}
+            Edit File
           </Button>
         </div>
       ))}
@@ -54,27 +55,24 @@ export function AuthorEntries() {
 }
 
 export function PeriodEntries() {
-  const { data: periods, isLoading, refetch } = trpc.period.list.useQuery();
-  
-  const deletePeriod = trpc.period.delete.useMutation({
-    onSuccess: () => {
-      refetch();
-    },
-    onError: (error) => {
-      alert(`Error deleting period: ${error.message}`);
-    }
-  });
+  const { data: periods, isLoading } = trpc.period.list.useQuery();
 
-  const handleDelete = (id: string, name: string) => {
-    if (confirm(`Are you sure you want to delete "${name}"? This action cannot be undone.`)) {
-      deletePeriod.mutate({ id });
-    }
+  const openMarkdownFile = (name: string) => {
+    const slug = MarkdownUtils.slugify(name);
+    const filePath = `docs/periods/${slug}.md`;
+    
+    alert(`📝 Edit this period's markdown file:\n\n${filePath}\n\nOpen this file in your markdown editor to make changes.\nThe file watcher will automatically sync changes to the database.`);
   };
 
   if (isLoading) return <div className="text-center py-4">Loading periods...</div>;
 
   return (
     <div className="space-y-2">
+      <div className="text-sm text-muted-foreground mb-4">
+        <p>📖 These are read-only views from the database</p>
+        <p>📝 Click "Edit File" to open the markdown file for editing</p>
+      </div>
+
       {periods?.map((period) => (
         <div key={period.id} className="border rounded p-3 flex justify-between items-start">
           <div className="flex-1">
@@ -85,14 +83,16 @@ export function PeriodEntries() {
             {period.description && (
               <div className="text-sm mt-1">{period.description}</div>
             )}
+            <div className="text-xs text-muted-foreground mt-1">
+              File: docs/periods/{MarkdownUtils.slugify(period.name)}.md
+            </div>
           </div>
           <Button
-            variant="destructive"
+            variant="outline"
             size="sm"
-            onClick={() => handleDelete(period.id, period.name)}
-            disabled={deletePeriod.isPending}
+            onClick={() => openMarkdownFile(period.name)}
           >
-            {deletePeriod.isPending ? 'Deleting...' : 'Delete'}
+            Edit File
           </Button>
         </div>
       ))}
@@ -104,39 +104,40 @@ export function PeriodEntries() {
 }
 
 export function TagEntries() {
-  const { data: tags, isLoading, refetch } = trpc.tag.list.useQuery();
-  
-  const deleteTag = trpc.tag.delete.useMutation({
-    onSuccess: () => {
-      refetch();
-    },
-    onError: (error) => {
-      alert(`Error deleting tag: ${error.message}`);
-    }
-  });
+  const { data: tags, isLoading } = trpc.tag.list.useQuery();
 
-  const handleDelete = (id: string, name: string) => {
-    if (confirm(`Are you sure you want to delete "${name}"? This action cannot be undone.`)) {
-      deleteTag.mutate({ id });
-    }
+  const openMarkdownFile = (name: string) => {
+    const slug = MarkdownUtils.slugify(name);
+    const filePath = `docs/relationships/${slug}.md`;
+    
+    alert(`📝 View this tag's documentation file:\n\n${filePath}\n\nThis file may not exist yet. Tags are primarily used in idea files with #${name} syntax.`);
   };
 
   if (isLoading) return <div className="text-center py-4">Loading tags...</div>;
 
   return (
     <div className="space-y-2">
+      <div className="text-sm text-muted-foreground mb-4">
+        <p>📖 These tags are extracted from markdown files</p>
+        <p>🏷️ Use #{tags?.[0]?.name || 'tagname'} syntax in idea files</p>
+      </div>
+
       {tags?.map((tag) => (
         <div key={tag.id} className="border rounded p-3 flex justify-between items-center">
-          <div className="bg-secondary text-secondary-foreground px-2 py-1 rounded text-sm">
-            {tag.name}
+          <div className="flex-1">
+            <div className="bg-secondary text-secondary-foreground px-2 py-1 rounded text-sm inline-block">
+              #{tag.name}
+            </div>
+            <div className="text-xs text-muted-foreground mt-1">
+              Reference: docs/relationships/{MarkdownUtils.slugify(tag.name)}.md
+            </div>
           </div>
           <Button
-            variant="destructive"
+            variant="outline"
             size="sm"
-            onClick={() => handleDelete(tag.id, tag.name)}
-            disabled={deleteTag.isPending}
+            onClick={() => openMarkdownFile(tag.name)}
           >
-            {deleteTag.isPending ? 'Deleting...' : 'Delete'}
+            View Docs
           </Button>
         </div>
       ))}
@@ -148,27 +149,25 @@ export function TagEntries() {
 }
 
 export function IdeaEntries() {
-  const { data: ideas, isLoading, refetch } = trpc.idea.list.useQuery({});
-  
-  const deleteIdea = trpc.idea.delete.useMutation({
-    onSuccess: () => {
-      refetch();
-    },
-    onError: (error) => {
-      alert(`Error deleting idea: ${error.message}`);
-    }
-  });
+  const { data: ideas, isLoading } = trpc.idea.list.useQuery({});
 
-  const handleDelete = (id: string, title: string) => {
-    if (confirm(`Are you sure you want to delete "${title}"? This action cannot be undone.`)) {
-      deleteIdea.mutate({ id });
-    }
+  const openMarkdownFile = (title: string) => {
+    const slug = MarkdownUtils.slugify(title);
+    const filePath = `docs/ideas/${slug}.md`;
+    
+    alert(`📝 Edit this idea's markdown file:\n\n${filePath}\n\nOpen this file in your markdown editor to make changes.\nYou can add relationships, tags, and detailed descriptions.\nThe file watcher will automatically sync changes to the database.`);
   };
 
   if (isLoading) return <div className="text-center py-4">Loading ideas...</div>;
 
   return (
     <div className="space-y-3">
+      <div className="text-sm text-muted-foreground mb-4">
+        <p>📖 These are read-only views from the database</p>
+        <p>📝 Click "Edit File" to open the markdown file for editing</p>
+        <p>🔗 Add relationships and tags directly in the markdown files</p>
+      </div>
+
       {ideas?.map((idea) => (
         <div key={idea.id} className="border rounded p-3 flex justify-between items-start">
           <div className="flex-1">
@@ -181,14 +180,16 @@ export function IdeaEntries() {
             {idea.description && (
               <div className="text-sm mt-1">{idea.description}</div>
             )}
+            <div className="text-xs text-muted-foreground mt-1">
+              File: docs/ideas/{MarkdownUtils.slugify(idea.title)}.md
+            </div>
           </div>
           <Button
-            variant="destructive"
+            variant="outline"
             size="sm"
-            onClick={() => handleDelete(idea.id, idea.title)}
-            disabled={deleteIdea.isPending}
+            onClick={() => openMarkdownFile(idea.title)}
           >
-            {deleteIdea.isPending ? 'Deleting...' : 'Delete'}
+            Edit File
           </Button>
         </div>
       ))}
@@ -200,55 +201,42 @@ export function IdeaEntries() {
 }
 
 export function RelationshipEntries() {
-  const { data: relationships, isLoading, refetch } = trpc.relationship.list.useQuery({});
-  
-  const deleteRelationship = trpc.relationship.delete.useMutation({
-    onSuccess: () => {
-      refetch();
-    },
-    onError: (error) => {
-      alert(`Error deleting relationship: ${error.message}`);
-    }
-  });
-
-  const handleDelete = (id: string, sourceTitle: string, targetTitle: string) => {
-    if (confirm(`Are you sure you want to delete the relationship "${sourceTitle} → ${targetTitle}"? This action cannot be undone.`)) {
-      deleteRelationship.mutate({ id });
-    }
-  };
+  const { data: relationships, isLoading } = trpc.relationship.list.useQuery({});
 
   if (isLoading) return <div className="text-center py-4">Loading relationships...</div>;
 
   return (
     <div className="space-y-3">
+      <div className="text-sm text-muted-foreground mb-4">
+        <p>📖 These relationships are extracted from markdown files</p>
+        <p>📝 Edit idea files directly to modify relationships</p>
+        <p>🔗 Use the format: <code>- **type**: [[ideas/target|Title]] by [[philosophers/author|Name]]</code></p>
+      </div>
+
       {relationships?.map((relationship) => (
-        <div key={relationship.id} className="border rounded p-3 flex justify-between items-start">
-          <div className="flex-1">
-            <div className="font-medium">
-              {relationship.sourceIdea.title} → {relationship.targetIdea.title}
-            </div>
-            <div className="text-sm text-muted-foreground">
-              Type: {relationship.type.replace('_', ' ')}
-            </div>
-            <div className="text-xs text-muted-foreground">
-              {relationship.sourceIdea.author.name} → {relationship.targetIdea.author.name}
-            </div>
-            {relationship.description && (
-              <div className="text-sm mt-1">{relationship.description}</div>
-            )}
+        <div key={relationship.id} className="border rounded p-3">
+          <div className="font-medium">
+            {relationship.sourceIdea.title} → {relationship.targetIdea.title}
           </div>
-          <Button
-            variant="destructive"
-            size="sm"
-            onClick={() => handleDelete(relationship.id, relationship.sourceIdea.title, relationship.targetIdea.title)}
-            disabled={deleteRelationship.isPending}
-          >
-            {deleteRelationship.isPending ? 'Deleting...' : 'Delete'}
-          </Button>
+          <div className="text-sm text-muted-foreground">
+            Type: <span className="bg-secondary px-2 py-1 rounded text-xs">{relationship.type.replace('_', ' ')}</span>
+          </div>
+          <div className="text-xs text-muted-foreground">
+            {relationship.sourceIdea.author.name} → {relationship.targetIdea.author.name}
+          </div>
+          {relationship.description && (
+            <div className="text-sm mt-1">{relationship.description}</div>
+          )}
+          <div className="text-xs text-muted-foreground mt-2 p-2 bg-gray-50 rounded">
+            📝 Edit in: docs/ideas/{MarkdownUtils.slugify(relationship.sourceIdea.title)}.md
+          </div>
         </div>
       ))}
       {!relationships?.length && (
-        <div className="text-muted-foreground text-center py-4">No relationships found</div>
+        <div className="text-muted-foreground text-center py-4">
+          <p>No relationships found</p>
+          <p className="text-xs mt-1">Add relationships by editing idea markdown files</p>
+        </div>
       )}
     </div>
   );
