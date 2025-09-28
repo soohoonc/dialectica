@@ -1,8 +1,8 @@
-import { initTRPC, TRPCError } from "@trpc/server";
+import { initTRPC } from "@trpc/server";
 import superjson from "superjson";
 import { ZodError } from "zod";
 import db from "@/lib/prisma";
-import { getFileWatcher } from "@/lib/file-watcher";
+import { graph } from "@/lib/graph";
 
 /**
  * 1. CONTEXT
@@ -19,10 +19,10 @@ import { getFileWatcher } from "@/lib/file-watcher";
 
 export const createTRPCContext = async (opts: { headers: Headers }) => {
   // Initialize file watcher on server startup (auto-starts if not already running)
-  getFileWatcher(db);
-  
+
   return {
     db,
+    graph,
     ...opts,
   };
 };

@@ -1,11 +1,5 @@
 import { createCallerFactory, createTRPCRouter } from "@/trpc";
-import { authorRouter } from "@/trpc/routers/author";
-import { ideaRouter } from "@/trpc/routers/idea";
-import { tagRouter } from "@/trpc/routers/tag";
-import { relationshipRouter } from "@/trpc/routers/relationship";
-import { periodRouter } from "@/trpc/routers/period";
-import { exportRouter } from "@/trpc/routers/export";
-import { importRouter } from "@/trpc/routers/import";
+import { graphRouter } from "@/trpc/routers/graph";
 
 /**
  * This is the primary router for your server.
@@ -13,13 +7,7 @@ import { importRouter } from "@/trpc/routers/import";
  * All routers added in /api/routers should be manually added here.
  */
 export const appRouter = createTRPCRouter({
-  author: authorRouter,
-  idea: ideaRouter,
-  tag: tagRouter,
-  relationship: relationshipRouter,
-  period: periodRouter,
-  export: exportRouter,
-  import: importRouter,
+  graph: graphRouter
 });
 
 // export type definition of API
