@@ -11,7 +11,7 @@ import {
   formatYear,
   getOntologyUrl,
 } from "@/components/wiki";
-import { ArrowLeft, User, MapPin } from "lucide-react";
+import { ArrowLeft } from "lucide-react";
 
 interface ArtifactPageProps {
   params: Promise<{ slug: string }>;

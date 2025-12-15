@@ -183,7 +183,7 @@ export default function IdeaPage({ params }: IdeaPageProps) {
               <Network className="h-5 w-5" />
               Relationship Graph
             </h2>
-            <ForceGraph data={graphData} width={800} height={400} />
+            <ForceGraph data={graphData} />
             <p className="text-sm text-muted-foreground mt-2">
               Showing ideas within 2 degrees of connection
             </p>

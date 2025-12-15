@@ -1,7 +1,6 @@
 "use client";
 
 import Link from "next/link";
-import { Calendar, User, MapPin, Clock, Tag } from "lucide-react";
 import { getOntologyUrl } from "./wiki-link";
 
 interface MetadataItem {
@@ -85,7 +84,7 @@ interface FigureMetadataProps {
 }
 
 export function FigureMetadata({
-  name,
+  name: _name,
   birth,
   death,
   nationality,
@@ -143,7 +142,7 @@ interface IdeaMetadataProps {
 }
 
 export function IdeaMetadata({
-  title,
+  title: _title,
   year,
   authors,
   periods,
