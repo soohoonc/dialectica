@@ -2,7 +2,8 @@ import { z } from "zod";
 
 const envSchema = {
   server: z.object({
-    DATABASE_URL: z.string().url(),
+    // DATABASE_URL is optional since we use markdown files via the graph engine
+    DATABASE_URL: z.string().url().optional(),
     NODE_ENV: z.enum(["development", "test", "production"])
       .default("development"),
   }),
@@ -14,7 +15,7 @@ const envSchema = {
 };
 
 const merged = envSchema.server.merge(envSchema.client);
-type EnvSchema = z.infer<typeof merged>;
+// type EnvSchema = z.infer<typeof merged>;
 
 const formatErrors = (errors: z.ZodError) => {
   const { fieldErrors } = errors.flatten();

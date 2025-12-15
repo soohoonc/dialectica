@@ -5,52 +5,26 @@ discussions of humanity
 ## Architecture
 
 This is a fancy UI layer on top of a markdown/obsidian vault directory.
-It is optimized to show a conversational thread of human history.
+It is optimized to show the conversation of humanity.
 
-We define 4 objects:
-- Figures: the who
-- Periods: the when
-- Locations: the where
-- Ideas: the what and why
+We define 5 objects within the ontology.
+- Figures: the who (the figure, the soul)
+- Times: the when (the temporal dimension)
+- Locations: the where (the spatial dimension)
+- Ideas: the why (the reason)
+- Objects: the what of the physical sense (matter)
 
-### Figure
-```markdown
-id: `fg_${x:string}`
-birth: Date
-death: Date
-nationality: Nation
-gender: Gender
-parent: Figure
-children: Figure[]
-```
+Each of the objects (the ontologies) will have an associated page to explore each
+f/ - figures, basically biographies of a figure, a scroll wheel of portraits
+t/ - times, a timeline of a times and periods, a timeline page
+l/ - locations, basically maps of a location, a map page
+i/ - ideas, basically essays of an idea, a graph of ideas (will be clustered by its links to each other)
+o/ - objects, basically descriptions of an object: a page of objects, a scroll wheel of objects
 
-### Period
-```markdown
-id: `pr_${x:string}`
-start: Date
-end: Date
-name: string
-location?: Location
-parent: Period
-children: Period[]
-```
+the hows will be wiki pages (under /p directory) it will contain articles that link to different ontologies and other pages)
 
-### Location
-```markdown
-id: `lc_${x:string}`
-name: string
-period?: Period
-parent: Location
-children: Location[]
-```
+I am inspired by wikipedia and gwern.net
 
-### Idea
-```markdown
-id: `id_${x:string}`
-name: string
-author: Figure
-period: Period
-location?: Location
-parent: Idea
-children: Idea[]
-```
+the thematic colors are black and white, with bolded and dotted underlined for links (like gwern). 
+
+the individual pages will be markdown files (under a configurable directory, /docs for now)
