@@ -4,7 +4,8 @@ name: Immanuel Kant
 birth: 1724
 death: 1804
 nationality: German
-portrait: /portraits/kant.jpg
+portrait: https://upload.wikimedia.org/wikipedia/commons/7/79/Immanuel_Kant_-_Gemaelde_1.jpg
+portraitSource: https://en.wikipedia.org/wiki/Immanuel_Kant
 locations:
   - konigsberg
 periods:
@@ -14,7 +15,6 @@ tags:
   - ethicist
   - epistemologist
 ---
-
 # Immanuel Kant
 
 Immanuel Kant (1724-1804) was a German philosopher and one of the central figures of modern philosophy. Kant's comprehensive and systematic works in epistemology, metaphysics, ethics, and aesthetics have made him an influential figure in Western philosophy.
@@ -47,3 +47,12 @@ Kant's critical philosophy synthesized rationalist and empiricist traditions, pr
 - Groundwork of the Metaphysics of Morals (1785)
 - Critique of Practical Reason (1788)
 - Critique of Judgment (1790)
+
+## Ontology Connections
+
+This entry is further connected in the graph through [[enlightenment]], [[confucius]].
+
+## Related Links
+
+- Time: [[enlightenment]]
+- Figure: [[confucius]]

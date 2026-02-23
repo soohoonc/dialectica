@@ -9,7 +9,6 @@ tags:
   - inscription
   - law
 ---
-
 # Code of Hammurabi
 
 The Code of Hammurabi is a Babylonian legal text composed c. 1754 BCE during the reign of King Hammurabi of Babylon.
@@ -35,3 +34,16 @@ One of the oldest deciphered writings of significant length, the Code of Hammura
 ## Famous Principle
 
 "An eye for an eye, a tooth for a tooth" - the principle of proportional justice (lex talionis).
+
+## Ontology Connections
+
+This entry is further connected in the graph through [[babylon]], [[roman-imperial-era]], [[bologna]].
+
+## Related Links
+
+- Location: [[babylon]]
+- Time: [[roman-imperial-era]]
+- Location: [[bologna]]
+- Idea: [[legal-hermeneutics]]
+- Artifact: [[rosetta-stone]]
+- Figure: [[johannes-vermeer]]

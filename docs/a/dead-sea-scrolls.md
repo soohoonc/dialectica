@@ -9,7 +9,6 @@ tags:
   - manuscript
   - religious-text
 ---
-
 # Dead Sea Scrolls
 
 The Dead Sea Scrolls are ancient Jewish religious manuscripts discovered between 1946 and 1956 in caves near the Dead Sea.
@@ -37,3 +36,16 @@ First scrolls found by Bedouin shepherds in 1946-1947. Subsequent archaeological
 ## Location
 
 Most scrolls are housed in the Shrine of the Book at the Israel Museum in Jerusalem.
+
+## Ontology Connections
+
+This entry is further connected in the graph through [[book-of-kells]], [[david-hume]], [[french-revolution-era]].
+
+## Related Links
+
+- Artifact: [[book-of-kells]]
+- Figure: [[david-hume]]
+- Time: [[french-revolution-era]]
+- Location: [[changan]]
+- Idea: [[samsara]]
+- Artifact: [[poetics]]

@@ -28,6 +28,7 @@ const figureSchema = baseSchema.extend({
   death: z.number().optional(),
   nationality: z.string().optional(),
   portrait: z.string().optional(),
+  portraitSource: z.string().optional(),
   locations: z.array(z.string()).default([]),
   periods: z.array(z.string()).default([]),
 });
@@ -171,7 +172,11 @@ export function parseMarkdownFile(fileContent: string, filePath: string): GraphN
     // Parse and validate based on type
     switch (type) {
       case "figure": {
-        const parsed = figureSchema.safeParse({ ...frontMatter, type });
+        const parsed = figureSchema.safeParse({
+          ...frontMatter,
+          type,
+          portraitSource: frontMatter.portraitSource || frontMatter.portrait_source,
+        });
         if (!parsed.success) {
           console.warn(`Invalid figure front matter in ${filePath}:`, parsed.error);
           // Return with defaults
@@ -184,6 +189,7 @@ export function parseMarkdownFile(fileContent: string, filePath: string): GraphN
             death: frontMatter.death,
             nationality: frontMatter.nationality,
             portrait: frontMatter.portrait,
+            portraitSource: frontMatter.portraitSource || frontMatter.portrait_source,
             locations: frontMatter.locations || [],
             periods: frontMatter.periods || [],
           } as FigureNode;

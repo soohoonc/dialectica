@@ -15,7 +15,6 @@ tags:
   - duty
   - morality
 ---
-
 # Deontology
 
 Deontology (from Greek _deon_, meaning "duty") is an ethical theory that judges the morality of actions based on their adherence to rules or duties, rather than their consequences. The most influential deontological theory is that of [[kant|Immanuel Kant]].
@@ -61,3 +60,12 @@ Critics argue deontology:
 - Ignores the importance of consequences
 - Fails to account for moral complexity
 - Provides inadequate guidance in novel situations
+
+## Ontology Connections
+
+This entry is further connected in the graph through [[enlightenment]], [[late-zhou]].
+
+## Related Links
+
+- Time: [[enlightenment]]
+- Time: [[late-zhou]]

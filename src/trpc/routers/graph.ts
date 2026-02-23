@@ -99,4 +99,23 @@ export const graphRouter = createTRPCRouter({
 
       return ctx.graph.resolveLink(input.target);
     }),
+
+  // Resolve many wiki-link targets at once (used by wiki renderer)
+  resolveLinks: publicProcedure
+    .input(
+      z.object({
+        targets: z.array(z.string()).max(500),
+      }),
+    )
+    .query(async ({ input, ctx }) => {
+      await ctx.graph.initialize();
+
+      const resolved: Record<string, { href: string; exists: boolean } | null> = {};
+
+      for (const target of input.targets) {
+        resolved[target] = ctx.graph.resolveLink(target);
+      }
+
+      return resolved;
+    }),
 });

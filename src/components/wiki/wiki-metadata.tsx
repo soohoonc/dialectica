@@ -7,6 +7,7 @@ interface MetadataItem {
   label: string;
   value: string;
   href?: string;
+  external?: boolean;
   type?: string;
 }
 
@@ -22,7 +23,16 @@ export function WikiMetadata({ items, tags, className = "" }: WikiMetadataProps)
       {items.map((item, index) => (
         <div key={index} className="metadata-item">
           <span className="metadata-label">{item.label}:</span>
-          {item.href ? (
+          {item.href && item.external ? (
+            <a
+              href={item.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="link-internal"
+            >
+              {item.value}
+            </a>
+          ) : item.href ? (
             <Link href={item.href} className="link-internal">
               {item.value}
             </Link>
@@ -67,6 +77,7 @@ interface FigureMetadataProps {
   birth?: number;
   death?: number;
   nationality?: string;
+  portraitSource?: string;
   periods?: Array<{ id: string; slug: string; name: string }>;
   locations?: Array<{ id: string; slug: string; name: string }>;
   tags?: string[];
@@ -78,6 +89,7 @@ export function FigureMetadata({
   birth,
   death,
   nationality,
+  portraitSource,
   periods,
   locations,
   tags,
@@ -94,6 +106,15 @@ export function FigureMetadata({
 
   if (nationality) {
     items.push({ label: "Nationality", value: nationality });
+  }
+
+  if (portraitSource) {
+    items.push({
+      label: "Portrait",
+      value: "Source",
+      href: portraitSource,
+      external: true,
+    });
   }
 
   if (periods?.length) {

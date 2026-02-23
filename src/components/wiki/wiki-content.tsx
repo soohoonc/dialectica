@@ -1,6 +1,7 @@
 "use client";
 
 import { useMemo } from "react";
+import { trpc } from "@/trpc/client";
 import { unified } from "unified";
 import remarkParse from "remark-parse";
 import remarkGfm from "remark-gfm";
@@ -14,6 +15,26 @@ interface WikiContentProps {
   linkResolver?: (target: string) => { href: string; exists: boolean } | null;
 }
 
+function normalizeWikiTarget(target: string): string {
+  return target
+    .trim()
+    .toLowerCase()
+    .replace(/\s+/g, "-")
+    .replace(/[^a-z0-9-/]/g, "");
+}
+
+function extractWikiTargets(content: string): string[] {
+  const wikiLinkRegex = /\[\[([^\]|#]+)(?:#[^\]|]+)?(?:\|[^\]]+)?\]\]/g;
+  const seen = new Set<string>();
+
+  let match: RegExpExecArray | null;
+  while ((match = wikiLinkRegex.exec(content)) !== null) {
+    seen.add(normalizeWikiTarget(match[1]));
+  }
+
+  return Array.from(seen);
+}
+
 // Process wiki-links [[target]] or [[target|alias]]
 function processWikiLinks(
   content: string,
@@ -23,11 +44,7 @@ function processWikiLinks(
 
   return content.replace(wikiLinkRegex, (match, target, section, alias) => {
     const displayText = alias || target;
-    const normalizedTarget = target
-      .trim()
-      .toLowerCase()
-      .replace(/\s+/g, "-")
-      .replace(/[^a-z0-9-/]/g, "");
+    const normalizedTarget = normalizeWikiTarget(target);
 
     if (resolver) {
       const resolved = resolver(normalizedTarget);
@@ -38,16 +55,32 @@ function processWikiLinks(
       }
     }
 
-    // Fallback: assume it's a page
-    const href = section ? `/p/${normalizedTarget}#${section}` : `/p/${normalizedTarget}`;
-    return `<a href="${href}" class="link-internal">${displayText}</a>`;
+    // If unresolved, render explicitly as missing instead of generating a broken link.
+    return `<span class="link-missing" title="Unresolved link: ${normalizedTarget}">${displayText}</span>`;
   });
 }
 
 export function WikiContent({ content, className = "", linkResolver }: WikiContentProps) {
+  const targets = useMemo(() => extractWikiTargets(content), [content]);
+  const shouldResolveViaApi = !linkResolver && targets.length > 0;
+  const { data: resolvedLinks } = trpc.graph.resolveLinks.useQuery(
+    { targets },
+    { enabled: shouldResolveViaApi, staleTime: 60_000 },
+  );
+
+  const effectiveResolver = useMemo(() => {
+    if (linkResolver) {
+      return linkResolver;
+    }
+    if (!resolvedLinks) {
+      return undefined;
+    }
+    return (target: string) => resolvedLinks[target] ?? null;
+  }, [linkResolver, resolvedLinks]);
+
   const htmlContent = useMemo(() => {
     // Process wiki-links first
-    const processedContent = processWikiLinks(content, linkResolver);
+    const processedContent = processWikiLinks(content, effectiveResolver);
 
     // Process markdown to HTML
     const result = unified()
@@ -59,7 +92,7 @@ export function WikiContent({ content, className = "", linkResolver }: WikiConte
       .processSync(processedContent);
 
     return String(result);
-  }, [content, linkResolver]);
+  }, [content, effectiveResolver]);
 
   return <div className={`prose ${className}`} dangerouslySetInnerHTML={{ __html: htmlContent }} />;
 }

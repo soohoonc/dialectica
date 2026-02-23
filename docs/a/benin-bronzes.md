@@ -9,7 +9,6 @@ tags:
   - sculpture
   - african-art
 ---
-
 # Benin Bronzes
 
 The Benin Bronzes are a group of thousands of metal plaques and sculptures that decorated the royal palace of the Kingdom of Benin (in present-day Nigeria).
@@ -34,3 +33,16 @@ The majority of the bronzes were looted by British forces during the punitive ex
 ## Repatriation
 
 In recent years, many institutions have begun returning Benin Bronzes to Nigeria, acknowledging their violent acquisition and cultural significance.
+
+## Ontology Connections
+
+This entry is further connected in the graph through [[aztec-sun-stone]], [[john-chrysostom]], [[apostolic-era]].
+
+## Related Links
+
+- Artifact: [[aztec-sun-stone]]
+- Figure: [[john-chrysostom]]
+- Time: [[apostolic-era]]
+- Location: [[ujjain]]
+- Idea: [[stoicism]]
+- Artifact: [[guide-for-the-perplexed]]

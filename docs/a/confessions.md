@@ -10,7 +10,6 @@ tags:
   - theology
   - autobiography
 ---
-
 # Confessions
 
 The _Confessions_ (Latin: _Confessiones_) is an autobiographical work by Augustine of Hippo, written between 397 and 400 CE.
@@ -30,3 +29,16 @@ Part autobiography, part theological meditation, the Confessions traces Augustin
 ## Famous Lines
 
 "You have made us for yourself, O Lord, and our heart is restless until it rests in you."
+
+## Ontology Connections
+
+This entry is further connected in the graph through [[hippo]], [[anselm-of-canterbury]], [[apostolic-era]].
+
+## Related Links
+
+- Location: [[hippo]]
+- Figure: [[anselm-of-canterbury]]
+- Time: [[apostolic-era]]
+- Location: [[aksum]]
+- Idea: [[analogy-of-being]]
+- Artifact: [[city-of-god-augustinian]]

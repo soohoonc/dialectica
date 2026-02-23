@@ -10,7 +10,6 @@ tags:
   - philosophy
   - democracy
 ---
-
 # Classical Greece
 
 The Classical period of ancient Greek history (500-323 BCE) represents the zenith of Greek civilization. This era witnessed remarkable developments in philosophy, art, architecture, literature, and political theory.
@@ -41,3 +40,11 @@ The Classical period saw:
 - The tragedies of Aeschylus, Sophocles, and Euripides
 - The histories of Herodotus and Thucydides
 - The medical advances of Hippocrates
+
+## Ontology Connections
+
+This entry is further connected in the graph through [[abhinavagupta]].
+
+## Related Links
+
+- Figure: [[abhinavagupta]]

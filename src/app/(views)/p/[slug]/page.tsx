@@ -4,11 +4,7 @@ import { use } from "react";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { trpc } from "@/trpc/client";
-import {
-  WikiContent,
-  WikiTableOfContents,
-  WikiBacklinks,
-} from "@/components/wiki";
+import { WikiContent, WikiTableOfContents, WikiBacklinks } from "@/components/wiki";
 import { ArrowLeft } from "lucide-react";
 
 interface PageProps {
@@ -37,7 +33,7 @@ export default function WikiPage({ params }: PageProps) {
   const { page, backlinks } = data;
 
   return (
-    <div className="container mx-auto px-4 py-8 max-w-4xl">
+    <div className="container mx-auto px-4 pt-4 pb-8 max-w-4xl">
       <Link
         href="/"
         className="inline-flex items-center gap-2 text-muted-foreground hover:text-foreground mb-6 link-nav"

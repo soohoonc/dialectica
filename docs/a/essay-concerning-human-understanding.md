@@ -11,7 +11,6 @@ tags:
   - epistemology
   - empiricism
 ---
-
 # An Essay Concerning Human Understanding
 
 John Locke's _Essay_ (1689) is a foundational work of empiricist philosophy.
@@ -26,3 +25,16 @@ Locke argues that the mind at birth is a "tabula rasa" (blank slate) and that al
 - **Simple and Complex Ideas**: Complex ideas built from simple sensory impressions
 - **Primary and Secondary Qualities**: Intrinsic properties vs. perception-dependent properties
 - **Personal Identity**: Continuity of consciousness defines the self
+
+## Ontology Connections
+
+This entry is further connected in the graph through [[london]], [[abhinavagupta]], [[classical-greece]].
+
+## Related Links
+
+- Location: [[london]]
+- Figure: [[abhinavagupta]]
+- Time: [[classical-greece]]
+- Location: [[athens]]
+- Idea: [[advaita-vedanta]]
+- Artifact: [[critique-of-pure-reason]]

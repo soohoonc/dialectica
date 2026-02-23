@@ -11,7 +11,6 @@ tags:
   - philosophy
   - scholasticism
 ---
-
 # Summa Theologica
 
 The _Summa Theologica_ (or _Summa Theologiae_) is the best-known work of Thomas Aquinas (1225–1274).
@@ -35,3 +34,16 @@ The work is organized into questions, each divided into articles following a sta
 - Natural law theory
 - The virtues
 - The nature of God
+
+## Ontology Connections
+
+This entry is further connected in the graph through [[abhinavagupta]], [[apostolic-era]], [[aksum]].
+
+## Related Links
+
+- Figure: [[abhinavagupta]]
+- Time: [[apostolic-era]]
+- Location: [[aksum]]
+- Idea: [[thomism]]
+- Artifact: [[being-and-time]]
+- Figure: [[irenaeus-of-lyons]]

@@ -12,7 +12,6 @@ tags:
   - reason
   - science
 ---
-
 # The Enlightenment
 
 The Enlightenment (c. 1685-1815) was an intellectual and philosophical movement that dominated Europe in the 17th and 18th centuries. Also known as the Age of Reason, it emphasized reason, individualism, and skepticism of traditional authority.
@@ -53,3 +52,12 @@ The Enlightenment's emphasis on reason, individual rights, and scientific inquir
 - Modern liberal democracy
 - The scientific method
 - Contemporary secular thought
+
+## Ontology Connections
+
+This entry is further connected in the graph through [[paris]], [[konigsberg]].
+
+## Related Links
+
+- Location: [[paris]]
+- Location: [[konigsberg]]

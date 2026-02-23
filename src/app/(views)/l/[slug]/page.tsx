@@ -4,12 +4,7 @@ import { use } from "react";
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { trpc } from "@/trpc/client";
-import {
-  WikiContent,
-  WikiTableOfContents,
-  WikiBacklinks,
-  getOntologyUrl,
-} from "@/components/wiki";
+import { WikiContent, WikiTableOfContents, WikiBacklinks, getOntologyUrl } from "@/components/wiki";
 import { ArrowLeft, User, Clock, Box } from "lucide-react";
 
 interface LocationPageProps {
@@ -38,7 +33,7 @@ export default function LocationPage({ params }: LocationPageProps) {
   const { location, figures, periods, artifacts, backlinks } = data;
 
   return (
-    <div className="container mx-auto px-4 py-8 max-w-4xl">
+    <div className="container mx-auto px-4 pt-4 pb-8 max-w-4xl">
       <Link
         href="/l"
         className="inline-flex items-center gap-2 text-muted-foreground hover:text-foreground mb-6 link-nav"

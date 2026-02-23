@@ -4,7 +4,8 @@ name: Aristotle
 birth: -384
 death: -322
 nationality: Greek
-portrait: /portraits/aristotle.jpg
+portrait: https://upload.wikimedia.org/wikipedia/commons/a/ae/Aristotle_Altemps_Inv8575.jpg
+portraitSource: https://en.wikipedia.org/wiki/Aristotle
 locations:
   - athens
   - stagira
@@ -15,7 +16,6 @@ tags:
   - scientist
   - logician
 ---
-
 # Aristotle
 
 Aristotle (384-322 BCE) was a Greek philosopher and polymath during the Classical period in Ancient Greece. Taught by [[plato]], he was the founder of the Peripatetic school of philosophy within the Lyceum and the wider Aristotelian tradition.
@@ -47,3 +47,11 @@ Key works include:
 - Metaphysics
 - Organon (logical treatises)
 - Physics
+
+## Ontology Connections
+
+This entry is further connected in the graph through [[stagira]].
+
+## Related Links
+
+- Location: [[stagira]]

@@ -2,6 +2,9 @@ import { z } from "zod";
 import { createTRPCRouter, publicProcedure } from "@/trpc";
 import { TRPCError } from "@trpc/server";
 import type { TimeNode } from "@/lib/graph";
+import { applyFilterRules } from "@/lib/filter-rules";
+import { timeFilterFields } from "@/lib/filter-definitions";
+import { filterRulesSchema } from "@/trpc/schemas/filter-rules";
 
 export const timesRouter = createTRPCRouter({
   // List all time periods
@@ -14,6 +17,7 @@ export const timesRouter = createTRPCRouter({
           sort: z.enum(["name", "start", "end"]).default("start"),
           order: z.enum(["asc", "desc"]).default("asc"),
           tags: z.array(z.string()).optional(),
+          rules: filterRulesSchema.optional(),
         })
         .optional(),
     )
@@ -25,6 +29,10 @@ export const timesRouter = createTRPCRouter({
       // Filter by tags
       if (input?.tags?.length) {
         times = times.filter((t) => input.tags!.some((tag) => t.tags.includes(tag)));
+      }
+
+      if (input?.rules?.length) {
+        times = applyFilterRules(times, timeFilterFields, input.rules);
       }
 
       // Sort

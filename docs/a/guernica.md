@@ -11,7 +11,6 @@ tags:
   - modern-art
   - anti-war
 ---
-
 # Guernica
 
 _Guernica_ is a large oil painting by Pablo Picasso, created in response to the bombing of Guernica, a Basque town in northern Spain, by Nazi Germany and Fascist Italy.
@@ -35,3 +34,16 @@ Painted for the Spanish Republic's pavilion at the 1937 Paris International Expo
 ## Location
 
 Now housed in the Museo Reina Sofía in Madrid, where it arrived in 1981 after the death of Franco.
+
+## Ontology Connections
+
+This entry is further connected in the graph through [[paris]], [[night-watch]], [[abdus-salam]].
+
+## Related Links
+
+- Location: [[paris]]
+- Artifact: [[night-watch]]
+- Figure: [[abdus-salam]]
+- Time: [[six-dynasties-period]]
+- Location: [[bologna]]
+- Idea: [[theurgy]]

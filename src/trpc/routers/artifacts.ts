@@ -2,6 +2,9 @@ import { z } from "zod";
 import { createTRPCRouter, publicProcedure } from "@/trpc";
 import { TRPCError } from "@trpc/server";
 import type { ArtifactNode, ArtifactMedium } from "@/lib/graph";
+import { applyFilterRules } from "@/lib/filter-rules";
+import { artifactFilterFields } from "@/lib/filter-definitions";
+import { filterRulesSchema } from "@/trpc/schemas/filter-rules";
 
 // Medium definitions with display names
 const MEDIUMS: { id: ArtifactMedium; name: string }[] = [
@@ -33,6 +36,7 @@ export const artifactsRouter = createTRPCRouter({
           medium: z.string().optional(),
           era: z.string().optional(),
           tags: z.array(z.string()).optional(),
+          rules: filterRulesSchema.optional(),
         })
         .optional(),
     )
@@ -64,6 +68,10 @@ export const artifactsRouter = createTRPCRouter({
       // Filter by tags
       if (input?.tags?.length) {
         artifacts = artifacts.filter((a) => input.tags!.some((tag) => a.tags.includes(tag)));
+      }
+
+      if (input?.rules?.length) {
+        artifacts = applyFilterRules(artifacts, artifactFilterFields, input.rules);
       }
 
       // Sort
@@ -166,45 +174,57 @@ export const artifactsRouter = createTRPCRouter({
   })),
 
   // Get all artifacts grouped by medium (for 2D scroll)
-  getGroupedByMedium: publicProcedure.query(async ({ ctx }) => {
-    await ctx.graph.initialize();
+  getGroupedByMedium: publicProcedure
+    .input(
+      z
+        .object({
+          rules: filterRulesSchema.optional(),
+        })
+        .optional(),
+    )
+    .query(async ({ input, ctx }) => {
+      await ctx.graph.initialize();
 
-    const artifacts = ctx.graph.getNodesByType<ArtifactNode>("artifact");
+      let artifacts = ctx.graph.getNodesByType<ArtifactNode>("artifact");
 
-    // Group by medium
-    const grouped: Record<string, ArtifactNode[]> = {};
-
-    for (const medium of MEDIUMS) {
-      grouped[medium.id] = [];
-    }
-
-    for (const art of artifacts) {
-      const medium = art.medium || "other";
-      if (grouped[medium]) {
-        grouped[medium].push(art);
-      } else {
-        grouped["other"].push(art);
+      if (input?.rules?.length) {
+        artifacts = applyFilterRules(artifacts, artifactFilterFields, input.rules);
       }
-    }
 
-    // Sort artifacts within each medium by year, then name
-    for (const medium of MEDIUMS) {
-      grouped[medium.id].sort((a, b) => {
-        // Sort by year first (oldest first), then by name
-        const yearA = a.year ?? Infinity;
-        const yearB = b.year ?? Infinity;
-        if (yearA !== yearB) return yearA - yearB;
-        return a.name.localeCompare(b.name);
-      });
-    }
+      // Group by medium
+      const grouped: Record<string, ArtifactNode[]> = {};
 
-    // Filter out empty mediums for the response
-    const activeMedias = MEDIUMS.filter((m) => grouped[m.id].length > 0);
+      for (const medium of MEDIUMS) {
+        grouped[medium.id] = [];
+      }
 
-    return {
-      mediums: activeMedias,
-      grouped,
-      total: artifacts.length,
-    };
-  }),
+      for (const art of artifacts) {
+        const medium = art.medium || "other";
+        if (grouped[medium]) {
+          grouped[medium].push(art);
+        } else {
+          grouped["other"].push(art);
+        }
+      }
+
+      // Sort artifacts within each medium by year, then name
+      for (const medium of MEDIUMS) {
+        grouped[medium.id].sort((a, b) => {
+          // Sort by year first (oldest first), then by name
+          const yearA = a.year ?? Infinity;
+          const yearB = b.year ?? Infinity;
+          if (yearA !== yearB) return yearA - yearB;
+          return a.name.localeCompare(b.name);
+        });
+      }
+
+      // Filter out empty mediums for the response
+      const activeMedias = MEDIUMS.filter((m) => grouped[m.id].length > 0);
+
+      return {
+        mediums: activeMedias,
+        grouped,
+        total: artifacts.length,
+      };
+    }),
 });

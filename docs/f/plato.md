@@ -4,7 +4,8 @@ name: Plato
 birth: -428
 death: -348
 nationality: Greek
-portrait: /portraits/plato.jpg
+portrait: https://upload.wikimedia.org/wikipedia/commons/2/21/Plato_Silanion_Musei_Capitolini_MC1377.png
+portraitSource: https://en.wikipedia.org/wiki/Plato
 locations:
   - athens
 periods:
@@ -14,7 +15,6 @@ tags:
   - metaphysician
   - epistemologist
 ---
-
 # Plato
 
 Plato (c. 428-348 BCE) was an Athenian philosopher during the Classical period in Ancient Greece. Founder of the Academy in [[athens]], he is widely considered a pivotal figure in the history of Ancient Greek and Western philosophy.
@@ -50,3 +50,13 @@ Major works include:
 - Phaedo
 - Phaedrus
 - Timaeus
+
+## Ontology Connections
+
+This entry is further connected in the graph through [[classical-greece]], [[baruch-spinoza]], [[marcus-aurelius]].
+
+## Related Links
+
+- Time: [[classical-greece]]
+- Figure: [[baruch-spinoza]]
+- Figure: [[marcus-aurelius]]

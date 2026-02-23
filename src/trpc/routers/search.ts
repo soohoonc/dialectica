@@ -102,4 +102,36 @@ export const searchRouter = createTRPCRouter({
 
       return suggestions;
     }),
+
+  // Exact tag search
+  byTag: publicProcedure
+    .input(
+      z.object({
+        tag: z.string().min(1),
+        types: z
+          .array(z.enum(["figure", "time", "location", "idea", "artifact", "page"]))
+          .optional(),
+        limit: z.number().min(1).max(200).default(100),
+      }),
+    )
+    .query(async ({ input, ctx }) => {
+      await ctx.graph.initialize();
+
+      const normalizedTag = input.tag.trim().toLowerCase();
+      const typeSet = input.types ? new Set(input.types) : null;
+
+      const results = ctx.graph
+        .getAllNodes()
+        .filter((node) => {
+          if (typeSet && !typeSet.has(node.type)) return false;
+          return node.tags.some((tag) => tag.toLowerCase() === normalizedTag);
+        })
+        .slice(0, input.limit);
+
+      return {
+        tag: input.tag,
+        results,
+        total: results.length,
+      };
+    }),
 });

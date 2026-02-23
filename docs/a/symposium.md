@@ -10,7 +10,6 @@ tags:
   - philosophy
   - love
 ---
-
 # Symposium
 
 The _Symposium_ (Greek: Συμπόσιον) is a philosophical text by [[plato]] dated c. 385–370 BCE.
@@ -25,3 +24,15 @@ The dialogue depicts a drinking party where guests give speeches in praise of Er
 - **Pausanias**: Heavenly vs. common love
 - **Aristophanes**: The myth of the split humans
 - **Socrates/Diotima**: The ladder of love ascending to the Form of Beauty
+
+## Ontology Connections
+
+This entry is further connected in the graph through [[athens]], [[abhinavagupta]], [[classical-greece]].
+
+## Related Links
+
+- Location: [[athens]]
+- Figure: [[abhinavagupta]]
+- Time: [[classical-greece]]
+- Idea: [[advaita-vedanta]]
+- Artifact: [[being-and-time]]

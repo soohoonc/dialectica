@@ -10,7 +10,6 @@ tags:
   - painting
   - dutch-golden-age
 ---
-
 # The Night Watch
 
 _The Night Watch_ (Dutch: _De Nachtwacht_) is a 1642 painting by Rembrandt van Rijn, one of the most famous Dutch Golden Age paintings.
@@ -33,3 +32,16 @@ The painting was called "The Night Watch" due to its darkened varnish; it actual
 ## Location
 
 Housed in the Rijksmuseum in Amsterdam, it is the museum's most famous piece and the centerpiece of its Gallery of Honour.
+
+## Ontology Connections
+
+This entry is further connected in the graph through [[amsterdam]], [[guernica]], [[michel-foucault]].
+
+## Related Links
+
+- Location: [[amsterdam]]
+- Artifact: [[guernica]]
+- Figure: [[michel-foucault]]
+- Time: [[age-of-revolutions]]
+- Location: [[hiroshima]]
+- Idea: [[separation-of-powers]]

@@ -11,7 +11,6 @@ tags:
   - phenomenology
   - existentialism
 ---
-
 # Being and Time
 
 _Being and Time_ (German: _Sein und Zeit_) is the 1927 magnum opus of Martin Heidegger.
@@ -27,3 +26,16 @@ Heidegger investigates the meaning of Being through an analysis of human existen
 - **Thrownness**: Being thrown into existence without choice
 - **Authenticity vs. Inauthenticity**: Living genuinely vs. conformity
 - **Being-toward-death**: Mortality as defining human existence
+
+## Ontology Connections
+
+This entry is further connected in the graph through [[abhinavagupta]], [[classical-greece]], [[athens]].
+
+## Related Links
+
+- Figure: [[abhinavagupta]]
+- Time: [[classical-greece]]
+- Location: [[athens]]
+- Idea: [[advaita-vedanta]]
+- Artifact: [[critique-of-pure-reason]]
+- Figure: [[carl-friedrich-gauss]]

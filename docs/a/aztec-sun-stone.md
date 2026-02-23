@@ -9,7 +9,6 @@ tags:
   - sculpture
   - mesoamerican-art
 ---
-
 # Aztec Sun Stone
 
 The Aztec Sun Stone (Spanish: _Piedra del Sol_) is a large monolithic sculpture created during the reign of the Aztec emperor Axayacatl.
@@ -32,3 +31,16 @@ Rediscovered in 1790 during renovations in Mexico City's main plaza, it is now h
 ## Misconception
 
 Often called the "Aztec Calendar," the stone is actually a ceremonial monument rather than a functional calendar.
+
+## Ontology Connections
+
+This entry is further connected in the graph through [[benin-bronzes]], [[yayoi-kusama]], [[patristic-era]].
+
+## Related Links
+
+- Artifact: [[benin-bronzes]]
+- Figure: [[yayoi-kusama]]
+- Time: [[patristic-era]]
+- Location: [[bodh-gaya]]
+- Idea: [[phenomenology]]
+- Artifact: [[in-the-shadow-of-man]]

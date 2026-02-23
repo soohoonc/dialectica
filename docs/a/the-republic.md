@@ -10,7 +10,6 @@ tags:
   - philosophy
   - political-theory
 ---
-
 # The Republic
 
 _The Republic_ (Greek: Πολιτεία, _Politeia_) is a Socratic dialogue written by [[plato]] around 375 BCE. It is one of the most influential works in philosophy and political theory.
@@ -52,3 +51,12 @@ _The Republic_ has profoundly shaped:
 - Critiques of democracy
 
 It remains essential reading in philosophy courses worldwide and continues to provoke debate about justice, governance, and the good life.
+
+## Ontology Connections
+
+This entry is further connected in the graph through [[abhinavagupta]], [[classical-greece]].
+
+## Related Links
+
+- Figure: [[abhinavagupta]]
+- Time: [[classical-greece]]

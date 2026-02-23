@@ -10,7 +10,6 @@ tags:
   - philosophy
   - political-theory
 ---
-
 # Leviathan
 
 _Leviathan, or The Matter, Forme and Power of a Commonwealth Ecclesiasticall and Civil_ is Thomas Hobbes's masterwork of political philosophy, published in 1651.
@@ -25,3 +24,16 @@ Hobbes argues for a powerful sovereign authority to prevent the "war of all agai
 - **Social Contract**: People surrender freedoms to a sovereign for protection
 - **Absolute Sovereignty**: The sovereign must have unlimited power to maintain peace
 - **Materialist Psychology**: Human actions driven by desires and aversions
+
+## Ontology Connections
+
+This entry is further connected in the graph through [[london]], [[abhinavagupta]], [[classical-greece]].
+
+## Related Links
+
+- Location: [[london]]
+- Figure: [[abhinavagupta]]
+- Time: [[classical-greece]]
+- Location: [[athens]]
+- Idea: [[advaita-vedanta]]
+- Artifact: [[the-republic]]

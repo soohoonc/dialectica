@@ -10,7 +10,6 @@ tags:
   - philosophy
   - prussia
 ---
-
 # Konigsberg
 
 Konigsberg (now Kaliningrad, Russia) was a major city in East Prussia and the lifelong home of [[kant|Immanuel Kant]]. The city played an important role in the [[enlightenment|Enlightenment]] and German intellectual history.
@@ -41,3 +40,12 @@ Konigsberg is famous in mathematics for the Seven Bridges Problem, solved by Leo
 ## Fate
 
 After World War II, Konigsberg became part of the Soviet Union and was renamed Kaliningrad. Much of the historic German architecture was destroyed during the war and subsequent Soviet reconstruction.
+
+## Ontology Connections
+
+This entry is further connected in the graph through [[abhinavagupta]], [[classical-greece]].
+
+## Related Links
+
+- Figure: [[abhinavagupta]]
+- Time: [[classical-greece]]

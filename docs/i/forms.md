@@ -12,7 +12,6 @@ tags:
   - epistemology
   - idealism
 ---
-
 # Theory of Forms
 
 The Theory of Forms (or Theory of Ideas) is [[plato]]'s answer to the problem of universals—the metaphysical question of how we can use the same word to describe different things. It represents one of the most influential ideas in the history of Western philosophy.
@@ -50,3 +49,13 @@ The Theory of Forms influenced:
 ## Criticisms
 
 [[aristotle]] famously criticized the theory, arguing that Forms cannot exist separate from particular things. His "Third Man Argument" points to an infinite regress: if a man and the Form of Man share something in common, a third entity is needed to explain this, and so on.
+
+## Ontology Connections
+
+This entry is further connected in the graph through [[classical-greece]], [[german-idealism]], [[jena]].
+
+## Related Links
+
+- Time: [[classical-greece]]
+- Time: [[german-idealism]]
+- Location: [[jena]]

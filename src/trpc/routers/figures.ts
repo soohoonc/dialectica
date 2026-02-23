@@ -2,6 +2,9 @@ import { z } from "zod";
 import { createTRPCRouter, publicProcedure } from "@/trpc";
 import { TRPCError } from "@trpc/server";
 import type { FigureNode } from "@/lib/graph";
+import { applyFilterRules } from "@/lib/filter-rules";
+import { figureFilterFields } from "@/lib/filter-definitions";
+import { filterRulesSchema } from "@/trpc/schemas/filter-rules";
 
 export const figuresRouter = createTRPCRouter({
   // List all figures with optional filtering
@@ -16,6 +19,7 @@ export const figuresRouter = createTRPCRouter({
           nationality: z.string().optional(),
           period: z.string().optional(),
           tags: z.array(z.string()).optional(),
+          rules: filterRulesSchema.optional(),
         })
         .optional(),
     )
@@ -37,6 +41,10 @@ export const figuresRouter = createTRPCRouter({
       // Filter by tags
       if (input?.tags?.length) {
         figures = figures.filter((f) => input.tags!.some((tag) => f.tags.includes(tag)));
+      }
+
+      if (input?.rules?.length) {
+        figures = applyFilterRules(figures, figureFilterFields, input.rules);
       }
 
       // Sort

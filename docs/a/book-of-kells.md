@@ -9,7 +9,6 @@ tags:
   - manuscript
   - medieval-art
 ---
-
 # Book of Kells
 
 The Book of Kells (Latin: _Codex Cenannensis_) is an illuminated manuscript Gospel book in Latin, created around 800 CE.
@@ -32,3 +31,16 @@ Believed to have been created at the monastery of Iona, Scotland, the book was l
 ## Significance
 
 Considered one of Ireland's greatest national treasures and a masterwork of Western calligraphy and illumination.
+
+## Ontology Connections
+
+This entry is further connected in the graph through [[dead-sea-scrolls]], [[mark-rothko]], [[trans-saharan-exchange-era]].
+
+## Related Links
+
+- Artifact: [[dead-sea-scrolls]]
+- Figure: [[mark-rothko]]
+- Time: [[trans-saharan-exchange-era]]
+- Location: [[baghdad]]
+- Idea: [[historical-materialism]]
+- Artifact: [[photo-51]]

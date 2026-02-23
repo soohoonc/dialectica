@@ -7,13 +7,15 @@ export const pagesRouter = createTRPCRouter({
   // List all wiki pages
   list: publicProcedure
     .input(
-      z.object({
-        limit: z.number().min(1).max(100).default(50),
-        offset: z.number().min(0).default(0),
-        sort: z.enum(["title", "created", "updated"]).default("title"),
-        order: z.enum(["asc", "desc"]).default("asc"),
-        tags: z.array(z.string()).optional(),
-      }).optional()
+      z
+        .object({
+          limit: z.number().min(1).max(100).default(50),
+          offset: z.number().min(0).default(0),
+          sort: z.enum(["title", "created", "updated"]).default("title"),
+          order: z.enum(["asc", "desc"]).default("asc"),
+          tags: z.array(z.string()).optional(),
+        })
+        .optional(),
     )
     .query(async ({ input, ctx }) => {
       await ctx.graph.initialize();
@@ -22,9 +24,7 @@ export const pagesRouter = createTRPCRouter({
 
       // Filter by tags
       if (input?.tags?.length) {
-        pages = pages.filter(p =>
-          input.tags!.some(tag => p.tags.includes(tag))
-        );
+        pages = pages.filter((page) => input.tags!.some((tag) => page.tags.includes(tag)));
       }
 
       // Sort
@@ -32,8 +32,8 @@ export const pagesRouter = createTRPCRouter({
       const sortOrder = input?.order === "desc" ? -1 : 1;
 
       pages.sort((a, b) => {
-        let aVal: string | number | Date;
-        let bVal: string | number | Date;
+        let aVal: string | number;
+        let bVal: string | number;
 
         switch (sortKey) {
           case "created":
@@ -66,22 +66,20 @@ export const pagesRouter = createTRPCRouter({
     }),
 
   // Get a single page by ID/slug
-  getById: publicProcedure
-    .input(z.object({ id: z.string() }))
-    .query(async ({ input, ctx }) => {
-      await ctx.graph.initialize();
+  getById: publicProcedure.input(z.object({ id: z.string() })).query(async ({ input, ctx }) => {
+    await ctx.graph.initialize();
 
-      const page = ctx.graph.getNode(input.id);
+    const page = ctx.graph.getNode(input.id);
 
-      if (!page || page.type !== "page") {
-        throw new TRPCError({
-          code: "NOT_FOUND",
-          message: `Page not found: ${input.id}`,
-        });
-      }
+    if (!page || page.type !== "page") {
+      throw new TRPCError({
+        code: "NOT_FOUND",
+        message: `Page not found: ${input.id}`,
+      });
+    }
 
-      return page as PageNode;
-    }),
+    return page as PageNode;
+  }),
 
   // Get page with backlinks
   getWithBacklinks: publicProcedure
@@ -107,11 +105,9 @@ export const pagesRouter = createTRPCRouter({
     }),
 
   // Search pages
-  search: publicProcedure
-    .input(z.object({ query: z.string() }))
-    .query(async ({ input, ctx }) => {
-      await ctx.graph.initialize();
+  search: publicProcedure.input(z.object({ query: z.string() })).query(async ({ input, ctx }) => {
+    await ctx.graph.initialize();
 
-      return ctx.graph.search(input.query, { types: ["page"] });
-    }),
+    return ctx.graph.search(input.query, { types: ["page"] });
+  }),
 });

@@ -1,27 +1,64 @@
 "use client";
 
+import { Suspense } from "react";
+import dynamic from "next/dynamic";
 import { trpc } from "@/trpc/client";
-import { ForceGraph } from "@/components/graph";
-import { SearchInput } from "@/components/navigation/search-input";
+import { FilterBuilder } from "@/components/navigation/filter-builder";
+import { useUrlFilterRules } from "@/components/navigation/use-url-filter-rules";
+import { ideaFilterFields } from "@/lib/filter-definitions";
+
+const ideaFilterFieldKeys = ideaFilterFields.map((field) => field.key);
+
+const ForceGraph = dynamic(() => import("@/components/graph").then((mod) => mod.ForceGraph), {
+  ssr: false,
+  loading: () => (
+    <div className="flex items-center justify-center h-full">
+      <p className="text-muted-foreground">Loading graph...</p>
+    </div>
+  ),
+});
 
 export default function IdeasPage() {
-  const { data: graphData, isLoading } = trpc.ideas.getDialecticalGraph.useQuery();
+  return (
+    <Suspense
+      fallback={
+        <div className="flex items-center justify-center h-full">
+          <p className="text-muted-foreground">Loading...</p>
+        </div>
+      }
+    >
+      <IdeasPageContent />
+    </Suspense>
+  );
+}
+
+function IdeasPageContent() {
+  const { rules, setRules } = useUrlFilterRules({
+    queryKey: "i_filters",
+    validFieldKeys: ideaFilterFieldKeys,
+  });
+  const { data: graphData, isLoading } = trpc.ideas.getDialecticalGraph.useQuery({ rules });
 
   return (
-    <div className="h-screen w-screen relative">
-      <header className="fixed top-4 left-4 z-50 text-2xl font-semibold bg-background/95 backdrop-blur-sm px-3 py-2 rounded-lg">
-        <SearchInput placeholder="Ideas" autoFocus={false} searchType="idea" constrainWidth />
-      </header>
+    <div className="h-full w-full relative">
+      <FilterBuilder
+        title="Idea Filters"
+        fields={ideaFilterFields}
+        rules={rules}
+        onRulesChange={setRules}
+      />
 
       {isLoading ? (
         <div className="flex items-center justify-center h-full">
           <p className="text-muted-foreground">Loading...</p>
         </div>
-      ) : graphData ? (
+      ) : graphData && graphData.nodes.length > 0 ? (
         <ForceGraph data={graphData} />
       ) : (
         <div className="flex items-center justify-center h-full">
-          <p className="text-muted-foreground">No ideas found</p>
+          <p className="text-muted-foreground">
+            {rules.length > 0 ? "No ideas match current filters" : "No ideas found"}
+          </p>
         </div>
       )}
     </div>

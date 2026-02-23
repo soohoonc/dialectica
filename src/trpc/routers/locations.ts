@@ -2,6 +2,9 @@ import { z } from "zod";
 import { createTRPCRouter, publicProcedure } from "@/trpc";
 import { TRPCError } from "@trpc/server";
 import type { LocationNode } from "@/lib/graph";
+import { applyFilterRules } from "@/lib/filter-rules";
+import { locationFilterFields } from "@/lib/filter-definitions";
+import { filterRulesSchema } from "@/trpc/schemas/filter-rules";
 
 export const locationsRouter = createTRPCRouter({
   // List all locations
@@ -15,6 +18,7 @@ export const locationsRouter = createTRPCRouter({
           order: z.enum(["asc", "desc"]).default("asc"),
           country: z.string().optional(),
           tags: z.array(z.string()).optional(),
+          rules: filterRulesSchema.optional(),
         })
         .optional(),
     )
@@ -31,6 +35,10 @@ export const locationsRouter = createTRPCRouter({
       // Filter by tags
       if (input?.tags?.length) {
         locations = locations.filter((l) => input.tags!.some((tag) => l.tags.includes(tag)));
+      }
+
+      if (input?.rules?.length) {
+        locations = applyFilterRules(locations, locationFilterFields, input.rules);
       }
 
       // Sort

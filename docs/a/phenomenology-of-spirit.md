@@ -10,7 +10,6 @@ tags:
   - philosophy
   - german-idealism
 ---
-
 # Phenomenology of Spirit
 
 The _Phenomenology of Spirit_ (German: _Phänomenologie des Geistes_) is G.W.F. Hegel's most important work, published in 1807.
@@ -25,3 +24,16 @@ Hegel traces the development of consciousness from immediate sense-certainty to 
 - **Master-Slave Dialectic**: Self-consciousness emerges through recognition
 - **Unhappy Consciousness**: The divided self seeking unity
 - **Absolute Spirit**: The culmination of historical development
+
+## Ontology Connections
+
+This entry is further connected in the graph through [[jena]], [[abhinavagupta]], [[classical-greece]].
+
+## Related Links
+
+- Location: [[jena]]
+- Figure: [[abhinavagupta]]
+- Time: [[classical-greece]]
+- Location: [[athens]]
+- Idea: [[advaita-vedanta]]
+- Artifact: [[being-and-time]]

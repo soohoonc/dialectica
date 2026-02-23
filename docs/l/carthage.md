@@ -1,0 +1,26 @@
+---
+type: location
+name: Carthage
+country: Tunisia
+coordinates:
+  lat: 36.8529
+  lng: 10.3230
+tags:
+  - ancient
+  - rome
+  - mediterranean
+---
+
+# Carthage
+
+Carthage functions in this graph as a site where intellectual exchange, institutions, and political transformations converged. It is linked with [[roman-republic-era]] and with figures such as [[cicero]].
+
+## Context
+
+As a location node, Carthage helps connect people, ideas, and periods across the ontology. Comparative paths often include [[athens]], [[konigsberg]], and [[paris]].
+
+## Linked Nodes
+
+- Period: [[roman-republic-era]]
+- Figure: [[cicero]]
+- Ideas: [[virtue-ethics]], [[deontology]], [[forms]]

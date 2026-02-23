@@ -10,7 +10,6 @@ tags:
   - painting
   - post-impressionism
 ---
-
 # The Starry Night
 
 _The Starry Night_ (Dutch: _De sterrennacht_) is an oil-on-canvas painting by Vincent van Gogh, created in June 1889.
@@ -33,3 +32,16 @@ Van Gogh painted this while staying at the Saint-Paul-de-Mausole asylum in Saint
 ## Location
 
 Housed in the Museum of Modern Art (MoMA) in New York City since 1941.
+
+## Ontology Connections
+
+This entry is further connected in the graph through [[guernica]], [[marie-curie]], [[high-middle-ages]].
+
+## Related Links
+
+- Artifact: [[guernica]]
+- Figure: [[marie-curie]]
+- Time: [[high-middle-ages]]
+- Location: [[salamanca]]
+- Idea: [[verificationism]]
+- Artifact: [[two-fridas]]

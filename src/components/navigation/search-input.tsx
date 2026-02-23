@@ -13,6 +13,7 @@ interface SearchInputProps {
   searchType?: "figure" | "time" | "location" | "idea" | "artifact" | "page";
   constrainWidth?: boolean;
   fixedWidth?: boolean;
+  placeholderMuted?: boolean;
 }
 
 const typePrefix: Record<string, string> = {
@@ -33,7 +34,16 @@ const typeLabel: Record<string, string> = {
   page: "Page",
 };
 
-export function SearchInput({ placeholder, className = "", autoFocus = true, showShortcutHint = false, searchType, constrainWidth = false, fixedWidth = false }: SearchInputProps) {
+export function SearchInput({
+  placeholder,
+  className = "",
+  autoFocus = true,
+  showShortcutHint = false,
+  searchType,
+  constrainWidth = false,
+  fixedWidth = false,
+  placeholderMuted = false,
+}: SearchInputProps) {
   const [query, setQuery] = useState("");
   const [isFocused, setIsFocused] = useState(false);
   const [inputWidth, setInputWidth] = useState<number | null>(null);
@@ -43,7 +53,7 @@ export function SearchInput({ placeholder, className = "", autoFocus = true, sho
 
   const { data } = trpc.search.suggest.useQuery(
     { query, limit: 8, type: searchType },
-    { enabled: query.length > 0, placeholderData: (prev) => prev }
+    { enabled: query.length > 0, placeholderData: (prev) => prev },
   );
 
   const displayText = query || placeholder;
@@ -90,7 +100,10 @@ export function SearchInput({ placeholder, className = "", autoFocus = true, sho
   };
 
   return (
-    <div className={`relative flex items-center gap-3 ${fixedWidth ? "w-full" : ""} ${className}`} style={constrainWidth ? { maxWidth: "25vw" } : undefined}>
+    <div
+      className={`relative flex items-center gap-3 ${fixedWidth ? "w-full" : ""} ${className}`}
+      style={constrainWidth ? { maxWidth: "25vw" } : undefined}
+    >
       {/* Hidden span to measure text width */}
       <span
         ref={measureRef}
@@ -109,8 +122,11 @@ export function SearchInput({ placeholder, className = "", autoFocus = true, sho
         onBlur={() => setTimeout(() => setIsFocused(false), 150)}
         onKeyDown={handleKeyDown}
         placeholder={placeholder}
-        className={`bg-transparent border-none outline-none placeholder:text-foreground text-foreground caret-primary min-w-0 ${fixedWidth ? "w-full" : ""}`}
-        style={{ font: "inherit", width: fixedWidth ? "100%" : (inputWidth ? `${inputWidth}px` : "auto") }}
+        className={`bg-transparent border-none outline-none ${placeholderMuted ? "placeholder:text-muted-foreground" : "placeholder:text-foreground"} text-foreground caret-primary min-w-0 ${fixedWidth ? "w-full" : ""}`}
+        style={{
+          font: "inherit",
+          width: fixedWidth ? "100%" : inputWidth ? `${inputWidth}px` : "auto",
+        }}
       />
 
       {showShortcutHint && !isFocused && !query && (
@@ -120,7 +136,9 @@ export function SearchInput({ placeholder, className = "", autoFocus = true, sho
       )}
 
       {showResults && (
-        <div className={`absolute top-full mt-2 bg-background border border-border rounded-lg shadow-lg overflow-hidden z-50 text-base font-normal ${fixedWidth ? "left-0 right-0" : "left-0 w-72"}`}>
+        <div
+          className={`absolute top-full mt-2 bg-background border border-border rounded-lg shadow-lg overflow-hidden z-50 text-base font-normal ${fixedWidth ? "left-0 right-0" : "left-0 w-72"}`}
+        >
           {data.map((result) => (
             <Link
               key={result.id}
@@ -129,7 +147,9 @@ export function SearchInput({ placeholder, className = "", autoFocus = true, sho
               className="flex items-center justify-between px-4 py-3 hover:bg-muted transition-colors"
             >
               <span className="font-medium truncate">{result.title}</span>
-              <span className="text-xs text-muted-foreground ml-2 flex-shrink-0">{typeLabel[result.type]}</span>
+              <span className="text-xs text-muted-foreground ml-2 flex-shrink-0">
+                {typeLabel[result.type]}
+              </span>
             </Link>
           ))}
         </div>

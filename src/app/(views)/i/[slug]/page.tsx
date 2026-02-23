@@ -27,7 +27,7 @@ export default function IdeaPage({ params }: IdeaPageProps) {
 
   const { data: graphData } = trpc.ideas.getDialecticalGraph.useQuery({
     id: slug,
-    depth: 2,
+    depth: 1,
   });
 
   if (isLoading) {
@@ -46,20 +46,24 @@ export default function IdeaPage({ params }: IdeaPageProps) {
     data;
 
   // Prepare metadata items - filter out undefined values
-  const authorItems = authors.filter((a): a is NonNullable<typeof a> => a != null).map((a) => ({
-    id: a.id,
-    slug: a.slug,
-    name: "name" in a ? (a.name as string) : a.title,
-  }));
+  const authorItems = authors
+    .filter((a): a is NonNullable<typeof a> => a != null)
+    .map((a) => ({
+      id: a.id,
+      slug: a.slug,
+      name: "name" in a ? (a.name as string) : a.title,
+    }));
 
-  const periodItems = periods.filter((p): p is NonNullable<typeof p> => p != null).map((p) => ({
-    id: p.id,
-    slug: p.slug,
-    name: "name" in p ? (p.name as string) : p.title,
-  }));
+  const periodItems = periods
+    .filter((p): p is NonNullable<typeof p> => p != null)
+    .map((p) => ({
+      id: p.id,
+      slug: p.slug,
+      name: "name" in p ? (p.name as string) : p.title,
+    }));
 
   return (
-    <div className="container mx-auto px-4 py-8 max-w-4xl">
+    <div className="container mx-auto px-4 pt-4 pb-8 max-w-4xl">
       <Link
         href="/i"
         className="inline-flex items-center gap-2 text-muted-foreground hover:text-foreground mb-6 link-nav"
@@ -90,86 +94,72 @@ export default function IdeaPage({ params }: IdeaPageProps) {
           contradicts.length > 0 ||
           synthesizes.length > 0) && (
           <section className="border-t border-border pt-8 mb-8">
-            <h2 className="text-xl font-semibold smallcaps mb-4">
-              Relationships
-            </h2>
+            <h2 className="text-xl font-semibold smallcaps mb-4">Relationships</h2>
 
             {influences.filter(Boolean).length > 0 && (
               <div className="mb-4">
-                <h3 className="font-semibold text-sm text-muted-foreground mb-2">
-                  Influenced by
-                </h3>
+                <h3 className="font-semibold text-sm text-muted-foreground mb-2">Influenced by</h3>
                 <ul className="flex flex-wrap gap-2">
-                  {influences.filter((i): i is NonNullable<typeof i> => i != null).map((i) => (
-                    <li key={i.id}>
-                      <Link
-                        href={getOntologyUrl("idea", i.slug)}
-                        className="link-internal"
-                      >
-                        {i.title}
-                      </Link>
-                    </li>
-                  ))}
+                  {influences
+                    .filter((i): i is NonNullable<typeof i> => i != null)
+                    .map((i) => (
+                      <li key={i.id}>
+                        <Link href={getOntologyUrl("idea", i.slug)} className="link-internal">
+                          {i.title}
+                        </Link>
+                      </li>
+                    ))}
                 </ul>
               </div>
             )}
 
             {influenced.filter(Boolean).length > 0 && (
               <div className="mb-4">
-                <h3 className="font-semibold text-sm text-muted-foreground mb-2">
-                  Influenced
-                </h3>
+                <h3 className="font-semibold text-sm text-muted-foreground mb-2">Influenced</h3>
                 <ul className="flex flex-wrap gap-2">
-                  {influenced.filter((i): i is NonNullable<typeof i> => i != null).map((i) => (
-                    <li key={i.id}>
-                      <Link
-                        href={getOntologyUrl("idea", i.slug)}
-                        className="link-internal"
-                      >
-                        {i.title}
-                      </Link>
-                    </li>
-                  ))}
+                  {influenced
+                    .filter((i): i is NonNullable<typeof i> => i != null)
+                    .map((i) => (
+                      <li key={i.id}>
+                        <Link href={getOntologyUrl("idea", i.slug)} className="link-internal">
+                          {i.title}
+                        </Link>
+                      </li>
+                    ))}
                 </ul>
               </div>
             )}
 
             {contradicts.filter(Boolean).length > 0 && (
               <div className="mb-4">
-                <h3 className="font-semibold text-sm text-muted-foreground mb-2">
-                  Contradicts
-                </h3>
+                <h3 className="font-semibold text-sm text-muted-foreground mb-2">Contradicts</h3>
                 <ul className="flex flex-wrap gap-2">
-                  {contradicts.filter((i): i is NonNullable<typeof i> => i != null).map((i) => (
-                    <li key={i.id}>
-                      <Link
-                        href={getOntologyUrl("idea", i.slug)}
-                        className="link-internal"
-                      >
-                        {i.title}
-                      </Link>
-                    </li>
-                  ))}
+                  {contradicts
+                    .filter((i): i is NonNullable<typeof i> => i != null)
+                    .map((i) => (
+                      <li key={i.id}>
+                        <Link href={getOntologyUrl("idea", i.slug)} className="link-internal">
+                          {i.title}
+                        </Link>
+                      </li>
+                    ))}
                 </ul>
               </div>
             )}
 
             {synthesizes.filter(Boolean).length > 0 && (
               <div className="mb-4">
-                <h3 className="font-semibold text-sm text-muted-foreground mb-2">
-                  Synthesizes
-                </h3>
+                <h3 className="font-semibold text-sm text-muted-foreground mb-2">Synthesizes</h3>
                 <ul className="flex flex-wrap gap-2">
-                  {synthesizes.filter((i): i is NonNullable<typeof i> => i != null).map((i) => (
-                    <li key={i.id}>
-                      <Link
-                        href={getOntologyUrl("idea", i.slug)}
-                        className="link-internal"
-                      >
-                        {i.title}
-                      </Link>
-                    </li>
-                  ))}
+                  {synthesizes
+                    .filter((i): i is NonNullable<typeof i> => i != null)
+                    .map((i) => (
+                      <li key={i.id}>
+                        <Link href={getOntologyUrl("idea", i.slug)} className="link-internal">
+                          {i.title}
+                        </Link>
+                      </li>
+                    ))}
                 </ul>
               </div>
             )}
@@ -185,7 +175,7 @@ export default function IdeaPage({ params }: IdeaPageProps) {
             </h2>
             <ForceGraph data={graphData} />
             <p className="text-sm text-muted-foreground mt-2">
-              Showing ideas within 2 degrees of connection
+              Showing ideas directly connected to this concept
             </p>
           </section>
         )}

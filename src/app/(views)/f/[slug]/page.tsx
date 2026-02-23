@@ -56,7 +56,7 @@ export default function FigurePage({ params }: FigurePageProps) {
     }));
 
   return (
-    <div className="container mx-auto px-4 py-8 max-w-4xl">
+    <div className="container mx-auto px-4 pt-4 pb-8 max-w-4xl">
       <Link
         href="/f"
         className="inline-flex items-center gap-2 text-muted-foreground hover:text-foreground mb-6 link-nav"
@@ -69,11 +69,7 @@ export default function FigurePage({ params }: FigurePageProps) {
         <header className="mb-8 flex items-start gap-6">
           <div className="w-24 h-24 rounded-full bg-muted flex items-center justify-center flex-shrink-0 overflow-hidden">
             {figure.portrait ? (
-              <img
-                src={figure.portrait}
-                alt={figure.name}
-                className="w-full h-full object-cover"
-              />
+              <img src={figure.portrait} alt={figure.name} className="w-full h-full object-cover" />
             ) : (
               <User className="h-12 w-12 text-muted-foreground" />
             )}
@@ -85,6 +81,7 @@ export default function FigurePage({ params }: FigurePageProps) {
               birth={figure.birth}
               death={figure.death}
               nationality={figure.nationality}
+              portraitSource={figure.portraitSource}
               locations={locationItems}
               periods={periodItems}
               tags={figure.tags}
@@ -113,9 +110,7 @@ export default function FigurePage({ params }: FigurePageProps) {
                   <h3 className="font-semibold link-internal">{idea.title}</h3>
                   {idea.year && (
                     <p className="text-sm text-muted-foreground">
-                      {idea.year < 0
-                        ? `${Math.abs(idea.year)} BCE`
-                        : idea.year}
+                      {idea.year < 0 ? `${Math.abs(idea.year)} BCE` : idea.year}
                     </p>
                   )}
                 </Link>

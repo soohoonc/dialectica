@@ -1,8 +1,8 @@
 // Main Graph class for Dialectica
 
-import fs from 'fs/promises';
-import path from 'path';
-import chokidar from 'chokidar';
+import fs from "fs/promises";
+import path from "path";
+import chokidar from "chokidar";
 import type {
   OntologyType,
   GraphNode,
@@ -15,9 +15,9 @@ import type {
   QueryOptions,
   QueryResult,
   GraphData,
-} from './types';
-import { parseMarkdownFile } from './parser';
-import { parseWikiLinks, extractLinkContext, normalizeTarget } from './wikilinks';
+} from "./types";
+import { parseMarkdownFile } from "./parser";
+import { parseWikiLinks, extractLinkContext, normalizeTarget } from "./wikilinks";
 
 export class Graph {
   private nodes: Map<string, GraphNode> = new Map();
@@ -28,7 +28,7 @@ export class Graph {
   private initialized: boolean = false;
   private initializing: Promise<void> | null = null;
 
-  constructor(docsPath: string = './docs') {
+  constructor(docsPath: string = "./docs") {
     this.docsPath = path.resolve(docsPath);
   }
 
@@ -49,9 +49,11 @@ export class Graph {
       this.buildEdges();
       this.buildBacklinks();
       this.initialized = true;
-      console.log(`[Graph] Initialized with ${this.nodes.size} nodes and ${this.edges.length} edges`);
+      console.log(
+        `[Graph] Initialized with ${this.nodes.size} nodes and ${this.edges.length} edges`,
+      );
     } catch (error) {
-      console.error('[Graph] Initialization error:', error);
+      console.error("[Graph] Initialization error:", error);
       // Still mark as initialized to prevent infinite retries
       this.initialized = true;
     }
@@ -87,10 +89,10 @@ export class Graph {
       for (const entry of entries) {
         const fullPath = path.join(dir, entry.name);
 
-        if (entry.isDirectory() && !entry.name.startsWith('.')) {
+        if (entry.isDirectory() && !entry.name.startsWith(".")) {
           const subFiles = await this.findMarkdownFiles(fullPath);
           files.push(...subFiles);
-        } else if (entry.isFile() && entry.name.endsWith('.md')) {
+        } else if (entry.isFile() && entry.name.endsWith(".md")) {
           files.push(fullPath);
         }
       }
@@ -106,7 +108,7 @@ export class Graph {
    */
   private async loadFile(filePath: string): Promise<GraphNode | null> {
     try {
-      const content = await fs.readFile(filePath, 'utf-8');
+      const content = await fs.readFile(filePath, "utf-8");
       const node = parseMarkdownFile(content, filePath);
 
       if (node) {
@@ -140,65 +142,69 @@ export class Graph {
 
   private buildRelationshipEdges(node: GraphNode): void {
     switch (node.type) {
-      case 'figure': {
+      case "figure": {
         const figure = node as FigureNode;
         // Figure -> Location
         for (const locId of figure.locations) {
-          this.edges.push({ source: figure.id, target: locId, type: 'located_in' });
+          this.edges.push({ source: figure.id, target: locId, type: "located_in" });
         }
         // Figure -> Time (period)
         for (const periodId of figure.periods) {
-          this.edges.push({ source: figure.id, target: periodId, type: 'during_period' });
+          this.edges.push({ source: figure.id, target: periodId, type: "during_period" });
         }
         break;
       }
 
-      case 'idea': {
+      case "idea": {
         const idea = node as IdeaNode;
         // Idea -> Figure (author)
         for (const authorId of idea.authors) {
-          this.edges.push({ source: authorId, target: idea.id, type: 'authored' });
+          this.edges.push({ source: authorId, target: idea.id, type: "authored" });
         }
         // Idea -> Idea relationships
         for (const influenceId of idea.influences) {
-          this.edges.push({ source: influenceId, target: idea.id, type: 'influences' });
+          this.edges.push({ source: influenceId, target: idea.id, type: "influences" });
         }
         for (const contradictId of idea.contradicts) {
-          this.edges.push({ source: idea.id, target: contradictId, type: 'contradicts' });
+          this.edges.push({ source: idea.id, target: contradictId, type: "contradicts" });
         }
         for (const synthesizeId of idea.synthesizes) {
-          this.edges.push({ source: idea.id, target: synthesizeId, type: 'synthesizes' });
+          this.edges.push({ source: idea.id, target: synthesizeId, type: "synthesizes" });
         }
         // Idea -> Time
         for (const periodId of idea.periods) {
-          this.edges.push({ source: idea.id, target: periodId, type: 'during_period' });
+          this.edges.push({ source: idea.id, target: periodId, type: "during_period" });
         }
         break;
       }
 
-      case 'time': {
+      case "time": {
         const time = node as TimeNode;
         if (time.parent) {
-          this.edges.push({ source: time.id, target: time.parent, type: 'child_of' });
+          this.edges.push({ source: time.id, target: time.parent, type: "child_of" });
         }
         break;
       }
 
-      case 'location': {
+      case "location": {
         const location = node;
-        if ('parent' in location && location.parent) {
-          this.edges.push({ source: location.id, target: location.parent as string, type: 'child_of' });
+        if ("parent" in location && location.parent) {
+          this.edges.push({
+            source: location.id,
+            target: location.parent as string,
+            type: "child_of",
+          });
         }
         break;
       }
 
-      case 'artifact': {
+      case "artifact": {
         const obj = node;
-        if ('creator' in obj && obj.creator) {
-          this.edges.push({ source: obj.creator as string, target: obj.id, type: 'created' });
+        if ("creator" in obj && obj.creator) {
+          this.edges.push({ source: obj.creator as string, target: obj.id, type: "created" });
         }
-        if ('location' in obj && obj.location) {
-          this.edges.push({ source: obj.id, target: obj.location as string, type: 'located_in' });
+        if ("location" in obj && obj.location) {
+          this.edges.push({ source: obj.id, target: obj.location as string, type: "located_in" });
         }
         break;
       }
@@ -216,7 +222,7 @@ export class Graph {
         this.edges.push({
           source: node.id,
           target: targetNode.id,
-          type: 'wiki_link',
+          type: "wiki_link",
           context,
         });
       }
@@ -233,7 +239,7 @@ export class Graph {
     }
 
     // Try with type prefix stripped (e.g., "f/aristotle" -> "aristotle")
-    const withoutPrefix = target.includes('/') ? target.split('/').pop()! : target;
+    const withoutPrefix = target.includes("/") ? target.split("/").pop()! : target;
     if (this.nodes.has(withoutPrefix)) {
       return this.nodes.get(withoutPrefix)!;
     }
@@ -253,13 +259,13 @@ export class Graph {
    */
   private computeInfluencedRelationships(): void {
     for (const node of this.nodes.values()) {
-      if (node.type === 'idea') {
+      if (node.type === "idea") {
         const idea = node as IdeaNode;
         idea.influenced = [];
 
         // Find all ideas that list this idea in their "influences"
         for (const otherNode of this.nodes.values()) {
-          if (otherNode.type === 'idea' && otherNode.id !== idea.id) {
+          if (otherNode.type === "idea" && otherNode.id !== idea.id) {
             const otherIdea = otherNode as IdeaNode;
             if (otherIdea.influences.includes(idea.id)) {
               idea.influenced.push(otherIdea.id);
@@ -277,7 +283,7 @@ export class Graph {
     this.backlinks = new Map();
 
     for (const edge of this.edges) {
-      if (edge.type === 'wiki_link') {
+      if (edge.type === "wiki_link") {
         const sourceNode = this.nodes.get(edge.source);
         if (!sourceNode) continue;
 
@@ -287,7 +293,7 @@ export class Graph {
           sourceType: sourceNode.type,
           sourceTitle: sourceNode.title,
           sourceSlug: sourceNode.slug,
-          context: edge.context || '',
+          context: edge.context || "",
         });
         this.backlinks.set(edge.target, existing);
       }
@@ -301,25 +307,28 @@ export class Graph {
     if (this.watcher) return;
 
     this.watcher = chokidar.watch(this.docsPath, {
-      ignored: /(^|[\/\\])\../,
+      ignored: /(^|[/\\])\../,
       persistent: true,
       ignoreInitial: true,
     });
 
     this.watcher
-      .on('add', (filePath: string) => this.handleFileChange(filePath, 'add'))
-      .on('change', (filePath: string) => this.handleFileChange(filePath, 'change'))
-      .on('unlink', (filePath: string) => this.handleFileChange(filePath, 'unlink'));
+      .on("add", (filePath: string) => this.handleFileChange(filePath, "add"))
+      .on("change", (filePath: string) => this.handleFileChange(filePath, "change"))
+      .on("unlink", (filePath: string) => this.handleFileChange(filePath, "unlink"));
 
     console.log(`[Graph] Watching ${this.docsPath} for changes`);
   }
 
-  private async handleFileChange(filePath: string, event: 'add' | 'change' | 'unlink'): Promise<void> {
-    if (!filePath.endsWith('.md')) return;
+  private async handleFileChange(
+    filePath: string,
+    event: "add" | "change" | "unlink",
+  ): Promise<void> {
+    if (!filePath.endsWith(".md")) return;
 
     console.log(`[Graph] File ${event}: ${filePath}`);
 
-    if (event === 'unlink') {
+    if (event === "unlink") {
       // Find and remove node by file path
       for (const [id, node] of this.nodes) {
         if (node.filePath === filePath) {
@@ -411,7 +420,7 @@ export class Graph {
   getIdeasByAuthor(authorId: string): IdeaNode[] {
     const ideas: IdeaNode[] = [];
     for (const node of this.nodes.values()) {
-      if (node.type === 'idea') {
+      if (node.type === "idea") {
         const idea = node as IdeaNode;
         if (idea.authors.includes(authorId)) {
           ideas.push(idea);
@@ -433,7 +442,7 @@ export class Graph {
         continue;
       }
 
-      const searchText = `${node.title} ${node.content} ${node.tags.join(' ')}`.toLowerCase();
+      const searchText = `${node.title} ${node.content} ${node.tags.join(" ")}`.toLowerCase();
 
       if (searchText.includes(normalizedQuery)) {
         results.push(node);
@@ -452,32 +461,29 @@ export class Graph {
     // Filter by type
     if (options.type) {
       const types = Array.isArray(options.type) ? options.type : [options.type];
-      results = results.filter(n => types.includes(n.type));
+      results = results.filter((n) => types.includes(n.type));
     }
 
     // Filter by tags
     if (options.tags?.length) {
-      results = results.filter(n =>
-        options.tags!.some(tag => n.tags.includes(tag))
-      );
+      results = results.filter((n) => options.tags!.some((tag) => n.tags.includes(tag)));
     }
 
     // Filter by search text
     if (options.search) {
       const q = options.search.toLowerCase();
-      results = results.filter(n =>
-        n.title.toLowerCase().includes(q) ||
-        n.content.toLowerCase().includes(q)
+      results = results.filter(
+        (n) => n.title.toLowerCase().includes(q) || n.content.toLowerCase().includes(q),
       );
     }
 
     // Filter by period (for nodes with year)
     if (options.period) {
-      results = results.filter(n => {
-        if ('year' in n && typeof n.year === 'number') {
+      results = results.filter((n) => {
+        if ("year" in n && typeof n.year === "number") {
           return n.year >= options.period!.start && n.year <= options.period!.end;
         }
-        if ('start' in n && typeof n.start === 'number') {
+        if ("start" in n && typeof n.start === "number") {
           return n.start >= options.period!.start;
         }
         return true;
@@ -485,26 +491,26 @@ export class Graph {
     }
 
     // Sort
-    const sortKey = options.sort || 'title';
-    const sortOrder = options.order === 'desc' ? -1 : 1;
+    const sortKey = options.sort || "title";
+    const sortOrder = options.order === "desc" ? -1 : 1;
 
     results.sort((a, b) => {
-      let aVal: string | number = '';
-      let bVal: string | number = '';
+      let aVal: string | number = "";
+      let bVal: string | number = "";
 
       switch (sortKey) {
-        case 'title':
+        case "title":
           aVal = a.title.toLowerCase();
           bVal = b.title.toLowerCase();
           break;
-        case 'name':
-          aVal = ('name' in a ? String(a.name) : a.title).toLowerCase();
-          bVal = ('name' in b ? String(b.name) : b.title).toLowerCase();
+        case "name":
+          aVal = ("name" in a ? String(a.name) : a.title).toLowerCase();
+          bVal = ("name" in b ? String(b.name) : b.title).toLowerCase();
           break;
-        case 'year':
-        case 'date':
-          aVal = ('year' in a ? Number(a.year) : 0) || 0;
-          bVal = ('year' in b ? Number(b.year) : 0) || 0;
+        case "year":
+        case "date":
+          aVal = ("year" in a ? Number(a.year) : 0) || 0;
+          bVal = ("year" in b ? Number(b.year) : 0) || 0;
           break;
       }
 
@@ -538,38 +544,34 @@ export class Graph {
       nodeIds = this.getSubgraphNodeIds(options.centerId, options.depth);
     } else {
       // Get all nodes of type, or all ideas by default
-      const type = options?.type || 'idea';
+      const type = options?.type || "idea";
       nodeIds = new Set(
         Array.from(this.nodes.values())
-          .filter(n => n.type === type)
-          .map(n => n.id)
+          .filter((n) => n.type === type)
+          .map((n) => n.id),
       );
     }
 
     // Build nodes array
-    const graphNodes = Array.from(nodeIds).map(id => {
+    const graphNodes = Array.from(nodeIds).map((id) => {
       const node = this.nodes.get(id)!;
-      const connectionCount = this.edges.filter(
-        e => e.source === id || e.target === id
-      ).length;
+      const connectionCount = this.edges.filter((e) => e.source === id || e.target === id).length;
 
       return {
         id: node.id,
         title: node.title,
         type: node.type,
-        year: 'year' in node ? (node.year as number) : undefined,
+        year: "year" in node ? (node.year as number) : undefined,
         connectionCount,
       };
     });
 
     // Build edges array (only between included nodes)
     const graphEdges = this.edges
-      .filter(e =>
-        nodeIds.has(e.source) &&
-        nodeIds.has(e.target) &&
-        e.type !== 'wiki_link' // Exclude generic wiki links for cleaner graph
+      .filter(
+        (e) => nodeIds.has(e.source) && nodeIds.has(e.target) && e.type !== "wiki_link", // Exclude generic wiki links for cleaner graph
       )
-      .map(e => ({
+      .map((e) => ({
         source: e.source,
         target: e.target,
         type: e.type,
@@ -618,7 +620,7 @@ export class Graph {
       return { href: `/${normalized}`, exists: false };
     }
 
-    const typePrefix = node.type === 'page' ? 'p' : node.type.charAt(0);
+    const typePrefix = node.type === "page" ? "p" : node.type.charAt(0);
     return {
       href: `/${typePrefix}/${node.slug}`,
       exists: true,
@@ -641,14 +643,14 @@ export class Graph {
 }
 
 // Re-export types
-export * from './types';
-export * from './wikilinks';
-export * from './parser';
+export * from "./types";
+export * from "./wikilinks";
+export * from "./parser";
 
 // === Singleton ===
 
 // Get docs path from environment or use default
-const docsPath = process.env.DOCS_PATH || './docs';
+const docsPath = process.env.DOCS_PATH || "./docs";
 
 // Singleton instance
 let graphInstance: Graph | null = null;

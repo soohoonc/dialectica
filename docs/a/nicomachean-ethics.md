@@ -10,7 +10,6 @@ tags:
   - philosophy
   - ethics
 ---
-
 # Nicomachean Ethics
 
 The _Nicomachean Ethics_ is [[aristotle]]'s best-known work on ethics, named after either his father or son, both named Nicomachus.
@@ -25,3 +24,15 @@ The work explores the nature of the good life and human flourishing (eudaimonia)
 - **Virtue Ethics**: Character traits as the basis of ethics
 - **The Golden Mean**: Virtue as the balance between extremes
 - **Practical Wisdom**: The ability to discern right action
+
+## Ontology Connections
+
+This entry is further connected in the graph through [[athens]], [[abhinavagupta]], [[classical-greece]].
+
+## Related Links
+
+- Location: [[athens]]
+- Figure: [[abhinavagupta]]
+- Time: [[classical-greece]]
+- Idea: [[advaita-vedanta]]
+- Artifact: [[analects-edition]]

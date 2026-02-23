@@ -10,7 +10,6 @@ tags:
   - philosophy
   - democracy
 ---
-
 # Athens
 
 Athens is the capital city of Greece and one of the most historically significant cities in Western civilization. In antiquity, it was the center of ancient Greek philosophy and learning.
@@ -45,3 +44,12 @@ During the [[classical-greece|Classical period]], Athens achieved unprecedented 
 ## Legacy
 
 The philosophical traditions born in Athens—[[virtue-ethics]], Platonic idealism, Aristotelian logic—continue to shape Western thought today.
+
+## Ontology Connections
+
+This entry is further connected in the graph through [[abhinavagupta]], [[miletus]].
+
+## Related Links
+
+- Figure: [[abhinavagupta]]
+- Location: [[miletus]]

@@ -16,6 +16,13 @@ interface TimelineProps {
   times: TimeNode[];
 }
 
+interface HoverPreview {
+  time: TimeNode;
+  periodEnd: number;
+  x: number;
+  y: number;
+}
+
 // Human history bounds
 const HISTORY_START = -3000; // 3000 BCE
 const HISTORY_END = new Date().getFullYear();
@@ -26,6 +33,15 @@ function formatYear(year: number): string {
   return `${year}`;
 }
 
+function formatDuration(start: number, end: number): string {
+  const years = Math.max(1, end - start);
+  if (years >= 1000) {
+    const millennia = years / 1000;
+    return `${millennia % 1 === 0 ? millennia.toFixed(0) : millennia.toFixed(1)}k years`;
+  }
+  return `${years} years`;
+}
+
 export function Timeline({ times }: TimelineProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const mainRef = useRef<HTMLDivElement>(null);
@@ -34,6 +50,7 @@ export function Timeline({ times }: TimelineProps) {
   const [viewEnd, setViewEnd] = useState(2025);
   const [containerWidth, setContainerWidth] = useState(0);
   const [hoveredPeriod, setHoveredPeriod] = useState<string | null>(null);
+  const [hoverPreview, setHoverPreview] = useState<HoverPreview | null>(null);
 
   // Track container width
   useEffect(() => {
@@ -44,6 +61,11 @@ export function Timeline({ times }: TimelineProps) {
     observer.observe(containerRef.current);
     return () => observer.disconnect();
   }, []);
+
+  useEffect(() => {
+    setHoverPreview(null);
+    setHoveredPeriod(null);
+  }, [viewStart, viewEnd]);
 
   // Handle wheel with non-passive listener to prevent browser zoom
   useEffect(() => {
@@ -159,11 +181,11 @@ export function Timeline({ times }: TimelineProps) {
   const mainHeight = Math.max(400, rowCount * ROW_HEIGHT + 80);
 
   return (
-    <div ref={containerRef} className="h-full w-full flex flex-col bg-background">
+    <div ref={containerRef} className="h-full min-h-0 w-full flex flex-col bg-background">
       {/* Main timeline view */}
       <div
         ref={mainRef}
-        className="flex-1 relative overflow-hidden"
+        className="min-h-0 flex-1 relative overflow-hidden"
         style={{ minHeight: mainHeight }}
       >
         {/* Grid lines */}
@@ -172,13 +194,28 @@ export function Timeline({ times }: TimelineProps) {
             const range = viewEnd - viewStart;
             let interval: number;
             let majorInterval: number;
-            if (range > 2000) { interval = 500; majorInterval = 1000; }
-            else if (range > 1000) { interval = 200; majorInterval = 500; }
-            else if (range > 500) { interval = 100; majorInterval = 500; }
-            else if (range > 200) { interval = 50; majorInterval = 100; }
-            else if (range > 100) { interval = 20; majorInterval = 100; }
-            else if (range > 50) { interval = 10; majorInterval = 50; }
-            else { interval = 5; majorInterval = 10; }
+            if (range > 2000) {
+              interval = 500;
+              majorInterval = 1000;
+            } else if (range > 1000) {
+              interval = 200;
+              majorInterval = 500;
+            } else if (range > 500) {
+              interval = 100;
+              majorInterval = 500;
+            } else if (range > 200) {
+              interval = 50;
+              majorInterval = 100;
+            } else if (range > 100) {
+              interval = 20;
+              majorInterval = 100;
+            } else if (range > 50) {
+              interval = 10;
+              majorInterval = 50;
+            } else {
+              interval = 5;
+              majorInterval = 10;
+            }
 
             const startYear = Math.ceil(viewStart / interval) * interval;
             const lines = [];
@@ -197,7 +234,7 @@ export function Timeline({ times }: TimelineProps) {
                     strokeWidth={1}
                     strokeDasharray={isMajor ? "" : "2,4"}
                     opacity={isMajor ? 0.5 : 0.2}
-                  />
+                  />,
                 );
               }
             }
@@ -231,7 +268,7 @@ export function Timeline({ times }: TimelineProps) {
                     style={{ left: x + 4 }}
                   >
                     {formatYear(year)}
-                  </span>
+                  </span>,
                 );
               }
             }
@@ -240,16 +277,25 @@ export function Timeline({ times }: TimelineProps) {
         </div>
 
         {/* Period bars - positioned from top */}
-        <div className="absolute left-0 right-0 top-0" style={{ height: rowCount * ROW_HEIGHT + 16 }}>
+        <div
+          className="absolute left-0 right-0 top-0"
+          style={{ height: rowCount * ROW_HEIGHT + 16 }}
+        >
           {sortedTimes.map((time) => {
             const periodEnd = time.end ?? CURRENT_YEAR;
             const x = yearToX(time.start);
             const width = yearToX(periodEnd) - x;
             const row = assignments.get(time.id) ?? 0;
             const y = row * ROW_HEIGHT + 8;
+            const barWidth = Math.max(72, width);
+            const left = Math.max(0, x);
+            const right = Math.min(containerWidth, x + barWidth);
+            const visibleWidth = right - left;
+            const showDateRange = visibleWidth >= 190;
 
             // Skip if completely outside view
             if (x + width < 0 || x > containerWidth) return null;
+            if (visibleWidth <= 20) return null;
 
             const isHovered = hoveredPeriod === time.id;
 
@@ -257,28 +303,97 @@ export function Timeline({ times }: TimelineProps) {
               <Link
                 key={time.id}
                 href={`/t/${time.slug}`}
-                className="absolute h-8 rounded flex items-center px-2 transition-all border border-transparent hover:border-foreground/20"
+                title={`${time.name} (${formatYear(time.start)} - ${formatYear(periodEnd)})`}
+                className={`absolute h-8 rounded-md flex items-center gap-1.5 px-2 overflow-hidden transition-all border shadow-sm ${
+                  isHovered
+                    ? "bg-primary/25 border-primary/40"
+                    : "bg-muted/75 border-border/80 hover:bg-muted/95"
+                }`}
                 style={{
-                  left: Math.max(0, x),
-                  width: Math.max(60, width),
+                  left,
+                  width: visibleWidth,
                   top: y,
-                  backgroundColor: isHovered
-                    ? "hsl(var(--primary) / 0.3)"
-                    : "hsl(var(--muted))",
                 }}
-                onMouseEnter={() => setHoveredPeriod(time.id)}
-                onMouseLeave={() => setHoveredPeriod(null)}
+                onMouseEnter={(e) => {
+                  const rect = mainRef.current?.getBoundingClientRect();
+                  if (!rect) return;
+                  setHoveredPeriod(time.id);
+                  setHoverPreview({
+                    time,
+                    periodEnd,
+                    x: e.clientX - rect.left,
+                    y: e.clientY - rect.top,
+                  });
+                }}
+                onMouseMove={(e) => {
+                  const rect = mainRef.current?.getBoundingClientRect();
+                  if (!rect) return;
+                  setHoverPreview((prev) =>
+                    prev?.time.id === time.id
+                      ? {
+                          ...prev,
+                          x: e.clientX - rect.left,
+                          y: e.clientY - rect.top,
+                        }
+                      : prev,
+                  );
+                }}
+                onMouseLeave={() => {
+                  setHoveredPeriod(null);
+                  setHoverPreview((prev) => (prev?.time.id === time.id ? null : prev));
+                }}
               >
-                <span className="text-sm font-medium whitespace-nowrap">
+                <span className="min-w-0 flex-1 truncate text-[13px] font-medium leading-none">
                   {time.name}
                 </span>
-                <span className="ml-2 text-xs text-muted-foreground whitespace-nowrap">
-                  {formatYear(time.start)} – {formatYear(periodEnd)}
-                </span>
+                {showDateRange && (
+                  <span className="shrink-0 truncate text-[11px] text-muted-foreground/90 leading-none">
+                    {formatYear(time.start)} - {formatYear(periodEnd)}
+                  </span>
+                )}
               </Link>
             );
           })}
         </div>
+
+        {hoverPreview && (() => {
+          const PREVIEW_WIDTH = 260;
+          const PREVIEW_HEIGHT = 112;
+          const viewportHeight = mainRef.current?.clientHeight ?? mainHeight;
+
+          const previewLeft = Math.min(
+            Math.max(12, hoverPreview.x + 14),
+            Math.max(12, containerWidth - PREVIEW_WIDTH - 12),
+          );
+
+          let previewTop = hoverPreview.y - PREVIEW_HEIGHT - 10;
+          if (previewTop < 10) {
+            previewTop = hoverPreview.y + 14;
+          }
+          previewTop = Math.min(previewTop, Math.max(10, viewportHeight - PREVIEW_HEIGHT - 8));
+
+          const isOpenEnded = hoverPreview.time.end == null;
+
+          return (
+            <div
+              className="pointer-events-none absolute z-40 w-[260px] rounded-lg border border-border/90 bg-background/95 p-3 shadow-xl backdrop-blur-sm"
+              style={{ left: previewLeft, top: previewTop }}
+            >
+              <p className="text-[10px] font-semibold uppercase tracking-[0.08em] text-muted-foreground">
+                Timeline Period
+              </p>
+              <p className="mt-1 text-sm font-semibold leading-snug text-foreground">
+                {hoverPreview.time.name}
+              </p>
+              <p className="mt-2 text-xs text-muted-foreground">
+                {formatYear(hoverPreview.time.start)} - {isOpenEnded ? "Present" : formatYear(hoverPreview.periodEnd)}
+              </p>
+              <p className="mt-1 text-xs text-muted-foreground">
+                {formatDuration(hoverPreview.time.start, hoverPreview.periodEnd)}
+              </p>
+            </div>
+          );
+        })()}
       </div>
 
       {/* Minimap - full history at bottom */}
@@ -291,7 +406,9 @@ export function Timeline({ times }: TimelineProps) {
           className="absolute top-0 bottom-0 border-2 border-primary/60 bg-primary/10 rounded"
           style={{
             left: Math.max(0, minimapYearToX(viewStart)),
-            width: Math.min(containerWidth, minimapYearToX(viewEnd)) - Math.max(0, minimapYearToX(viewStart)),
+            width:
+              Math.min(containerWidth, minimapYearToX(viewEnd)) -
+              Math.max(0, minimapYearToX(viewStart)),
           }}
         />
 

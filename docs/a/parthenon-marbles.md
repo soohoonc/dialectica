@@ -9,7 +9,6 @@ tags:
   - sculpture
   - greek-art
 ---
-
 # Parthenon Marbles
 
 The Parthenon Marbles (also known as the Elgin Marbles) are classical Greek marble sculptures that were originally part of the Parthenon temple on the Acropolis of [[athens]].
@@ -25,3 +24,15 @@ Created under the supervision of the sculptor Phidias, the marbles were removed 
 ## Controversy
 
 Greece has long requested the return of the marbles, arguing they were taken without proper authorization and belong with the Parthenon.
+
+## Ontology Connections
+
+This entry is further connected in the graph through [[venus-de-milo]], [[georgia-okeeffe]], [[comparative-religion-era]].
+
+## Related Links
+
+- Artifact: [[venus-de-milo]]
+- Figure: [[georgia-okeeffe]]
+- Time: [[comparative-religion-era]]
+- Location: [[rome]]
+- Idea: [[rosicrucianism]]

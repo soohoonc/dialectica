@@ -23,6 +23,7 @@ export interface FigureNode extends BaseNode {
   death?: number;
   nationality?: string;
   portrait?: string; // Image path
+  portraitSource?: string; // External source page for portrait attribution
   locations: string[]; // Location IDs
   periods: string[]; // Time IDs
 }

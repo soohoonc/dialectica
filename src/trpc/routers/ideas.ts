@@ -2,6 +2,9 @@ import { z } from "zod";
 import { createTRPCRouter, publicProcedure } from "@/trpc";
 import { TRPCError } from "@trpc/server";
 import type { IdeaNode } from "@/lib/graph";
+import { applyFilterRules } from "@/lib/filter-rules";
+import { ideaFilterFields } from "@/lib/filter-definitions";
+import { filterRulesSchema } from "@/trpc/schemas/filter-rules";
 
 export const ideasRouter = createTRPCRouter({
   // List all ideas with optional filtering
@@ -16,6 +19,7 @@ export const ideasRouter = createTRPCRouter({
           author: z.string().optional(),
           period: z.string().optional(),
           tags: z.array(z.string()).optional(),
+          rules: filterRulesSchema.optional(),
           yearRange: z
             .object({
               start: z.number(),
@@ -53,6 +57,10 @@ export const ideasRouter = createTRPCRouter({
             i.year >= input.yearRange!.start &&
             i.year <= input.yearRange!.end,
         );
+      }
+
+      if (input?.rules?.length) {
+        ideas = applyFilterRules(ideas, ideaFilterFields, input.rules);
       }
 
       // Sort
@@ -150,17 +158,40 @@ export const ideasRouter = createTRPCRouter({
         .object({
           id: z.string().optional(),
           depth: z.number().min(1).max(5).default(2),
+          rules: filterRulesSchema.optional(),
         })
         .optional(),
     )
     .query(async ({ input, ctx }) => {
       await ctx.graph.initialize();
 
-      return ctx.graph.getGraphData({
+      const graphData = ctx.graph.getGraphData({
         type: "idea",
         centerId: input?.id,
         depth: input?.depth,
       });
+
+      if (!input?.rules?.length) {
+        return graphData;
+      }
+
+      const filteredIdeas = applyFilterRules(
+        ctx.graph.getNodesByType<IdeaNode>("idea"),
+        ideaFilterFields,
+        input.rules,
+      );
+      const allowedIdeaIds = new Set(filteredIdeas.map((idea) => idea.id));
+
+      const nodes = graphData.nodes.filter((node) => {
+        if (node.type !== "idea") return true;
+        return allowedIdeaIds.has(node.id);
+      });
+      const nodeIds = new Set(nodes.map((node) => node.id));
+      const edges = graphData.edges.filter(
+        (edge) => nodeIds.has(String(edge.source)) && nodeIds.has(String(edge.target)),
+      );
+
+      return { nodes, edges };
     }),
 
   // Get ideas that influence this one
