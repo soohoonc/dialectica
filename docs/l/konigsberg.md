@@ -28,6 +28,7 @@ The University of Konigsberg (Albertina), where Kant studied and later taught, w
 ## Historical Significance
 
 Founded in 1255 by the Teutonic Knights, Konigsberg served as:
+
 - Capital of the Duchy of Prussia
 - Coronation site of the first King of Prussia (1701)
 - Major center of Baltic trade

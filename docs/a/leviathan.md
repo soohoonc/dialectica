@@ -13,7 +13,7 @@ tags:
 
 # Leviathan
 
-*Leviathan, or The Matter, Forme and Power of a Commonwealth Ecclesiasticall and Civil* is Thomas Hobbes's masterwork of political philosophy, published in 1651.
+_Leviathan, or The Matter, Forme and Power of a Commonwealth Ecclesiasticall and Civil_ is Thomas Hobbes's masterwork of political philosophy, published in 1651.
 
 ## Content
 

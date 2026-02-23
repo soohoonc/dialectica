@@ -4,8 +4,7 @@ const envSchema = {
   server: z.object({
     // DATABASE_URL is optional since we use markdown files via the graph engine
     DATABASE_URL: z.string().url().optional(),
-    NODE_ENV: z.enum(["development", "test", "production"])
-      .default("development"),
+    NODE_ENV: z.enum(["development", "test", "production"]).default("development"),
   }),
   client: z.object({
     // Add your NEXT_PUBLIC_ env vars here
@@ -20,8 +19,7 @@ const merged = envSchema.server.merge(envSchema.client);
 const formatErrors = (errors: z.ZodError) => {
   const { fieldErrors } = errors.flatten();
   const errorMessage = Object.entries(fieldErrors)
-    .map(([field, errors]) =>
-      `${field}: ${errors?.join(", ")}`)
+    .map(([field, errors]) => `${field}: ${errors?.join(", ")}`)
     .join("\n");
   return errorMessage;
 };
@@ -40,7 +38,7 @@ if (!process.env.SKIP_ENV_VALIDATION) {
     if (error instanceof z.ZodError) {
       throw new Error(
         `❌ Invalid environment variables:\n${formatErrors(error)}\n` +
-        `💡 Tip: Check your .env file`
+          `💡 Tip: Check your .env file`,
       );
     }
   }

@@ -14,7 +14,7 @@ tags:
 
 # Poetics
 
-The *Poetics* (Greek: Περὶ ποιητικῆς) is [[aristotle]]'s work on literary theory, especially tragedy.
+The _Poetics_ (Greek: Περὶ ποιητικῆς) is [[aristotle]]'s work on literary theory, especially tragedy.
 
 ## Content
 

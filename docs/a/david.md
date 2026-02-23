@@ -13,7 +13,7 @@ tags:
 
 # David
 
-*David* is a masterpiece of Renaissance sculpture created by Michelangelo Buonarroti between 1501 and 1504.
+_David_ is a masterpiece of Renaissance sculpture created by Michelangelo Buonarroti between 1501 and 1504.
 
 ## Description
 

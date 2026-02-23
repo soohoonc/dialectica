@@ -1,12 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import {
-  Tooltip,
-  TooltipContent,
-  TooltipProvider,
-  TooltipTrigger,
-} from "@/components/ui/tooltip";
+import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from "@/components/ui/tooltip";
 
 interface WikiLinkProps {
   href: string;
@@ -31,10 +26,10 @@ export function WikiLink({
   const linkClass = isExternal
     ? "link-external"
     : !exists
-    ? "link-missing"
-    : summary
-    ? "link-annotated"
-    : "link-internal";
+      ? "link-missing"
+      : summary
+        ? "link-annotated"
+        : "link-internal";
 
   // For external links, open in new tab
   if (isExternal) {
@@ -61,11 +56,7 @@ export function WikiLink({
               {children}
             </Link>
           </TooltipTrigger>
-          <TooltipContent
-            side="top"
-            className="max-w-xs p-3 text-sm"
-            sideOffset={5}
-          >
+          <TooltipContent side="top" className="max-w-xs p-3 text-sm" sideOffset={5}>
             {title && <p className="font-semibold mb-1">{title}</p>}
             <p className="text-muted-foreground">{summary}</p>
           </TooltipContent>

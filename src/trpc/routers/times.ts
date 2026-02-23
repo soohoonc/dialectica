@@ -7,13 +7,15 @@ export const timesRouter = createTRPCRouter({
   // List all time periods
   list: publicProcedure
     .input(
-      z.object({
-        limit: z.number().min(1).max(100).default(50),
-        offset: z.number().min(0).default(0),
-        sort: z.enum(["name", "start", "end"]).default("start"),
-        order: z.enum(["asc", "desc"]).default("asc"),
-        tags: z.array(z.string()).optional(),
-      }).optional()
+      z
+        .object({
+          limit: z.number().min(1).max(100).default(50),
+          offset: z.number().min(0).default(0),
+          sort: z.enum(["name", "start", "end"]).default("start"),
+          order: z.enum(["asc", "desc"]).default("asc"),
+          tags: z.array(z.string()).optional(),
+        })
+        .optional(),
     )
     .query(async ({ input, ctx }) => {
       await ctx.graph.initialize();
@@ -22,9 +24,7 @@ export const timesRouter = createTRPCRouter({
 
       // Filter by tags
       if (input?.tags?.length) {
-        times = times.filter(t =>
-          input.tags!.some(tag => t.tags.includes(tag))
-        );
+        times = times.filter((t) => input.tags!.some((tag) => t.tags.includes(tag)));
       }
 
       // Sort
@@ -66,22 +66,20 @@ export const timesRouter = createTRPCRouter({
     }),
 
   // Get a single time period by ID
-  getById: publicProcedure
-    .input(z.object({ id: z.string() }))
-    .query(async ({ input, ctx }) => {
-      await ctx.graph.initialize();
+  getById: publicProcedure.input(z.object({ id: z.string() })).query(async ({ input, ctx }) => {
+    await ctx.graph.initialize();
 
-      const time = ctx.graph.getNode(input.id);
+    const time = ctx.graph.getNode(input.id);
 
-      if (!time || time.type !== "time") {
-        throw new TRPCError({
-          code: "NOT_FOUND",
-          message: `Time period not found: ${input.id}`,
-        });
-      }
+    if (!time || time.type !== "time") {
+      throw new TRPCError({
+        code: "NOT_FOUND",
+        message: `Time period not found: ${input.id}`,
+      });
+    }
 
-      return time as TimeNode;
-    }),
+    return time as TimeNode;
+  }),
 
   // Get time period with related content
   getWithRelations: publicProcedure
@@ -101,17 +99,17 @@ export const timesRouter = createTRPCRouter({
       const t = time as TimeNode;
 
       // Get figures from this period
-      const figures = ctx.graph.getNodesByType("figure")
-        .filter(f => "periods" in f && (f.periods as string[]).includes(input.id));
+      const figures = ctx.graph
+        .getNodesByType("figure")
+        .filter((f) => "periods" in f && (f.periods as string[]).includes(input.id));
 
       // Get ideas from this period
-      const ideas = ctx.graph.getNodesByType("idea")
-        .filter(i => "periods" in i && (i.periods as string[]).includes(input.id));
+      const ideas = ctx.graph
+        .getNodesByType("idea")
+        .filter((i) => "periods" in i && (i.periods as string[]).includes(input.id));
 
       // Get locations
-      const locations = t.locations
-        .map(id => ctx.graph.getNode(id))
-        .filter(Boolean);
+      const locations = t.locations.map((id) => ctx.graph.getNode(id)).filter(Boolean);
 
       const backlinks = ctx.graph.getBacklinks(input.id);
 
@@ -130,14 +128,14 @@ export const timesRouter = createTRPCRouter({
       z.object({
         start: z.number(),
         end: z.number(),
-      })
+      }),
     )
     .query(async ({ input, ctx }) => {
       await ctx.graph.initialize();
 
       const times = ctx.graph.getNodesByType<TimeNode>("time");
 
-      return times.filter(t => {
+      return times.filter((t) => {
         const periodEnd = t.end ?? Infinity;
         // Check for overlap
         return t.start <= input.end && periodEnd >= input.start;
@@ -145,11 +143,9 @@ export const timesRouter = createTRPCRouter({
     }),
 
   // Search time periods
-  search: publicProcedure
-    .input(z.object({ query: z.string() }))
-    .query(async ({ input, ctx }) => {
-      await ctx.graph.initialize();
+  search: publicProcedure.input(z.object({ query: z.string() })).query(async ({ input, ctx }) => {
+    await ctx.graph.initialize();
 
-      return ctx.graph.search(input.query, { types: ["time"] });
-    }),
+    return ctx.graph.search(input.query, { types: ["time"] });
+  }),
 });

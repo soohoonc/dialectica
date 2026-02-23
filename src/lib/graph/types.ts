@@ -1,6 +1,6 @@
 // Ontology type definitions for Dialectica
 
-export type OntologyType = 'figure' | 'time' | 'location' | 'idea' | 'artifact' | 'page';
+export type OntologyType = "figure" | "time" | "location" | "idea" | "artifact" | "page";
 
 // Base interface for all nodes
 export interface BaseNode {
@@ -8,7 +8,7 @@ export interface BaseNode {
   type: OntologyType;
   slug: string;
   title: string;
-  content: string;        // Raw markdown content (body after front matter)
+  content: string; // Raw markdown content (body after front matter)
   tags: string[];
   filePath: string;
   createdAt?: Date;
@@ -17,79 +17,79 @@ export interface BaseNode {
 
 // Figure - the who (biographies)
 export interface FigureNode extends BaseNode {
-  type: 'figure';
+  type: "figure";
   name: string;
-  birth?: number;         // Year, negative for BCE
+  birth?: number; // Year, negative for BCE
   death?: number;
   nationality?: string;
-  portrait?: string;      // Image path
-  locations: string[];    // Location IDs
-  periods: string[];      // Time IDs
+  portrait?: string; // Image path
+  locations: string[]; // Location IDs
+  periods: string[]; // Time IDs
 }
 
 // Time - the when (periods)
 export interface TimeNode extends BaseNode {
-  type: 'time';
+  type: "time";
   name: string;
-  start: number;          // Year
+  start: number; // Year
   end?: number;
-  parent?: string;        // Parent period ID for hierarchy
+  parent?: string; // Parent period ID for hierarchy
   locations: string[];
 }
 
 // Location - the where (places)
 export interface LocationNode extends BaseNode {
-  type: 'location';
+  type: "location";
   name: string;
   country?: string;
   coordinates?: {
     lat: number;
     lng: number;
   };
-  parent?: string;        // Parent location for hierarchy
+  parent?: string; // Parent location for hierarchy
 }
 
 // Idea - the why (essays, concepts)
 export interface IdeaNode extends BaseNode {
-  type: 'idea';
-  authors: string[];      // Figure IDs
+  type: "idea";
+  authors: string[]; // Figure IDs
   year?: number;
-  periods: string[];      // Time IDs
-  influences: string[];   // Ideas this builds upon
-  influenced: string[];   // Ideas this influenced (computed from backlinks)
-  contradicts: string[];  // Opposing ideas
-  synthesizes: string[];  // Ideas combined in this one
+  periods: string[]; // Time IDs
+  influences: string[]; // Ideas this builds upon
+  influenced: string[]; // Ideas this influenced (computed from backlinks)
+  contradicts: string[]; // Opposing ideas
+  synthesizes: string[]; // Ideas combined in this one
 }
 
 // Artifact mediums
 export type ArtifactMedium =
-  | 'book'        // Printed texts
-  | 'manuscript'  // Handwritten texts, scrolls
-  | 'sculpture'   // 3D works
-  | 'painting'    // 2D painted works
-  | 'inscription' // Carved/engraved text (steles, tablets)
-  | 'mosaic'      // Tile/tessera works
-  | 'relief'      // Carved panels
-  | 'instrument'  // Scientific/musical instruments
-  | 'textile'     // Tapestries, clothing
-  | 'ceramic'     // Pottery, vessels
-  | 'other';
+  | "book" // Printed texts
+  | "manuscript" // Handwritten texts, scrolls
+  | "sculpture" // 3D works
+  | "painting" // 2D painted works
+  | "inscription" // Carved/engraved text (steles, tablets)
+  | "mosaic" // Tile/tessera works
+  | "relief" // Carved panels
+  | "instrument" // Scientific/musical instruments
+  | "textile" // Tapestries, clothing
+  | "ceramic" // Pottery, vessels
+  | "other";
 
 // Artifact - the what (physical things)
 export interface ArtifactNode extends BaseNode {
-  type: 'artifact';
+  type: "artifact";
   name: string;
   year?: number;
-  creator?: string;       // Figure ID
-  location?: string;      // Location ID
+  creator?: string; // Figure ID
+  location?: string; // Location ID
   image?: string;
   medium?: ArtifactMedium;
-  era?: string;           // Time period ID
+  era?: string; // Time period ID
 }
 
 // Page - wiki articles
 export interface PageNode extends BaseNode {
-  type: 'page';
+  type: "page";
   authors: string[];
 }
 
@@ -98,21 +98,21 @@ export type GraphNode = FigureNode | TimeNode | LocationNode | IdeaNode | Artifa
 
 // Edge types for relationships
 export type EdgeType =
-  | 'wiki_link'       // Generic [[link]] reference
-  | 'authored'        // Figure -> Idea
-  | 'influences'      // Idea -> Idea
-  | 'contradicts'     // Idea -> Idea
-  | 'synthesizes'     // Idea -> Idea
-  | 'located_in'      // Node -> Location
-  | 'during_period'   // Node -> Time
-  | 'child_of'        // Hierarchical (Location/Time parent)
-  | 'created';        // Figure -> Artifact
+  | "wiki_link" // Generic [[link]] reference
+  | "authored" // Figure -> Idea
+  | "influences" // Idea -> Idea
+  | "contradicts" // Idea -> Idea
+  | "synthesizes" // Idea -> Idea
+  | "located_in" // Node -> Location
+  | "during_period" // Node -> Time
+  | "child_of" // Hierarchical (Location/Time parent)
+  | "created"; // Figure -> Artifact
 
 export interface Edge {
   source: string;
   target: string;
   type: EdgeType;
-  context?: string;   // Surrounding text for wiki_link edges
+  context?: string; // Surrounding text for wiki_link edges
 }
 
 // Backlink information
@@ -121,7 +121,7 @@ export interface Backlink {
   sourceType: OntologyType;
   sourceTitle: string;
   sourceSlug: string;
-  context: string;    // Text surrounding the link
+  context: string; // Text surrounding the link
 }
 
 // Query options for searching/filtering
@@ -134,8 +134,8 @@ export interface QueryOptions {
   location?: string;
   limit?: number;
   offset?: number;
-  sort?: 'title' | 'date' | 'year' | 'name';
-  order?: 'asc' | 'desc';
+  sort?: "title" | "date" | "year" | "name";
+  order?: "asc" | "desc";
 }
 
 export interface QueryResult<T = GraphNode> {

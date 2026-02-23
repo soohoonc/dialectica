@@ -23,10 +23,7 @@ export function WikiMetadata({ items, tags, className = "" }: WikiMetadataProps)
         <div key={index} className="metadata-item">
           <span className="metadata-label">{item.label}:</span>
           {item.href ? (
-            <Link
-              href={item.href}
-              className="link-internal"
-            >
+            <Link href={item.href} className="link-internal">
               {item.value}
             </Link>
           ) : (
@@ -39,11 +36,7 @@ export function WikiMetadata({ items, tags, className = "" }: WikiMetadataProps)
           <span className="metadata-label">Tags:</span>
           <div className="tags">
             {tags.map((tag) => (
-              <Link
-                key={tag}
-                href={`/search?tag=${encodeURIComponent(tag)}`}
-                className="tag"
-              >
+              <Link key={tag} href={`/search?tag=${encodeURIComponent(tag)}`} className="tag">
                 {tag}
               </Link>
             ))}
@@ -62,10 +55,7 @@ export function formatYear(year: number | undefined): string {
 }
 
 // Helper to format date range
-export function formatDateRange(
-  start: number | undefined,
-  end: number | undefined
-): string {
+export function formatDateRange(start: number | undefined, end: number | undefined): string {
   const startStr = formatYear(start);
   const endStr = end !== undefined ? formatYear(end) : "present";
   return `${startStr} - ${endStr}`;

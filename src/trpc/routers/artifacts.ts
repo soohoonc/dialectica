@@ -22,17 +22,19 @@ export const artifactsRouter = createTRPCRouter({
   // List all artifacts with optional filters
   list: publicProcedure
     .input(
-      z.object({
-        limit: z.number().min(1).max(100).default(50),
-        offset: z.number().min(0).default(0),
-        sort: z.enum(["name", "year"]).default("name"),
-        order: z.enum(["asc", "desc"]).default("asc"),
-        creator: z.string().optional(),
-        location: z.string().optional(),
-        medium: z.string().optional(),
-        era: z.string().optional(),
-        tags: z.array(z.string()).optional(),
-      }).optional()
+      z
+        .object({
+          limit: z.number().min(1).max(100).default(50),
+          offset: z.number().min(0).default(0),
+          sort: z.enum(["name", "year"]).default("name"),
+          order: z.enum(["asc", "desc"]).default("asc"),
+          creator: z.string().optional(),
+          location: z.string().optional(),
+          medium: z.string().optional(),
+          era: z.string().optional(),
+          tags: z.array(z.string()).optional(),
+        })
+        .optional(),
     )
     .query(async ({ input, ctx }) => {
       await ctx.graph.initialize();
@@ -41,29 +43,27 @@ export const artifactsRouter = createTRPCRouter({
 
       // Filter by creator
       if (input?.creator) {
-        artifacts = artifacts.filter(a => a.creator === input.creator);
+        artifacts = artifacts.filter((a) => a.creator === input.creator);
       }
 
       // Filter by location
       if (input?.location) {
-        artifacts = artifacts.filter(a => a.location === input.location);
+        artifacts = artifacts.filter((a) => a.location === input.location);
       }
 
       // Filter by medium
       if (input?.medium) {
-        artifacts = artifacts.filter(a => a.medium === input.medium);
+        artifacts = artifacts.filter((a) => a.medium === input.medium);
       }
 
       // Filter by era
       if (input?.era) {
-        artifacts = artifacts.filter(a => a.era === input.era);
+        artifacts = artifacts.filter((a) => a.era === input.era);
       }
 
       // Filter by tags
       if (input?.tags?.length) {
-        artifacts = artifacts.filter(a =>
-          input.tags!.some(tag => a.tags.includes(tag))
-        );
+        artifacts = artifacts.filter((a) => input.tags!.some((tag) => a.tags.includes(tag)));
       }
 
       // Sort
@@ -101,22 +101,20 @@ export const artifactsRouter = createTRPCRouter({
     }),
 
   // Get a single artifact by ID
-  getById: publicProcedure
-    .input(z.object({ id: z.string() }))
-    .query(async ({ input, ctx }) => {
-      await ctx.graph.initialize();
+  getById: publicProcedure.input(z.object({ id: z.string() })).query(async ({ input, ctx }) => {
+    await ctx.graph.initialize();
 
-      const artifact = ctx.graph.getNode(input.id);
+    const artifact = ctx.graph.getNode(input.id);
 
-      if (!artifact || artifact.type !== "artifact") {
-        throw new TRPCError({
-          code: "NOT_FOUND",
-          message: `Artifact not found: ${input.id}`,
-        });
-      }
+    if (!artifact || artifact.type !== "artifact") {
+      throw new TRPCError({
+        code: "NOT_FOUND",
+        message: `Artifact not found: ${input.id}`,
+      });
+    }
 
-      return artifact as ArtifactNode;
-    }),
+    return artifact as ArtifactNode;
+  }),
 
   // Get artifact with related content
   getWithRelations: publicProcedure
@@ -136,19 +134,13 @@ export const artifactsRouter = createTRPCRouter({
       const art = artifact as ArtifactNode;
 
       // Get creator
-      const creator = art.creator
-        ? ctx.graph.getNode(art.creator)
-        : undefined;
+      const creator = art.creator ? ctx.graph.getNode(art.creator) : undefined;
 
       // Get location
-      const location = art.location
-        ? ctx.graph.getNode(art.location)
-        : undefined;
+      const location = art.location ? ctx.graph.getNode(art.location) : undefined;
 
       // Get era/time period
-      const era = art.era
-        ? ctx.graph.getNode(art.era)
-        : undefined;
+      const era = art.era ? ctx.graph.getNode(art.era) : undefined;
 
       const backlinks = ctx.graph.getBacklinks(input.id);
 
@@ -162,13 +154,11 @@ export const artifactsRouter = createTRPCRouter({
     }),
 
   // Search artifacts
-  search: publicProcedure
-    .input(z.object({ query: z.string() }))
-    .query(async ({ input, ctx }) => {
-      await ctx.graph.initialize();
+  search: publicProcedure.input(z.object({ query: z.string() })).query(async ({ input, ctx }) => {
+    await ctx.graph.initialize();
 
-      return ctx.graph.search(input.query, { types: ["artifact"] });
-    }),
+    return ctx.graph.search(input.query, { types: ["artifact"] });
+  }),
 
   // Get constants for UI
   getConstants: publicProcedure.query(() => ({
@@ -209,7 +199,7 @@ export const artifactsRouter = createTRPCRouter({
     }
 
     // Filter out empty mediums for the response
-    const activeMedias = MEDIUMS.filter(m => grouped[m.id].length > 0);
+    const activeMedias = MEDIUMS.filter((m) => grouped[m.id].length > 0);
 
     return {
       mediums: activeMedias,

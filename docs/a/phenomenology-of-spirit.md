@@ -13,7 +13,7 @@ tags:
 
 # Phenomenology of Spirit
 
-The *Phenomenology of Spirit* (German: *Phänomenologie des Geistes*) is G.W.F. Hegel's most important work, published in 1807.
+The _Phenomenology of Spirit_ (German: _Phänomenologie des Geistes_) is G.W.F. Hegel's most important work, published in 1807.
 
 ## Content
 

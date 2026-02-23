@@ -1,7 +1,7 @@
 // Markdown file parser with front matter extraction
 
-import matter from 'gray-matter';
-import { z } from 'zod';
+import matter from "gray-matter";
+import { z } from "zod";
 import type {
   OntologyType,
   GraphNode,
@@ -11,18 +11,18 @@ import type {
   IdeaNode,
   ArtifactNode,
   PageNode,
-} from './types';
+} from "./types";
 
 // Front matter schemas for each ontology type
 
 const baseSchema = z.object({
   id: z.string().optional(),
-  type: z.enum(['figure', 'time', 'location', 'idea', 'artifact', 'page']),
+  type: z.enum(["figure", "time", "location", "idea", "artifact", "page"]),
   tags: z.array(z.string()).default([]),
 });
 
 const figureSchema = baseSchema.extend({
-  type: z.literal('figure'),
+  type: z.literal("figure"),
   name: z.string(),
   birth: z.number().optional(),
   death: z.number().optional(),
@@ -33,7 +33,7 @@ const figureSchema = baseSchema.extend({
 });
 
 const timeSchema = baseSchema.extend({
-  type: z.literal('time'),
+  type: z.literal("time"),
   name: z.string(),
   start: z.number(),
   end: z.number().optional(),
@@ -42,18 +42,20 @@ const timeSchema = baseSchema.extend({
 });
 
 const locationSchema = baseSchema.extend({
-  type: z.literal('location'),
+  type: z.literal("location"),
   name: z.string(),
   country: z.string().optional(),
-  coordinates: z.object({
-    lat: z.number(),
-    lng: z.number(),
-  }).optional(),
+  coordinates: z
+    .object({
+      lat: z.number(),
+      lng: z.number(),
+    })
+    .optional(),
   parent: z.string().optional(),
 });
 
 const ideaSchema = baseSchema.extend({
-  type: z.literal('idea'),
+  type: z.literal("idea"),
   title: z.string(),
   authors: z.array(z.string()).default([]),
   year: z.number().optional(),
@@ -64,18 +66,32 @@ const ideaSchema = baseSchema.extend({
 });
 
 const artifactSchema = baseSchema.extend({
-  type: z.literal('artifact'),
+  type: z.literal("artifact"),
   name: z.string(),
   year: z.number().optional(),
   creator: z.string().optional(),
   location: z.string().optional(),
   image: z.string().optional(),
-  medium: z.enum(['book', 'manuscript', 'sculpture', 'painting', 'inscription', 'mosaic', 'relief', 'instrument', 'textile', 'ceramic', 'other']).optional(),
+  medium: z
+    .enum([
+      "book",
+      "manuscript",
+      "sculpture",
+      "painting",
+      "inscription",
+      "mosaic",
+      "relief",
+      "instrument",
+      "textile",
+      "ceramic",
+      "other",
+    ])
+    .optional(),
   era: z.string().optional(),
 });
 
 const pageSchema = baseSchema.extend({
-  type: z.literal('page'),
+  type: z.literal("page"),
   title: z.string(),
   authors: z.array(z.string()).default([]),
 });
@@ -84,8 +100,8 @@ const pageSchema = baseSchema.extend({
  * Infer ontology type from file path
  */
 export function inferTypeFromPath(filePath: string): OntologyType | null {
-  const pathParts = filePath.split('/');
-  const docsIndex = pathParts.findIndex(p => p === 'docs');
+  const pathParts = filePath.split("/");
+  const docsIndex = pathParts.findIndex((p) => p === "docs");
 
   if (docsIndex === -1 || docsIndex >= pathParts.length - 1) {
     return null;
@@ -94,21 +110,21 @@ export function inferTypeFromPath(filePath: string): OntologyType | null {
   const typeDir = pathParts[docsIndex + 1];
 
   const typeMap: Record<string, OntologyType> = {
-    'f': 'figure',
-    'figures': 'figure',
-    't': 'time',
-    'times': 'time',
-    'periods': 'time',
-    'l': 'location',
-    'locations': 'location',
-    'i': 'idea',
-    'ideas': 'idea',
-    'a': 'artifact',
-    'artifacts': 'artifact',
-    'o': 'artifact',  // Keep 'o' for backwards compatibility
-    'objects': 'artifact',
-    'p': 'page',
-    'pages': 'page',
+    f: "figure",
+    figures: "figure",
+    t: "time",
+    times: "time",
+    periods: "time",
+    l: "location",
+    locations: "location",
+    i: "idea",
+    ideas: "idea",
+    a: "artifact",
+    artifacts: "artifact",
+    o: "artifact", // Keep 'o' for backwards compatibility
+    objects: "artifact",
+    p: "page",
+    pages: "page",
   };
 
   return typeMap[typeDir] || null;
@@ -118,17 +134,14 @@ export function inferTypeFromPath(filePath: string): OntologyType | null {
  * Extract slug from file path
  */
 export function extractSlugFromPath(filePath: string): string {
-  const fileName = filePath.split('/').pop() || '';
-  return fileName.replace(/\.md$/, '').toLowerCase();
+  const fileName = filePath.split("/").pop() || "";
+  return fileName.replace(/\.md$/, "").toLowerCase();
 }
 
 /**
  * Parse a markdown file and return a typed node
  */
-export function parseMarkdownFile(
-  fileContent: string,
-  filePath: string
-): GraphNode | null {
+export function parseMarkdownFile(fileContent: string, filePath: string): GraphNode | null {
   try {
     const { data: frontMatter, content } = matter(fileContent);
 
@@ -157,14 +170,14 @@ export function parseMarkdownFile(
 
     // Parse and validate based on type
     switch (type) {
-      case 'figure': {
+      case "figure": {
         const parsed = figureSchema.safeParse({ ...frontMatter, type });
         if (!parsed.success) {
           console.warn(`Invalid figure front matter in ${filePath}:`, parsed.error);
           // Return with defaults
           return {
             ...baseProps,
-            type: 'figure',
+            type: "figure",
             title: frontMatter.name || slug,
             name: frontMatter.name || slug,
             birth: frontMatter.birth,
@@ -182,13 +195,13 @@ export function parseMarkdownFile(
         } as FigureNode;
       }
 
-      case 'time': {
+      case "time": {
         const parsed = timeSchema.safeParse({ ...frontMatter, type });
         if (!parsed.success) {
           console.warn(`Invalid time front matter in ${filePath}:`, parsed.error);
           return {
             ...baseProps,
-            type: 'time',
+            type: "time",
             title: frontMatter.name || slug,
             name: frontMatter.name || slug,
             start: frontMatter.start || 0,
@@ -204,13 +217,13 @@ export function parseMarkdownFile(
         } as TimeNode;
       }
 
-      case 'location': {
+      case "location": {
         const parsed = locationSchema.safeParse({ ...frontMatter, type });
         if (!parsed.success) {
           console.warn(`Invalid location front matter in ${filePath}:`, parsed.error);
           return {
             ...baseProps,
-            type: 'location',
+            type: "location",
             title: frontMatter.name || slug,
             name: frontMatter.name || slug,
             country: frontMatter.country,
@@ -225,13 +238,13 @@ export function parseMarkdownFile(
         } as LocationNode;
       }
 
-      case 'idea': {
+      case "idea": {
         const parsed = ideaSchema.safeParse({ ...frontMatter, type });
         if (!parsed.success) {
           console.warn(`Invalid idea front matter in ${filePath}:`, parsed.error);
           return {
             ...baseProps,
-            type: 'idea',
+            type: "idea",
             title: frontMatter.title || slug,
             authors: frontMatter.authors || [],
             year: frontMatter.year,
@@ -249,13 +262,13 @@ export function parseMarkdownFile(
         } as IdeaNode;
       }
 
-      case 'artifact': {
+      case "artifact": {
         const parsed = artifactSchema.safeParse({ ...frontMatter, type });
         if (!parsed.success) {
           console.warn(`Invalid artifact front matter in ${filePath}:`, parsed.error);
           return {
             ...baseProps,
-            type: 'artifact',
+            type: "artifact",
             title: frontMatter.name || slug,
             name: frontMatter.name || slug,
             year: frontMatter.year,
@@ -273,13 +286,13 @@ export function parseMarkdownFile(
         } as ArtifactNode;
       }
 
-      case 'page': {
+      case "page": {
         const parsed = pageSchema.safeParse({ ...frontMatter, type });
         if (!parsed.success) {
           console.warn(`Invalid page front matter in ${filePath}:`, parsed.error);
           return {
             ...baseProps,
-            type: 'page',
+            type: "page",
             title: frontMatter.title || slug,
             authors: frontMatter.authors || [],
           } as PageNode;
@@ -312,5 +325,5 @@ export function extractTitle(content: string, frontMatter: Record<string, unknow
   const headingMatch = content.match(/^#\s+(.+)$/m);
   if (headingMatch) return headingMatch[1].trim();
 
-  return 'Untitled';
+  return "Untitled";
 }

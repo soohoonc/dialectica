@@ -13,7 +13,7 @@ tags:
 
 # The Great Wave off Kanagawa
 
-*The Great Wave off Kanagawa* (Japanese: 神奈川沖浪裏) is a woodblock print by the Japanese ukiyo-e artist Hokusai, published between 1829 and 1833.
+_The Great Wave off Kanagawa_ (Japanese: 神奈川沖浪裏) is a woodblock print by the Japanese ukiyo-e artist Hokusai, published between 1829 and 1833.
 
 ## Description
 
@@ -28,7 +28,7 @@ The print depicts an enormous wave threatening boats off the coast of Kanagawa P
 
 ## Series
 
-Part of the series *Thirty-six Views of Mount Fuji* (富嶽三十六景), exploring the sacred mountain from various locations and seasons.
+Part of the series _Thirty-six Views of Mount Fuji_ (富嶽三十六景), exploring the sacred mountain from various locations and seasons.
 
 ## Influence
 

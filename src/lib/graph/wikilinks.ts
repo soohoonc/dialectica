@@ -1,11 +1,11 @@
 // Wiki-link parser for Obsidian-style [[links]]
 
 export interface WikiLink {
-  target: string;       // The page/node ID being linked to
-  section?: string;     // Optional #anchor
-  alias?: string;       // Optional display text
-  raw: string;          // Original matched string
-  startIndex: number;   // Position in content
+  target: string; // The page/node ID being linked to
+  section?: string; // Optional #anchor
+  alias?: string; // Optional display text
+  raw: string; // Original matched string
+  startIndex: number; // Position in content
   endIndex: number;
 }
 
@@ -47,8 +47,8 @@ export function normalizeTarget(target: string): string {
   return target
     .trim()
     .toLowerCase()
-    .replace(/\s+/g, '-')
-    .replace(/[^a-z0-9-/]/g, '');
+    .replace(/\s+/g, "-")
+    .replace(/[^a-z0-9-/]/g, "");
 }
 
 /**
@@ -59,8 +59,8 @@ export function extractLinkContext(content: string, link: WikiLink, contextLengt
   const after = content.slice(link.endIndex, link.endIndex + contextLength);
 
   // Find sentence boundaries (using [\s\S] instead of /s flag for compatibility)
-  const beforeTrimmed = before.replace(/^[\s\S]*?[.!?]\s*/, '');
-  const afterTrimmed = after.replace(/[.!?]\s[\s\S]*$/, match => match[0]);
+  const beforeTrimmed = before.replace(/^[\s\S]*?[.!?]\s*/, "");
+  const afterTrimmed = after.replace(/[.!?]\s[\s\S]*$/, (match) => match[0]);
 
   return `${beforeTrimmed}${link.alias || link.target}${afterTrimmed}`.trim();
 }
@@ -70,7 +70,7 @@ export function extractLinkContext(content: string, link: WikiLink, contextLengt
  */
 export function renderWikiLinks(
   content: string,
-  resolver: (target: string) => { href: string; exists: boolean } | null
+  resolver: (target: string) => { href: string; exists: boolean } | null,
 ): string {
   return content.replace(WIKI_LINK_REGEX, (match, target, section, alias) => {
     const normalizedTarget = normalizeTarget(target);
@@ -83,7 +83,7 @@ export function renderWikiLinks(
 
     const href = section ? `${resolved.href}#${section}` : resolved.href;
     const displayText = alias || target;
-    const className = resolved.exists ? 'link-internal' : 'link-missing';
+    const className = resolved.exists ? "link-internal" : "link-missing";
 
     return `<a href="${href}" class="${className}">${displayText}</a>`;
   });
@@ -94,7 +94,7 @@ export function renderWikiLinks(
  */
 export function getUniqueTargets(content: string): string[] {
   const links = parseWikiLinks(content);
-  return [...new Set(links.map(l => l.target))];
+  return [...new Set(links.map((l) => l.target))];
 }
 
 /**

@@ -13,7 +13,7 @@ tags:
 
 # The Night Watch
 
-*The Night Watch* (Dutch: *De Nachtwacht*) is a 1642 painting by Rembrandt van Rijn, one of the most famous Dutch Golden Age paintings.
+_The Night Watch_ (Dutch: _De Nachtwacht_) is a 1642 painting by Rembrandt van Rijn, one of the most famous Dutch Golden Age paintings.
 
 ## Description
 

@@ -49,6 +49,7 @@ Virtue ethics originated with [[plato]] and [[aristotle]] in [[classical-greece]
 ## Contemporary Virtue Ethics
 
 Modern virtue ethicists have expanded the framework to address:
+
 - Environmental ethics
 - Business ethics
 - Bioethics

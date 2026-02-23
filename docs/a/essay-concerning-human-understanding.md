@@ -14,7 +14,7 @@ tags:
 
 # An Essay Concerning Human Understanding
 
-John Locke's *Essay* (1689) is a foundational work of empiricist philosophy.
+John Locke's _Essay_ (1689) is a foundational work of empiricist philosophy.
 
 ## Content
 

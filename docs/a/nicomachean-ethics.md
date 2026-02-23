@@ -13,7 +13,7 @@ tags:
 
 # Nicomachean Ethics
 
-The *Nicomachean Ethics* is [[aristotle]]'s best-known work on ethics, named after either his father or son, both named Nicomachus.
+The _Nicomachean Ethics_ is [[aristotle]]'s best-known work on ethics, named after either his father or son, both named Nicomachus.
 
 ## Content
 

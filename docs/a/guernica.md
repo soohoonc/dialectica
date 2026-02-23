@@ -14,7 +14,7 @@ tags:
 
 # Guernica
 
-*Guernica* is a large oil painting by Pablo Picasso, created in response to the bombing of Guernica, a Basque town in northern Spain, by Nazi Germany and Fascist Italy.
+_Guernica_ is a large oil painting by Pablo Picasso, created in response to the bombing of Guernica, a Basque town in northern Spain, by Nazi Germany and Fascist Italy.
 
 ## Description
 

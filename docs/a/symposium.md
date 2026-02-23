@@ -13,7 +13,7 @@ tags:
 
 # Symposium
 
-The *Symposium* (Greek: Συμπόσιον) is a philosophical text by [[plato]] dated c. 385–370 BCE.
+The _Symposium_ (Greek: Συμπόσιον) is a philosophical text by [[plato]] dated c. 385–370 BCE.
 
 ## Content
 

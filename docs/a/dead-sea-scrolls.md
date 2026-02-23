@@ -17,6 +17,7 @@ The Dead Sea Scrolls are ancient Jewish religious manuscripts discovered between
 ## Description
 
 The collection includes:
+
 - Biblical manuscripts (every book of the Hebrew Bible except Esther)
 - Sectarian texts of the Qumran community
 - Other religious and secular documents

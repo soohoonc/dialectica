@@ -12,7 +12,7 @@ tags:
 
 # Book of Kells
 
-The Book of Kells (Latin: *Codex Cenannensis*) is an illuminated manuscript Gospel book in Latin, created around 800 CE.
+The Book of Kells (Latin: _Codex Cenannensis_) is an illuminated manuscript Gospel book in Latin, created around 800 CE.
 
 ## Description
 

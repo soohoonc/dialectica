@@ -13,7 +13,7 @@ tags:
 
 # The Starry Night
 
-*The Starry Night* (Dutch: *De sterrennacht*) is an oil-on-canvas painting by Vincent van Gogh, created in June 1889.
+_The Starry Night_ (Dutch: _De sterrennacht_) is an oil-on-canvas painting by Vincent van Gogh, created in June 1889.
 
 ## Description
 

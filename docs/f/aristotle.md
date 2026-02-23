@@ -41,6 +41,7 @@ Aristotle's thought profoundly shaped medieval scholarship, both Islamic and Chr
 ## Works
 
 Key works include:
+
 - [[the-republic|Nicomachean Ethics]]
 - Politics
 - Metaphysics

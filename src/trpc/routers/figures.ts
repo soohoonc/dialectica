@@ -7,15 +7,17 @@ export const figuresRouter = createTRPCRouter({
   // List all figures with optional filtering
   list: publicProcedure
     .input(
-      z.object({
-        limit: z.number().min(1).max(100).default(50),
-        offset: z.number().min(0).default(0),
-        sort: z.enum(["name", "birth", "death"]).default("name"),
-        order: z.enum(["asc", "desc"]).default("asc"),
-        nationality: z.string().optional(),
-        period: z.string().optional(),
-        tags: z.array(z.string()).optional(),
-      }).optional()
+      z
+        .object({
+          limit: z.number().min(1).max(100).default(50),
+          offset: z.number().min(0).default(0),
+          sort: z.enum(["name", "birth", "death"]).default("name"),
+          order: z.enum(["asc", "desc"]).default("asc"),
+          nationality: z.string().optional(),
+          period: z.string().optional(),
+          tags: z.array(z.string()).optional(),
+        })
+        .optional(),
     )
     .query(async ({ input, ctx }) => {
       await ctx.graph.initialize();
@@ -24,19 +26,17 @@ export const figuresRouter = createTRPCRouter({
 
       // Filter by nationality
       if (input?.nationality) {
-        figures = figures.filter(f => f.nationality === input.nationality);
+        figures = figures.filter((f) => f.nationality === input.nationality);
       }
 
       // Filter by period
       if (input?.period) {
-        figures = figures.filter(f => f.periods.includes(input.period!));
+        figures = figures.filter((f) => f.periods.includes(input.period!));
       }
 
       // Filter by tags
       if (input?.tags?.length) {
-        figures = figures.filter(f =>
-          input.tags!.some(tag => f.tags.includes(tag))
-        );
+        figures = figures.filter((f) => input.tags!.some((tag) => f.tags.includes(tag)));
       }
 
       // Sort
@@ -78,22 +78,20 @@ export const figuresRouter = createTRPCRouter({
     }),
 
   // Get a single figure by ID
-  getById: publicProcedure
-    .input(z.object({ id: z.string() }))
-    .query(async ({ input, ctx }) => {
-      await ctx.graph.initialize();
+  getById: publicProcedure.input(z.object({ id: z.string() })).query(async ({ input, ctx }) => {
+    await ctx.graph.initialize();
 
-      const figure = ctx.graph.getNode(input.id);
+    const figure = ctx.graph.getNode(input.id);
 
-      if (!figure || figure.type !== "figure") {
-        throw new TRPCError({
-          code: "NOT_FOUND",
-          message: `Figure not found: ${input.id}`,
-        });
-      }
+    if (!figure || figure.type !== "figure") {
+      throw new TRPCError({
+        code: "NOT_FOUND",
+        message: `Figure not found: ${input.id}`,
+      });
+    }
 
-      return figure as FigureNode;
-    }),
+    return figure as FigureNode;
+  }),
 
   // Get figure with all relations
   getWithRelations: publicProcedure
@@ -115,12 +113,8 @@ export const figuresRouter = createTRPCRouter({
       // Get related entities
       const ideas = ctx.graph.getIdeasByAuthor(input.id);
       const backlinks = ctx.graph.getBacklinks(input.id);
-      const locations = fig.locations
-        .map(id => ctx.graph.getNode(id))
-        .filter(Boolean);
-      const periods = fig.periods
-        .map(id => ctx.graph.getNode(id))
-        .filter(Boolean);
+      const locations = fig.locations.map((id) => ctx.graph.getNode(id)).filter(Boolean);
+      const periods = fig.periods.map((id) => ctx.graph.getNode(id)).filter(Boolean);
 
       return {
         figure: fig,
@@ -132,11 +126,9 @@ export const figuresRouter = createTRPCRouter({
     }),
 
   // Search figures
-  search: publicProcedure
-    .input(z.object({ query: z.string() }))
-    .query(async ({ input, ctx }) => {
-      await ctx.graph.initialize();
+  search: publicProcedure.input(z.object({ query: z.string() })).query(async ({ input, ctx }) => {
+    await ctx.graph.initialize();
 
-      return ctx.graph.search(input.query, { types: ["figure"] });
-    }),
+    return ctx.graph.search(input.query, { types: ["figure"] });
+  }),
 });

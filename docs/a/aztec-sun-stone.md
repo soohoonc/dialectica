@@ -12,7 +12,7 @@ tags:
 
 # Aztec Sun Stone
 
-The Aztec Sun Stone (Spanish: *Piedra del Sol*) is a large monolithic sculpture created during the reign of the Aztec emperor Axayacatl.
+The Aztec Sun Stone (Spanish: _Piedra del Sol_) is a large monolithic sculpture created during the reign of the Aztec emperor Axayacatl.
 
 ## Description
 

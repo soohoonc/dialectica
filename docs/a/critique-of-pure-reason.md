@@ -14,7 +14,7 @@ tags:
 
 # Critique of Pure Reason
 
-The *Critique of Pure Reason* (German: *Kritik der reinen Vernunft*) is [[kant]]'s magnum opus, first published in 1781.
+The _Critique of Pure Reason_ (German: _Kritik der reinen Vernunft_) is [[kant]]'s magnum opus, first published in 1781.
 
 ## Content
 

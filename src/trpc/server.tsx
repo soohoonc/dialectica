@@ -1,14 +1,13 @@
-import 'server-only';
+import "server-only";
 
-import { cache } from 'react';
+import { cache } from "react";
 import { headers } from "next/headers";
-import { createTRPCOptionsProxy, TRPCQueryOptions } from '@trpc/tanstack-react-query';
-import { createTRPCContext } from '@/trpc';
-import { appRouter } from '@/trpc/routers';
-import { createQueryClient } from '@/trpc/query-client';
-import { dehydrate, HydrationBoundary } from '@tanstack/react-query';
-import { createTRPCClient, httpBatchStreamLink } from '@trpc/client';
-
+import { createTRPCOptionsProxy, TRPCQueryOptions } from "@trpc/tanstack-react-query";
+import { createTRPCContext } from "@/trpc";
+import { appRouter } from "@/trpc/routers";
+import { createQueryClient } from "@/trpc/query-client";
+import { dehydrate, HydrationBoundary } from "@tanstack/react-query";
+import { createTRPCClient, httpBatchStreamLink } from "@trpc/client";
 
 // IMPORTANT: Create a stable getter for the query client that
 //            will return the same client during the same request.
@@ -35,7 +34,7 @@ createTRPCOptionsProxy({
   client: createTRPCClient({
     links: [
       httpBatchStreamLink({
-        url: '/api/trpc',
+        url: "/api/trpc",
         headers() {
           const heads = new Headers();
           heads.set("x-trpc-source", "rsc");
@@ -45,22 +44,16 @@ createTRPCOptionsProxy({
     ],
   }),
   queryClient: getQueryClient,
-})
+});
 
 export function HydrateClient(props: { children: React.ReactNode }) {
   const queryClient = getQueryClient();
-  return (
-    <HydrationBoundary state={dehydrate(queryClient)} >
-      {props.children}
-    </HydrationBoundary>
-  );
+  return <HydrationBoundary state={dehydrate(queryClient)}>{props.children}</HydrationBoundary>;
 }
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
-export function prefetch<T extends ReturnType<TRPCQueryOptions<any>>>(
-  queryOptions: T,
-) {
+export function prefetch<T extends ReturnType<TRPCQueryOptions<any>>>(queryOptions: T) {
   const queryClient = getQueryClient();
-  if (queryOptions.queryKey[1]?.type === 'infinite') {
+  if (queryOptions.queryKey[1]?.type === "infinite") {
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
     void queryClient.prefetchInfiniteQuery(queryOptions as any);
   } else {

@@ -35,7 +35,7 @@ Plato distinguished between knowledge (episteme) and mere opinion (doxa). True k
 
 ### Political Philosophy
 
-In *The Republic*, Plato outlines his vision of an ideal state ruled by philosopher-kings, exploring justice both in the individual soul and in the city-state.
+In _The Republic_, Plato outlines his vision of an ideal state ruled by philosopher-kings, exploring justice both in the individual soul and in the city-state.
 
 ## Influence
 
@@ -44,6 +44,7 @@ Plato's philosophy influenced countless thinkers, including his student [[aristo
 ## Dialogues
 
 Major works include:
+
 - The Republic
 - Symposium
 - Phaedo

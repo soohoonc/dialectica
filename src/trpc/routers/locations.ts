@@ -7,14 +7,16 @@ export const locationsRouter = createTRPCRouter({
   // List all locations
   list: publicProcedure
     .input(
-      z.object({
-        limit: z.number().min(1).max(100).default(50),
-        offset: z.number().min(0).default(0),
-        sort: z.enum(["name", "country"]).default("name"),
-        order: z.enum(["asc", "desc"]).default("asc"),
-        country: z.string().optional(),
-        tags: z.array(z.string()).optional(),
-      }).optional()
+      z
+        .object({
+          limit: z.number().min(1).max(100).default(50),
+          offset: z.number().min(0).default(0),
+          sort: z.enum(["name", "country"]).default("name"),
+          order: z.enum(["asc", "desc"]).default("asc"),
+          country: z.string().optional(),
+          tags: z.array(z.string()).optional(),
+        })
+        .optional(),
     )
     .query(async ({ input, ctx }) => {
       await ctx.graph.initialize();
@@ -23,14 +25,12 @@ export const locationsRouter = createTRPCRouter({
 
       // Filter by country
       if (input?.country) {
-        locations = locations.filter(l => l.country === input.country);
+        locations = locations.filter((l) => l.country === input.country);
       }
 
       // Filter by tags
       if (input?.tags?.length) {
-        locations = locations.filter(l =>
-          input.tags!.some(tag => l.tags.includes(tag))
-        );
+        locations = locations.filter((l) => input.tags!.some((tag) => l.tags.includes(tag)));
       }
 
       // Sort
@@ -38,12 +38,8 @@ export const locationsRouter = createTRPCRouter({
       const sortOrder = input?.order === "desc" ? -1 : 1;
 
       locations.sort((a, b) => {
-        const aVal = sortKey === "country"
-          ? (a.country || "").toLowerCase()
-          : a.name.toLowerCase();
-        const bVal = sortKey === "country"
-          ? (b.country || "").toLowerCase()
-          : b.name.toLowerCase();
+        const aVal = sortKey === "country" ? (a.country || "").toLowerCase() : a.name.toLowerCase();
+        const bVal = sortKey === "country" ? (b.country || "").toLowerCase() : b.name.toLowerCase();
 
         if (aVal < bVal) return -1 * sortOrder;
         if (aVal > bVal) return 1 * sortOrder;
@@ -62,22 +58,20 @@ export const locationsRouter = createTRPCRouter({
     }),
 
   // Get a single location by ID
-  getById: publicProcedure
-    .input(z.object({ id: z.string() }))
-    .query(async ({ input, ctx }) => {
-      await ctx.graph.initialize();
+  getById: publicProcedure.input(z.object({ id: z.string() })).query(async ({ input, ctx }) => {
+    await ctx.graph.initialize();
 
-      const location = ctx.graph.getNode(input.id);
+    const location = ctx.graph.getNode(input.id);
 
-      if (!location || location.type !== "location") {
-        throw new TRPCError({
-          code: "NOT_FOUND",
-          message: `Location not found: ${input.id}`,
-        });
-      }
+    if (!location || location.type !== "location") {
+      throw new TRPCError({
+        code: "NOT_FOUND",
+        message: `Location not found: ${input.id}`,
+      });
+    }
 
-      return location as LocationNode;
-    }),
+    return location as LocationNode;
+  }),
 
   // Get location with related content
   getWithRelations: publicProcedure
@@ -97,16 +91,19 @@ export const locationsRouter = createTRPCRouter({
       const loc = location as LocationNode;
 
       // Get figures from this location
-      const figures = ctx.graph.getNodesByType("figure")
-        .filter(f => "locations" in f && (f.locations as string[]).includes(input.id));
+      const figures = ctx.graph
+        .getNodesByType("figure")
+        .filter((f) => "locations" in f && (f.locations as string[]).includes(input.id));
 
       // Get time periods associated with this location
-      const periods = ctx.graph.getNodesByType("time")
-        .filter(t => "locations" in t && (t.locations as string[]).includes(input.id));
+      const periods = ctx.graph
+        .getNodesByType("time")
+        .filter((t) => "locations" in t && (t.locations as string[]).includes(input.id));
 
       // Get artifacts at this location
-      const artifacts = ctx.graph.getNodesByType("artifact")
-        .filter(o => "location" in o && o.location === input.id);
+      const artifacts = ctx.graph
+        .getNodesByType("artifact")
+        .filter((o) => "location" in o && o.location === input.id);
 
       const backlinks = ctx.graph.getBacklinks(input.id);
 
@@ -120,28 +117,25 @@ export const locationsRouter = createTRPCRouter({
     }),
 
   // Get all unique countries
-  getCountries: publicProcedure
-    .query(async ({ ctx }) => {
-      await ctx.graph.initialize();
+  getCountries: publicProcedure.query(async ({ ctx }) => {
+    await ctx.graph.initialize();
 
-      const locations = ctx.graph.getNodesByType<LocationNode>("location");
-      const countries = new Set<string>();
+    const locations = ctx.graph.getNodesByType<LocationNode>("location");
+    const countries = new Set<string>();
 
-      for (const loc of locations) {
-        if (loc.country) {
-          countries.add(loc.country);
-        }
+    for (const loc of locations) {
+      if (loc.country) {
+        countries.add(loc.country);
       }
+    }
 
-      return Array.from(countries).sort();
-    }),
+    return Array.from(countries).sort();
+  }),
 
   // Search locations
-  search: publicProcedure
-    .input(z.object({ query: z.string() }))
-    .query(async ({ input, ctx }) => {
-      await ctx.graph.initialize();
+  search: publicProcedure.input(z.object({ query: z.string() })).query(async ({ input, ctx }) => {
+    await ctx.graph.initialize();
 
-      return ctx.graph.search(input.query, { types: ["location"] });
-    }),
+    return ctx.graph.search(input.query, { types: ["location"] });
+  }),
 });

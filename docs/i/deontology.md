@@ -18,7 +18,7 @@ tags:
 
 # Deontology
 
-Deontology (from Greek *deon*, meaning "duty") is an ethical theory that judges the morality of actions based on their adherence to rules or duties, rather than their consequences. The most influential deontological theory is that of [[kant|Immanuel Kant]].
+Deontology (from Greek _deon_, meaning "duty") is an ethical theory that judges the morality of actions based on their adherence to rules or duties, rather than their consequences. The most influential deontological theory is that of [[kant|Immanuel Kant]].
 
 ## Core Principles
 
@@ -56,6 +56,7 @@ Deontological thinking influences:
 ## Criticisms
 
 Critics argue deontology:
+
 - Cannot resolve conflicts between duties
 - Ignores the importance of consequences
 - Fails to account for moral complexity

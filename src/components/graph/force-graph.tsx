@@ -35,10 +35,7 @@ const edgeStyles: Record<EdgeType, { stroke: string; dasharray: string }> = {
   created: { stroke: "currentColor", dasharray: "" },
 };
 
-export function ForceGraph({
-  data,
-  className = "",
-}: ForceGraphProps) {
+export function ForceGraph({ data, className = "" }: ForceGraphProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const svgRef = useRef<SVGSVGElement>(null);
   const router = useRouter();
@@ -79,7 +76,8 @@ export function ForceGraph({
     const container = svg.append("g");
 
     // Setup zoom behavior
-    const zoom = d3.zoom<SVGSVGElement, unknown>()
+    const zoom = d3
+      .zoom<SVGSVGElement, unknown>()
       .scaleExtent([0.1, 4])
       .on("zoom", (event) => {
         container.attr("transform", event.transform);
@@ -109,11 +107,14 @@ export function ForceGraph({
         d3
           .forceLink<SimNode, SimLink>(links)
           .id((d) => d.id)
-          .distance(100)
+          .distance(100),
       )
       .force("charge", d3.forceManyBody().strength(-200))
       .force("center", d3.forceCenter(width / 2, height / 2))
-      .force("collision", d3.forceCollide().radius((d) => (d as SimNode).title.length * 3.5 + 10));
+      .force(
+        "collision",
+        d3.forceCollide().radius((d) => (d as SimNode).title.length * 3.5 + 10),
+      );
 
     // Draw edges
     const link = container
@@ -167,7 +168,7 @@ export function ForceGraph({
             if (!event.active) simulation.alphaTarget(0);
             d.fx = null;
             d.fy = null;
-          })
+          }),
       );
 
     // Node text labels (replacing circles)
@@ -194,21 +195,15 @@ export function ForceGraph({
         // Highlight connected edges
         link
           .attr("stroke-opacity", (l) =>
-            (l.source as SimNode).id === d.id || (l.target as SimNode).id === d.id
-              ? 1
-              : 0.1
+            (l.source as SimNode).id === d.id || (l.target as SimNode).id === d.id ? 1 : 0.1,
           )
           .attr("stroke-width", (l) =>
-            (l.source as SimNode).id === d.id || (l.target as SimNode).id === d.id
-              ? 2.5
-              : 1.5
+            (l.source as SimNode).id === d.id || (l.target as SimNode).id === d.id ? 2.5 : 1.5,
           );
 
         // Show link labels for connected edges
         linkLabels.attr("opacity", (l) =>
-          (l.source as SimNode).id === d.id || (l.target as SimNode).id === d.id
-            ? 0.8
-            : 0
+          (l.source as SimNode).id === d.id || (l.target as SimNode).id === d.id ? 0.8 : 0,
         );
 
         // Fade other nodes
@@ -217,7 +212,7 @@ export function ForceGraph({
           const isConnected = links.some(
             (l) =>
               ((l.source as SimNode).id === d.id && (l.target as SimNode).id === n.id) ||
-              ((l.target as SimNode).id === d.id && (l.source as SimNode).id === n.id)
+              ((l.target as SimNode).id === d.id && (l.source as SimNode).id === n.id),
           );
           return isConnected ? 1 : 0.3;
         });
@@ -252,12 +247,7 @@ export function ForceGraph({
 
   return (
     <div ref={containerRef} className={`relative w-full h-full ${className}`}>
-      <svg
-        ref={svgRef}
-        width={width}
-        height={height}
-        className="bg-background"
-      />
+      <svg ref={svgRef} width={width} height={height} className="bg-background" />
       {hoveredNode && (
         <div
           className="fixed z-50 pointer-events-none bg-popover border border-border rounded-md shadow-md p-3 max-w-xs"
@@ -268,7 +258,10 @@ export function ForceGraph({
         >
           <p className="font-semibold">{hoveredNode.title}</p>
           <p className="text-sm text-muted-foreground">
-            {hoveredNode.type} {hoveredNode.year ? `(${hoveredNode.year < 0 ? `${Math.abs(hoveredNode.year)} BCE` : hoveredNode.year})` : ""}
+            {hoveredNode.type}{" "}
+            {hoveredNode.year
+              ? `(${hoveredNode.year < 0 ? `${Math.abs(hoveredNode.year)} BCE` : hoveredNode.year})`
+              : ""}
           </p>
           <p className="text-xs text-muted-foreground mt-1">
             {hoveredNode.connectionCount} connections

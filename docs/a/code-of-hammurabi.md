@@ -21,6 +21,7 @@ The code is inscribed on a black diorite stele standing over 7 feet tall. At the
 ## Content
 
 The code consists of 282 laws covering:
+
 - Property rights
 - Trade and commerce
 - Family relations

@@ -17,7 +17,7 @@ tags:
 
 # The Categorical Imperative
 
-The categorical imperative is the central philosophical concept in the deontological moral philosophy of [[kant|Immanuel Kant]]. Introduced in his *Groundwork of the Metaphysics of Morals* (1785), it provides a rational foundation for moral obligations.
+The categorical imperative is the central philosophical concept in the deontological moral philosophy of [[kant|Immanuel Kant]]. Introduced in his _Groundwork of the Metaphysics of Morals_ (1785), it provides a rational foundation for moral obligations.
 
 ## The Concept
 
@@ -54,6 +54,7 @@ Where [[virtue-ethics]] asks "What kind of person should I be?", Kantian ethics 
 ## Legacy
 
 The categorical imperative has profoundly influenced:
+
 - Human rights theory
 - Legal philosophy
 - Bioethics

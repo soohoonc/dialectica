@@ -13,7 +13,7 @@ tags:
 
 # Meditations
 
-*Meditations* (Greek: Τὰ εἰς ἑαυτόν) is a series of personal writings by Marcus Aurelius, Roman Emperor from 161 to 180 CE.
+_Meditations_ (Greek: Τὰ εἰς ἑαυτόν) is a series of personal writings by Marcus Aurelius, Roman Emperor from 161 to 180 CE.
 
 ## Content
 

@@ -17,6 +17,7 @@ The Benin Bronzes are a group of thousands of metal plaques and sculptures that 
 ## Description
 
 Created from the 13th century onwards, the collection includes:
+
 - Commemorative heads of kings (Obas) and queen mothers
 - Relief plaques depicting court life and ceremonies
 - Figures of warriors, musicians, and Portuguese traders

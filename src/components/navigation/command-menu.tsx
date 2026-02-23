@@ -49,10 +49,7 @@ export function CommandMenu() {
         <CommandEmpty>No results found.</CommandEmpty>
         <CommandGroup heading="Pages">
           {pages.map((page) => (
-            <CommandItem
-              key={page.href}
-              onSelect={() => handleSelect(page.href)}
-            >
+            <CommandItem key={page.href} onSelect={() => handleSelect(page.href)}>
               <page.icon className="mr-2 h-4 w-4" />
               {page.name}
             </CommandItem>

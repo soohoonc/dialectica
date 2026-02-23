@@ -29,10 +29,7 @@ export function WikiTableOfContents({
       <h2>Contents</h2>
       <ul>
         {tocHeadings.map((heading, index) => (
-          <li
-            key={`${heading.id}-${index}`}
-            className={heading.level === 3 ? "toc-h3" : ""}
-          >
+          <li key={`${heading.id}-${index}`} className={heading.level === 3 ? "toc-h3" : ""}>
             <Link href={`#${heading.id}`}>{heading.text}</Link>
           </li>
         ))}

@@ -36,6 +36,7 @@ These thinkers established [[virtue-ethics]] as the dominant ethical framework a
 ## Cultural Flourishing
 
 The Classical period saw:
+
 - The construction of the Parthenon
 - The tragedies of Aeschylus, Sophocles, and Euripides
 - The histories of Herodotus and Thucydides

@@ -27,7 +27,7 @@ Kant spent his entire life in and around [[konigsberg]], East Prussia (now Kalin
 
 ### Critique of Pure Reason (1781)
 
-Kant's magnum opus argues that while all our knowledge begins with experience, it does not all arise from experience. He introduced the distinction between *a priori* and *a posteriori* knowledge, and between *analytic* and *synthetic* judgments.
+Kant's magnum opus argues that while all our knowledge begins with experience, it does not all arise from experience. He introduced the distinction between _a priori_ and _a posteriori_ knowledge, and between _analytic_ and _synthetic_ judgments.
 
 ### The Categorical Imperative
 

@@ -14,7 +14,7 @@ tags:
 
 # Being and Time
 
-*Being and Time* (German: *Sein und Zeit*) is the 1927 magnum opus of Martin Heidegger.
+_Being and Time_ (German: _Sein und Zeit_) is the 1927 magnum opus of Martin Heidegger.
 
 ## Content
 

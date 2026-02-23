@@ -13,7 +13,7 @@ tags:
 
 # Confessions
 
-The *Confessions* (Latin: *Confessiones*) is an autobiographical work by Augustine of Hippo, written between 397 and 400 CE.
+The _Confessions_ (Latin: _Confessiones_) is an autobiographical work by Augustine of Hippo, written between 397 and 400 CE.
 
 ## Content
 

@@ -12,7 +12,7 @@ tags:
 
 # Venus de Milo
 
-The *Venus de Milo* (Greek: Ἀφροδίτη τῆς Μήλου) is an ancient Greek sculpture created sometime between 150 and 125 BCE.
+The _Venus de Milo_ (Greek: Ἀφροδίτη τῆς Μήλου) is an ancient Greek sculpture created sometime between 150 and 125 BCE.
 
 ## Description
 

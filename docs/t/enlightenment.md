@@ -48,6 +48,7 @@ The Enlightenment was characterized by:
 ## Legacy
 
 The Enlightenment's emphasis on reason, individual rights, and scientific inquiry profoundly shaped:
+
 - The American and French Revolutions
 - Modern liberal democracy
 - The scientific method

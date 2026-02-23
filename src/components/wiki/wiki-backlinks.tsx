@@ -26,9 +26,7 @@ export function WikiBacklinks({ backlinks, className = "" }: WikiBacklinksProps)
             >
               {backlink.sourceTitle}
             </Link>
-            {backlink.context && (
-              <p className="backlink-context">...{backlink.context}...</p>
-            )}
+            {backlink.context && <p className="backlink-context">...{backlink.context}...</p>}
           </li>
         ))}
       </ul>

@@ -41,8 +41,7 @@ const t = initTRPC.context<typeof createTRPCContext>().create({
       ...shape,
       data: {
         ...shape.data,
-        zodError:
-          error.cause instanceof ZodError ? error.cause.flatten() : null,
+        zodError: error.cause instanceof ZodError ? error.cause.flatten() : null,
       },
     };
   },
@@ -69,8 +68,6 @@ export const createCallerFactory = t.createCallerFactory;
  */
 export const createTRPCRouter = t.router;
 
-
-
 const timingMiddleware = t.middleware(async ({ next, path }) => {
   const start = Date.now();
 
@@ -87,6 +84,5 @@ const timingMiddleware = t.middleware(async ({ next, path }) => {
 
   return result;
 });
-
 
 export const publicProcedure = t.procedure.use(timingMiddleware);

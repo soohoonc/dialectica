@@ -19,35 +19,23 @@ interface WorldMapProps {
 }
 
 // Leaflet doesn't work with SSR, so we need to dynamically import it
-const MapContainer = dynamic(
-  () => import("react-leaflet").then((mod) => mod.MapContainer),
-  { ssr: false }
-);
+const MapContainer = dynamic(() => import("react-leaflet").then((mod) => mod.MapContainer), {
+  ssr: false,
+});
 
-const TileLayer = dynamic(
-  () => import("react-leaflet").then((mod) => mod.TileLayer),
-  { ssr: false }
-);
+const TileLayer = dynamic(() => import("react-leaflet").then((mod) => mod.TileLayer), {
+  ssr: false,
+});
 
-const Marker = dynamic(
-  () => import("react-leaflet").then((mod) => mod.Marker),
-  { ssr: false }
-);
+const Marker = dynamic(() => import("react-leaflet").then((mod) => mod.Marker), { ssr: false });
 
-const Popup = dynamic(
-  () => import("react-leaflet").then((mod) => mod.Popup),
-  { ssr: false }
-);
+const Popup = dynamic(() => import("react-leaflet").then((mod) => mod.Popup), { ssr: false });
 
-const Tooltip = dynamic(
-  () => import("react-leaflet").then((mod) => mod.Tooltip),
-  { ssr: false }
-);
+const Tooltip = dynamic(() => import("react-leaflet").then((mod) => mod.Tooltip), { ssr: false });
 
-const ZoomControl = dynamic(
-  () => import("react-leaflet").then((mod) => mod.ZoomControl),
-  { ssr: false }
-);
+const ZoomControl = dynamic(() => import("react-leaflet").then((mod) => mod.ZoomControl), {
+  ssr: false,
+});
 
 function MapContent({ locations }: WorldMapProps) {
   const [L, setL] = useState<typeof import("leaflet") | null>(null);
@@ -78,10 +66,7 @@ function MapContent({ locations }: WorldMapProps) {
   });
 
   // Limit vertical panning (latitude) but allow horizontal wrapping
-  const maxBounds = L.latLngBounds(
-    L.latLng(-85, -Infinity),
-    L.latLng(85, Infinity)
-  );
+  const maxBounds = L.latLngBounds(L.latLng(-85, -Infinity), L.latLng(85, Infinity));
 
   return (
     <MapContainer
@@ -121,24 +106,14 @@ function MapContent({ locations }: WorldMapProps) {
             },
           }}
         >
-          <Tooltip
-            direction="top"
-            offset={[0, -8]}
-            permanent={false}
-            className="location-tooltip"
-          >
+          <Tooltip direction="top" offset={[0, -8]} permanent={false} className="location-tooltip">
             <span className="font-medium">{location.name}</span>
             {location.country && (
-              <span className="text-muted-foreground ml-1">
-                ({location.country})
-              </span>
+              <span className="text-muted-foreground ml-1">({location.country})</span>
             )}
           </Tooltip>
           <Popup>
-            <a
-              href={`/l/${location.slug}`}
-              className="text-primary hover:underline font-medium"
-            >
+            <a href={`/l/${location.slug}`} className="text-primary hover:underline font-medium">
               {location.name}
             </a>
             {location.country && (
@@ -167,7 +142,7 @@ export function WorldMap({ locations }: WorldMapProps) {
   }
 
   return (
-    <div className="h-full w-full" style={{ zIndex: 0, position: 'relative' }}>
+    <div className="h-full w-full" style={{ zIndex: 0, position: "relative" }}>
       <MapContent locations={locations} />
     </div>
   );

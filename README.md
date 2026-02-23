@@ -1,4 +1,4 @@
-#  dialectica
+# dialectica
 
 discussions of humanity
 
@@ -8,6 +8,7 @@ This is a fancy UI layer on top of a markdown/obsidian vault directory.
 It is optimized to show the conversation of humanity.
 
 We define 5 objects within the ontology.
+
 - Figures: the who (the figure, the soul)
 - Times: the when (the temporal dimension)
 - Locations: the where (the spatial dimension)
@@ -25,6 +26,6 @@ the hows will be wiki pages (under /p directory) it will contain articles that l
 
 I am inspired by wikipedia and gwern.net
 
-the thematic colors are black and white, with bolded and dotted underlined for links (like gwern). 
+the thematic colors are black and white, with bolded and dotted underlined for links (like gwern).
 
 the individual pages will be markdown files (under a configurable directory, /docs for now)

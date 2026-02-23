@@ -13,7 +13,7 @@ tags:
 
 # The Republic
 
-*The Republic* (Greek: Πολιτεία, *Politeia*) is a Socratic dialogue written by [[plato]] around 375 BCE. It is one of the most influential works in philosophy and political theory.
+_The Republic_ (Greek: Πολιτεία, _Politeia_) is a Socratic dialogue written by [[plato]] around 375 BCE. It is one of the most influential works in philosophy and political theory.
 
 ## Content
 
@@ -43,7 +43,7 @@ Plato outlines an educational system designed to produce wise rulers, including 
 
 ## Influence
 
-*The Republic* has profoundly shaped:
+_The Republic_ has profoundly shaped:
 
 - Political philosophy
 - Educational theory

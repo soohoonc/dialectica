@@ -17,7 +17,7 @@ interface WikiContentProps {
 // Process wiki-links [[target]] or [[target|alias]]
 function processWikiLinks(
   content: string,
-  resolver?: (target: string) => { href: string; exists: boolean } | null
+  resolver?: (target: string) => { href: string; exists: boolean } | null,
 ): string {
   const wikiLinkRegex = /\[\[([^\]|#]+)(?:#([^\]|]+))?(?:\|([^\]]+))?\]\]/g;
 
@@ -39,18 +39,12 @@ function processWikiLinks(
     }
 
     // Fallback: assume it's a page
-    const href = section
-      ? `/p/${normalizedTarget}#${section}`
-      : `/p/${normalizedTarget}`;
+    const href = section ? `/p/${normalizedTarget}#${section}` : `/p/${normalizedTarget}`;
     return `<a href="${href}" class="link-internal">${displayText}</a>`;
   });
 }
 
-export function WikiContent({
-  content,
-  className = "",
-  linkResolver,
-}: WikiContentProps) {
+export function WikiContent({ content, className = "", linkResolver }: WikiContentProps) {
   const htmlContent = useMemo(() => {
     // Process wiki-links first
     const processedContent = processWikiLinks(content, linkResolver);
@@ -67,17 +61,12 @@ export function WikiContent({
     return String(result);
   }, [content, linkResolver]);
 
-  return (
-    <div
-      className={`prose ${className}`}
-      dangerouslySetInnerHTML={{ __html: htmlContent }}
-    />
-  );
+  return <div className={`prose ${className}`} dangerouslySetInnerHTML={{ __html: htmlContent }} />;
 }
 
 // Extract headings from markdown content for TOC
 export function extractHeadings(
-  content: string
+  content: string,
 ): Array<{ level: number; text: string; id: string }> {
   const headingRegex = /^(#{1,4})\s+(.+)$/gm;
   const headings: Array<{ level: number; text: string; id: string }> = [];

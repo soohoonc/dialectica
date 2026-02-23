@@ -61,10 +61,7 @@ export default function ArtifactPage({ params }: ArtifactPageProps) {
             {creator && (
               <div className="metadata-item">
                 <span className="metadata-label">Creator:</span>
-                <Link
-                  href={getOntologyUrl("figure", creator.slug)}
-                  className="link-internal"
-                >
+                <Link href={getOntologyUrl("figure", creator.slug)} className="link-internal">
                   {"name" in creator ? (creator.name as string) : creator.title}
                 </Link>
               </div>
@@ -72,10 +69,7 @@ export default function ArtifactPage({ params }: ArtifactPageProps) {
             {location && (
               <div className="metadata-item">
                 <span className="metadata-label">Location:</span>
-                <Link
-                  href={getOntologyUrl("location", location.slug)}
-                  className="link-internal"
-                >
+                <Link href={getOntologyUrl("location", location.slug)} className="link-internal">
                   {"name" in location ? (location.name as string) : location.title}
                 </Link>
               </div>
@@ -89,10 +83,7 @@ export default function ArtifactPage({ params }: ArtifactPageProps) {
             {era && (
               <div className="metadata-item">
                 <span className="metadata-label">Era:</span>
-                <Link
-                  href={getOntologyUrl("time", era.slug)}
-                  className="link-internal"
-                >
+                <Link href={getOntologyUrl("time", era.slug)} className="link-internal">
                   {"name" in era ? (era.name as string) : era.title}
                 </Link>
               </div>
