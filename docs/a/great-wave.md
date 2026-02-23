@@ -2,7 +2,7 @@
 type: artifact
 name: The Great Wave off Kanagawa
 year: 1831
-creator: hokusai
+creator: katsushika-hokusai
 location: edo
 medium: painting
 tags:
@@ -33,15 +33,19 @@ Part of the series _Thirty-six Views of Mount Fuji_ (富嶽三十六景), explor
 
 One of the most recognized works of Japanese art, it influenced Western Impressionists and remains an iconic image worldwide.
 
-## Ontology Connections
-
-This entry is further connected in the graph through [[aztec-sun-stone]], [[aristotle]], [[patristic-era]].
-
 ## Related Links
 
-- Artifact: [[aztec-sun-stone]]
-- Figure: [[aristotle]]
-- Time: [[patristic-era]]
-- Location: [[hangzhou]]
-- Idea: [[samsara]]
-- Artifact: [[visuddhimagga]]
+- Figure: [[katsushika-hokusai]]
+- Location: [[edo]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Creator: [[katsushika-hokusai]]
+- Location: [[edo]]
+- Mentioned in body: [[katsushika-hokusai]], [[edo]]
+
+## Network Context
+
+- Referenced by figures: [[katsushika-hokusai]]
+<!-- dialectica:auto-links:end -->

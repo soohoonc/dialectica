@@ -20,18 +20,35 @@ tags:
 ---
 # Frankfurt School
 
-Frankfurt School is a school-level idea node added to broaden coverage across analytic, theological, eastern, and esoteric traditions.
+Frankfurt School is represented as a conceptual node for comparing arguments, lineages, and points of conflict across traditions.
 
-## Graph Anchors
+## Core Position
 
-- Period context: [[twentieth-century]]
-- Comparative links: [[dialectic]], [[historical-materialism]], [[logical-positivism]]
+- Built from: [[dialectic]], [[historical-materialism]]
+- In tension with: [[logical-positivism]]
+- Combined with: [[dialectic]], [[genealogy-of-morals]]
 
-## Ontology Connections
+## Historical Placement
 
-This entry is further connected in the graph through [[genealogy-of-morals]], [[berlin]].
+This idea is currently associated with figures [[aristotle]], [[kant]], [[confucius]] and periods [[twentieth-century]].
 
-## Related Links
+## Study Path
 
-- Idea: [[genealogy-of-morals]]
-- Location: [[berlin]]
+- Adjacent ideas: [[logical-positivism]], [[legalism]], [[analytic-philosophy]], [[asharism]], [[banality-of-evil]], [[carvaka-materialism]], [[civic-examination]], [[civic-republicanism]]
+- Connected figures: [[aristotle]], [[kant]], [[confucius]]
+- Referencing artifacts: [[aryabhatiya]], [[third-of-may-1808]], [[annus-mirabilis-papers-1905]], [[being-and-time]], [[book-of-optics-ibn-al-haytham]], [[campbells-soup-cans]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Periods: [[twentieth-century]]
+- Influences: [[dialectic]], [[historical-materialism]]
+- Contradicts: [[logical-positivism]]
+- Synthesizes: [[dialectic]], [[genealogy-of-morals]]
+- Mentioned in body: [[dialectic]], [[historical-materialism]], [[logical-positivism]], [[genealogy-of-morals]], [[aristotle]], [[kant]], [[confucius]], [[twentieth-century]], [[legalism]], [[analytic-philosophy]], [[asharism]], [[banality-of-evil]], [[carvaka-materialism]], [[civic-examination]], [[civic-republicanism]], [[aryabhatiya]]
+
+## Network Context
+
+- Referenced by figures: [[albert-einstein]], [[barbara-mcclintock]], [[constantin-brancusi]], [[diego-rivera]], [[georgia-okeeffe]], [[henri-matisse]], [[marcel-duchamp]], [[niels-bohr]], [[pablo-picasso]], [[salvador-dali]], [[subrahmanyan-chandrasekhar]], [[wassily-kandinsky]]
+- Referenced by ideas: [[critical-rationalism]], [[legalism]], [[logical-positivism]], [[ordinary-language-philosophy]], [[philosophical-hermeneutics]], [[post-structuralism]], [[psychoanalysis]], [[structuralism]], [[verificationism]]
+<!-- dialectica:auto-links:end -->

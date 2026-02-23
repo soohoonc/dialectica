@@ -12,7 +12,6 @@ tags:
   - reform
   - modernity
 ---
-
 # High Enlightenment
 
 High Enlightenment marks a period in which institutions, argument styles, and knowledge practices were reorganized. In this corpus, it is connected to [[kant]] and the development of [[practical-reason]].
@@ -25,4 +24,17 @@ This period is best read through connected place nodes such as [[paris]], [[athe
 
 - Figure: [[kant]]
 - Idea: [[practical-reason]]
-- Comparative references: [[classical-greece]], [[enlightenment]], [[virtue-ethics]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Locations: [[paris]], [[edinburgh]], [[konigsberg]]
+- Mentioned in body: [[kant]], [[practical-reason]], [[paris]], [[athens]]
+
+## Network Context
+
+- Referenced by figures: [[mary-wollstonecraft]], [[montesquieu]]
+- Referenced by ideas: [[rights-of-woman]], [[separation-of-powers]]
+- Referenced by artifacts: [[spirit-of-laws]], [[vindication-rights-woman]]
+- Referenced by locations: [[stockholm]]
+<!-- dialectica:auto-links:end -->

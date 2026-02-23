@@ -29,15 +29,18 @@ Discovered in 1974 by local farmers near Xi'an, the site is now a UNESCO World H
 
 The army demonstrates the power and resources of the Qin dynasty and provides invaluable insight into ancient Chinese military organization and artistry.
 
-## Ontology Connections
-
-This entry is further connected in the graph through [[xian]], [[aztec-sun-stone]], [[mark-rothko]].
-
 ## Related Links
 
 - Location: [[xian]]
-- Artifact: [[aztec-sun-stone]]
-- Figure: [[mark-rothko]]
-- Time: [[high-scholastic-era]]
-- Location: [[cairo]]
-- Idea: [[yin-yang]]
+- Idea: [[ritual-propriety]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Location: [[xian]]
+- Mentioned in body: [[xian]], [[ritual-propriety]]
+
+## Network Context
+
+- Referenced by locations: [[xian]]
+<!-- dialectica:auto-links:end -->

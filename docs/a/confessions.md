@@ -2,7 +2,7 @@
 type: artifact
 name: Confessions
 year: 400
-creator: augustine
+creator: augustine-of-hippo
 location: hippo
 medium: book
 tags:
@@ -30,15 +30,20 @@ Part autobiography, part theological meditation, the Confessions traces Augustin
 
 "You have made us for yourself, O Lord, and our heart is restless until it rests in you."
 
-## Ontology Connections
-
-This entry is further connected in the graph through [[hippo]], [[anselm-of-canterbury]], [[apostolic-era]].
-
 ## Related Links
 
+- Figure: [[augustine-of-hippo]]
 - Location: [[hippo]]
-- Figure: [[anselm-of-canterbury]]
-- Time: [[apostolic-era]]
-- Location: [[aksum]]
-- Idea: [[analogy-of-being]]
-- Artifact: [[city-of-god-augustinian]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Creator: [[augustine-of-hippo]]
+- Location: [[hippo]]
+- Mentioned in body: [[augustine-of-hippo]], [[hippo]]
+
+## Network Context
+
+- Referenced by figures: [[augustine-of-hippo]]
+- Referenced by times: [[apostolic-era]], [[arabic-latin-translation-era]], [[axial-age-core]], [[babylonian-astrology-era]], [[bhakti-movement]], [[caliphate-fragmentation-era]], [[classical-sanskrit-age]], [[columbian-exchange-era]], [[comparative-religion-era]], [[counter-reformation-era]], [[depth-psychology-era]], [[digital-esotericism-era]], [[early-buddhist-councils-era]], [[epic-upanishadic-age]], [[esotericism-academic-turn]], [[first-great-awakening]]
+<!-- dialectica:auto-links:end -->

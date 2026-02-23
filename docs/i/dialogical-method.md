@@ -17,7 +17,6 @@ tags:
   - dialectic
   - education
 ---
-
 # Dialogical Method
 
 Dialogical Method is modeled here as a connective concept that links figure, period, and argument structure. This page is anchored in [[plato]] and historically situated in [[classical-greece]].
@@ -26,8 +25,17 @@ Dialogical Method is modeled here as a connective concept that links figure, per
 
 This idea is best approached relationally: it develops themes from [[forms]] while challenging [[nihilism]]. In this corpus, it is read alongside [[deontology]], [[virtue-ethics]], and [[forms]].
 
+<!-- dialectica:auto-links:start -->
 ## Graph Links
 
-- Figure: [[plato]]
-- Period: [[classical-greece]]
+- Authors: [[plato]]
+- Periods: [[classical-greece]]
 - Influences: [[forms]], [[civic-examination]]
+- Contradicts: [[nihilism]]
+- Mentioned in body: [[plato]], [[classical-greece]], [[forms]], [[nihilism]], [[deontology]], [[virtue-ethics]]
+
+## Network Context
+
+- Referenced by ideas: [[philosophical-hermeneutics]], [[school-of-names]]
+- Referenced by times: [[renaissance-humanism]]
+<!-- dialectica:auto-links:end -->

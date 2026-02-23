@@ -2,7 +2,7 @@
 type: artifact
 name: Guernica
 year: 1937
-creator: picasso
+creator: pablo-picasso
 location: paris
 medium: painting
 tags:
@@ -35,15 +35,19 @@ Painted for the Spanish Republic's pavilion at the 1937 Paris International Expo
 
 Now housed in the Museo Reina Sofía in Madrid, where it arrived in 1981 after the death of Franco.
 
-## Ontology Connections
-
-This entry is further connected in the graph through [[paris]], [[night-watch]], [[abdus-salam]].
-
 ## Related Links
 
+- Figure: [[pablo-picasso]]
 - Location: [[paris]]
-- Artifact: [[night-watch]]
-- Figure: [[abdus-salam]]
-- Time: [[six-dynasties-period]]
-- Location: [[bologna]]
-- Idea: [[theurgy]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Creator: [[pablo-picasso]]
+- Location: [[paris]]
+- Mentioned in body: [[pablo-picasso]], [[paris]]
+
+## Network Context
+
+- Referenced by figures: [[amrita-sher-gil]], [[auguste-rodin]], [[claude-monet]], [[constantin-brancusi]], [[diego-rivera]], [[edgar-degas]], [[frida-kahlo]], [[henri-matisse]], [[pablo-picasso]], [[paul-cezanne]], [[salvador-dali]]
+<!-- dialectica:auto-links:end -->

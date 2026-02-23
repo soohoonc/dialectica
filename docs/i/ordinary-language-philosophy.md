@@ -17,19 +17,34 @@ tags:
 ---
 # Ordinary Language Philosophy
 
-Ordinary Language Philosophy is a school-level idea node added to broaden coverage across analytic, theological, eastern, and esoteric traditions.
+Ordinary Language Philosophy is represented as a conceptual node for comparing arguments, lineages, and points of conflict across traditions.
 
-## Graph Anchors
+## Core Position
 
-- Period context: [[postwar-era]]
-- Comparative links: [[analytic-philosophy]], [[verificationism]]
+- Built from: [[analytic-philosophy]]
+- In tension with: [[verificationism]]
+- Combined with: [[carvaka-materialism]], [[critical-rationalism]], [[frankfurt-school]]
 
-## Ontology Connections
+## Historical Placement
 
-This entry is further connected in the graph through [[niels-bohr]], [[hellenistic-astrology-era]], [[alexandria]].
+This idea is currently associated with figures [[aristotle]], [[kant]], [[confucius]] and periods [[postwar-era]].
 
-## Related Links
+## Study Path
 
-- Figure: [[niels-bohr]]
-- Time: [[hellenistic-astrology-era]]
-- Location: [[alexandria]]
+- Adjacent ideas: [[analytic-philosophy]], [[verificationism]], [[logical-positivism]], [[philosophical-hermeneutics]], [[structuralism]], [[asharism]], [[carvaka-materialism]], [[critical-rationalism]]
+- Connected figures: [[aristotle]], [[kant]], [[confucius]]
+- Referencing artifacts: [[aryabhatiya]], [[third-of-may-1808]], [[annus-mirabilis-papers-1905]], [[being-and-time]], [[book-of-optics-ibn-al-haytham]], [[campbells-soup-cans]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Periods: [[postwar-era]]
+- Influences: [[analytic-philosophy]]
+- Contradicts: [[verificationism]]
+- Mentioned in body: [[analytic-philosophy]], [[verificationism]], [[carvaka-materialism]], [[critical-rationalism]], [[frankfurt-school]], [[aristotle]], [[kant]], [[confucius]], [[postwar-era]], [[logical-positivism]], [[philosophical-hermeneutics]], [[structuralism]], [[asharism]], [[aryabhatiya]], [[third-of-may-1808]], [[annus-mirabilis-papers-1905]]
+
+## Network Context
+
+- Referenced by figures: [[abdus-salam]], [[andy-warhol]], [[jackson-pollock]], [[jean-michel-basquiat]], [[lynn-margulis]], [[mark-rothko]], [[rachel-carson]], [[richard-feynman]], [[vera-rubin]], [[yayoi-kusama]]
+- Referenced by ideas: [[analytic-philosophy]], [[logical-positivism]], [[philosophical-hermeneutics]], [[structuralism]], [[verificationism]]
+<!-- dialectica:auto-links:end -->

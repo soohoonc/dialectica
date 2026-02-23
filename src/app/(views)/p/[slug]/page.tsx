@@ -48,9 +48,9 @@ export default function WikiPage({ params }: PageProps) {
           {page.tags.length > 0 && (
             <div className="tags">
               {page.tags.map((tag) => (
-                <span key={tag} className="tag">
+                <Link key={tag} href={`/tags/${encodeURIComponent(tag)}`} className="tag">
                   {tag}
-                </span>
+                </Link>
               ))}
             </div>
           )}

@@ -14,20 +14,30 @@ tags:
 ---
 # Constantin Brancusi
 
-Constantin Brancusi is a figure node added to strengthen scientific and artistic coverage in the graph.
+Constantin Brancusi is modeled here as a biographical node that connects social context, intellectual debates, and material outputs.
 
-## Graph Anchors
+## Intellectual Context
+
+This figure is currently anchored to locations [[paris]] and periods [[twentieth-century]].
+
+## Debate Surface
+
+High-signal conceptual neighbors include [[analytic-philosophy]], [[banality-of-evil]], [[biopolitics]], [[critical-rationalism]], [[disciplinary-power]], [[existential-freedom]], [[existentialism]], [[frankfurt-school]] and related artifacts [[les-demoiselles-davignon-picasso]], [[water-lilies-series]], [[annus-mirabilis-papers-1905]], [[composition-viii-kandinsky]], [[guernica]], [[spirit-of-laws]], [[two-fridas]], [[radioactivity-treatise]].
+
+## Study Path
+
+- Peer figures: [[diego-rivera]], [[henri-matisse]], [[marcel-duchamp]], [[pablo-picasso]], [[salvador-dali]], [[michel-foucault]], [[simone-de-beauvoir]], [[auguste-rodin]]
+- Related ideas: [[analytic-philosophy]], [[banality-of-evil]], [[biopolitics]], [[critical-rationalism]], [[disciplinary-power]], [[existential-freedom]], [[existentialism]], [[frankfurt-school]]
+- Related artifacts: [[les-demoiselles-davignon-picasso]], [[water-lilies-series]], [[annus-mirabilis-papers-1905]], [[composition-viii-kandinsky]], [[guernica]], [[spirit-of-laws]], [[two-fridas]], [[radioactivity-treatise]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
 
 - Locations: [[paris]]
 - Periods: [[twentieth-century]]
+- Mentioned in body: [[paris]], [[twentieth-century]], [[analytic-philosophy]], [[banality-of-evil]], [[biopolitics]], [[critical-rationalism]], [[disciplinary-power]], [[existential-freedom]], [[existentialism]], [[frankfurt-school]], [[les-demoiselles-davignon-picasso]], [[water-lilies-series]], [[annus-mirabilis-papers-1905]], [[composition-viii-kandinsky]], [[guernica]], [[spirit-of-laws]]
 
-## Ontology Connections
+## Network Context
 
-This entry is further connected in the graph through [[auguste-rodin]], [[richard-feynman]], [[muromachi-period]].
-
-## Related Links
-
-- Figure: [[auguste-rodin]]
-- Figure: [[richard-feynman]]
-- Time: [[muromachi-period]]
-- Location: [[amritsar]]
+- Referenced by figures: [[auguste-rodin]], [[barbara-mcclintock]], [[diego-rivera]], [[georgia-okeeffe]], [[henri-matisse]], [[marcel-duchamp]], [[pablo-picasso]], [[salvador-dali]], [[wassily-kandinsky]]
+<!-- dialectica:auto-links:end -->

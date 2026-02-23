@@ -10,7 +10,6 @@ tags:
   - imperial
   - transition
 ---
-
 # Byzantium
 
 Byzantium functions in this graph as a site where intellectual exchange, institutions, and political transformations converged. It is linked with [[roman-imperial-era]] and with figures such as [[marcus-aurelius]].
@@ -24,3 +23,14 @@ As a location node, Byzantium helps connect people, ideas, and periods across th
 - Period: [[roman-imperial-era]]
 - Figure: [[marcus-aurelius]]
 - Ideas: [[virtue-ethics]], [[deontology]], [[forms]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Mentioned in body: [[roman-imperial-era]], [[marcus-aurelius]], [[athens]], [[konigsberg]], [[paris]], [[virtue-ethics]], [[deontology]], [[forms]]
+
+## Network Context
+
+- Referenced by figures: [[marcus-aurelius]]
+- Referenced by times: [[roman-imperial-era]]
+<!-- dialectica:auto-links:end -->

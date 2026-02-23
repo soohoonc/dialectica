@@ -3,7 +3,7 @@ type: location
 name: Hippo
 country: Algeria
 coordinates:
-  lat: 36.9000
+  lat: 36.9
   lng: 7.7667
 tags:
   - late-antiquity
@@ -24,10 +24,14 @@ Hippo illustrates how intellectual traditions were reframed through institutiona
 - Comparative places: [[rome]], [[alexandria]]
 - Related ideas: [[deontology]], [[forms]]
 
-## Ontology Connections
+<!-- dialectica:auto-links:start -->
+## Graph Links
 
-This entry is further connected in the graph through [[martin-luther]].
+- Mentioned in body: [[late-antiquity]], [[rome]], [[alexandria]], [[deontology]], [[forms]]
 
-## Related Links
+## Network Context
 
-- Figure: [[martin-luther]]
+- Referenced by figures: [[augustine-of-hippo]]
+- Referenced by artifacts: [[confessions]]
+- Referenced by times: [[late-antiquity]]
+<!-- dialectica:auto-links:end -->

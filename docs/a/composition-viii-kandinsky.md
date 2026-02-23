@@ -12,20 +12,38 @@ tags:
 ---
 # Composition VIII
 
-Composition VIII is an artifact seed linked to [[wassily-kandinsky]] to improve scientist/artist connectivity in the ontology graph.
+Composition VIII is treated as a painting from 1923 and used as a material anchor for conceptual and historical links in the graph.
 
-## Context
+## Historical Placement
 
 - Creator: [[wassily-kandinsky]]
-- Period: [[twentieth-century]]
 - Location: [[moscow]]
+- Era: [[twentieth-century]]
 
-## Ontology Connections
+## Interpretive Threads
 
-This entry is further connected in the graph through [[renaissance]], [[calling-of-saint-matthew]], [[al-khwarizmi]].
+This artifact is currently read alongside the linked concepts below.
+
+## Study Path
+
+- Nearby artifacts: see related links below.
+- Connected times: see related links below.
 
 ## Related Links
 
-- Time: [[renaissance]]
-- Artifact: [[calling-of-saint-matthew]]
-- Figure: [[al-khwarizmi]]
+- Idea: [[phenomenology]]
+- Idea: [[metaphysical-essence]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Creator: [[wassily-kandinsky]]
+- Location: [[moscow]]
+- Era: [[twentieth-century]]
+- Mentioned in body: [[wassily-kandinsky]], [[moscow]], [[twentieth-century]], [[phenomenology]], [[metaphysical-essence]]
+
+## Network Context
+
+- Referenced by figures: [[albert-einstein]], [[barbara-mcclintock]], [[constantin-brancusi]], [[diego-rivera]], [[georgia-okeeffe]], [[henri-matisse]], [[marcel-duchamp]], [[niels-bohr]], [[pablo-picasso]], [[salvador-dali]], [[subrahmanyan-chandrasekhar]], [[wassily-kandinsky]]
+- Referenced by times: [[apostolic-era]], [[arabic-latin-translation-era]], [[axial-age-core]], [[babylonian-astrology-era]], [[bhakti-movement]], [[caliphate-fragmentation-era]], [[classical-sanskrit-age]], [[columbian-exchange-era]], [[comparative-religion-era]], [[counter-reformation-era]], [[depth-psychology-era]], [[digital-esotericism-era]], [[early-buddhist-councils-era]], [[epic-upanishadic-age]], [[esotericism-academic-turn]], [[first-great-awakening]]
+<!-- dialectica:auto-links:end -->

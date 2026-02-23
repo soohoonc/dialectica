@@ -10,7 +10,6 @@ tags:
   - university
   - philosophy
 ---
-
 # Heidelberg
 
 Heidelberg functions in this graph as a site where intellectual exchange, institutions, and political transformations converged. It is linked with [[interwar-period]] and with figures such as [[emmy-noether]].
@@ -24,3 +23,15 @@ As a location node, Heidelberg helps connect people, ideas, and periods across t
 - Period: [[interwar-period]]
 - Figure: [[emmy-noether]]
 - Ideas: [[virtue-ethics]], [[deontology]], [[forms]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Mentioned in body: [[interwar-period]], [[emmy-noether]], [[athens]], [[konigsberg]], [[paris]], [[virtue-ethics]], [[deontology]], [[forms]]
+
+## Network Context
+
+- Referenced by figures: [[emmy-noether]]
+- Referenced by artifacts: [[noether-theorem-paper]]
+- Referenced by times: [[protestant-reformation]]
+<!-- dialectica:auto-links:end -->

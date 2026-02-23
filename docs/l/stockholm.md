@@ -10,7 +10,6 @@ tags:
   - modern
   - state
 ---
-
 # Stockholm
 
 Stockholm functions in this graph as a site where intellectual exchange, institutions, and political transformations converged. It is linked with [[high-enlightenment]] and with figures such as [[kant]].
@@ -24,3 +23,13 @@ As a location node, Stockholm helps connect people, ideas, and periods across th
 - Period: [[high-enlightenment]]
 - Figure: [[kant]]
 - Ideas: [[virtue-ethics]], [[deontology]], [[forms]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Mentioned in body: [[high-enlightenment]], [[kant]], [[athens]], [[konigsberg]], [[paris]], [[virtue-ethics]], [[deontology]], [[forms]]
+
+## Network Context
+
+- No inbound references yet.
+<!-- dialectica:auto-links:end -->

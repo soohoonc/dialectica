@@ -14,20 +14,30 @@ tags:
 ---
 # Georgia O'Keeffe
 
-Georgia O'Keeffe is a figure node added to strengthen scientific and artistic coverage in the graph.
+Georgia O'Keeffe is modeled here as a biographical node that connects social context, intellectual debates, and material outputs.
 
-## Graph Anchors
+## Intellectual Context
+
+This figure is currently anchored to locations [[new-york]] and periods [[twentieth-century]].
+
+## Debate Surface
+
+High-signal conceptual neighbors include [[analytic-philosophy]], [[banality-of-evil]], [[biopolitics]], [[critical-rationalism]], [[disciplinary-power]], [[existential-freedom]], [[existentialism]], [[frankfurt-school]] and related artifacts [[mathematical-theory-of-communication]], [[annus-mirabilis-papers-1905]], [[campbells-soup-cans]], [[composition-viii-kandinsky]], [[democracy-and-education]], [[fountain-duchamp]], [[les-demoiselles-davignon-picasso]], [[water-lilies-series]].
+
+## Study Path
+
+- Peer figures: [[marcel-duchamp]], [[barbara-mcclintock]], [[hannah-arendt]], [[henri-matisse]], [[pablo-picasso]], [[salvador-dali]], [[wassily-kandinsky]], [[constantin-brancusi]]
+- Related ideas: [[analytic-philosophy]], [[banality-of-evil]], [[biopolitics]], [[critical-rationalism]], [[disciplinary-power]], [[existential-freedom]], [[existentialism]], [[frankfurt-school]]
+- Related artifacts: [[mathematical-theory-of-communication]], [[annus-mirabilis-papers-1905]], [[campbells-soup-cans]], [[composition-viii-kandinsky]], [[democracy-and-education]], [[fountain-duchamp]], [[les-demoiselles-davignon-picasso]], [[water-lilies-series]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
 
 - Locations: [[new-york]]
 - Periods: [[twentieth-century]]
+- Mentioned in body: [[new-york]], [[twentieth-century]], [[analytic-philosophy]], [[banality-of-evil]], [[biopolitics]], [[critical-rationalism]], [[disciplinary-power]], [[existential-freedom]], [[existentialism]], [[frankfurt-school]], [[mathematical-theory-of-communication]], [[annus-mirabilis-papers-1905]], [[campbells-soup-cans]], [[composition-viii-kandinsky]], [[democracy-and-education]], [[fountain-duchamp]]
 
-## Ontology Connections
+## Network Context
 
-This entry is further connected in the graph through [[amrita-sher-gil]], [[kukai]], [[songhai-intellectual-era]].
-
-## Related Links
-
-- Figure: [[amrita-sher-gil]]
-- Figure: [[kukai]]
-- Time: [[songhai-intellectual-era]]
-- Location: [[nara]]
+- Referenced by figures: [[barbara-mcclintock]], [[diego-rivera]], [[henri-matisse]], [[jackson-pollock]], [[jean-michel-basquiat]], [[marcel-duchamp]], [[mark-rothko]], [[pablo-picasso]], [[salvador-dali]], [[wassily-kandinsky]]
+<!-- dialectica:auto-links:end -->

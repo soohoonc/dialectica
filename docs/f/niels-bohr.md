@@ -14,20 +14,30 @@ tags:
 ---
 # Niels Bohr
 
-Niels Bohr is a figure node added to strengthen scientific and artistic coverage in the graph.
+Niels Bohr is modeled here as a biographical node that connects social context, intellectual debates, and material outputs.
 
-## Graph Anchors
+## Intellectual Context
+
+This figure is currently anchored to locations [[berlin]] and periods [[twentieth-century]].
+
+## Debate Surface
+
+High-signal conceptual neighbors include [[analytic-philosophy]], [[banality-of-evil]], [[biopolitics]], [[critical-rationalism]], [[disciplinary-power]], [[existential-freedom]], [[existentialism]], [[frankfurt-school]] and related artifacts [[annus-mirabilis-papers-1905]], [[composition-viii-kandinsky]], [[foundations-of-geometry-hilbert]], [[les-demoiselles-davignon-picasso]], [[planck-quantum-hypothesis-1900]], [[uncertainty-principle-paper-1927]], [[water-lilies-series]].
+
+## Study Path
+
+- Peer figures: [[albert-einstein]], [[hannah-arendt]], [[subrahmanyan-chandrasekhar]], [[barbara-mcclintock]], [[max-planck]], [[werner-heisenberg]], [[bernhard-riemann]], [[carl-friedrich-gauss]]
+- Related ideas: [[analytic-philosophy]], [[banality-of-evil]], [[biopolitics]], [[critical-rationalism]], [[disciplinary-power]], [[existential-freedom]], [[existentialism]], [[frankfurt-school]]
+- Related artifacts: [[annus-mirabilis-papers-1905]], [[composition-viii-kandinsky]], [[foundations-of-geometry-hilbert]], [[les-demoiselles-davignon-picasso]], [[planck-quantum-hypothesis-1900]], [[uncertainty-principle-paper-1927]], [[water-lilies-series]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
 
 - Locations: [[berlin]]
 - Periods: [[twentieth-century]]
+- Mentioned in body: [[berlin]], [[twentieth-century]], [[analytic-philosophy]], [[banality-of-evil]], [[biopolitics]], [[critical-rationalism]], [[disciplinary-power]], [[existential-freedom]], [[existentialism]], [[frankfurt-school]], [[annus-mirabilis-papers-1905]], [[composition-viii-kandinsky]], [[foundations-of-geometry-hilbert]], [[les-demoiselles-davignon-picasso]], [[planck-quantum-hypothesis-1900]], [[uncertainty-principle-paper-1927]]
 
-## Ontology Connections
+## Network Context
 
-This entry is further connected in the graph through [[abdus-salam]], [[nicolaus-copernicus]], [[occult-revival]].
-
-## Related Links
-
-- Figure: [[abdus-salam]]
-- Figure: [[nicolaus-copernicus]]
-- Time: [[occult-revival]]
-- Location: [[wudang-mountains]]
+- Referenced by figures: [[albert-einstein]], [[barbara-mcclintock]], [[david-hilbert]], [[georg-cantor]], [[max-planck]], [[subrahmanyan-chandrasekhar]], [[werner-heisenberg]]
+<!-- dialectica:auto-links:end -->

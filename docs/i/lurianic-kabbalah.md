@@ -19,19 +19,34 @@ tags:
 ---
 # Lurianic Kabbalah
 
-Lurianic Kabbalah is a school-level idea node added to broaden coverage across analytic, theological, eastern, and esoteric traditions.
+Lurianic Kabbalah is represented as a conceptual node for comparing arguments, lineages, and points of conflict across traditions.
 
-## Graph Anchors
+## Core Position
 
-- Period context: [[early-modern-europe]]
-- Comparative links: [[kabbalah]], [[sefirot]]
+- Built from: [[kabbalah]], [[sefirot]]
+- In tension with: [[mutazilism]], [[natal-astrology]], [[natural-magic]]
+- Combined with: [[kabbalah]], [[apophatic-theology]]
 
-## Ontology Connections
+## Historical Placement
 
-This entry is further connected in the graph through [[apophatic-theology]], [[aleister-crowley]], [[apostolic-era]].
+This idea is currently associated with figures [[aleister-crowley]], [[anselm-of-canterbury]], [[athanasius-of-alexandria]] and periods [[early-modern-europe]].
 
-## Related Links
+## Study Path
 
-- Idea: [[apophatic-theology]]
-- Figure: [[aleister-crowley]]
-- Time: [[apostolic-era]]
+- Adjacent ideas: [[apophatic-theology]], [[kabbalah]], [[sefirot]], [[asharism]], [[kashmir-shaivism]], [[maturidism]], [[mutazilism]], [[natal-astrology]]
+- Connected figures: [[aleister-crowley]], [[anselm-of-canterbury]], [[athanasius-of-alexandria]]
+- Referencing artifacts: [[aryabhatiya]], [[third-of-may-1808]], [[annus-mirabilis-papers-1905]], [[being-and-time]], [[book-of-optics-ibn-al-haytham]], [[campbells-soup-cans]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Periods: [[early-modern-europe]]
+- Influences: [[kabbalah]], [[sefirot]]
+- Synthesizes: [[kabbalah]], [[apophatic-theology]]
+- Mentioned in body: [[kabbalah]], [[sefirot]], [[mutazilism]], [[natal-astrology]], [[natural-magic]], [[apophatic-theology]], [[aleister-crowley]], [[anselm-of-canterbury]], [[athanasius-of-alexandria]], [[early-modern-europe]], [[asharism]], [[kashmir-shaivism]], [[maturidism]], [[aryabhatiya]], [[third-of-may-1808]], [[annus-mirabilis-papers-1905]]
+
+## Network Context
+
+- Referenced by figures: [[caravaggio]], [[johannes-vermeer]], [[rembrandt-van-rijn]]
+- Referenced by ideas: [[apophatic-theology]], [[asharism]], [[astrology]], [[electional-astrology]], [[horoscopic-astrology]], [[kabbalah]], [[kashmir-shaivism]], [[maturidism]], [[mundane-astrology]], [[mutazilism]], [[natal-astrology]], [[natural-magic]], [[rosicrucianism]], [[sefirot]]
+<!-- dialectica:auto-links:end -->

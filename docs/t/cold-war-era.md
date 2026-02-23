@@ -12,7 +12,6 @@ tags:
   - science
   - state
 ---
-
 # Cold War Era
 
 Cold War Era marks a period in which institutions, argument styles, and knowledge practices were reorganized. In this corpus, it is connected to [[claude-shannon]] and the development of [[information-theory]].
@@ -25,4 +24,17 @@ This period is best read through connected place nodes such as [[moscow]], [[ath
 
 - Figure: [[claude-shannon]]
 - Idea: [[information-theory]]
-- Comparative references: [[classical-greece]], [[enlightenment]], [[virtue-ethics]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Locations: [[moscow]], [[new-york]], [[berlin]]
+- Mentioned in body: [[claude-shannon]], [[information-theory]], [[moscow]], [[athens]], [[paris]]
+
+## Network Context
+
+- Referenced by figures: [[alan-turing]], [[claude-shannon]], [[rosalind-franklin]]
+- Referenced by ideas: [[dna-structure]], [[information-theory]]
+- Referenced by artifacts: [[mathematical-theory-of-communication]], [[photo-51]]
+- Referenced by locations: [[moscow]]
+<!-- dialectica:auto-links:end -->

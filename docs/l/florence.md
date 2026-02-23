@@ -24,10 +24,14 @@ The city demonstrates how commercial wealth and political rivalry could support 
 - Comparative places: [[rome]], [[paris]]
 - Related ideas: [[rationalism]], [[empiricism]]
 
-## Ontology Connections
+<!-- dialectica:auto-links:start -->
+## Graph Links
 
-This entry is further connected in the graph through [[renaissance-humanism]].
+- Mentioned in body: [[renaissance]], [[rome]], [[paris]], [[rationalism]], [[empiricism]]
 
-## Related Links
+## Network Context
 
-- Time: [[renaissance-humanism]]
+- Referenced by figures: [[galileo-galilei]], [[leonardo-da-vinci]], [[michelangelo]]
+- Referenced by artifacts: [[david]], [[mona-lisa]]
+- Referenced by times: [[renaissance-humanism]], [[renaissance]]
+<!-- dialectica:auto-links:end -->

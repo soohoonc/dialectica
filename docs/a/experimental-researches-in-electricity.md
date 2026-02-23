@@ -12,20 +12,37 @@ tags:
 ---
 # Experimental Researches in Electricity
 
-Experimental Researches in Electricity is an artifact seed linked to [[michael-faraday]] to improve scientist/artist connectivity in the ontology graph.
+Experimental Researches in Electricity is treated as a book from 1839 and used as a material anchor for conceptual and historical links in the graph.
 
-## Context
+## Historical Placement
 
 - Creator: [[michael-faraday]]
-- Period: [[industrial-revolution]]
 - Location: [[london]]
+- Era: [[industrial-revolution]]
 
-## Ontology Connections
+## Interpretive Threads
 
-This entry is further connected in the graph through [[cold-war-era]], [[cambridge]], [[atomism]].
+This artifact is currently read alongside the linked concepts below.
+
+## Study Path
+
+- Nearby artifacts: see related links below.
+- Connected times: see related links below.
 
 ## Related Links
 
-- Time: [[cold-war-era]]
-- Location: [[cambridge]]
-- Idea: [[atomism]]
+- Idea: [[empiricism]]
+- Idea: [[causal-determinism]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Creator: [[michael-faraday]]
+- Location: [[london]]
+- Era: [[industrial-revolution]]
+- Mentioned in body: [[michael-faraday]], [[london]], [[industrial-revolution]], [[empiricism]], [[causal-determinism]]
+
+## Network Context
+
+- Referenced by figures: [[abdus-salam]], [[michael-faraday]], [[robert-boyle]], [[subrahmanyan-chandrasekhar]]
+<!-- dialectica:auto-links:end -->

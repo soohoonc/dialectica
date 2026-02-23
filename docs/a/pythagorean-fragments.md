@@ -11,7 +11,6 @@ tags:
   - mathematics
   - cosmology
 ---
-
 # Pythagorean Fragments
 
 Pythagorean Fragments is represented as an artifact node connecting textual or material production with figure, place, and period. It is associated with [[pythagoras]] and situated in [[presocratic-era]].
@@ -25,3 +24,21 @@ As an object in this corpus, it links to [[pythagorean-harmony]], [[forms]], and
 - Creator: [[pythagoras]]
 - Location: [[miletus]]
 - Era: [[presocratic-era]]
+
+## Related Links
+
+- Idea: [[legal-hermeneutics]]
+- Idea: [[dialectic]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Creator: [[pythagoras]]
+- Location: [[miletus]]
+- Era: [[presocratic-era]]
+- Mentioned in body: [[pythagoras]], [[presocratic-era]], [[pythagorean-harmony]], [[forms]], [[deontology]], [[virtue-ethics]], [[miletus]], [[legal-hermeneutics]], [[dialectic]]
+
+## Network Context
+
+- No inbound references yet.
+<!-- dialectica:auto-links:end -->

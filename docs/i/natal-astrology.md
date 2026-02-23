@@ -19,19 +19,34 @@ tags:
 ---
 # Natal Astrology
 
-Natal Astrology is a school-level idea node added to broaden coverage across analytic, theological, eastern, and esoteric traditions.
+Natal Astrology is represented as a conceptual node for comparing arguments, lineages, and points of conflict across traditions.
 
-## Graph Anchors
+## Core Position
 
-- Period context: [[hellenistic-astrology-era]]
-- Comparative links: [[astrology]], [[horoscopic-astrology]]
+- Built from: [[astrology]], [[horoscopic-astrology]]
+- In tension with: [[lurianic-kabbalah]], [[mundane-astrology]], [[natural-magic]]
+- Combined with: [[astrology]], [[mundane-astrology]]
 
-## Ontology Connections
+## Historical Placement
 
-This entry is further connected in the graph through [[mundane-astrology]], [[aleister-crowley]], [[babylonian-astrology-era]].
+This idea is currently associated with figures [[aleister-crowley]], [[emanuel-swedenborg]], [[giordano-bruno]] and periods [[hellenistic-astrology-era]].
 
-## Related Links
+## Study Path
 
-- Idea: [[mundane-astrology]]
-- Figure: [[aleister-crowley]]
-- Time: [[babylonian-astrology-era]]
+- Adjacent ideas: [[astrology]], [[horoscopic-astrology]], [[mundane-astrology]], [[electional-astrology]], [[lurianic-kabbalah]], [[natural-magic]], [[rosicrucianism]], [[alchemy]]
+- Connected figures: [[aleister-crowley]], [[emanuel-swedenborg]], [[giordano-bruno]]
+- Referencing artifacts: [[aryabhatiya]], [[third-of-may-1808]], [[annus-mirabilis-papers-1905]], [[being-and-time]], [[book-of-optics-ibn-al-haytham]], [[campbells-soup-cans]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Periods: [[hellenistic-astrology-era]]
+- Influences: [[astrology]], [[horoscopic-astrology]]
+- Synthesizes: [[astrology]], [[mundane-astrology]]
+- Mentioned in body: [[astrology]], [[horoscopic-astrology]], [[lurianic-kabbalah]], [[mundane-astrology]], [[natural-magic]], [[aleister-crowley]], [[emanuel-swedenborg]], [[giordano-bruno]], [[hellenistic-astrology-era]], [[electional-astrology]], [[rosicrucianism]], [[alchemy]], [[aryabhatiya]], [[third-of-may-1808]], [[annus-mirabilis-papers-1905]], [[being-and-time]]
+
+## Network Context
+
+- Referenced by ideas: [[astrology]], [[electional-astrology]], [[horoscopic-astrology]], [[lurianic-kabbalah]], [[mundane-astrology]], [[natural-magic]], [[rosicrucianism]]
+- Referenced by times: [[hellenistic-astrology-era]]
+<!-- dialectica:auto-links:end -->

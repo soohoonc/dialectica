@@ -12,20 +12,37 @@ tags:
 ---
 # Kitab al-Jabr wa al-Muqabala
 
-Kitab al-Jabr wa al-Muqabala is an artifact seed linked to [[al-khwarizmi]] to improve scientist/artist connectivity in the ontology graph.
+Kitab al-Jabr wa al-Muqabala is treated as a manuscript from 825 and used as a material anchor for conceptual and historical links in the graph.
 
-## Context
+## Historical Placement
 
 - Creator: [[al-khwarizmi]]
-- Period: [[islamic-golden-age]]
 - Location: [[baghdad]]
+- Era: [[islamic-golden-age]]
 
-## Ontology Connections
+## Interpretive Threads
 
-This entry is further connected in the graph through [[scientific-revolution]], [[cambridge]], [[computability]].
+This artifact is currently read alongside the linked concepts below.
+
+## Study Path
+
+- Nearby artifacts: see related links below.
+- Connected times: see related links below.
 
 ## Related Links
 
-- Time: [[scientific-revolution]]
-- Location: [[cambridge]]
-- Idea: [[computability]]
+- Idea: [[empiricism]]
+- Idea: [[causal-determinism]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Creator: [[al-khwarizmi]]
+- Location: [[baghdad]]
+- Era: [[islamic-golden-age]]
+- Mentioned in body: [[al-khwarizmi]], [[baghdad]], [[islamic-golden-age]], [[empiricism]], [[causal-determinism]]
+
+## Network Context
+
+- Referenced by figures: [[al-biruni]], [[al-khwarizmi]], [[ibn-al-haytham]]
+<!-- dialectica:auto-links:end -->

@@ -11,6 +11,8 @@ tags:
   - metaphysics
   - epistemology
   - idealism
+contradicts: []
+synthesizes: []
 ---
 # Theory of Forms
 
@@ -50,12 +52,18 @@ The Theory of Forms influenced:
 
 [[aristotle]] famously criticized the theory, arguing that Forms cannot exist separate from particular things. His "Third Man Argument" points to an infinite regress: if a man and the Form of Man share something in common, a third entity is needed to explain this, and so on.
 
-## Ontology Connections
+<!-- dialectica:auto-links:start -->
+## Graph Links
 
-This entry is further connected in the graph through [[classical-greece]], [[german-idealism]], [[jena]].
+- Authors: [[plato]]
+- Periods: [[classical-greece]]
+- Mentioned in body: [[plato]], [[aristotle]], [[virtue-ethics]]
 
-## Related Links
+## Network Context
 
-- Time: [[classical-greece]]
-- Time: [[german-idealism]]
-- Location: [[jena]]
+- Referenced by figures: [[ai-weiwei]], [[alan-turing]], [[aleister-crowley]], [[alonzo-church]], [[anselm-of-canterbury]], [[asanga]], [[athanasius-of-alexandria]], [[averroes]], [[avicenna]], [[baruch-spinoza]], [[basil-of-caesarea]], [[bonaventure]], [[chaitanya-mahaprabhu]], [[charles-darwin]], [[cheng-hao]], [[cheng-yi]]
+- Referenced by ideas: [[adaptationism]], [[atomism]], [[atomist-void]], [[banality-of-evil]], [[biopolitics]], [[causal-determinism]], [[civic-examination]], [[civic-republicanism]], [[computability]], [[confucian-ethics]], [[dialectic]], [[dialectical-materialism]], [[dialogical-method]], [[disciplinary-power]], [[dna-structure]], [[empiricism]]
+- Referenced by artifacts: [[analects-edition]], [[city-of-god-augustinian]], [[democracy-and-education]], [[discourse-on-method]], [[discourses-of-epictetus]], [[ethics-spinoza]], [[in-the-shadow-of-man]], [[letters-from-a-stoic]], [[leviathan-hobbes]], [[mathematical-theory-of-communication]], [[meditations-marcus-aurelius]], [[monadology]], [[noether-theorem-paper]], [[on-computable-numbers]], [[on-duties-cicero]], [[parthenon-marbles]]
+- Referenced by locations: [[aksum]], [[amritsar]], [[amsterdam]], [[antioch]], [[avignon]], [[babylon]], [[baghdad]], [[basel]], [[beijing]], [[berlin]], [[bodh-gaya]], [[bologna]], [[byzantium]], [[cairo]], [[cambridge]], [[canterbury]]
+- Referenced by times: [[apostolic-era]], [[arabic-latin-translation-era]], [[archaic-greece]], [[babylonian-astrology-era]], [[bhakti-movement]], [[caliphate-fragmentation-era]], [[classical-greece]], [[classical-sanskrit-age]], [[columbian-exchange-era]], [[comparative-religion-era]], [[counter-reformation-era]], [[depth-psychology-era]], [[digital-esotericism-era]], [[early-buddhist-councils-era]], [[epic-upanishadic-age]], [[esotericism-academic-turn]]
+<!-- dialectica:auto-links:end -->

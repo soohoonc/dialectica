@@ -13,20 +13,31 @@ tags:
 ---
 # Yayoi Kusama
 
-Yayoi Kusama is a figure node added to strengthen scientific and artistic coverage in the graph.
+Yayoi Kusama is modeled here as a biographical node that connects social context, intellectual debates, and material outputs.
 
-## Graph Anchors
+## Intellectual Context
+
+This figure is currently anchored to locations [[tokyo]] and periods [[postwar-era]].
+
+## Debate Surface
+
+High-signal conceptual neighbors include [[ordinary-language-philosophy]], [[philosophical-hermeneutics]], [[post-structuralism]], [[structuralism]] and related artifacts [[infinity-mirror-room-kusama]], [[campbells-soup-cans]], [[south-wind-clear-sky]].
+
+## Study Path
+
+- Peer figures: [[andy-warhol]], [[jackson-pollock]], [[jean-michel-basquiat]], [[mark-rothko]], [[abdus-salam]], [[katsushika-hokusai]], [[lynn-margulis]], [[rachel-carson]]
+- Related ideas: [[ordinary-language-philosophy]], [[philosophical-hermeneutics]], [[post-structuralism]], [[structuralism]]
+- Related artifacts: [[infinity-mirror-room-kusama]], [[campbells-soup-cans]], [[south-wind-clear-sky]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
 
 - Locations: [[tokyo]]
 - Periods: [[postwar-era]]
+- Mentioned in body: [[tokyo]], [[postwar-era]], [[ordinary-language-philosophy]], [[philosophical-hermeneutics]], [[post-structuralism]], [[structuralism]], [[infinity-mirror-room-kusama]], [[campbells-soup-cans]], [[south-wind-clear-sky]], [[andy-warhol]], [[jackson-pollock]], [[jean-michel-basquiat]], [[mark-rothko]], [[abdus-salam]], [[katsushika-hokusai]], [[lynn-margulis]]
 
-## Ontology Connections
+## Network Context
 
-This entry is further connected in the graph through [[ai-weiwei]], [[sunflower-seeds-ai-weiwei]], [[abhinavagupta]].
-
-## Related Links
-
-- Figure: [[ai-weiwei]]
-- Artifact: [[sunflower-seeds-ai-weiwei]]
-- Figure: [[abhinavagupta]]
-- Time: [[late-zhou]]
+- Referenced by figures: [[andy-warhol]], [[katsushika-hokusai]], [[utagawa-hiroshige]]
+- Referenced by artifacts: [[infinity-mirror-room-kusama]]
+<!-- dialectica:auto-links:end -->

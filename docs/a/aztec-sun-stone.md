@@ -32,15 +32,18 @@ Rediscovered in 1790 during renovations in Mexico City's main plaza, it is now h
 
 Often called the "Aztec Calendar," the stone is actually a ceremonial monument rather than a functional calendar.
 
-## Ontology Connections
-
-This entry is further connected in the graph through [[benin-bronzes]], [[yayoi-kusama]], [[patristic-era]].
-
 ## Related Links
 
-- Artifact: [[benin-bronzes]]
-- Figure: [[yayoi-kusama]]
-- Time: [[patristic-era]]
-- Location: [[bodh-gaya]]
-- Idea: [[phenomenology]]
-- Artifact: [[in-the-shadow-of-man]]
+- Location: [[tenochtitlan]]
+- Idea: [[public-action]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Location: [[tenochtitlan]]
+- Mentioned in body: [[tenochtitlan]], [[public-action]]
+
+## Network Context
+
+- No inbound references yet.
+<!-- dialectica:auto-links:end -->

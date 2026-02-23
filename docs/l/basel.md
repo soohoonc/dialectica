@@ -10,7 +10,6 @@ tags:
   - modernity
   - europe
 ---
-
 # Basel
 
 Basel is treated in this graph as a place where intellectual traditions were formed, contested, or institutionalized. It is associated with [[nineteenth-century]] and frequently linked to [[friedrich-nietzsche]].
@@ -24,3 +23,13 @@ As a location node, Basel connects figures, ideas, and periods across the ontolo
 - Figure: [[friedrich-nietzsche]]
 - Period: [[nineteenth-century]]
 - Related ideas: [[virtue-ethics]], [[deontology]], [[forms]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Mentioned in body: [[nineteenth-century]], [[friedrich-nietzsche]], [[athens]], [[konigsberg]], [[enlightenment]], [[virtue-ethics]], [[deontology]], [[forms]]
+
+## Network Context
+
+- Referenced by figures: [[friedrich-nietzsche]]
+<!-- dialectica:auto-links:end -->

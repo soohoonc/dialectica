@@ -17,7 +17,6 @@ tags:
   - theology
   - scholasticism
 ---
-
 # Thomism
 
 Thomism is the scholastic philosophical and theological tradition associated with [[thomas-aquinas]]. In this graph it connects Aristotelian metaphysics, moral reasoning, and medieval institutional thought.
@@ -31,3 +30,18 @@ The tradition develops themes from [[forms]] and [[natural-law]], while opposing
 - Figure: [[thomas-aquinas]]
 - Period: [[high-middle-ages]]
 - Anchors: [[forms]], [[natural-law]], [[deontology]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Authors: [[thomas-aquinas]]
+- Periods: [[high-middle-ages]]
+- Influences: [[forms]], [[natural-law]]
+- Contradicts: [[nihilism]]
+- Mentioned in body: [[thomas-aquinas]], [[forms]], [[natural-law]], [[nihilism]], [[deontology]], [[virtue-ethics]], [[high-middle-ages]]
+
+## Network Context
+
+- Referenced by figures: [[aristotle]]
+- Referenced by artifacts: [[book-of-kells]]
+<!-- dialectica:auto-links:end -->

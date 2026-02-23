@@ -2,7 +2,7 @@
 type: artifact
 name: The Starry Night
 year: 1889
-creator: van-gogh
+creator: vincent-van-gogh
 location: saint-remy
 medium: painting
 tags:
@@ -33,15 +33,19 @@ Van Gogh painted this while staying at the Saint-Paul-de-Mausole asylum in Saint
 
 Housed in the Museum of Modern Art (MoMA) in New York City since 1941.
 
-## Ontology Connections
-
-This entry is further connected in the graph through [[guernica]], [[marie-curie]], [[high-middle-ages]].
-
 ## Related Links
 
-- Artifact: [[guernica]]
-- Figure: [[marie-curie]]
-- Time: [[high-middle-ages]]
-- Location: [[salamanca]]
-- Idea: [[verificationism]]
-- Artifact: [[two-fridas]]
+- Figure: [[vincent-van-gogh]]
+- Location: [[saint-remy]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Creator: [[vincent-van-gogh]]
+- Location: [[saint-remy]]
+- Mentioned in body: [[vincent-van-gogh]], [[saint-remy]]
+
+## Network Context
+
+- Referenced by figures: [[vincent-van-gogh]]
+<!-- dialectica:auto-links:end -->

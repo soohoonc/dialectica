@@ -12,20 +12,37 @@ tags:
 ---
 # Sidereus Nuncius
 
-Sidereus Nuncius is an artifact seed linked to [[galileo-galilei]] to improve scientist/artist connectivity in the ontology graph.
+Sidereus Nuncius is treated as a book from 1610 and used as a material anchor for conceptual and historical links in the graph.
 
-## Context
+## Historical Placement
 
 - Creator: [[galileo-galilei]]
-- Period: [[scientific-revolution]]
 - Location: [[venice]]
+- Era: [[scientific-revolution]]
 
-## Ontology Connections
+## Interpretive Threads
 
-This entry is further connected in the graph through [[cold-war-era]], [[cambridge]], [[heliocentrism]].
+This artifact is currently read alongside the linked concepts below.
+
+## Study Path
+
+- Nearby artifacts: see related links below.
+- Connected times: see related links below.
 
 ## Related Links
 
-- Time: [[cold-war-era]]
-- Location: [[cambridge]]
-- Idea: [[heliocentrism]]
+- Idea: [[empiricism]]
+- Idea: [[causal-determinism]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Creator: [[galileo-galilei]]
+- Location: [[venice]]
+- Era: [[scientific-revolution]]
+- Mentioned in body: [[galileo-galilei]], [[venice]], [[scientific-revolution]], [[empiricism]], [[causal-determinism]]
+
+## Network Context
+
+- Referenced by figures: [[galileo-galilei]], [[johannes-kepler]]
+<!-- dialectica:auto-links:end -->

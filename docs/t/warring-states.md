@@ -11,7 +11,6 @@ tags:
   - statecraft
   - ethics
 ---
-
 # Warring States
 
 Warring States marks a period that reshaped institutions, argument styles, and dominant explanatory models. In this corpus it is tied to [[confucius]] and the development of [[confucian-ethics]].
@@ -24,4 +23,14 @@ This period is best studied by combining textual analysis with place-based histo
 
 - Representative figure: [[confucius]]
 - Representative idea: [[confucian-ethics]]
-- Comparative references: [[classical-greece]], [[enlightenment]], [[virtue-ethics]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Locations: [[luoyang]], [[qufu]]
+- Mentioned in body: [[confucius]], [[confucian-ethics]], [[luoyang]], [[athens]], [[konigsberg]]
+
+## Network Context
+
+- Referenced by ideas: [[legalism]], [[mohism]], [[school-of-names]]
+<!-- dialectica:auto-links:end -->

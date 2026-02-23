@@ -10,7 +10,6 @@ tags:
   - modernization
   - state
 ---
-
 # Meiji Period
 
 Meiji Period marks a period in which institutions, argument styles, and knowledge practices were reorganized. In this corpus, it is connected to [[confucius]] and the development of [[civic-republicanism]].
@@ -23,4 +22,14 @@ This period is best read through connected place nodes such as [[tokyo]], [[athe
 
 - Figure: [[confucius]]
 - Idea: [[civic-republicanism]]
-- Comparative references: [[classical-greece]], [[enlightenment]], [[virtue-ethics]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Locations: [[tokyo]]
+- Mentioned in body: [[confucius]], [[civic-republicanism]], [[tokyo]], [[athens]], [[paris]]
+
+## Network Context
+
+- No inbound references yet.
+<!-- dialectica:auto-links:end -->

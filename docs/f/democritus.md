@@ -4,8 +4,8 @@ name: Democritus
 birth: -460
 death: -370
 nationality: Greek
-portrait: https://upload.wikimedia.org/wikipedia/commons/7/76/Unknown_greek_pushkin.jpg
-portraitSource: https://en.wikipedia.org/wiki/Democritus
+portrait: 'https://upload.wikimedia.org/wikipedia/commons/7/76/Unknown_greek_pushkin.jpg'
+portraitSource: 'https://en.wikipedia.org/wiki/Democritus'
 locations:
   - miletus
 periods:
@@ -15,7 +15,6 @@ tags:
   - atomist
   - presocratic
 ---
-
 # Democritus
 
 Democritus is included here as a major figure whose work reorganized central debates. In this corpus, this figure is linked to [[atomist-void]] and often read in comparison with [[heraclitus]].
@@ -28,9 +27,14 @@ Key locations include miletus, while the primary historical frame is [[presocrat
 
 Democritus's contributions are represented through [[atomist-void]], while also connecting to broader traditions such as [[deontology]], [[virtue-ethics]], and [[forms]].
 
-## Related Links
+<!-- dialectica:auto-links:start -->
+## Graph Links
 
-- Place: [[miletus]]
-- Period: [[presocratic-era]]
-- Peer: [[heraclitus]]
-- Idea: [[atomist-void]]
+- Locations: [[miletus]]
+- Periods: [[presocratic-era]]
+- Mentioned in body: [[atomist-void]], [[heraclitus]], [[presocratic-era]], [[deontology]], [[virtue-ethics]], [[forms]]
+
+## Network Context
+
+- Referenced by ideas: [[atomist-void]]
+<!-- dialectica:auto-links:end -->

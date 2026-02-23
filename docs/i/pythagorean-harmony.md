@@ -17,7 +17,6 @@ tags:
   - cosmos
   - harmony
 ---
-
 # Pythagorean Harmony
 
 Pythagorean Harmony is treated as a concept linking argument form, historical context, and practical implications. In this graph it is anchored in [[pythagoras]] and situated in [[presocratic-era]].
@@ -31,3 +30,19 @@ This node is read through influences such as [[forms]] and [[rationalism]], whil
 - Figure: [[pythagoras]]
 - Period: [[presocratic-era]]
 - Anchors: [[deontology]], [[virtue-ethics]], [[forms]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Authors: [[pythagoras]]
+- Periods: [[presocratic-era]]
+- Influences: [[forms]], [[rationalism]]
+- Contradicts: [[atomism]]
+- Mentioned in body: [[pythagoras]], [[presocratic-era]], [[forms]], [[rationalism]], [[atomism]], [[deontology]], [[virtue-ethics]]
+
+## Network Context
+
+- Referenced by figures: [[pythagoras]]
+- Referenced by artifacts: [[pythagorean-fragments]]
+- Referenced by times: [[presocratic-era]]
+<!-- dialectica:auto-links:end -->

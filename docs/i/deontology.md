@@ -14,6 +14,7 @@ tags:
   - ethics
   - duty
   - morality
+synthesizes: []
 ---
 # Deontology
 
@@ -61,11 +62,20 @@ Critics argue deontology:
 - Fails to account for moral complexity
 - Provides inadequate guidance in novel situations
 
-## Ontology Connections
+<!-- dialectica:auto-links:start -->
+## Graph Links
 
-This entry is further connected in the graph through [[enlightenment]], [[late-zhou]].
+- Authors: [[kant]]
+- Periods: [[enlightenment]]
+- Influences: [[categorical-imperative]]
+- Contradicts: [[virtue-ethics]]
+- Mentioned in body: [[kant]], [[categorical-imperative]], [[virtue-ethics]], [[aristotle]]
 
-## Related Links
+## Network Context
 
-- Time: [[enlightenment]]
-- Time: [[late-zhou]]
+- Referenced by figures: [[ai-weiwei]], [[alan-turing]], [[aleister-crowley]], [[alonzo-church]], [[anselm-of-canterbury]], [[asanga]], [[athanasius-of-alexandria]], [[averroes]], [[avicenna]], [[baruch-spinoza]], [[basil-of-caesarea]], [[bonaventure]], [[chaitanya-mahaprabhu]], [[charles-darwin]], [[cheng-hao]], [[cheng-yi]]
+- Referenced by ideas: [[adaptationism]], [[atomism]], [[atomist-void]], [[banality-of-evil]], [[biopolitics]], [[categorical-imperative]], [[causal-determinism]], [[civic-examination]], [[civic-republicanism]], [[computability]], [[confucian-ethics]], [[dialectic]], [[dialectical-materialism]], [[dialogical-method]], [[disciplinary-power]], [[dna-structure]]
+- Referenced by artifacts: [[analects-edition]], [[city-of-god-augustinian]], [[democracy-and-education]], [[discourse-on-method]], [[discourses-of-epictetus]], [[ethics-spinoza]], [[in-the-shadow-of-man]], [[letters-from-a-stoic]], [[leviathan-hobbes]], [[mathematical-theory-of-communication]], [[meditations-marcus-aurelius]], [[monadology]], [[noether-theorem-paper]], [[on-computable-numbers]], [[on-duties-cicero]], [[photo-51]]
+- Referenced by locations: [[aksum]], [[amritsar]], [[amsterdam]], [[antioch]], [[avignon]], [[babylon]], [[baghdad]], [[basel]], [[beijing]], [[berlin]], [[bodh-gaya]], [[bologna]], [[byzantium]], [[cairo]], [[cambridge]], [[canterbury]]
+- Referenced by times: [[apostolic-era]], [[arabic-latin-translation-era]], [[babylonian-astrology-era]], [[bhakti-movement]], [[caliphate-fragmentation-era]], [[classical-sanskrit-age]], [[columbian-exchange-era]], [[comparative-religion-era]], [[counter-reformation-era]], [[depth-psychology-era]], [[digital-esotericism-era]], [[early-buddhist-councils-era]], [[enlightenment]], [[epic-upanishadic-age]], [[esotericism-academic-turn]], [[first-great-awakening]]
+<!-- dialectica:auto-links:end -->

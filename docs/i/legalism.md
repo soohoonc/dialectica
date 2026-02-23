@@ -19,19 +19,34 @@ tags:
 ---
 # Legalism
 
-Legalism is a school-level idea node added to broaden coverage across analytic, theological, eastern, and esoteric traditions.
+Legalism is represented as a conceptual node for comparing arguments, lineages, and points of conflict across traditions.
 
-## Graph Anchors
+## Core Position
 
-- Period context: [[warring-states]]
-- Comparative links: [[political-sovereignty]], [[confucian-ethics]]
+- Built from: [[political-sovereignty]]
+- In tension with: [[confucian-ethics]]
+- Combined with: [[disciplinary-power]], [[political-sovereignty]]
 
-## Ontology Connections
+## Historical Placement
 
-This entry is further connected in the graph through [[disciplinary-power]], [[berlin]], [[frankfurt-school]].
+This idea is currently associated with figures [[aristotle]], [[kant]], [[confucius]] and periods [[warring-states]].
 
-## Related Links
+## Study Path
 
-- Idea: [[disciplinary-power]]
-- Location: [[berlin]]
-- Idea: [[frankfurt-school]]
+- Adjacent ideas: [[neo-daoism]], [[frankfurt-school]], [[huayan-buddhism]], [[mohism]], [[pure-land-buddhism]], [[school-of-names]], [[tiantai-buddhism]], [[analytic-philosophy]]
+- Connected figures: [[aristotle]], [[kant]], [[confucius]]
+- Referencing artifacts: [[aryabhatiya]], [[third-of-may-1808]], [[annus-mirabilis-papers-1905]], [[being-and-time]], [[book-of-optics-ibn-al-haytham]], [[campbells-soup-cans]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Periods: [[warring-states]]
+- Influences: [[political-sovereignty]]
+- Contradicts: [[confucian-ethics]]
+- Synthesizes: [[disciplinary-power]], [[political-sovereignty]]
+- Mentioned in body: [[political-sovereignty]], [[confucian-ethics]], [[disciplinary-power]], [[aristotle]], [[kant]], [[confucius]], [[warring-states]], [[neo-daoism]], [[frankfurt-school]], [[huayan-buddhism]], [[mohism]], [[pure-land-buddhism]], [[school-of-names]], [[tiantai-buddhism]], [[analytic-philosophy]], [[aryabhatiya]]
+
+## Network Context
+
+- Referenced by ideas: [[frankfurt-school]], [[huayan-buddhism]], [[mohism]], [[neo-daoism]], [[pure-land-buddhism]], [[school-of-names]], [[tiantai-buddhism]]
+<!-- dialectica:auto-links:end -->

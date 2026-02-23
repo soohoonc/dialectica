@@ -4,8 +4,9 @@ name: Heraclitus
 birth: -535
 death: -475
 nationality: Greek
-portrait: https://upload.wikimedia.org/wikipedia/commons/2/24/Heraclitus_b_4_compressed.jpg
-portraitSource: https://en.wikipedia.org/wiki/Heraclitus
+portrait: >-
+  https://upload.wikimedia.org/wikipedia/commons/2/24/Heraclitus_b_4_compressed.jpg
+portraitSource: 'https://en.wikipedia.org/wiki/Heraclitus'
 locations:
   - ephesus
 periods:
@@ -15,7 +16,6 @@ tags:
   - metaphysician
   - presocratic
 ---
-
 # Heraclitus
 
 Heraclitus is included here as a major figure whose work reorganized central debates. In this corpus, this figure is linked to [[flux-doctrine]] and often read in comparison with [[pythagoras]].
@@ -28,9 +28,16 @@ Key locations include ephesus, while the primary historical frame is [[presocrat
 
 Heraclitus's contributions are represented through [[flux-doctrine]], while also connecting to broader traditions such as [[deontology]], [[virtue-ethics]], and [[forms]].
 
-## Related Links
+<!-- dialectica:auto-links:start -->
+## Graph Links
 
-- Place: [[ephesus]]
-- Period: [[presocratic-era]]
-- Peer: [[pythagoras]]
-- Idea: [[flux-doctrine]]
+- Locations: [[ephesus]]
+- Periods: [[presocratic-era]]
+- Mentioned in body: [[flux-doctrine]], [[pythagoras]], [[presocratic-era]], [[deontology]], [[virtue-ethics]], [[forms]]
+
+## Network Context
+
+- Referenced by figures: [[democritus]], [[pythagoras]]
+- Referenced by ideas: [[flux-doctrine]]
+- Referenced by locations: [[ephesus]]
+<!-- dialectica:auto-links:end -->

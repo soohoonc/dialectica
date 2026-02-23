@@ -12,20 +12,37 @@ tags:
 ---
 # The Calling of Saint Matthew
 
-The Calling of Saint Matthew is an artifact seed linked to [[caravaggio]] to improve scientist/artist connectivity in the ontology graph.
+The Calling of Saint Matthew is treated as a painting from 1600 and used as a material anchor for conceptual and historical links in the graph.
 
-## Context
+## Historical Placement
 
 - Creator: [[caravaggio]]
-- Period: [[early-modern-europe]]
 - Location: [[rome]]
+- Era: [[early-modern-europe]]
 
-## Ontology Connections
+## Interpretive Threads
 
-This entry is further connected in the graph through [[renaissance]], [[composition-viii-kandinsky]], [[simone-de-beauvoir]].
+This artifact is currently read alongside the linked concepts below.
+
+## Study Path
+
+- Nearby artifacts: see related links below.
+- Connected times: see related links below.
 
 ## Related Links
 
-- Time: [[renaissance]]
-- Artifact: [[composition-viii-kandinsky]]
-- Figure: [[simone-de-beauvoir]]
+- Idea: [[phenomenology]]
+- Idea: [[metaphysical-essence]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Creator: [[caravaggio]]
+- Location: [[rome]]
+- Era: [[early-modern-europe]]
+- Mentioned in body: [[caravaggio]], [[rome]], [[early-modern-europe]], [[phenomenology]], [[metaphysical-essence]]
+
+## Network Context
+
+- Referenced by figures: [[caravaggio]], [[johannes-vermeer]], [[rembrandt-van-rijn]]
+<!-- dialectica:auto-links:end -->

@@ -24,12 +24,7 @@ export function WikiMetadata({ items, tags, className = "" }: WikiMetadataProps)
         <div key={index} className="metadata-item">
           <span className="metadata-label">{item.label}:</span>
           {item.href && item.external ? (
-            <a
-              href={item.href}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="link-internal"
-            >
+            <a href={item.href} target="_blank" rel="noopener noreferrer" className="link-internal">
               {item.value}
             </a>
           ) : item.href ? (
@@ -46,7 +41,7 @@ export function WikiMetadata({ items, tags, className = "" }: WikiMetadataProps)
           <span className="metadata-label">Tags:</span>
           <div className="tags">
             {tags.map((tag) => (
-              <Link key={tag} href={`/search?tag=${encodeURIComponent(tag)}`} className="tag">
+              <Link key={tag} href={`/tags/${encodeURIComponent(tag)}`} className="tag">
                 {tag}
               </Link>
             ))}

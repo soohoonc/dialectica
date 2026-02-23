@@ -12,7 +12,6 @@ tags:
   - renaissance
   - textuality
 ---
-
 # Renaissance Humanism
 
 Renaissance Humanism marks a period in which institutions, argument styles, and knowledge practices were reorganized. In this corpus, it is connected to [[plato]] and the development of [[dialogical-method]].
@@ -25,4 +24,14 @@ This period is best read through connected place nodes such as [[florence]], [[a
 
 - Figure: [[plato]]
 - Idea: [[dialogical-method]]
-- Comparative references: [[classical-greece]], [[enlightenment]], [[virtue-ethics]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Locations: [[florence]], [[venice]], [[bologna]]
+- Mentioned in body: [[plato]], [[dialogical-method]], [[florence]], [[athens]], [[paris]]
+
+## Network Context
+
+- Referenced by locations: [[venice]]
+<!-- dialectica:auto-links:end -->

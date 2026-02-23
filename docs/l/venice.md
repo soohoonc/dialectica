@@ -10,7 +10,6 @@ tags:
   - trade
   - italy
 ---
-
 # Venice
 
 Venice functions in this graph as a site where intellectual exchange, institutions, and political transformations converged. It is linked with [[renaissance-humanism]] and with figures such as [[montesquieu]].
@@ -24,3 +23,15 @@ As a location node, Venice helps connect people, ideas, and periods across the o
 - Period: [[renaissance-humanism]]
 - Figure: [[montesquieu]]
 - Ideas: [[virtue-ethics]], [[deontology]], [[forms]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Mentioned in body: [[renaissance-humanism]], [[montesquieu]], [[athens]], [[konigsberg]], [[paris]], [[virtue-ethics]], [[deontology]], [[forms]]
+
+## Network Context
+
+- Referenced by figures: [[galileo-galilei]], [[montesquieu]]
+- Referenced by artifacts: [[sidereus-nuncius]]
+- Referenced by times: [[renaissance-humanism]]
+<!-- dialectica:auto-links:end -->

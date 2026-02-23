@@ -12,21 +12,31 @@ tags:
 ---
 # Hermeticism
 
-Hermeticism is an idea node connecting theological, eastern, and esoteric threads in the graph.
+Hermeticism is represented as a conceptual node for comparing arguments, lineages, and points of conflict across traditions.
 
-## Conceptual Core
+## Core Position
 
-This entry is a seed node and should be expanded with historical context, arguments, and linked ideas.
+- Built from: [[alchemy]], [[gnosticism]], [[kabbalah]]
+- In tension with: [[sefirot]], [[theurgy]], [[analogy-of-being]]
+- Combined with: [[apophatic-theology]], [[astrology]], [[atonement-theory]]
 
-## Ontology Connections
+## Historical Placement
 
-This entry is further connected in the graph through [[aleister-crowley]], [[apostolic-era]], [[rome]].
+This idea is currently associated with figures [[aleister-crowley]], [[anselm-of-canterbury]], [[athanasius-of-alexandria]] and periods [[apostolic-era]], [[babylonian-astrology-era]], [[bhakti-movement]].
 
-## Related Links
+## Study Path
 
-- Figure: [[aleister-crowley]]
-- Time: [[apostolic-era]]
-- Location: [[rome]]
-- Idea: [[alchemy]]
-- Artifact: [[ars-goetia]]
-- Figure: [[vallabha]]
+- Adjacent ideas: [[natural-magic]], [[rosicrucianism]], [[alchemy]], [[gnosticism]], [[kabbalah]], [[sefirot]], [[theurgy]], [[analogy-of-being]]
+- Connected figures: [[aleister-crowley]], [[anselm-of-canterbury]], [[athanasius-of-alexandria]]
+- Referencing artifacts: [[ars-goetia]], [[astrolabium-planum]], [[astronomica-manilius]], [[book-of-soyga]], [[book-of-the-fixed-stars]], [[corpus-hermeticum]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Mentioned in body: [[alchemy]], [[gnosticism]], [[kabbalah]], [[sefirot]], [[theurgy]], [[analogy-of-being]], [[apophatic-theology]], [[astrology]], [[atonement-theory]], [[aleister-crowley]], [[anselm-of-canterbury]], [[athanasius-of-alexandria]], [[apostolic-era]], [[babylonian-astrology-era]], [[bhakti-movement]], [[natural-magic]]
+
+## Network Context
+
+- Referenced by ideas: [[alchemy]], [[astrology]], [[electional-astrology]], [[gnosticism]], [[horoscopic-astrology]], [[kabbalah]], [[mundane-astrology]], [[natural-magic]], [[rosicrucianism]], [[sefirot]], [[theurgy]]
+- Referenced by artifacts: [[ars-goetia]], [[astrolabium-planum]], [[astronomica-manilius]], [[book-of-soyga]], [[book-of-the-fixed-stars]], [[corpus-hermeticum]], [[emerald-tablet]], [[key-of-solomon]], [[monas-hieroglyphica]], [[picatrix]], [[tetrabiblos]], [[three-books-of-occult-philosophy]], [[voinich-manuscript]]
+<!-- dialectica:auto-links:end -->

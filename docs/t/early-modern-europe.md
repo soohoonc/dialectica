@@ -11,7 +11,6 @@ tags:
   - reason
   - modern
 ---
-
 # Early Modern Europe
 
 Early Modern Europe marks a period that reshaped institutions, argument styles, and dominant explanatory models. In this corpus it is tied to [[jean-jacques-rousseau]] and the development of [[social-contract]].
@@ -24,4 +23,16 @@ This period is best studied by combining textual analysis with place-based histo
 
 - Representative figure: [[jean-jacques-rousseau]]
 - Representative idea: [[social-contract]]
-- Comparative references: [[classical-greece]], [[enlightenment]], [[virtue-ethics]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Locations: [[paris]], [[london]]
+- Mentioned in body: [[jean-jacques-rousseau]], [[social-contract]], [[paris]], [[athens]], [[konigsberg]]
+
+## Network Context
+
+- Referenced by figures: [[caravaggio]], [[johannes-vermeer]], [[rembrandt-van-rijn]]
+- Referenced by ideas: [[lurianic-kabbalah]], [[rosicrucianism]]
+- Referenced by artifacts: [[calling-of-saint-matthew]], [[girl-with-a-pearl-earring]], [[night-watch-rembrandt]]
+<!-- dialectica:auto-links:end -->

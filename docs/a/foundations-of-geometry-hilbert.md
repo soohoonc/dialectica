@@ -12,20 +12,37 @@ tags:
 ---
 # Foundations of Geometry
 
-Foundations of Geometry is an artifact seed linked to [[david-hilbert]] to improve scientist/artist connectivity in the ontology graph.
+Foundations of Geometry is treated as a book from 1899 and used as a material anchor for conceptual and historical links in the graph.
 
-## Context
+## Historical Placement
 
 - Creator: [[david-hilbert]]
-- Period: [[fin-de-siecle]]
 - Location: [[berlin]]
+- Era: [[fin-de-siecle]]
 
-## Ontology Connections
+## Interpretive Threads
 
-This entry is further connected in the graph through [[scientific-revolution]], [[cambridge]], [[computability]].
+This artifact is currently read alongside the linked concepts below.
+
+## Study Path
+
+- Nearby artifacts: see related links below.
+- Connected times: see related links below.
 
 ## Related Links
 
-- Time: [[scientific-revolution]]
-- Location: [[cambridge]]
-- Idea: [[computability]]
+- Idea: [[empiricism]]
+- Idea: [[causal-determinism]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Creator: [[david-hilbert]]
+- Location: [[berlin]]
+- Era: [[fin-de-siecle]]
+- Mentioned in body: [[david-hilbert]], [[berlin]], [[fin-de-siecle]], [[empiricism]], [[causal-determinism]]
+
+## Network Context
+
+- Referenced by figures: [[albert-einstein]], [[auguste-rodin]], [[bernhard-riemann]], [[carl-friedrich-gauss]], [[david-hilbert]], [[georg-cantor]], [[max-planck]], [[niels-bohr]], [[paul-cezanne]], [[werner-heisenberg]]
+<!-- dialectica:auto-links:end -->

@@ -11,7 +11,6 @@ tags:
   - scholastic
   - universities
 ---
-
 # High Middle Ages
 
 High Middle Ages marks a period that reshaped institutions, argument styles, and dominant explanatory models. In this corpus it is tied to [[thomas-aquinas]] and the development of [[deontology]].
@@ -24,4 +23,15 @@ This period is best studied by combining textual analysis with place-based histo
 
 - Representative figure: [[thomas-aquinas]]
 - Representative idea: [[deontology]]
-- Comparative references: [[classical-greece]], [[enlightenment]], [[virtue-ethics]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Locations: [[paris]], [[rome]]
+- Mentioned in body: [[thomas-aquinas]], [[deontology]], [[paris]], [[athens]], [[konigsberg]]
+
+## Network Context
+
+- Referenced by figures: [[thomas-aquinas]]
+- Referenced by ideas: [[kashmir-shaivism]], [[natural-law]], [[navya-nyaya]], [[thomism]], [[zen-rinzai]], [[zen-soto]]
+<!-- dialectica:auto-links:end -->

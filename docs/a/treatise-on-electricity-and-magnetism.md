@@ -12,20 +12,37 @@ tags:
 ---
 # Treatise on Electricity and Magnetism
 
-Treatise on Electricity and Magnetism is an artifact seed linked to [[james-clerk-maxwell]] to improve scientist/artist connectivity in the ontology graph.
+Treatise on Electricity and Magnetism is treated as a book from 1873 and used as a material anchor for conceptual and historical links in the graph.
 
-## Context
+## Historical Placement
 
 - Creator: [[james-clerk-maxwell]]
-- Period: [[second-industrial-revolution]]
 - Location: [[cambridge]]
+- Era: [[second-industrial-revolution]]
 
-## Ontology Connections
+## Interpretive Threads
 
-This entry is further connected in the graph through [[cold-war-era]], [[atomism]], [[annus-mirabilis-papers-1905]].
+This artifact is currently read alongside the linked concepts below.
+
+## Study Path
+
+- Nearby artifacts: see related links below.
+- Connected times: see related links below.
 
 ## Related Links
 
-- Time: [[cold-war-era]]
-- Idea: [[atomism]]
-- Artifact: [[annus-mirabilis-papers-1905]]
+- Idea: [[empiricism]]
+- Idea: [[causal-determinism]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Creator: [[james-clerk-maxwell]]
+- Location: [[cambridge]]
+- Era: [[second-industrial-revolution]]
+- Mentioned in body: [[james-clerk-maxwell]], [[cambridge]], [[second-industrial-revolution]], [[empiricism]], [[causal-determinism]]
+
+## Network Context
+
+- Referenced by figures: [[alonzo-church]], [[edwin-hubble]], [[james-clerk-maxwell]]
+<!-- dialectica:auto-links:end -->

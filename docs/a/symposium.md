@@ -25,14 +25,19 @@ The dialogue depicts a drinking party where guests give speeches in praise of Er
 - **Aristophanes**: The myth of the split humans
 - **Socrates/Diotima**: The ladder of love ascending to the Form of Beauty
 
-## Ontology Connections
-
-This entry is further connected in the graph through [[athens]], [[abhinavagupta]], [[classical-greece]].
-
 ## Related Links
 
 - Location: [[athens]]
-- Figure: [[abhinavagupta]]
-- Time: [[classical-greece]]
-- Idea: [[advaita-vedanta]]
-- Artifact: [[being-and-time]]
+- Idea: [[legal-hermeneutics]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Creator: [[plato]]
+- Location: [[athens]]
+- Mentioned in body: [[plato]], [[athens]], [[legal-hermeneutics]]
+
+## Network Context
+
+- No inbound references yet.
+<!-- dialectica:auto-links:end -->

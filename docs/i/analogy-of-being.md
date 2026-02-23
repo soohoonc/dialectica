@@ -12,21 +12,31 @@ tags:
 ---
 # Analogy of Being
 
-Analogy of Being is an idea node connecting theological, eastern, and esoteric threads in the graph.
+Analogy of Being is represented as a conceptual node for comparing arguments, lineages, and points of conflict across traditions.
 
-## Conceptual Core
+## Core Position
 
-This entry is a seed node and should be expanded with historical context, arguments, and linked ideas.
+- Built from: [[apophatic-theology]], [[atonement-theory]], [[cataphatic-theology]]
+- In tension with: [[cosmological-argument]], [[divine-command-theory]], [[incarnation-doctrine]]
+- Combined with: [[kalam-theology]], [[liberation-theology]], [[natural-theology]]
 
-## Ontology Connections
+## Historical Placement
 
-This entry is further connected in the graph through [[anselm-of-canterbury]], [[apostolic-era]], [[aksum]].
+This idea is currently associated with figures [[anselm-of-canterbury]], [[athanasius-of-alexandria]], [[basil-of-caesarea]] and periods [[apostolic-era]], [[first-great-awakening]], [[high-scholastic-era]].
 
-## Related Links
+## Study Path
 
-- Figure: [[anselm-of-canterbury]]
-- Time: [[apostolic-era]]
-- Location: [[aksum]]
-- Idea: [[apophatic-theology]]
-- Artifact: [[asfar-arbaa]]
-- Figure: [[georg-hegel]]
+- Adjacent ideas: [[apophatic-theology]], [[atonement-theory]], [[cataphatic-theology]], [[cosmological-argument]], [[divine-command-theory]], [[incarnation-doctrine]], [[kalam-theology]], [[liberation-theology]]
+- Connected figures: [[anselm-of-canterbury]], [[athanasius-of-alexandria]], [[basil-of-caesarea]]
+- Referencing artifacts: [[asfar-arbaa]], [[chalcedonian-definition]], [[dark-night-of-the-soul]], [[fusus-al-hikam]], [[guide-for-the-perplexed]], [[hikmat-al-ishraq]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Mentioned in body: [[apophatic-theology]], [[atonement-theory]], [[cataphatic-theology]], [[cosmological-argument]], [[divine-command-theory]], [[incarnation-doctrine]], [[kalam-theology]], [[liberation-theology]], [[natural-theology]], [[anselm-of-canterbury]], [[athanasius-of-alexandria]], [[basil-of-caesarea]], [[apostolic-era]], [[first-great-awakening]], [[high-scholastic-era]], [[asfar-arbaa]]
+
+## Network Context
+
+- Referenced by ideas: [[alchemy]], [[apophatic-theology]], [[asharism]], [[atonement-theory]], [[cataphatic-theology]], [[cosmological-argument]], [[divine-command-theory]], [[gnosticism]], [[hermeticism]], [[incarnation-doctrine]], [[kabbalah]], [[kalam-theology]], [[liberation-theology]], [[maturidism]], [[mutazilism]], [[natural-theology]]
+- Referenced by artifacts: [[asfar-arbaa]], [[chalcedonian-definition]], [[dark-night-of-the-soul]], [[fusus-al-hikam]], [[guide-for-the-perplexed]], [[hikmat-al-ishraq]], [[institutes-of-the-christian-religion]], [[interior-castle]], [[masnavi]], [[nicene-creed]], [[ninety-five-theses]], [[proslogion]], [[sefer-yetzirah]], [[summa-contra-gentiles]], [[zohar]]
+<!-- dialectica:auto-links:end -->

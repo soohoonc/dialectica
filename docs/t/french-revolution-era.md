@@ -10,7 +10,6 @@ tags:
   - rights
   - state
 ---
-
 # French Revolutionary Era
 
 French Revolutionary Era marks a period in which institutions, argument styles, and knowledge practices were reorganized. In this corpus, it is connected to [[jean-jacques-rousseau]] and the development of [[civic-republicanism]].
@@ -23,4 +22,14 @@ This period is best read through connected place nodes such as [[paris]], [[athe
 
 - Figure: [[jean-jacques-rousseau]]
 - Idea: [[civic-republicanism]]
-- Comparative references: [[classical-greece]], [[enlightenment]], [[virtue-ethics]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Locations: [[paris]]
+- Mentioned in body: [[jean-jacques-rousseau]], [[civic-republicanism]], [[paris]], [[athens]]
+
+## Network Context
+
+- No inbound references yet.
+<!-- dialectica:auto-links:end -->

@@ -26,15 +26,19 @@ Written as a source of personal guidance and self-improvement, the Meditations p
 - Duty and service to others
 - Inner peace through rational thought
 
-## Ontology Connections
-
-This entry is further connected in the graph through [[marcus-aurelius]], [[rome]], [[abhinavagupta]].
-
 ## Related Links
 
 - Figure: [[marcus-aurelius]]
 - Location: [[rome]]
-- Figure: [[abhinavagupta]]
-- Time: [[classical-greece]]
-- Location: [[athens]]
-- Idea: [[advaita-vedanta]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Creator: [[marcus-aurelius]]
+- Location: [[rome]]
+- Mentioned in body: [[marcus-aurelius]], [[rome]]
+
+## Network Context
+
+- Referenced by figures: [[caravaggio]], [[raphael]]
+<!-- dialectica:auto-links:end -->

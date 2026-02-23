@@ -32,15 +32,18 @@ Believed to have been created at the monastery of Iona, Scotland, the book was l
 
 Considered one of Ireland's greatest national treasures and a masterwork of Western calligraphy and illumination.
 
-## Ontology Connections
-
-This entry is further connected in the graph through [[dead-sea-scrolls]], [[mark-rothko]], [[trans-saharan-exchange-era]].
-
 ## Related Links
 
-- Artifact: [[dead-sea-scrolls]]
-- Figure: [[mark-rothko]]
-- Time: [[trans-saharan-exchange-era]]
-- Location: [[baghdad]]
-- Idea: [[historical-materialism]]
-- Artifact: [[photo-51]]
+- Location: [[iona]]
+- Idea: [[thomism]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Location: [[iona]]
+- Mentioned in body: [[iona]], [[thomism]]
+
+## Network Context
+
+- No inbound references yet.
+<!-- dialectica:auto-links:end -->

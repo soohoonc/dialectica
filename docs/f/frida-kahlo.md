@@ -14,20 +14,31 @@ tags:
 ---
 # Frida Kahlo
 
-Frida Kahlo is a figure node added to strengthen scientific and artistic coverage in the graph.
+Frida Kahlo is modeled here as a biographical node that connects social context, intellectual debates, and material outputs.
 
-## Graph Anchors
+## Intellectual Context
+
+This figure is currently anchored to locations [[paris]] and periods [[interwar-period]].
+
+## Debate Surface
+
+High-signal conceptual neighbors include [[computability]], [[logical-positivism]], [[symmetry-principle]], [[verificationism]] and related artifacts [[two-fridas]], [[fountain-duchamp]], [[guernica]], [[les-demoiselles-davignon-picasso]], [[noether-theorem-paper]], [[on-computable-numbers]], [[spirit-of-laws]], [[radioactivity-treatise]].
+
+## Study Path
+
+- Peer figures: [[amrita-sher-gil]], [[claude-monet]], [[edgar-degas]], [[henri-matisse]], [[pablo-picasso]], [[paul-cezanne]], [[salvador-dali]], [[vincent-van-gogh]]
+- Related ideas: [[computability]], [[logical-positivism]], [[symmetry-principle]], [[verificationism]]
+- Related artifacts: [[two-fridas]], [[fountain-duchamp]], [[guernica]], [[les-demoiselles-davignon-picasso]], [[noether-theorem-paper]], [[on-computable-numbers]], [[spirit-of-laws]], [[radioactivity-treatise]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
 
 - Locations: [[paris]]
 - Periods: [[interwar-period]]
+- Mentioned in body: [[paris]], [[interwar-period]], [[computability]], [[logical-positivism]], [[symmetry-principle]], [[verificationism]], [[two-fridas]], [[fountain-duchamp]], [[guernica]], [[les-demoiselles-davignon-picasso]], [[noether-theorem-paper]], [[on-computable-numbers]], [[spirit-of-laws]], [[radioactivity-treatise]], [[amrita-sher-gil]], [[claude-monet]]
 
-## Ontology Connections
+## Network Context
 
-This entry is further connected in the graph through [[amrita-sher-gil]], [[bernhard-riemann]], [[ai-network-era]].
-
-## Related Links
-
-- Figure: [[amrita-sher-gil]]
-- Figure: [[bernhard-riemann]]
-- Time: [[ai-network-era]]
-- Location: [[luoyang]]
+- Referenced by figures: [[amrita-sher-gil]], [[claude-monet]], [[edgar-degas]], [[erwin-schrodinger]], [[paul-cezanne]]
+- Referenced by artifacts: [[two-fridas]]
+<!-- dialectica:auto-links:end -->

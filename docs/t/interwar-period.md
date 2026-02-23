@@ -12,7 +12,6 @@ tags:
   - modernity
   - theory
 ---
-
 # Interwar Period
 
 Interwar Period marks a period in which institutions, argument styles, and knowledge practices were reorganized. In this corpus, it is connected to [[alan-turing]] and the development of [[computability]].
@@ -25,4 +24,17 @@ This period is best read through connected place nodes such as [[berlin]], [[ath
 
 - Figure: [[alan-turing]]
 - Idea: [[computability]]
-- Comparative references: [[classical-greece]], [[enlightenment]], [[virtue-ethics]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Locations: [[berlin]], [[paris]], [[vienna]]
+- Mentioned in body: [[alan-turing]], [[computability]], [[berlin]], [[athens]], [[paris]]
+
+## Network Context
+
+- Referenced by figures: [[abhinavagupta]], [[alan-turing]], [[aleister-crowley]], [[amrita-sher-gil]], [[anselm-of-canterbury]], [[asanga]], [[athanasius-of-alexandria]], [[basil-of-caesarea]], [[bonaventure]], [[chaitanya-mahaprabhu]], [[cheng-hao]], [[cheng-yi]], [[edwin-hubble]], [[emanuel-swedenborg]], [[emmy-noether]], [[erwin-schrodinger]]
+- Referenced by ideas: [[computability]], [[logical-positivism]], [[symmetry-principle]], [[verificationism]]
+- Referenced by artifacts: [[fountain-duchamp]], [[noether-theorem-paper]], [[on-computable-numbers]], [[two-fridas]], [[uncertainty-principle-paper-1927]], [[wave-mechanics-paper-1926]]
+- Referenced by locations: [[aksum]], [[amritsar]], [[avignon]], [[babylon]], [[bodh-gaya]], [[canterbury]], [[changan]], [[coimbra]], [[fez-al-qarawiyyin]], [[granada]], [[hangzhou]], [[harran]], [[heidelberg]], [[hiroshima]], [[kaifeng]], [[kamakura]]
+<!-- dialectica:auto-links:end -->

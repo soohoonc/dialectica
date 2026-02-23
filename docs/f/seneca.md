@@ -4,8 +4,9 @@ name: Seneca
 birth: -4
 death: 65
 nationality: Roman
-portrait: https://upload.wikimedia.org/wikipedia/commons/4/44/Duble_herma_of_Socrates_and_Seneca_Antikensammlung_Berlin_07.jpg
-portraitSource: https://en.wikipedia.org/wiki/Seneca_the_Younger
+portrait: >-
+  https://upload.wikimedia.org/wikipedia/commons/4/44/Duble_herma_of_Socrates_and_Seneca_Antikensammlung_Berlin_07.jpg
+portraitSource: 'https://en.wikipedia.org/wiki/Seneca_the_Younger'
 locations:
   - rome
 periods:
@@ -15,7 +16,6 @@ tags:
   - stoic
   - statesman
 ---
-
 # Seneca
 
 Seneca is included here as a major figure whose work reorganized central debates. In this corpus, this figure is linked to [[stoic-duty]] and often read in comparison with [[epictetus]].
@@ -28,9 +28,17 @@ Key locations include rome, while the primary historical frame is [[roman-imperi
 
 Seneca's contributions are represented through [[stoic-duty]], while also connecting to broader traditions such as [[deontology]], [[virtue-ethics]], and [[forms]].
 
-## Related Links
+<!-- dialectica:auto-links:start -->
+## Graph Links
 
-- Place: [[rome]]
-- Period: [[roman-imperial-era]]
-- Peer: [[epictetus]]
-- Idea: [[stoic-duty]]
+- Locations: [[rome]]
+- Periods: [[roman-imperial-era]]
+- Mentioned in body: [[stoic-duty]], [[epictetus]], [[roman-imperial-era]], [[deontology]], [[virtue-ethics]], [[forms]]
+
+## Network Context
+
+- Referenced by figures: [[caravaggio]], [[cicero]], [[marcus-aurelius]], [[raphael]]
+- Referenced by ideas: [[stoic-duty]]
+- Referenced by artifacts: [[letters-from-a-stoic]]
+- Referenced by locations: [[antioch]]
+<!-- dialectica:auto-links:end -->

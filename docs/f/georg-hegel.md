@@ -4,8 +4,9 @@ name: Georg Hegel
 birth: 1770
 death: 1831
 nationality: German
-portrait: https://upload.wikimedia.org/wikipedia/commons/c/cc/Jakob_Schlesinger_-_Hegel_1831.jpg
-portraitSource: https://en.wikipedia.org/wiki/Georg_Wilhelm_Friedrich_Hegel
+portrait: >-
+  https://upload.wikimedia.org/wikipedia/commons/c/cc/Jakob_Schlesinger_-_Hegel_1831.jpg
+portraitSource: 'https://en.wikipedia.org/wiki/Georg_Wilhelm_Friedrich_Hegel'
 locations:
   - jena
   - berlin
@@ -16,7 +17,6 @@ tags:
   - idealist
   - dialectician
 ---
-
 # Georg Hegel
 
 Georg Hegel was an influential thinker whose work shaped major debates in philosophy, science, and political thought. In Dialectica, this figure is connected to [[dialectic]] and placed in relation to [[kant]].
@@ -29,9 +29,18 @@ Georg Hegel worked across institutions and cities that defined the intellectual 
 
 The most important contributions associated with Georg Hegel can be read through [[dialectic]]. Their work also sits in productive tension with ideas such as [[deontology]], [[virtue-ethics]], and [[forms]].
 
-## Related Links
+<!-- dialectica:auto-links:start -->
+## Graph Links
 
-- Place: [[jena]]
-- Period: [[german-idealism]]
-- Peer: [[kant]]
-- Idea: [[dialectic]]
+- Locations: [[jena]], [[berlin]]
+- Periods: [[german-idealism]]
+- Mentioned in body: [[dialectic]], [[kant]], [[german-idealism]], [[deontology]], [[virtue-ethics]], [[forms]]
+
+## Network Context
+
+- Referenced by figures: [[karl-marx]]
+- Referenced by ideas: [[dialectic]]
+- Referenced by artifacts: [[phenomenology-of-spirit]]
+- Referenced by locations: [[jena]]
+- Referenced by times: [[german-idealism]]
+<!-- dialectica:auto-links:end -->

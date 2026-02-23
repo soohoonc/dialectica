@@ -19,19 +19,34 @@ tags:
 ---
 # Maturidism
 
-Maturidism is a school-level idea node added to broaden coverage across analytic, theological, eastern, and esoteric traditions.
+Maturidism is represented as a conceptual node for comparing arguments, lineages, and points of conflict across traditions.
 
-## Graph Anchors
+## Core Position
 
-- Period context: [[islamic-golden-age]]
-- Comparative links: [[kalam-theology]], [[rationalism]]
+- Built from: [[kalam-theology]], [[rationalism]]
+- In tension with: [[lurianic-kabbalah]], [[analogy-of-being]], [[analytic-philosophy]]
+- Combined with: [[mutazilism]], [[asharism]]
 
-## Ontology Connections
+## Historical Placement
 
-This entry is further connected in the graph through [[mutazilism]], [[asharism]], [[anselm-of-canterbury]].
+This idea is currently associated with figures [[anselm-of-canterbury]], [[athanasius-of-alexandria]], [[basil-of-caesarea]] and periods [[islamic-golden-age]].
 
-## Related Links
+## Study Path
 
-- Idea: [[mutazilism]]
-- Idea: [[asharism]]
-- Figure: [[anselm-of-canterbury]]
+- Adjacent ideas: [[asharism]], [[kalam-theology]], [[mutazilism]], [[kashmir-shaivism]], [[lurianic-kabbalah]], [[analogy-of-being]], [[analytic-philosophy]], [[apophatic-theology]]
+- Connected figures: [[anselm-of-canterbury]], [[athanasius-of-alexandria]], [[basil-of-caesarea]]
+- Referencing artifacts: [[aryabhatiya]], [[third-of-may-1808]], [[annus-mirabilis-papers-1905]], [[being-and-time]], [[book-of-optics-ibn-al-haytham]], [[campbells-soup-cans]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Periods: [[islamic-golden-age]]
+- Influences: [[kalam-theology]], [[rationalism]]
+- Synthesizes: [[mutazilism]], [[asharism]]
+- Mentioned in body: [[kalam-theology]], [[rationalism]], [[lurianic-kabbalah]], [[analogy-of-being]], [[analytic-philosophy]], [[mutazilism]], [[asharism]], [[anselm-of-canterbury]], [[athanasius-of-alexandria]], [[basil-of-caesarea]], [[islamic-golden-age]], [[kashmir-shaivism]], [[apophatic-theology]], [[aryabhatiya]], [[third-of-may-1808]], [[annus-mirabilis-papers-1905]]
+
+## Network Context
+
+- Referenced by figures: [[al-biruni]], [[al-khwarizmi]], [[ibn-al-haytham]]
+- Referenced by ideas: [[asharism]], [[kalam-theology]], [[kashmir-shaivism]], [[lurianic-kabbalah]], [[mutazilism]]
+<!-- dialectica:auto-links:end -->

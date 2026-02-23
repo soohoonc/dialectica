@@ -10,7 +10,6 @@ tags:
   - university
   - law
 ---
-
 # Bologna
 
 Bologna functions in this graph as a site where intellectual exchange, institutions, and political transformations converged. It is linked with [[late-scholastic-era]] and with figures such as [[thomas-aquinas]].
@@ -24,3 +23,15 @@ As a location node, Bologna helps connect people, ideas, and periods across the 
 - Period: [[late-scholastic-era]]
 - Figure: [[thomas-aquinas]]
 - Ideas: [[virtue-ethics]], [[deontology]], [[forms]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Mentioned in body: [[late-scholastic-era]], [[thomas-aquinas]], [[athens]], [[konigsberg]], [[paris]], [[virtue-ethics]], [[deontology]], [[forms]]
+
+## Network Context
+
+- Referenced by figures: [[nicolaus-copernicus]]
+- Referenced by artifacts: [[de-revolutionibus-orbium-coelestium]]
+- Referenced by times: [[late-scholastic-era]], [[renaissance-humanism]]
+<!-- dialectica:auto-links:end -->

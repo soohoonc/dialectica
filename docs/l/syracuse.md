@@ -10,7 +10,6 @@ tags:
   - ancient
   - mediterranean
 ---
-
 # Syracuse
 
 Syracuse functions in this graph as a site where intellectual exchange, institutions, and political transformations converged. It is linked with [[classical-greece]] and with figures such as [[aristotle]].
@@ -24,3 +23,13 @@ As a location node, Syracuse helps connect people, ideas, and periods across the
 - Period: [[classical-greece]]
 - Figure: [[aristotle]]
 - Ideas: [[virtue-ethics]], [[deontology]], [[forms]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Mentioned in body: [[classical-greece]], [[aristotle]], [[athens]], [[konigsberg]], [[paris]], [[virtue-ethics]], [[deontology]], [[forms]]
+
+## Network Context
+
+- No inbound references yet.
+<!-- dialectica:auto-links:end -->

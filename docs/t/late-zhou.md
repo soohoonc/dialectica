@@ -11,7 +11,6 @@ tags:
   - china
   - ethics
 ---
-
 # Late Zhou
 
 Late Zhou marks a period that reshaped institutions, argument styles, and dominant explanatory models. In this corpus it is tied to [[confucius]] and the development of [[confucian-ethics]].
@@ -24,4 +23,17 @@ This period is best studied by combining textual analysis with place-based histo
 
 - Representative figure: [[confucius]]
 - Representative idea: [[confucian-ethics]]
-- Comparative references: [[classical-greece]], [[enlightenment]], [[virtue-ethics]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Locations: [[luoyang]], [[qufu]]
+- Mentioned in body: [[confucius]], [[confucian-ethics]], [[luoyang]], [[athens]], [[konigsberg]]
+
+## Network Context
+
+- Referenced by figures: [[confucius]]
+- Referenced by ideas: [[confucian-ethics]], [[ritual-propriety]]
+- Referenced by artifacts: [[analects-edition]]
+- Referenced by locations: [[luoyang]], [[qufu]]
+<!-- dialectica:auto-links:end -->

@@ -10,7 +10,6 @@ tags:
   - medieval
   - urban
 ---
-
 # Cairo
 
 Cairo is treated in this graph as a place where intellectual traditions were formed, contested, or institutionalized. It is associated with [[islamic-golden-age]] and frequently linked to [[avicenna]].
@@ -24,3 +23,16 @@ As a location node, Cairo connects figures, ideas, and periods across the ontolo
 - Figure: [[avicenna]]
 - Period: [[islamic-golden-age]]
 - Related ideas: [[virtue-ethics]], [[deontology]], [[forms]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Mentioned in body: [[islamic-golden-age]], [[avicenna]], [[athens]], [[konigsberg]], [[enlightenment]], [[virtue-ethics]], [[deontology]], [[forms]]
+
+## Network Context
+
+- Referenced by figures: [[ibn-al-haytham]]
+- Referenced by artifacts: [[book-of-optics-ibn-al-haytham]]
+- Referenced by locations: [[alexandria]], [[samarkand]]
+- Referenced by times: [[islamic-golden-age]], [[muromachi-period]], [[postcolonial-period]]
+<!-- dialectica:auto-links:end -->

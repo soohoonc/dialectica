@@ -14,20 +14,30 @@ tags:
 ---
 # Richard Feynman
 
-Richard Feynman is a figure node added to strengthen scientific and artistic coverage in the graph.
+Richard Feynman is modeled here as a biographical node that connects social context, intellectual debates, and material outputs.
 
-## Graph Anchors
+## Intellectual Context
+
+This figure is currently anchored to locations [[new-york]] and periods [[postwar-era]].
+
+## Debate Surface
+
+High-signal conceptual neighbors include [[ordinary-language-philosophy]], [[philosophical-hermeneutics]], [[post-structuralism]], [[structuralism]] and related artifacts [[campbells-soup-cans]], [[mathematical-theory-of-communication]], [[democracy-and-education]], [[fountain-duchamp]], [[infinity-mirror-room-kusama]].
+
+## Study Path
+
+- Peer figures: [[lynn-margulis]], [[rachel-carson]], [[vera-rubin]], [[abdus-salam]], [[andy-warhol]], [[jackson-pollock]], [[jean-michel-basquiat]], [[mark-rothko]]
+- Related ideas: [[ordinary-language-philosophy]], [[philosophical-hermeneutics]], [[post-structuralism]], [[structuralism]]
+- Related artifacts: [[campbells-soup-cans]], [[mathematical-theory-of-communication]], [[democracy-and-education]], [[fountain-duchamp]], [[infinity-mirror-room-kusama]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
 
 - Locations: [[new-york]]
 - Periods: [[postwar-era]]
+- Mentioned in body: [[new-york]], [[postwar-era]], [[ordinary-language-philosophy]], [[philosophical-hermeneutics]], [[post-structuralism]], [[structuralism]], [[campbells-soup-cans]], [[mathematical-theory-of-communication]], [[democracy-and-education]], [[fountain-duchamp]], [[infinity-mirror-room-kusama]], [[lynn-margulis]], [[rachel-carson]], [[vera-rubin]], [[abdus-salam]], [[andy-warhol]]
 
-## Ontology Connections
+## Network Context
 
-This entry is further connected in the graph through [[abdus-salam]], [[john-stuart-mill]], [[epic-upanishadic-age]].
-
-## Related Links
-
-- Figure: [[abdus-salam]]
-- Figure: [[john-stuart-mill]]
-- Time: [[epic-upanishadic-age]]
-- Location: [[baghdad]]
+- Referenced by figures: [[abdus-salam]], [[andy-warhol]], [[jackson-pollock]], [[jean-michel-basquiat]], [[lynn-margulis]], [[mark-rothko]], [[rachel-carson]], [[vera-rubin]]
+<!-- dialectica:auto-links:end -->

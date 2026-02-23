@@ -10,7 +10,6 @@ tags:
   - library
   - scholarship
 ---
-
 # Alexandria
 
 Alexandria was a major Hellenistic center of scholarship and scientific exchange. It is frequently associated with the transition from [[classical-greece]] to the [[hellenistic-period]].
@@ -24,3 +23,14 @@ The city gathered mathematicians, physicians, and philosophers in a shared insti
 - Period: [[hellenistic-period]]
 - Comparative places: [[athens]], [[cairo]]
 - Related ideas: [[stoicism]], [[empiricism]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Mentioned in body: [[classical-greece]], [[hellenistic-period]], [[athens]], [[cairo]], [[stoicism]], [[empiricism]]
+
+## Network Context
+
+- Referenced by locations: [[hippo]]
+- Referenced by times: [[hellenistic-period]]
+<!-- dialectica:auto-links:end -->

@@ -52,11 +52,19 @@ _The Republic_ has profoundly shaped:
 
 It remains essential reading in philosophy courses worldwide and continues to provoke debate about justice, governance, and the good life.
 
-## Ontology Connections
-
-This entry is further connected in the graph through [[abhinavagupta]], [[classical-greece]].
-
 ## Related Links
 
-- Figure: [[abhinavagupta]]
-- Time: [[classical-greece]]
+- Idea: [[legal-hermeneutics]]
+- Idea: [[dialectic]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Creator: [[plato]]
+- Location: [[athens]]
+- Mentioned in body: [[plato]], [[athens]], [[forms]], [[virtue-ethics]], [[legal-hermeneutics]], [[dialectic]]
+
+## Network Context
+
+- Referenced by figures: [[aristotle]]
+<!-- dialectica:auto-links:end -->

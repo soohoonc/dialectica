@@ -9,21 +9,33 @@ tags:
 ---
 # Mahayana Expansion Era
 
-Mahayana Expansion Era is a time-period node for tracking theological, eastern, and esoteric developments.
+Mahayana Expansion Era (-100-700) is modeled as a historical frame for tracking institutional change, circulation of ideas, and shifts in authority across regions.
 
-## Notes
+## Scope
 
-This entry is a seed node and should be expanded with defining events, institutions, and key figures.
+This period is best read as a connective interval rather than a single doctrine: networks of exchange, conflict, translation, and governance shape what becomes legible as knowledge.
 
-## Ontology Connections
+## Historical Dynamics
 
-This entry is further connected in the graph through [[arabic-latin-translation-era]], [[vienna]], [[edgar-degas]].
+- Competing institutions define legitimacy (religious, political, educational, or commercial).
+- Texts and practices travel through translation, trade routes, and imperial administration.
+- Local traditions are reworked under pressure from broader transregional systems.
 
-## Related Links
+## In-Graph Anchors
 
-- Time: [[arabic-latin-translation-era]]
-- Location: [[vienna]]
-- Figure: [[edgar-degas]]
-- Time: [[roman-republic-era]]
-- Location: [[tokyo]]
-- Idea: [[theosis]]
+- Adjacent periods: [[hellenistic-period]], [[hellenistic-astrology-era]], [[roman-imperial-era]], [[apostolic-era]]
+- Locations: No direct anchors yet in this graph.
+- Figures: No direct anchors yet in this graph.
+- Ideas: No direct anchors yet in this graph.
+- Artifacts: No direct anchors yet in this graph.
+
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Mentioned in body: [[hellenistic-period]], [[hellenistic-astrology-era]], [[roman-imperial-era]], [[apostolic-era]]
+
+## Network Context
+
+- Referenced by times: update as linked nodes are added.
+<!-- dialectica:auto-links:end -->

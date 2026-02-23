@@ -13,20 +13,30 @@ tags:
 ---
 # Ai Weiwei
 
-Ai Weiwei is a figure node added to strengthen scientific and artistic coverage in the graph.
+Ai Weiwei is modeled here as a biographical node that connects social context, intellectual debates, and material outputs.
 
-## Graph Anchors
+## Intellectual Context
+
+This figure is currently anchored to locations [[beijing]] and periods [[ai-network-era]].
+
+## Debate Surface
+
+High-signal conceptual neighbors include [[forms]], [[deontology]], [[virtue-ethics]], [[empiricism]], [[rationalism]], [[dialectic]], [[metaphysical-essence]], [[nihilism]] and related artifacts [[sunflower-seeds-ai-weiwei]].
+
+## Study Path
+
+- Peer figures: [[aristotle]], [[kant]], [[confucius]], [[plato]], [[karl-marx]], [[hannah-arendt]], [[thomas-aquinas]], [[jean-jacques-rousseau]]
+- Related ideas: [[forms]], [[deontology]], [[virtue-ethics]], [[empiricism]], [[rationalism]], [[dialectic]], [[metaphysical-essence]], [[nihilism]]
+- Related artifacts: [[sunflower-seeds-ai-weiwei]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
 
 - Locations: [[beijing]]
 - Periods: [[ai-network-era]]
+- Mentioned in body: [[beijing]], [[ai-network-era]], [[forms]], [[deontology]], [[virtue-ethics]], [[empiricism]], [[rationalism]], [[dialectic]], [[metaphysical-essence]], [[nihilism]], [[sunflower-seeds-ai-weiwei]], [[aristotle]], [[kant]], [[confucius]], [[plato]], [[karl-marx]]
 
-## Ontology Connections
+## Network Context
 
-This entry is further connected in the graph through [[yayoi-kusama]], [[sunflower-seeds-ai-weiwei]], [[rene-descartes]].
-
-## Related Links
-
-- Figure: [[yayoi-kusama]]
-- Artifact: [[sunflower-seeds-ai-weiwei]]
-- Figure: [[rene-descartes]]
-- Time: [[mahayana-expansion-era]]
+- Referenced by artifacts: [[sunflower-seeds-ai-weiwei]]
+<!-- dialectica:auto-links:end -->

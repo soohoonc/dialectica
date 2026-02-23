@@ -10,7 +10,6 @@ tags:
   - university
   - philosophy
 ---
-
 # Jena
 
 Jena is treated in this graph as a place where intellectual traditions were formed, contested, or institutionalized. It is associated with [[german-idealism]] and frequently linked to [[georg-hegel]].
@@ -24,3 +23,15 @@ As a location node, Jena connects figures, ideas, and periods across the ontolog
 - Figure: [[georg-hegel]]
 - Period: [[german-idealism]]
 - Related ideas: [[virtue-ethics]], [[deontology]], [[forms]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Mentioned in body: [[german-idealism]], [[georg-hegel]], [[athens]], [[konigsberg]], [[enlightenment]], [[virtue-ethics]], [[deontology]], [[forms]]
+
+## Network Context
+
+- Referenced by figures: [[georg-hegel]]
+- Referenced by artifacts: [[phenomenology-of-spirit]]
+- Referenced by times: [[german-idealism]]
+<!-- dialectica:auto-links:end -->

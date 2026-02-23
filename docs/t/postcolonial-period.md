@@ -11,7 +11,6 @@ tags:
   - state
   - identity
 ---
-
 # Postcolonial Period
 
 Postcolonial Period marks a period in which institutions, argument styles, and knowledge practices were reorganized. In this corpus, it is connected to [[hannah-arendt]] and the development of [[public-action]].
@@ -24,4 +23,16 @@ This period is best read through connected place nodes such as [[cairo]], [[athe
 
 - Figure: [[hannah-arendt]]
 - Idea: [[public-action]]
-- Comparative references: [[classical-greece]], [[enlightenment]], [[virtue-ethics]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Locations: [[cairo]], [[new-york]]
+- Mentioned in body: [[hannah-arendt]], [[public-action]], [[cairo]], [[athens]], [[paris]]
+
+## Network Context
+
+- Referenced by figures: [[jane-goodall]], [[john-dewey]]
+- Referenced by ideas: [[pragmatic-instrumentalism]], [[primate-ethology]]
+- Referenced by artifacts: [[democracy-and-education]], [[in-the-shadow-of-man]]
+<!-- dialectica:auto-links:end -->

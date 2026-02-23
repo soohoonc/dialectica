@@ -19,19 +19,35 @@ tags:
 ---
 # Asharism
 
-Asharism is a school-level idea node added to broaden coverage across analytic, theological, eastern, and esoteric traditions.
+Asharism is represented as a conceptual node for comparing arguments, lineages, and points of conflict across traditions.
 
-## Graph Anchors
+## Core Position
 
-- Period context: [[islamic-golden-age]]
-- Comparative links: [[kalam-theology]], [[mutazilism]]
+- Built from: [[kalam-theology]]
+- In tension with: [[mutazilism]]
+- Combined with: [[divine-command-theory]], [[kalam-theology]]
 
-## Ontology Connections
+## Historical Placement
 
-This entry is further connected in the graph through [[divine-command-theory]], [[anselm-of-canterbury]], [[apostolic-era]].
+This idea is currently associated with figures [[anselm-of-canterbury]], [[athanasius-of-alexandria]], [[basil-of-caesarea]] and periods [[islamic-golden-age]].
 
-## Related Links
+## Study Path
 
-- Idea: [[divine-command-theory]]
-- Figure: [[anselm-of-canterbury]]
-- Time: [[apostolic-era]]
+- Adjacent ideas: [[divine-command-theory]], [[kalam-theology]], [[maturidism]], [[mutazilism]], [[kashmir-shaivism]], [[lurianic-kabbalah]], [[analogy-of-being]], [[analytic-philosophy]]
+- Connected figures: [[anselm-of-canterbury]], [[athanasius-of-alexandria]], [[basil-of-caesarea]]
+- Referencing artifacts: [[aryabhatiya]], [[third-of-may-1808]], [[annus-mirabilis-papers-1905]], [[being-and-time]], [[book-of-optics-ibn-al-haytham]], [[campbells-soup-cans]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Periods: [[islamic-golden-age]]
+- Influences: [[kalam-theology]]
+- Contradicts: [[mutazilism]]
+- Synthesizes: [[divine-command-theory]], [[kalam-theology]]
+- Mentioned in body: [[kalam-theology]], [[mutazilism]], [[divine-command-theory]], [[anselm-of-canterbury]], [[athanasius-of-alexandria]], [[basil-of-caesarea]], [[islamic-golden-age]], [[maturidism]], [[kashmir-shaivism]], [[lurianic-kabbalah]], [[analogy-of-being]], [[analytic-philosophy]], [[aryabhatiya]], [[third-of-may-1808]], [[annus-mirabilis-papers-1905]], [[being-and-time]]
+
+## Network Context
+
+- Referenced by figures: [[al-biruni]], [[al-khwarizmi]], [[ibn-al-haytham]]
+- Referenced by ideas: [[analytic-philosophy]], [[carvaka-materialism]], [[critical-rationalism]], [[divine-command-theory]], [[frankfurt-school]], [[kalam-theology]], [[kashmir-shaivism]], [[logical-positivism]], [[lurianic-kabbalah]], [[maturidism]], [[mutazilism]], [[natural-magic]], [[ordinary-language-philosophy]], [[philosophical-hermeneutics]], [[post-structuralism]], [[psychoanalysis]]
+<!-- dialectica:auto-links:end -->

@@ -14,20 +14,30 @@ tags:
 ---
 # Rachel Carson
 
-Rachel Carson is a figure node added to strengthen scientific and artistic coverage in the graph.
+Rachel Carson is modeled here as a biographical node that connects social context, intellectual debates, and material outputs.
 
-## Graph Anchors
+## Intellectual Context
+
+This figure is currently anchored to locations [[new-york]] and periods [[postwar-era]].
+
+## Debate Surface
+
+High-signal conceptual neighbors include [[ordinary-language-philosophy]], [[philosophical-hermeneutics]], [[post-structuralism]], [[structuralism]] and related artifacts [[campbells-soup-cans]], [[mathematical-theory-of-communication]], [[democracy-and-education]], [[fountain-duchamp]], [[infinity-mirror-room-kusama]].
+
+## Study Path
+
+- Peer figures: [[lynn-margulis]], [[richard-feynman]], [[vera-rubin]], [[andy-warhol]], [[jackson-pollock]], [[jean-michel-basquiat]], [[mark-rothko]], [[abdus-salam]]
+- Related ideas: [[ordinary-language-philosophy]], [[philosophical-hermeneutics]], [[post-structuralism]], [[structuralism]]
+- Related artifacts: [[campbells-soup-cans]], [[mathematical-theory-of-communication]], [[democracy-and-education]], [[fountain-duchamp]], [[infinity-mirror-room-kusama]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
 
 - Locations: [[new-york]]
 - Periods: [[postwar-era]]
+- Mentioned in body: [[new-york]], [[postwar-era]], [[ordinary-language-philosophy]], [[philosophical-hermeneutics]], [[post-structuralism]], [[structuralism]], [[campbells-soup-cans]], [[mathematical-theory-of-communication]], [[democracy-and-education]], [[fountain-duchamp]], [[infinity-mirror-room-kusama]], [[lynn-margulis]], [[richard-feynman]], [[vera-rubin]], [[andy-warhol]], [[jackson-pollock]]
 
-## Ontology Connections
+## Network Context
 
-This entry is further connected in the graph through [[abdus-salam]], [[raphael]], [[apostolic-era]].
-
-## Related Links
-
-- Figure: [[abdus-salam]]
-- Figure: [[raphael]]
-- Time: [[apostolic-era]]
-- Location: [[hippo]]
+- Referenced by figures: [[abdus-salam]], [[andy-warhol]], [[jackson-pollock]], [[jean-michel-basquiat]], [[lynn-margulis]], [[mark-rothko]], [[richard-feynman]], [[vera-rubin]], [[yayoi-kusama]]
+<!-- dialectica:auto-links:end -->

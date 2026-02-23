@@ -3,6 +3,7 @@
 import fs from "fs/promises";
 import path from "path";
 import chokidar from "chokidar";
+import { create as createOrama, insertMultiple, search as oramaSearch } from "@orama/orama";
 import type {
   OntologyType,
   GraphNode,
@@ -19,10 +20,37 @@ import type {
 import { parseMarkdownFile } from "./parser";
 import { parseWikiLinks, extractLinkContext, normalizeTarget } from "./wikilinks";
 
+const ORAMA_SCHEMA = {
+  id: "string",
+  nodeId: "string",
+  type: "enum",
+  slug: "string",
+  title: "string",
+  content: "string",
+  tags: "string[]",
+} as const;
+
+type SearchSchema = typeof ORAMA_SCHEMA;
+
+interface SearchDocument {
+  id: string;
+  nodeId: string;
+  type: OntologyType;
+  slug: string;
+  title: string;
+  content: string;
+  tags: string[];
+}
+
+interface SearchResult {
+  hits: Array<{ document: SearchDocument }>;
+}
+
 export class Graph {
   private nodes: Map<string, GraphNode> = new Map();
   private edges: Edge[] = [];
   private backlinks: Map<string, Backlink[]> = new Map();
+  private searchIndex: ReturnType<typeof createOrama<SearchSchema>> | null = null;
   private watcher?: ReturnType<typeof chokidar.watch>;
   private docsPath: string;
   private initialized: boolean = false;
@@ -48,6 +76,7 @@ export class Graph {
       await this.loadAllFiles();
       this.buildEdges();
       this.buildBacklinks();
+      await this.buildSearchIndex();
       this.initialized = true;
       console.log(
         `[Graph] Initialized with ${this.nodes.size} nodes and ${this.edges.length} edges`,
@@ -301,6 +330,31 @@ export class Graph {
   }
 
   /**
+   * Build full-text search index
+   */
+  private async buildSearchIndex(): Promise<void> {
+    const index = createOrama({
+      schema: ORAMA_SCHEMA,
+    });
+
+    const documents: SearchDocument[] = Array.from(this.nodes.values()).map((node) => ({
+      id: node.id,
+      nodeId: node.id,
+      type: node.type,
+      slug: node.slug,
+      title: node.title,
+      content: node.content,
+      tags: node.tags,
+    }));
+
+    if (documents.length > 0) {
+      await Promise.resolve(insertMultiple(index, documents));
+    }
+
+    this.searchIndex = index;
+  }
+
+  /**
    * Start file watcher for hot-reload
    */
   watch(): void {
@@ -343,6 +397,7 @@ export class Graph {
     // Rebuild edges and backlinks
     this.buildEdges();
     this.buildBacklinks();
+    await this.buildSearchIndex();
   }
 
   /**
@@ -434,16 +489,48 @@ export class Graph {
    * Search nodes by text
    */
   search(query: string, options?: { types?: OntologyType[] }): GraphNode[] {
-    const normalizedQuery = query.toLowerCase();
-    const results: GraphNode[] = [];
+    const normalizedQuery = query.trim().toLowerCase();
+    if (!normalizedQuery) return [];
 
-    for (const node of this.nodes.values()) {
-      if (options?.types && !options.types.includes(node.type)) {
-        continue;
+    if (this.searchIndex) {
+      const where =
+        options?.types && options.types.length > 0
+          ? options.types.length === 1
+            ? { type: { eq: options.types[0] } }
+            : { type: { in: options.types } }
+          : undefined;
+
+      const searchResults = oramaSearch(this.searchIndex, {
+        term: normalizedQuery,
+        properties: ["title", "content", "tags"],
+        boost: {
+          title: 3,
+          tags: 2,
+        },
+        where,
+        limit: Math.max(this.nodes.size, 1),
+      });
+
+      if (!(searchResults instanceof Promise)) {
+        const ranked: GraphNode[] = [];
+        for (const hit of (searchResults as SearchResult).hits) {
+          const node = this.nodes.get(hit.document.nodeId);
+          if (node) {
+            ranked.push(node);
+          }
+        }
+
+        if (ranked.length > 0) {
+          return ranked;
+        }
       }
+    }
 
+    // Fallback substring search if index is unavailable
+    const results: GraphNode[] = [];
+    for (const node of this.nodes.values()) {
+      if (options?.types && !options.types.includes(node.type)) continue;
       const searchText = `${node.title} ${node.content} ${node.tags.join(" ")}`.toLowerCase();
-
       if (searchText.includes(normalizedQuery)) {
         results.push(node);
       }
@@ -456,7 +543,15 @@ export class Graph {
    * Query nodes with filtering, sorting, and pagination
    */
   query(options: QueryOptions = {}): QueryResult {
-    let results = Array.from(this.nodes.values());
+    const requestedTypes = options.type
+      ? Array.isArray(options.type)
+        ? options.type
+        : [options.type]
+      : undefined;
+
+    let results = options.search
+      ? this.search(options.search, { types: requestedTypes })
+      : Array.from(this.nodes.values());
 
     // Filter by type
     if (options.type) {
@@ -469,8 +564,8 @@ export class Graph {
       results = results.filter((n) => options.tags!.some((tag) => n.tags.includes(tag)));
     }
 
-    // Filter by search text
-    if (options.search) {
+    // Filter by search text when no index-backed search was used
+    if (options.search && !this.searchIndex) {
       const q = options.search.toLowerCase();
       results = results.filter(
         (n) => n.title.toLowerCase().includes(q) || n.content.toLowerCase().includes(q),

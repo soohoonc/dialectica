@@ -4,8 +4,8 @@ name: David Hume
 birth: 1711
 death: 1776
 nationality: Scottish
-portrait: https://upload.wikimedia.org/wikipedia/commons/0/03/David_Hume_Ramsay.jpg
-portraitSource: https://en.wikipedia.org/wiki/David_Hume
+portrait: 'https://upload.wikimedia.org/wikipedia/commons/0/03/David_Hume_Ramsay.jpg'
+portraitSource: 'https://en.wikipedia.org/wiki/David_Hume'
 locations:
   - edinburgh
   - london
@@ -17,7 +17,6 @@ tags:
   - empiricist
   - skeptic
 ---
-
 # David Hume
 
 David Hume was an influential thinker whose work shaped major debates in philosophy, science, and political thought. In Dialectica, this figure is connected to [[empiricism]] and placed in relation to [[kant]].
@@ -30,9 +29,17 @@ David Hume worked across institutions and cities that defined the intellectual c
 
 The most important contributions associated with David Hume can be read through [[empiricism]]. Their work also sits in productive tension with ideas such as [[deontology]], [[virtue-ethics]], and [[forms]].
 
-## Related Links
+<!-- dialectica:auto-links:start -->
+## Graph Links
 
-- Place: [[edinburgh]]
-- Period: [[scottish-enlightenment]]
-- Peer: [[kant]]
-- Idea: [[empiricism]]
+- Locations: [[edinburgh]], [[london]]
+- Periods: [[scottish-enlightenment]], [[enlightenment]]
+- Mentioned in body: [[empiricism]], [[kant]], [[scottish-enlightenment]], [[deontology]], [[virtue-ethics]], [[forms]]
+
+## Network Context
+
+- Referenced by figures: [[james-clerk-maxwell]], [[john-dewey]]
+- Referenced by ideas: [[empiricism]], [[moral-skepticism]]
+- Referenced by locations: [[edinburgh]]
+- Referenced by times: [[scottish-enlightenment]]
+<!-- dialectica:auto-links:end -->

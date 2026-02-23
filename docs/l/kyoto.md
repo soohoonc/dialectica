@@ -10,7 +10,6 @@ tags:
   - culture
   - early-modern
 ---
-
 # Kyoto
 
 Kyoto functions in this graph as a site where intellectual exchange, institutions, and political transformations converged. It is linked with [[edo-period]] and with figures such as [[confucius]].
@@ -24,3 +23,14 @@ As a location node, Kyoto helps connect people, ideas, and periods across the on
 - Period: [[edo-period]]
 - Figure: [[confucius]]
 - Ideas: [[virtue-ethics]], [[deontology]], [[forms]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Mentioned in body: [[edo-period]], [[confucius]], [[athens]], [[konigsberg]], [[paris]], [[virtue-ethics]], [[deontology]], [[forms]]
+
+## Network Context
+
+- Referenced by figures: [[sesshu-toyo]]
+- Referenced by times: [[edo-period]], [[muromachi-period]]
+<!-- dialectica:auto-links:end -->

@@ -12,7 +12,7 @@ export const locationsRouter = createTRPCRouter({
     .input(
       z
         .object({
-          limit: z.number().min(1).max(100).default(50),
+          limit: z.number().min(1).max(10000).optional(),
           offset: z.number().min(0).default(0),
           sort: z.enum(["name", "country"]).default("name"),
           order: z.enum(["asc", "desc"]).default("asc"),
@@ -56,7 +56,7 @@ export const locationsRouter = createTRPCRouter({
 
       const total = locations.length;
       const offset = input?.offset || 0;
-      const limit = input?.limit || 50;
+      const limit = input?.limit ?? total;
 
       return {
         locations: locations.slice(offset, offset + limit),

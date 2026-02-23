@@ -14,20 +14,30 @@ tags:
 ---
 # Vera Rubin
 
-Vera Rubin is a figure node added to strengthen scientific and artistic coverage in the graph.
+Vera Rubin is modeled here as a biographical node that connects social context, intellectual debates, and material outputs.
 
-## Graph Anchors
+## Intellectual Context
+
+This figure is currently anchored to locations [[new-york]] and periods [[postwar-era]].
+
+## Debate Surface
+
+High-signal conceptual neighbors include [[ordinary-language-philosophy]], [[philosophical-hermeneutics]], [[post-structuralism]], [[structuralism]] and related artifacts [[campbells-soup-cans]], [[mathematical-theory-of-communication]], [[democracy-and-education]], [[fountain-duchamp]], [[infinity-mirror-room-kusama]].
+
+## Study Path
+
+- Peer figures: [[lynn-margulis]], [[rachel-carson]], [[richard-feynman]], [[andy-warhol]], [[jackson-pollock]], [[jean-michel-basquiat]], [[mark-rothko]], [[abdus-salam]]
+- Related ideas: [[ordinary-language-philosophy]], [[philosophical-hermeneutics]], [[post-structuralism]], [[structuralism]]
+- Related artifacts: [[campbells-soup-cans]], [[mathematical-theory-of-communication]], [[democracy-and-education]], [[fountain-duchamp]], [[infinity-mirror-room-kusama]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
 
 - Locations: [[new-york]]
 - Periods: [[postwar-era]]
+- Mentioned in body: [[new-york]], [[postwar-era]], [[ordinary-language-philosophy]], [[philosophical-hermeneutics]], [[post-structuralism]], [[structuralism]], [[campbells-soup-cans]], [[mathematical-theory-of-communication]], [[democracy-and-education]], [[fountain-duchamp]], [[infinity-mirror-room-kusama]], [[lynn-margulis]], [[rachel-carson]], [[richard-feynman]], [[andy-warhol]], [[jackson-pollock]]
 
-## Ontology Connections
+## Network Context
 
-This entry is further connected in the graph through [[al-biruni]], [[gottfried-leibniz]], [[second-great-awakening]].
-
-## Related Links
-
-- Figure: [[al-biruni]]
-- Figure: [[gottfried-leibniz]]
-- Time: [[second-great-awakening]]
-- Location: [[kanchipuram]]
+- Referenced by figures: [[abdus-salam]], [[andy-warhol]], [[jackson-pollock]], [[jean-michel-basquiat]], [[lynn-margulis]], [[mark-rothko]], [[rachel-carson]], [[richard-feynman]]
+<!-- dialectica:auto-links:end -->

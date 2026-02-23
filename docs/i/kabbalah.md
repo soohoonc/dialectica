@@ -12,21 +12,30 @@ tags:
 ---
 # Kabbalah
 
-Kabbalah is an idea node connecting theological, eastern, and esoteric threads in the graph.
+Kabbalah is represented as a conceptual node for comparing arguments, lineages, and points of conflict across traditions.
 
-## Conceptual Core
+## Core Position
 
-This entry is a seed node and should be expanded with historical context, arguments, and linked ideas.
+- Built from: [[alchemy]], [[gnosticism]], [[hermeticism]]
+- In tension with: [[sefirot]], [[theurgy]], [[analogy-of-being]]
+- Combined with: [[apophatic-theology]], [[astrology]], [[atonement-theory]]
 
-## Ontology Connections
+## Historical Placement
 
-This entry is further connected in the graph through [[aleister-crowley]], [[apostolic-era]], [[rome]].
+This idea is currently associated with figures [[aleister-crowley]], [[anselm-of-canterbury]], [[athanasius-of-alexandria]] and periods [[apostolic-era]], [[babylonian-astrology-era]], [[bhakti-movement]].
 
-## Related Links
+## Study Path
 
-- Figure: [[aleister-crowley]]
-- Time: [[apostolic-era]]
-- Location: [[rome]]
-- Idea: [[alchemy]]
-- Artifact: [[ars-goetia]]
-- Figure: [[john-dewey]]
+- Adjacent ideas: [[lurianic-kabbalah]], [[rosicrucianism]], [[alchemy]], [[gnosticism]], [[hermeticism]], [[sefirot]], [[theurgy]], [[analogy-of-being]]
+- Connected figures: [[aleister-crowley]], [[anselm-of-canterbury]], [[athanasius-of-alexandria]]
+- Referencing artifacts: [[aryabhatiya]], [[third-of-may-1808]], [[annus-mirabilis-papers-1905]], [[being-and-time]], [[book-of-optics-ibn-al-haytham]], [[campbells-soup-cans]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Mentioned in body: [[alchemy]], [[gnosticism]], [[hermeticism]], [[sefirot]], [[theurgy]], [[analogy-of-being]], [[apophatic-theology]], [[astrology]], [[atonement-theory]], [[aleister-crowley]], [[anselm-of-canterbury]], [[athanasius-of-alexandria]], [[apostolic-era]], [[babylonian-astrology-era]], [[bhakti-movement]], [[lurianic-kabbalah]]
+
+## Network Context
+
+- Referenced by ideas: [[alchemy]], [[astrology]], [[electional-astrology]], [[gnosticism]], [[hermeticism]], [[horoscopic-astrology]], [[lurianic-kabbalah]], [[mundane-astrology]], [[rosicrucianism]], [[sefirot]], [[theurgy]]
+<!-- dialectica:auto-links:end -->

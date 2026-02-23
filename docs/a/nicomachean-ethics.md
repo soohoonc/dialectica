@@ -25,14 +25,19 @@ The work explores the nature of the good life and human flourishing (eudaimonia)
 - **The Golden Mean**: Virtue as the balance between extremes
 - **Practical Wisdom**: The ability to discern right action
 
-## Ontology Connections
-
-This entry is further connected in the graph through [[athens]], [[abhinavagupta]], [[classical-greece]].
-
 ## Related Links
 
 - Location: [[athens]]
-- Figure: [[abhinavagupta]]
-- Time: [[classical-greece]]
-- Idea: [[advaita-vedanta]]
-- Artifact: [[analects-edition]]
+- Idea: [[legal-hermeneutics]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Creator: [[aristotle]]
+- Location: [[athens]]
+- Mentioned in body: [[aristotle]], [[athens]], [[legal-hermeneutics]]
+
+## Network Context
+
+- No inbound references yet.
+<!-- dialectica:auto-links:end -->

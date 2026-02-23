@@ -14,20 +14,30 @@ tags:
 ---
 # Bernhard Riemann
 
-Bernhard Riemann is a figure node added to strengthen scientific and artistic coverage in the graph.
+Bernhard Riemann is modeled here as a biographical node that connects social context, intellectual debates, and material outputs.
 
-## Graph Anchors
+## Intellectual Context
+
+This figure is currently anchored to locations [[berlin]] and periods [[nineteenth-century]].
+
+## Debate Surface
+
+High-signal conceptual neighbors include [[adaptationism]], [[dialectical-materialism]], [[evolution-by-natural-selection]], [[genealogy-of-morals]], [[germ-theory]], [[historical-materialism]], [[microbial-pathogenesis]], [[nihilism]] and related artifacts [[annus-mirabilis-papers-1905]], [[experiments-on-plant-hybridization]], [[foundations-of-geometry-hilbert]], [[planck-quantum-hypothesis-1900]], [[uncertainty-principle-paper-1927]].
+
+## Study Path
+
+- Peer figures: [[carl-friedrich-gauss]], [[charles-darwin]], [[david-hilbert]], [[georg-cantor]], [[gregor-mendel]], [[louis-pasteur]], [[albert-einstein]], [[claude-monet]]
+- Related ideas: [[adaptationism]], [[dialectical-materialism]], [[evolution-by-natural-selection]], [[genealogy-of-morals]], [[germ-theory]], [[historical-materialism]], [[microbial-pathogenesis]], [[nihilism]]
+- Related artifacts: [[annus-mirabilis-papers-1905]], [[experiments-on-plant-hybridization]], [[foundations-of-geometry-hilbert]], [[planck-quantum-hypothesis-1900]], [[uncertainty-principle-paper-1927]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
 
 - Locations: [[berlin]]
 - Periods: [[nineteenth-century]]
+- Mentioned in body: [[berlin]], [[nineteenth-century]], [[adaptationism]], [[dialectical-materialism]], [[evolution-by-natural-selection]], [[genealogy-of-morals]], [[germ-theory]], [[historical-materialism]], [[microbial-pathogenesis]], [[nihilism]], [[annus-mirabilis-papers-1905]], [[experiments-on-plant-hybridization]], [[foundations-of-geometry-hilbert]], [[planck-quantum-hypothesis-1900]], [[uncertainty-principle-paper-1927]], [[carl-friedrich-gauss]]
 
-## Ontology Connections
+## Network Context
 
-This entry is further connected in the graph through [[al-khwarizmi]], [[gottfried-leibniz]], [[late-zhou]].
-
-## Related Links
-
-- Figure: [[al-khwarizmi]]
-- Figure: [[gottfried-leibniz]]
-- Time: [[late-zhou]]
-- Location: [[amsterdam]]
+- Referenced by figures: [[albert-einstein]], [[carl-friedrich-gauss]], [[david-hilbert]], [[georg-cantor]], [[gregor-mendel]], [[max-planck]], [[niels-bohr]]
+<!-- dialectica:auto-links:end -->

@@ -19,19 +19,34 @@ tags:
 ---
 # Mohism
 
-Mohism is a school-level idea node added to broaden coverage across analytic, theological, eastern, and esoteric traditions.
+Mohism is represented as a conceptual node for comparing arguments, lineages, and points of conflict across traditions.
 
-## Graph Anchors
+## Core Position
 
-- Period context: [[warring-states]]
-- Comparative links: [[civic-republicanism]], [[confucian-ethics]]
+- Built from: [[civic-republicanism]]
+- In tension with: [[confucian-ethics]]
+- Combined with: [[public-action]], [[stoic-duty]]
 
-## Ontology Connections
+## Historical Placement
 
-This entry is further connected in the graph through [[public-action]], [[stoic-duty]], [[late-zhou]].
+This idea is currently associated with figures [[aristotle]], [[kant]], [[confucius]] and periods [[warring-states]].
 
-## Related Links
+## Study Path
 
-- Idea: [[public-action]]
-- Idea: [[stoic-duty]]
-- Time: [[late-zhou]]
+- Adjacent ideas: [[huayan-buddhism]], [[jain-philosophy]], [[legalism]], [[neo-daoism]], [[pure-land-buddhism]], [[school-of-names]], [[tiantai-buddhism]], [[analytic-philosophy]]
+- Connected figures: [[aristotle]], [[kant]], [[confucius]]
+- Referencing artifacts: [[aryabhatiya]], [[third-of-may-1808]], [[annus-mirabilis-papers-1905]], [[being-and-time]], [[book-of-optics-ibn-al-haytham]], [[campbells-soup-cans]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Periods: [[warring-states]]
+- Influences: [[civic-republicanism]]
+- Contradicts: [[confucian-ethics]]
+- Synthesizes: [[public-action]], [[stoic-duty]]
+- Mentioned in body: [[civic-republicanism]], [[confucian-ethics]], [[public-action]], [[stoic-duty]], [[aristotle]], [[kant]], [[confucius]], [[warring-states]], [[huayan-buddhism]], [[jain-philosophy]], [[legalism]], [[neo-daoism]], [[pure-land-buddhism]], [[school-of-names]], [[tiantai-buddhism]], [[analytic-philosophy]]
+
+## Network Context
+
+- Referenced by ideas: [[huayan-buddhism]], [[jain-philosophy]], [[legalism]], [[neo-daoism]], [[pure-land-buddhism]], [[school-of-names]], [[tiantai-buddhism]]
+<!-- dialectica:auto-links:end -->

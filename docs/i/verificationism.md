@@ -17,19 +17,34 @@ tags:
 ---
 # Verificationism
 
-Verificationism is a school-level idea node added to broaden coverage across analytic, theological, eastern, and esoteric traditions.
+Verificationism is represented as a conceptual node for comparing arguments, lineages, and points of conflict across traditions.
 
-## Graph Anchors
+## Core Position
 
-- Period context: [[interwar-period]]
-- Comparative links: [[logical-positivism]], [[metaphysical-essence]]
+- Built from: [[logical-positivism]]
+- In tension with: [[metaphysical-essence]]
+- Combined with: [[empiricism]], [[frankfurt-school]], [[huayan-buddhism]]
 
-## Ontology Connections
+## Historical Placement
 
-This entry is further connected in the graph through [[critique-of-pure-reason]], [[bernhard-riemann]], [[songhai-intellectual-era]].
+This idea is currently associated with figures [[aristotle]], [[kant]], [[confucius]] and periods [[interwar-period]].
 
-## Related Links
+## Study Path
 
-- Artifact: [[critique-of-pure-reason]]
-- Figure: [[bernhard-riemann]]
-- Time: [[songhai-intellectual-era]]
+- Adjacent ideas: [[critical-rationalism]], [[logical-positivism]], [[ordinary-language-philosophy]], [[philosophical-hermeneutics]], [[analytic-philosophy]], [[asharism]], [[carvaka-materialism]], [[empiricism]]
+- Connected figures: [[aristotle]], [[kant]], [[confucius]]
+- Referencing artifacts: [[aryabhatiya]], [[third-of-may-1808]], [[annus-mirabilis-papers-1905]], [[being-and-time]], [[book-of-optics-ibn-al-haytham]], [[campbells-soup-cans]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Periods: [[interwar-period]]
+- Influences: [[logical-positivism]]
+- Contradicts: [[metaphysical-essence]]
+- Mentioned in body: [[logical-positivism]], [[metaphysical-essence]], [[empiricism]], [[frankfurt-school]], [[huayan-buddhism]], [[aristotle]], [[kant]], [[confucius]], [[interwar-period]], [[critical-rationalism]], [[ordinary-language-philosophy]], [[philosophical-hermeneutics]], [[analytic-philosophy]], [[asharism]], [[carvaka-materialism]], [[aryabhatiya]]
+
+## Network Context
+
+- Referenced by figures: [[amrita-sher-gil]], [[edwin-hubble]], [[erwin-schrodinger]], [[frida-kahlo]], [[werner-heisenberg]]
+- Referenced by ideas: [[analytic-philosophy]], [[critical-rationalism]], [[logical-positivism]], [[ordinary-language-philosophy]], [[philosophical-hermeneutics]]
+<!-- dialectica:auto-links:end -->

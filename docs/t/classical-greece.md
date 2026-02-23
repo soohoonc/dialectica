@@ -41,10 +41,16 @@ The Classical period saw:
 - The histories of Herodotus and Thucydides
 - The medical advances of Hippocrates
 
-## Ontology Connections
+<!-- dialectica:auto-links:start -->
+## Graph Links
 
-This entry is further connected in the graph through [[abhinavagupta]].
+- Locations: [[athens]]
+- Mentioned in body: [[plato]], [[forms]], [[aristotle]], [[virtue-ethics]], [[athens]]
 
-## Related Links
+## Network Context
 
-- Figure: [[abhinavagupta]]
+- Referenced by figures: [[aristotle]], [[plato]], [[socrates]]
+- Referenced by ideas: [[advaita-vedanta]], [[anatman]], [[buddha-nature]], [[chan-buddhism]], [[civic-examination]], [[dao]], [[dependent-origination]], [[dharma]], [[dialogical-method]], [[dvaita-vedanta]], [[forms]], [[karma]], [[madhyamaka]], [[mimamsa-hermeneutics]], [[moksha]], [[neo-confucianism]]
+- Referenced by artifacts: [[parthenon-marbles]]
+- Referenced by locations: [[alexandria]], [[athens]], [[sparta]], [[stagira]], [[syracuse]]
+<!-- dialectica:auto-links:end -->

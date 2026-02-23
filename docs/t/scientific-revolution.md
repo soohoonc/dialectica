@@ -11,7 +11,6 @@ tags:
   - mathematics
   - modernity
 ---
-
 # Scientific Revolution
 
 Scientific Revolution marks a period that reshaped institutions, argument styles, and dominant explanatory models. In this corpus it is tied to [[isaac-newton]] and the development of [[heliocentrism]].
@@ -24,4 +23,17 @@ This period is best studied by combining textual analysis with place-based histo
 
 - Representative figure: [[isaac-newton]]
 - Representative idea: [[heliocentrism]]
-- Comparative references: [[classical-greece]], [[enlightenment]], [[virtue-ethics]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Locations: [[london]], [[cambridge]]
+- Mentioned in body: [[isaac-newton]], [[heliocentrism]], [[london]], [[athens]], [[konigsberg]]
+
+## Network Context
+
+- Referenced by figures: [[galileo-galilei]], [[isaac-newton]], [[johannes-kepler]], [[robert-boyle]]
+- Referenced by ideas: [[causal-determinism]], [[heliocentrism]]
+- Referenced by artifacts: [[harmonices-mundi]], [[sidereus-nuncius]], [[the-sceptical-chymist]]
+- Referenced by locations: [[cambridge]]
+<!-- dialectica:auto-links:end -->

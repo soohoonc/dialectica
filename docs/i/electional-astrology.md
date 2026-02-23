@@ -12,21 +12,30 @@ tags:
 ---
 # Electional Astrology
 
-Electional Astrology is an idea node connecting theological, eastern, and esoteric threads in the graph.
+Electional Astrology is represented as a conceptual node for comparing arguments, lineages, and points of conflict across traditions.
 
-## Conceptual Core
+## Core Position
 
-This entry is a seed node and should be expanded with historical context, arguments, and linked ideas.
+- Built from: [[astrology]], [[horoscopic-astrology]], [[mundane-astrology]]
+- In tension with: [[natal-astrology]], [[alchemy]], [[gnosticism]]
+- Combined with: [[hermeticism]], [[kabbalah]], [[lurianic-kabbalah]]
 
-## Ontology Connections
+## Historical Placement
 
-This entry is further connected in the graph through [[aleister-crowley]], [[babylonian-astrology-era]], [[astrology]].
+This idea is currently associated with figures [[aleister-crowley]], [[emanuel-swedenborg]], [[giordano-bruno]] and periods [[babylonian-astrology-era]], [[digital-esotericism-era]], [[esotericism-academic-turn]].
 
-## Related Links
+## Study Path
 
-- Figure: [[aleister-crowley]]
-- Time: [[babylonian-astrology-era]]
-- Idea: [[astrology]]
-- Artifact: [[ars-goetia]]
-- Figure: [[leonardo-da-vinci]]
-- Time: [[renaissance-hermeticism]]
+- Adjacent ideas: [[astrology]], [[horoscopic-astrology]], [[mundane-astrology]], [[natal-astrology]], [[alchemy]], [[gnosticism]], [[hermeticism]], [[kabbalah]]
+- Connected figures: [[aleister-crowley]], [[emanuel-swedenborg]], [[giordano-bruno]]
+- Referencing artifacts: [[aryabhatiya]], [[third-of-may-1808]], [[annus-mirabilis-papers-1905]], [[being-and-time]], [[book-of-optics-ibn-al-haytham]], [[campbells-soup-cans]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Mentioned in body: [[astrology]], [[horoscopic-astrology]], [[mundane-astrology]], [[natal-astrology]], [[alchemy]], [[gnosticism]], [[hermeticism]], [[kabbalah]], [[lurianic-kabbalah]], [[aleister-crowley]], [[emanuel-swedenborg]], [[giordano-bruno]], [[babylonian-astrology-era]], [[digital-esotericism-era]], [[esotericism-academic-turn]], [[aryabhatiya]]
+
+## Network Context
+
+- Referenced by ideas: [[astrology]], [[horoscopic-astrology]], [[mundane-astrology]], [[natal-astrology]]
+<!-- dialectica:auto-links:end -->

@@ -12,20 +12,37 @@ tags:
 ---
 # Les Demoiselles d'Avignon
 
-Les Demoiselles d'Avignon is an artifact seed linked to [[pablo-picasso]] to improve scientist/artist connectivity in the ontology graph.
+Les Demoiselles d'Avignon is treated as a painting from 1907 and used as a material anchor for conceptual and historical links in the graph.
 
-## Context
+## Historical Placement
 
 - Creator: [[pablo-picasso]]
-- Period: [[twentieth-century]]
 - Location: [[paris]]
+- Era: [[twentieth-century]]
 
-## Ontology Connections
+## Interpretive Threads
 
-This entry is further connected in the graph through [[renaissance]], [[calling-of-saint-matthew]], [[ibn-al-haytham]].
+This artifact is currently read alongside the linked concepts below.
+
+## Study Path
+
+- Nearby artifacts: see related links below.
+- Connected times: see related links below.
 
 ## Related Links
 
-- Time: [[renaissance]]
-- Artifact: [[calling-of-saint-matthew]]
-- Figure: [[ibn-al-haytham]]
+- Idea: [[phenomenology]]
+- Idea: [[metaphysical-essence]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Creator: [[pablo-picasso]]
+- Location: [[paris]]
+- Era: [[twentieth-century]]
+- Mentioned in body: [[pablo-picasso]], [[paris]], [[twentieth-century]], [[phenomenology]], [[metaphysical-essence]]
+
+## Network Context
+
+- Referenced by figures: [[albert-einstein]], [[amrita-sher-gil]], [[auguste-rodin]], [[barbara-mcclintock]], [[claude-monet]], [[constantin-brancusi]], [[diego-rivera]], [[edgar-degas]], [[frida-kahlo]], [[georgia-okeeffe]], [[henri-matisse]], [[marcel-duchamp]], [[niels-bohr]], [[pablo-picasso]], [[paul-cezanne]], [[salvador-dali]]
+<!-- dialectica:auto-links:end -->

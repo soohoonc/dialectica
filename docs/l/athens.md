@@ -45,11 +45,15 @@ During the [[classical-greece|Classical period]], Athens achieved unprecedented 
 
 The philosophical traditions born in Athens—[[virtue-ethics]], Platonic idealism, Aristotelian logic—continue to shape Western thought today.
 
-## Ontology Connections
+<!-- dialectica:auto-links:start -->
+## Graph Links
 
-This entry is further connected in the graph through [[abhinavagupta]], [[miletus]].
+- Mentioned in body: [[plato]], [[aristotle]], [[classical-greece]], [[virtue-ethics]]
 
-## Related Links
+## Network Context
 
-- Figure: [[abhinavagupta]]
-- Location: [[miletus]]
+- Referenced by figures: [[abhinavagupta]], [[aleister-crowley]], [[anselm-of-canterbury]], [[aristotle]], [[asanga]], [[athanasius-of-alexandria]], [[basil-of-caesarea]], [[bonaventure]], [[chaitanya-mahaprabhu]], [[cheng-hao]], [[cheng-yi]], [[emanuel-swedenborg]], [[epicurus]], [[giordano-bruno]], [[gregory-of-nyssa]], [[gregory-palamas]]
+- Referenced by artifacts: [[nicomachean-ethics]], [[parthenon-marbles]], [[poetics]], [[symposium]], [[the-republic]]
+- Referenced by locations: [[alexandria]], [[amsterdam]], [[antioch]], [[baghdad]], [[basel]], [[beijing]], [[berlin]], [[bologna]], [[byzantium]], [[cairo]], [[cambridge]], [[carthage]], [[cordoba]], [[edinburgh]], [[ephesus]], [[geneva]]
+- Referenced by times: [[age-of-revolutions]], [[ai-network-era]], [[apostolic-era]], [[arabic-latin-translation-era]], [[archaic-greece]], [[axial-age-core]], [[babylonian-astrology-era]], [[bhakti-movement]], [[caliphate-fragmentation-era]], [[classical-greece]], [[classical-sanskrit-age]], [[cold-war-era]], [[columbian-exchange-era]], [[comparative-religion-era]], [[counter-reformation-era]], [[depth-psychology-era]]
+<!-- dialectica:auto-links:end -->

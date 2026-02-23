@@ -25,15 +25,18 @@ Discovered in 1820 on the island of Milos (Melos), the statue was acquired by Fr
 
 The Venus de Milo exemplifies the Hellenistic period's blend of classical idealism with more naturalistic, emotional expression.
 
-## Ontology Connections
-
-This entry is further connected in the graph through [[parthenon-marbles]], [[zhang-zai]], [[six-dynasties-period]].
-
 ## Related Links
 
-- Artifact: [[parthenon-marbles]]
-- Figure: [[zhang-zai]]
-- Time: [[six-dynasties-period]]
-- Location: [[baghdad]]
-- Idea: [[electional-astrology]]
-- Artifact: [[confessions]]
+- Location: [[milos]]
+- Idea: [[forms]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Location: [[milos]]
+- Mentioned in body: [[milos]], [[forms]]
+
+## Network Context
+
+- No inbound references yet.
+<!-- dialectica:auto-links:end -->

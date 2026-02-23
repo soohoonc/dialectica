@@ -11,7 +11,6 @@ tags:
   - scholastic
   - university
 ---
-
 # Late Scholastic Era
 
 Late Scholastic Era marks a period in which institutions, argument styles, and knowledge practices were reorganized. In this corpus, it is connected to [[thomas-aquinas]] and the development of [[natural-law]].
@@ -24,4 +23,14 @@ This period is best read through connected place nodes such as [[bologna]], [[at
 
 - Figure: [[thomas-aquinas]]
 - Idea: [[natural-law]]
-- Comparative references: [[classical-greece]], [[enlightenment]], [[virtue-ethics]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Locations: [[bologna]], [[oxford]]
+- Mentioned in body: [[thomas-aquinas]], [[natural-law]], [[bologna]], [[athens]], [[paris]]
+
+## Network Context
+
+- Referenced by locations: [[bologna]]
+<!-- dialectica:auto-links:end -->

@@ -65,9 +65,9 @@ export default function LocationPage({ params }: LocationPageProps) {
                 <span className="metadata-label">Tags:</span>
                 <div className="tags">
                   {location.tags.map((tag) => (
-                    <span key={tag} className="tag">
+                    <Link key={tag} href={`/tags/${encodeURIComponent(tag)}`} className="tag">
                       {tag}
-                    </span>
+                    </Link>
                   ))}
                 </div>
               </div>

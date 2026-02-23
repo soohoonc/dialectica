@@ -11,7 +11,6 @@ tags:
   - dna
   - biology
 ---
-
 # Photo 51
 
 Photo 51 is represented as an artifact node connecting textual or material production with figure, place, and period. It is associated with [[rosalind-franklin]] and situated in [[cold-war-era]].
@@ -25,3 +24,16 @@ As an object in this corpus, it links to [[dna-structure]], [[microbial-pathogen
 - Creator: [[rosalind-franklin]]
 - Location: [[london]]
 - Era: [[cold-war-era]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Creator: [[rosalind-franklin]]
+- Location: [[london]]
+- Era: [[cold-war-era]]
+- Mentioned in body: [[rosalind-franklin]], [[cold-war-era]], [[dna-structure]], [[microbial-pathogenesis]], [[deontology]], [[virtue-ethics]], [[forms]], [[london]]
+
+## Network Context
+
+- Referenced by figures: [[abdus-salam]], [[michael-faraday]], [[robert-boyle]]
+<!-- dialectica:auto-links:end -->

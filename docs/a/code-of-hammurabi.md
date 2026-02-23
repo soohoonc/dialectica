@@ -35,15 +35,20 @@ One of the oldest deciphered writings of significant length, the Code of Hammura
 
 "An eye for an eye, a tooth for a tooth" - the principle of proportional justice (lex talionis).
 
-## Ontology Connections
-
-This entry is further connected in the graph through [[babylon]], [[roman-imperial-era]], [[bologna]].
-
 ## Related Links
 
 - Location: [[babylon]]
-- Time: [[roman-imperial-era]]
-- Location: [[bologna]]
 - Idea: [[legal-hermeneutics]]
-- Artifact: [[rosetta-stone]]
-- Figure: [[johannes-vermeer]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Location: [[babylon]]
+- Mentioned in body: [[babylon]], [[legal-hermeneutics]]
+
+## Network Context
+
+- Referenced by figures: [[abhinavagupta]], [[aleister-crowley]], [[anselm-of-canterbury]], [[asanga]], [[athanasius-of-alexandria]], [[basil-of-caesarea]], [[bonaventure]], [[chaitanya-mahaprabhu]], [[cheng-hao]], [[cheng-yi]], [[emanuel-swedenborg]], [[giordano-bruno]], [[gregory-of-nyssa]], [[gregory-palamas]], [[guo-xiang]], [[heinrich-cornelius-agrippa]]
+- Referenced by locations: [[aksum]], [[amritsar]], [[avignon]], [[babylon]], [[bodh-gaya]], [[canterbury]], [[changan]], [[coimbra]], [[fez-al-qarawiyyin]], [[granada]], [[hangzhou]], [[harran]], [[hiroshima]], [[kaifeng]], [[kamakura]], [[kanchipuram]]
+- Referenced by times: [[apostolic-era]], [[arabic-latin-translation-era]], [[axial-age-core]], [[babylonian-astrology-era]], [[bhakti-movement]], [[caliphate-fragmentation-era]], [[classical-sanskrit-age]], [[columbian-exchange-era]], [[comparative-religion-era]], [[counter-reformation-era]], [[depth-psychology-era]], [[digital-esotericism-era]], [[early-buddhist-councils-era]], [[epic-upanishadic-age]], [[esotericism-academic-turn]], [[first-great-awakening]]
+<!-- dialectica:auto-links:end -->

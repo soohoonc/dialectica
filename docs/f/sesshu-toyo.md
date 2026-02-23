@@ -14,20 +14,30 @@ tags:
 ---
 # Sesshu Toyo
 
-Sesshu Toyo is a figure node added to strengthen scientific and artistic coverage in the graph.
+Sesshu Toyo is modeled here as a biographical node that connects social context, intellectual debates, and material outputs.
 
-## Graph Anchors
+## Intellectual Context
+
+This figure is currently anchored to locations [[kyoto]] and periods [[muromachi-period]].
+
+## Debate Surface
+
+High-signal conceptual neighbors include [[forms]], [[deontology]], [[virtue-ethics]], [[empiricism]], [[rationalism]], [[dialectic]], [[metaphysical-essence]], [[nihilism]] and related artifacts [[aryabhatiya]], [[third-of-may-1808]], [[annus-mirabilis-papers-1905]], [[being-and-time]], [[book-of-optics-ibn-al-haytham]], [[campbells-soup-cans]], [[city-of-god-augustinian]], [[code-of-hammurabi]].
+
+## Study Path
+
+- Peer figures: [[aristotle]], [[kant]], [[confucius]], [[plato]], [[karl-marx]], [[hannah-arendt]], [[thomas-aquinas]], [[jean-jacques-rousseau]]
+- Related ideas: [[forms]], [[deontology]], [[virtue-ethics]], [[empiricism]], [[rationalism]], [[dialectic]], [[metaphysical-essence]], [[nihilism]]
+- Related artifacts: [[aryabhatiya]], [[third-of-may-1808]], [[annus-mirabilis-papers-1905]], [[being-and-time]], [[book-of-optics-ibn-al-haytham]], [[campbells-soup-cans]], [[city-of-god-augustinian]], [[code-of-hammurabi]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
 
 - Locations: [[kyoto]]
 - Periods: [[muromachi-period]]
+- Mentioned in body: [[kyoto]], [[muromachi-period]], [[forms]], [[deontology]], [[virtue-ethics]], [[empiricism]], [[rationalism]], [[dialectic]], [[metaphysical-essence]], [[nihilism]], [[aryabhatiya]], [[third-of-may-1808]], [[annus-mirabilis-papers-1905]], [[being-and-time]], [[book-of-optics-ibn-al-haytham]], [[campbells-soup-cans]]
 
-## Ontology Connections
+## Network Context
 
-This entry is further connected in the graph through [[amrita-sher-gil]], [[shen-kuo]], [[high-enlightenment]].
-
-## Related Links
-
-- Figure: [[amrita-sher-gil]]
-- Figure: [[shen-kuo]]
-- Time: [[high-enlightenment]]
-- Location: [[vienna]]
+- Referenced by times: [[muromachi-period]]
+<!-- dialectica:auto-links:end -->

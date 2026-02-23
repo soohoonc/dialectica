@@ -7,21 +7,28 @@ tags:
 ---
 # Avignon
 
-Avignon is a location node relevant to religious, philosophical, and esoteric intellectual history.
+Avignon is modeled as a spatial hub where people, ideas, and artifacts intersect across periods.
 
-## Notes
+## Role in This Graph
 
-This entry is a seed node and should be expanded with historical institutions, figures, and periods connected to this place.
+Current links connect this location to figures [[aristotle]], [[kant]], [[confucius]], [[plato]], [[karl-marx]], [[hannah-arendt]], [[thomas-aquinas]], [[jean-jacques-rousseau]], ideas [[forms]], [[deontology]], [[virtue-ethics]], [[empiricism]], [[rationalism]], [[dialectic]], [[metaphysical-essence]], [[nihilism]], and artifacts [[aryabhatiya]], [[third-of-may-1808]], [[annus-mirabilis-papers-1905]], [[being-and-time]], [[book-of-optics-ibn-al-haytham]], [[campbells-soup-cans]], [[city-of-god-augustinian]], [[code-of-hammurabi]].
 
-## Ontology Connections
+## Temporal Anchors
 
-This entry is further connected in the graph through [[abhinavagupta]], [[apostolic-era]], [[aksum]].
+The strongest period-level ties currently point to [[twentieth-century]], [[nineteenth-century]], [[interwar-period]], [[enlightenment]], [[postwar-era]], [[islamic-golden-age]], [[early-modern-science]], [[fin-de-siecle]].
 
-## Related Links
+## Study Path
 
-- Figure: [[abhinavagupta]]
-- Time: [[apostolic-era]]
-- Location: [[aksum]]
-- Idea: [[analogy-of-being]]
-- Artifact: [[abhidharmakosa]]
-- Figure: [[erwin-schrodinger]]
+- Related figures: [[aristotle]], [[kant]], [[confucius]], [[plato]], [[karl-marx]], [[hannah-arendt]], [[thomas-aquinas]], [[jean-jacques-rousseau]]
+- Related ideas: [[forms]], [[deontology]], [[virtue-ethics]], [[empiricism]], [[rationalism]], [[dialectic]], [[metaphysical-essence]], [[nihilism]]
+- Related artifacts: [[aryabhatiya]], [[third-of-may-1808]], [[annus-mirabilis-papers-1905]], [[being-and-time]], [[book-of-optics-ibn-al-haytham]], [[campbells-soup-cans]], [[city-of-god-augustinian]], [[code-of-hammurabi]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Mentioned in body: [[aristotle]], [[kant]], [[confucius]], [[plato]], [[karl-marx]], [[hannah-arendt]], [[thomas-aquinas]], [[jean-jacques-rousseau]], [[forms]], [[deontology]], [[virtue-ethics]], [[empiricism]], [[rationalism]], [[dialectic]], [[metaphysical-essence]], [[nihilism]]
+
+## Network Context
+
+- No inbound references yet.
+<!-- dialectica:auto-links:end -->

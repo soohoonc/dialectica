@@ -10,21 +10,33 @@ tags:
 ---
 # Apostolic Era
 
-Apostolic Era is a time-period node for tracking theological, eastern, and esoteric developments.
+Apostolic Era (30-100) is modeled as a historical frame for tracking institutional change, circulation of ideas, and shifts in authority across regions.
 
-## Notes
+## Scope
 
-This entry is a seed node and should be expanded with defining events, institutions, and key figures.
+This period is best read as a connective interval rather than a single doctrine: networks of exchange, conflict, translation, and governance shape what becomes legible as knowledge.
 
-## Ontology Connections
+## Historical Dynamics
 
-This entry is further connected in the graph through [[anselm-of-canterbury]], [[first-great-awakening]], [[aksum]].
+- Competing institutions define legitimacy (religious, political, educational, or commercial).
+- Texts and practices travel through translation, trade routes, and imperial administration.
+- Local traditions are reworked under pressure from broader transregional systems.
 
-## Related Links
+## In-Graph Anchors
 
-- Figure: [[anselm-of-canterbury]]
-- Time: [[first-great-awakening]]
-- Location: [[aksum]]
-- Idea: [[analogy-of-being]]
-- Artifact: [[asfar-arbaa]]
-- Figure: [[democritus]]
+- Adjacent periods: [[mahayana-expansion-era]], [[roman-imperial-era]], [[patristic-era]], [[classical-sanskrit-age]]
+- Locations: No direct anchors yet in this graph.
+- Figures: No direct anchors yet in this graph.
+- Ideas: No direct anchors yet in this graph.
+- Artifacts: No direct anchors yet in this graph.
+
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Mentioned in body: [[mahayana-expansion-era]], [[roman-imperial-era]], [[patristic-era]], [[classical-sanskrit-age]]
+
+## Network Context
+
+- Referenced by times: update as linked nodes are added.
+<!-- dialectica:auto-links:end -->

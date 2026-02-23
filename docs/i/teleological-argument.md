@@ -12,21 +12,30 @@ tags:
 ---
 # Teleological Argument
 
-Teleological Argument is an idea node connecting theological, eastern, and esoteric threads in the graph.
+Teleological Argument is represented as a conceptual node for comparing arguments, lineages, and points of conflict across traditions.
 
-## Conceptual Core
+## Core Position
 
-This entry is a seed node and should be expanded with historical context, arguments, and linked ideas.
+- Built from: [[analogy-of-being]], [[apophatic-theology]], [[atonement-theory]]
+- In tension with: [[cataphatic-theology]], [[cosmological-argument]], [[divine-command-theory]]
+- Combined with: [[incarnation-doctrine]], [[kalam-theology]], [[liberation-theology]]
 
-## Ontology Connections
+## Historical Placement
 
-This entry is further connected in the graph through [[anselm-of-canterbury]], [[apostolic-era]], [[aksum]].
+This idea is currently associated with figures [[anselm-of-canterbury]], [[athanasius-of-alexandria]], [[basil-of-caesarea]] and periods [[apostolic-era]], [[first-great-awakening]], [[high-scholastic-era]].
 
-## Related Links
+## Study Path
 
-- Figure: [[anselm-of-canterbury]]
-- Time: [[apostolic-era]]
-- Location: [[aksum]]
-- Idea: [[analogy-of-being]]
-- Artifact: [[asfar-arbaa]]
-- Figure: [[niels-bohr]]
+- Adjacent ideas: [[analogy-of-being]], [[apophatic-theology]], [[atonement-theory]], [[cataphatic-theology]], [[cosmological-argument]], [[divine-command-theory]], [[incarnation-doctrine]], [[kalam-theology]]
+- Connected figures: [[anselm-of-canterbury]], [[athanasius-of-alexandria]], [[basil-of-caesarea]]
+- Referencing artifacts: [[aryabhatiya]], [[third-of-may-1808]], [[annus-mirabilis-papers-1905]], [[being-and-time]], [[book-of-optics-ibn-al-haytham]], [[campbells-soup-cans]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Mentioned in body: [[analogy-of-being]], [[apophatic-theology]], [[atonement-theory]], [[cataphatic-theology]], [[cosmological-argument]], [[divine-command-theory]], [[incarnation-doctrine]], [[kalam-theology]], [[liberation-theology]], [[anselm-of-canterbury]], [[athanasius-of-alexandria]], [[basil-of-caesarea]], [[apostolic-era]], [[first-great-awakening]], [[high-scholastic-era]], [[aryabhatiya]]
+
+## Network Context
+
+- No inbound references yet.
+<!-- dialectica:auto-links:end -->

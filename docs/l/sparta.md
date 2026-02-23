@@ -10,7 +10,6 @@ tags:
   - polis
   - war
 ---
-
 # Sparta
 
 Sparta functions in this graph as a site where intellectual exchange, institutions, and political transformations converged. It is linked with [[classical-greece]] and with figures such as [[plato]].
@@ -24,3 +23,13 @@ As a location node, Sparta helps connect people, ideas, and periods across the o
 - Period: [[classical-greece]]
 - Figure: [[plato]]
 - Ideas: [[virtue-ethics]], [[deontology]], [[forms]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Mentioned in body: [[classical-greece]], [[plato]], [[athens]], [[konigsberg]], [[paris]], [[virtue-ethics]], [[deontology]], [[forms]]
+
+## Network Context
+
+- No inbound references yet.
+<!-- dialectica:auto-links:end -->

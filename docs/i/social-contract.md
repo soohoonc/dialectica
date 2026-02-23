@@ -30,10 +30,19 @@ The concept is best understood relationally: it draws from [[deontology]] and of
 - Period context: [[enlightenment]]
 - Comparative anchors: [[deontology]], [[virtue-ethics]], [[forms]]
 
-## Ontology Connections
+<!-- dialectica:auto-links:start -->
+## Graph Links
 
-This entry is further connected in the graph through [[age-of-revolutions]].
+- Authors: [[jean-jacques-rousseau]]
+- Periods: [[enlightenment]]
+- Influences: [[deontology]]
+- Contradicts: [[forms]]
+- Mentioned in body: [[jean-jacques-rousseau]], [[enlightenment]], [[deontology]], [[forms]], [[virtue-ethics]]
 
-## Related Links
+## Network Context
 
-- Time: [[age-of-revolutions]]
+- Referenced by figures: [[jean-jacques-rousseau]], [[john-locke]], [[john-stuart-mill]]
+- Referenced by ideas: [[civic-republicanism]], [[mechanism-design]], [[moral-skepticism]], [[political-sovereignty]], [[republican-virtue]], [[rights-of-woman]], [[separation-of-powers]]
+- Referenced by artifacts: [[leviathan-hobbes]], [[on-duties-cicero]]
+- Referenced by times: [[early-modern-europe]], [[victorian-era]]
+<!-- dialectica:auto-links:end -->

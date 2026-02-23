@@ -12,20 +12,37 @@ tags:
 ---
 # The Sceptical Chymist
 
-The Sceptical Chymist is an artifact seed linked to [[robert-boyle]] to improve scientist/artist connectivity in the ontology graph.
+The Sceptical Chymist is treated as a book from 1661 and used as a material anchor for conceptual and historical links in the graph.
 
-## Context
+## Historical Placement
 
 - Creator: [[robert-boyle]]
-- Period: [[scientific-revolution]]
 - Location: [[london]]
+- Era: [[scientific-revolution]]
 
-## Ontology Connections
+## Interpretive Threads
 
-This entry is further connected in the graph through [[cold-war-era]], [[cambridge]], [[critical-rationalism]].
+This artifact is currently read alongside the linked concepts below.
+
+## Study Path
+
+- Nearby artifacts: see related links below.
+- Connected times: see related links below.
 
 ## Related Links
 
-- Time: [[cold-war-era]]
-- Location: [[cambridge]]
-- Idea: [[critical-rationalism]]
+- Idea: [[empiricism]]
+- Idea: [[causal-determinism]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Creator: [[robert-boyle]]
+- Location: [[london]]
+- Era: [[scientific-revolution]]
+- Mentioned in body: [[robert-boyle]], [[london]], [[scientific-revolution]], [[empiricism]], [[causal-determinism]]
+
+## Network Context
+
+- Referenced by figures: [[galileo-galilei]], [[johannes-kepler]], [[michael-faraday]], [[robert-boyle]]
+<!-- dialectica:auto-links:end -->

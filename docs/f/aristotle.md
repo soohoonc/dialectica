@@ -4,8 +4,9 @@ name: Aristotle
 birth: -384
 death: -322
 nationality: Greek
-portrait: https://upload.wikimedia.org/wikipedia/commons/a/ae/Aristotle_Altemps_Inv8575.jpg
-portraitSource: https://en.wikipedia.org/wiki/Aristotle
+portrait: >-
+  https://upload.wikimedia.org/wikipedia/commons/a/ae/Aristotle_Altemps_Inv8575.jpg
+portraitSource: 'https://en.wikipedia.org/wiki/Aristotle'
 locations:
   - athens
   - stagira
@@ -48,10 +49,18 @@ Key works include:
 - Organon (logical treatises)
 - Physics
 
-## Ontology Connections
+<!-- dialectica:auto-links:start -->
+## Graph Links
 
-This entry is further connected in the graph through [[stagira]].
+- Locations: [[athens]], [[stagira]]
+- Periods: [[classical-greece]]
+- Mentioned in body: [[plato]], [[athens]], [[virtue-ethics]], [[thomism]], [[the-republic]]
 
-## Related Links
+## Network Context
 
-- Location: [[stagira]]
+- Referenced by figures: [[abhinavagupta]], [[ai-weiwei]], [[aleister-crowley]], [[anselm-of-canterbury]], [[asanga]], [[athanasius-of-alexandria]], [[avicenna]], [[basil-of-caesarea]], [[bonaventure]], [[chaitanya-mahaprabhu]], [[cheng-hao]], [[cheng-yi]], [[confucius]], [[emanuel-swedenborg]], [[epicurus]], [[francisco-goya]]
+- Referenced by ideas: [[analytic-philosophy]], [[carvaka-materialism]], [[categorical-imperative]], [[critical-rationalism]], [[deontology]], [[forms]], [[frankfurt-school]], [[huayan-buddhism]], [[jain-philosophy]], [[legalism]], [[logical-positivism]], [[mohism]], [[navya-nyaya]], [[ordinary-language-philosophy]], [[philosophical-hermeneutics]], [[psychoanalysis]]
+- Referenced by artifacts: [[nicomachean-ethics]], [[poetics]]
+- Referenced by locations: [[aksum]], [[amritsar]], [[athens]], [[avignon]], [[babylon]], [[bodh-gaya]], [[canterbury]], [[changan]], [[coimbra]], [[fez-al-qarawiyyin]], [[granada]], [[hangzhou]], [[harran]], [[hiroshima]], [[kaifeng]], [[kamakura]]
+- Referenced by times: [[apostolic-era]], [[arabic-latin-translation-era]], [[axial-age-core]], [[babylonian-astrology-era]], [[bhakti-movement]], [[caliphate-fragmentation-era]], [[classical-greece]], [[classical-sanskrit-age]], [[columbian-exchange-era]], [[comparative-religion-era]], [[counter-reformation-era]], [[depth-psychology-era]], [[digital-esotericism-era]], [[early-buddhist-councils-era]], [[epic-upanishadic-age]], [[esotericism-academic-turn]]
+<!-- dialectica:auto-links:end -->

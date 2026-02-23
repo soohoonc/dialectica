@@ -14,20 +14,30 @@ tags:
 ---
 # Abdus Salam
 
-Abdus Salam is a figure node added to strengthen scientific and artistic coverage in the graph.
+Abdus Salam is modeled here as a biographical node that connects social context, intellectual debates, and material outputs.
 
-## Graph Anchors
+## Intellectual Context
+
+This figure is currently anchored to locations [[london]] and periods [[postwar-era]].
+
+## Debate Surface
+
+High-signal conceptual neighbors include [[ordinary-language-philosophy]], [[philosophical-hermeneutics]], [[post-structuralism]], [[structuralism]] and related artifacts [[essay-concerning-human-understanding]], [[campbells-soup-cans]], [[experimental-researches-in-electricity]], [[in-the-shadow-of-man]], [[infinity-mirror-room-kusama]], [[leviathan]], [[leviathan-hobbes]], [[photo-51]].
+
+## Study Path
+
+- Peer figures: [[richard-feynman]], [[isaac-newton]], [[lynn-margulis]], [[michael-faraday]], [[rachel-carson]], [[subrahmanyan-chandrasekhar]], [[vera-rubin]], [[andy-warhol]]
+- Related ideas: [[ordinary-language-philosophy]], [[philosophical-hermeneutics]], [[post-structuralism]], [[structuralism]]
+- Related artifacts: [[essay-concerning-human-understanding]], [[campbells-soup-cans]], [[experimental-researches-in-electricity]], [[in-the-shadow-of-man]], [[infinity-mirror-room-kusama]], [[leviathan]], [[leviathan-hobbes]], [[photo-51]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
 
 - Locations: [[london]]
 - Periods: [[postwar-era]]
+- Mentioned in body: [[london]], [[postwar-era]], [[ordinary-language-philosophy]], [[philosophical-hermeneutics]], [[post-structuralism]], [[structuralism]], [[essay-concerning-human-understanding]], [[campbells-soup-cans]], [[experimental-researches-in-electricity]], [[in-the-shadow-of-man]], [[infinity-mirror-room-kusama]], [[leviathan]], [[leviathan-hobbes]], [[photo-51]], [[richard-feynman]], [[isaac-newton]]
 
-## Ontology Connections
+## Network Context
 
-This entry is further connected in the graph through [[albert-einstein]], [[teresa-of-avila]], [[first-great-awakening]].
-
-## Related Links
-
-- Figure: [[albert-einstein]]
-- Figure: [[teresa-of-avila]]
-- Time: [[first-great-awakening]]
-- Location: [[xian]]
+- Referenced by figures: [[lynn-margulis]], [[michael-faraday]], [[rachel-carson]], [[richard-feynman]], [[robert-boyle]], [[subrahmanyan-chandrasekhar]], [[vera-rubin]], [[yayoi-kusama]]
+<!-- dialectica:auto-links:end -->

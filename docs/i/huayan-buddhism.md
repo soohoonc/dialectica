@@ -19,19 +19,34 @@ tags:
 ---
 # Huayan Buddhism
 
-Huayan Buddhism is a school-level idea node added to broaden coverage across analytic, theological, eastern, and esoteric traditions.
+Huayan Buddhism is represented as a conceptual node for comparing arguments, lineages, and points of conflict across traditions.
 
-## Graph Anchors
+## Core Position
 
-- Period context: [[late-antiquity]]
-- Comparative links: [[buddha-nature]], [[sunyata]]
+- Built from: [[buddha-nature]], [[sunyata]]
+- In tension with: [[mohism]], [[neo-daoism]], [[school-of-names]]
+- Combined with: [[chan-buddhism]], [[dependent-origination]]
 
-## Ontology Connections
+## Historical Placement
 
-This entry is further connected in the graph through [[chan-buddhism]], [[dependent-origination]], [[pure-land-buddhism]].
+This idea is currently associated with figures [[aristotle]], [[kant]], [[confucius]] and periods [[late-antiquity]].
 
-## Related Links
+## Study Path
 
-- Idea: [[chan-buddhism]]
-- Idea: [[dependent-origination]]
-- Idea: [[pure-land-buddhism]]
+- Adjacent ideas: [[buddha-nature]], [[chan-buddhism]], [[dependent-origination]], [[sunyata]], [[pure-land-buddhism]], [[tiantai-buddhism]], [[legalism]], [[mohism]]
+- Connected figures: [[aristotle]], [[kant]], [[confucius]]
+- Referencing artifacts: [[aryabhatiya]], [[third-of-may-1808]], [[annus-mirabilis-papers-1905]], [[being-and-time]], [[book-of-optics-ibn-al-haytham]], [[campbells-soup-cans]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Periods: [[late-antiquity]]
+- Influences: [[buddha-nature]], [[sunyata]]
+- Synthesizes: [[chan-buddhism]], [[dependent-origination]]
+- Mentioned in body: [[buddha-nature]], [[sunyata]], [[mohism]], [[neo-daoism]], [[school-of-names]], [[chan-buddhism]], [[dependent-origination]], [[aristotle]], [[kant]], [[confucius]], [[late-antiquity]], [[pure-land-buddhism]], [[tiantai-buddhism]], [[legalism]], [[aryabhatiya]], [[third-of-may-1808]]
+
+## Network Context
+
+- Referenced by figures: [[aryabhata]]
+- Referenced by ideas: [[buddha-nature]], [[chan-buddhism]], [[dependent-origination]], [[legalism]], [[mohism]], [[neo-daoism]], [[post-structuralism]], [[psychoanalysis]], [[pure-land-buddhism]], [[school-of-names]], [[structuralism]], [[sunyata]], [[tiantai-buddhism]], [[verificationism]], [[zen-rinzai]], [[zen-soto]]
+<!-- dialectica:auto-links:end -->

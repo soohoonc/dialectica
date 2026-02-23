@@ -53,11 +53,15 @@ The Enlightenment's emphasis on reason, individual rights, and scientific inquir
 - The scientific method
 - Contemporary secular thought
 
-## Ontology Connections
+<!-- dialectica:auto-links:start -->
+## Graph Links
 
-This entry is further connected in the graph through [[paris]], [[konigsberg]].
+- Locations: [[paris]], [[konigsberg]], [[london]]
+- Mentioned in body: [[kant]], [[categorical-imperative]], [[deontology]], [[virtue-ethics]]
 
-## Related Links
+## Network Context
 
-- Location: [[paris]]
-- Location: [[konigsberg]]
+- Referenced by figures: [[david-hume]], [[jean-jacques-rousseau]], [[john-locke]], [[kant]]
+- Referenced by ideas: [[categorical-imperative]], [[civic-republicanism]], [[deontology]], [[empiricism]], [[practical-reason]], [[social-contract]]
+- Referenced by locations: [[aksum]], [[amritsar]], [[avignon]], [[babylon]], [[baghdad]], [[basel]], [[berlin]], [[bodh-gaya]], [[cairo]], [[cambridge]], [[canterbury]], [[changan]], [[coimbra]], [[cordoba]], [[edinburgh]], [[fez-al-qarawiyyin]]
+<!-- dialectica:auto-links:end -->

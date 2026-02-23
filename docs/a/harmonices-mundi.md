@@ -12,20 +12,37 @@ tags:
 ---
 # Harmonices Mundi
 
-Harmonices Mundi is an artifact seed linked to [[johannes-kepler]] to improve scientist/artist connectivity in the ontology graph.
+Harmonices Mundi is treated as a book from 1619 and used as a material anchor for conceptual and historical links in the graph.
 
-## Context
+## Historical Placement
 
 - Creator: [[johannes-kepler]]
-- Period: [[scientific-revolution]]
 - Location: [[vienna]]
+- Era: [[scientific-revolution]]
 
-## Ontology Connections
+## Interpretive Threads
 
-This entry is further connected in the graph through [[cold-war-era]], [[cambridge]], [[heliocentrism]].
+This artifact is currently read alongside the linked concepts below.
+
+## Study Path
+
+- Nearby artifacts: see related links below.
+- Connected times: see related links below.
 
 ## Related Links
 
-- Time: [[cold-war-era]]
-- Location: [[cambridge]]
-- Idea: [[heliocentrism]]
+- Idea: [[empiricism]]
+- Idea: [[causal-determinism]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Creator: [[johannes-kepler]]
+- Location: [[vienna]]
+- Era: [[scientific-revolution]]
+- Mentioned in body: [[johannes-kepler]], [[vienna]], [[scientific-revolution]], [[empiricism]], [[causal-determinism]]
+
+## Network Context
+
+- Referenced by figures: [[erwin-schrodinger]], [[galileo-galilei]], [[gregor-mendel]], [[johannes-kepler]], [[robert-boyle]]
+<!-- dialectica:auto-links:end -->

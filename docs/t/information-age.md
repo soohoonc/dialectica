@@ -12,7 +12,6 @@ tags:
   - networks
   - knowledge
 ---
-
 # Information Age
 
 Information Age marks a period that reshaped institutions, argument styles, and dominant explanatory models. In this corpus it is tied to [[michel-foucault]] and the development of [[biopolitics]].
@@ -25,4 +24,14 @@ This period is best studied by combining textual analysis with place-based histo
 
 - Representative figure: [[michel-foucault]]
 - Representative idea: [[biopolitics]]
-- Comparative references: [[classical-greece]], [[enlightenment]], [[virtue-ethics]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Locations: [[new-york]], [[london]], [[cambridge]]
+- Mentioned in body: [[michel-foucault]], [[biopolitics]], [[new-york]], [[athens]], [[konigsberg]]
+
+## Network Context
+
+- No inbound references yet.
+<!-- dialectica:auto-links:end -->

@@ -1,6 +1,6 @@
 ---
 type: artifact
-name: South Wind, Clear Sky
+name: 'South Wind, Clear Sky'
 year: 1831
 creator: katsushika-hokusai
 location: tokyo
@@ -12,20 +12,37 @@ tags:
 ---
 # South Wind, Clear Sky
 
-South Wind, Clear Sky is an artifact seed linked to [[katsushika-hokusai]] to improve scientist/artist connectivity in the ontology graph.
+South Wind, Clear Sky is treated as a painting from 1831 and used as a material anchor for conceptual and historical links in the graph.
 
-## Context
+## Historical Placement
 
 - Creator: [[katsushika-hokusai]]
-- Period: [[edo-period]]
 - Location: [[tokyo]]
+- Era: [[edo-period]]
 
-## Ontology Connections
+## Interpretive Threads
 
-This entry is further connected in the graph through [[renaissance]], [[calling-of-saint-matthew]], [[johannes-vermeer]].
+This artifact is currently read alongside the linked concepts below.
+
+## Study Path
+
+- Nearby artifacts: see related links below.
+- Connected times: see related links below.
 
 ## Related Links
 
-- Time: [[renaissance]]
-- Artifact: [[calling-of-saint-matthew]]
-- Figure: [[johannes-vermeer]]
+- Idea: [[phenomenology]]
+- Idea: [[metaphysical-essence]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Creator: [[katsushika-hokusai]]
+- Location: [[tokyo]]
+- Era: [[edo-period]]
+- Mentioned in body: [[katsushika-hokusai]], [[tokyo]], [[edo-period]], [[phenomenology]], [[metaphysical-essence]]
+
+## Network Context
+
+- Referenced by figures: [[katsushika-hokusai]], [[utagawa-hiroshige]], [[yayoi-kusama]]
+<!-- dialectica:auto-links:end -->

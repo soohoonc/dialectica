@@ -4,8 +4,9 @@ name: Plato
 birth: -428
 death: -348
 nationality: Greek
-portrait: https://upload.wikimedia.org/wikipedia/commons/2/21/Plato_Silanion_Musei_Capitolini_MC1377.png
-portraitSource: https://en.wikipedia.org/wiki/Plato
+portrait: >-
+  https://upload.wikimedia.org/wikipedia/commons/2/21/Plato_Silanion_Musei_Capitolini_MC1377.png
+portraitSource: 'https://en.wikipedia.org/wiki/Plato'
 locations:
   - athens
 periods:
@@ -51,12 +52,18 @@ Major works include:
 - Phaedrus
 - Timaeus
 
-## Ontology Connections
+<!-- dialectica:auto-links:start -->
+## Graph Links
 
-This entry is further connected in the graph through [[classical-greece]], [[baruch-spinoza]], [[marcus-aurelius]].
+- Locations: [[athens]]
+- Periods: [[classical-greece]]
+- Mentioned in body: [[athens]], [[forms]], [[aristotle]]
 
-## Related Links
+## Network Context
 
-- Time: [[classical-greece]]
-- Figure: [[baruch-spinoza]]
-- Figure: [[marcus-aurelius]]
+- Referenced by figures: [[abhinavagupta]], [[ai-weiwei]], [[aleister-crowley]], [[anselm-of-canterbury]], [[aristotle]], [[asanga]], [[athanasius-of-alexandria]], [[basil-of-caesarea]], [[bonaventure]], [[chaitanya-mahaprabhu]], [[cheng-hao]], [[cheng-yi]], [[emanuel-swedenborg]], [[francisco-goya]], [[giordano-bruno]], [[gregory-of-nyssa]]
+- Referenced by ideas: [[dialogical-method]], [[forms]], [[virtue-ethics]]
+- Referenced by artifacts: [[symposium]], [[the-republic]]
+- Referenced by locations: [[aksum]], [[amritsar]], [[athens]], [[avignon]], [[babylon]], [[bodh-gaya]], [[canterbury]], [[changan]], [[coimbra]], [[fez-al-qarawiyyin]], [[granada]], [[hangzhou]], [[harran]], [[hiroshima]], [[kaifeng]], [[kamakura]]
+- Referenced by times: [[apostolic-era]], [[arabic-latin-translation-era]], [[axial-age-core]], [[babylonian-astrology-era]], [[bhakti-movement]], [[caliphate-fragmentation-era]], [[classical-greece]], [[classical-sanskrit-age]], [[columbian-exchange-era]], [[comparative-religion-era]], [[counter-reformation-era]], [[depth-psychology-era]], [[digital-esotericism-era]], [[early-buddhist-councils-era]], [[epic-upanishadic-age]], [[esotericism-academic-turn]]
+<!-- dialectica:auto-links:end -->

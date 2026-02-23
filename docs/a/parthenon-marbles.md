@@ -25,14 +25,18 @@ Created under the supervision of the sculptor Phidias, the marbles were removed 
 
 Greece has long requested the return of the marbles, arguing they were taken without proper authorization and belong with the Parthenon.
 
-## Ontology Connections
-
-This entry is further connected in the graph through [[venus-de-milo]], [[georgia-okeeffe]], [[comparative-religion-era]].
-
 ## Related Links
 
-- Artifact: [[venus-de-milo]]
-- Figure: [[georgia-okeeffe]]
-- Time: [[comparative-religion-era]]
-- Location: [[rome]]
-- Idea: [[rosicrucianism]]
+- Idea: [[forms]]
+- Time: [[classical-greece]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Location: [[athens]]
+- Mentioned in body: [[athens]], [[forms]], [[classical-greece]]
+
+## Network Context
+
+- No inbound references yet.
+<!-- dialectica:auto-links:end -->

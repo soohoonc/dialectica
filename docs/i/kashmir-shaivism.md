@@ -20,19 +20,36 @@ tags:
 ---
 # Kashmir Shaivism
 
-Kashmir Shaivism is a school-level idea node added to broaden coverage across analytic, theological, eastern, and esoteric traditions.
+Kashmir Shaivism is represented as a conceptual node for comparing arguments, lineages, and points of conflict across traditions.
 
-## Graph Anchors
+## Core Position
 
-- Period context: [[high-middle-ages]]
-- Comparative links: [[advaita-vedanta]], [[anatman]]
+- Built from: [[advaita-vedanta]]
+- In tension with: [[anatman]]
+- Combined with: [[advaita-vedanta]], [[yoga-darsana]]
 
-## Ontology Connections
+## Historical Placement
 
-This entry is further connected in the graph through [[abhinavagupta]], [[yoga-darsana]], [[anselm-of-canterbury]].
+This idea is currently associated with figures [[abhinavagupta]] and periods [[high-middle-ages]].
 
-## Related Links
+## Study Path
 
-- Figure: [[abhinavagupta]]
-- Idea: [[yoga-darsana]]
-- Figure: [[anselm-of-canterbury]]
+- Adjacent ideas: [[advaita-vedanta]], [[anatman]], [[yoga-darsana]], [[asharism]], [[carvaka-materialism]], [[jain-philosophy]], [[lurianic-kabbalah]], [[maturidism]]
+- Connected figures: [[abhinavagupta]]
+- Referencing artifacts: [[aryabhatiya]], [[third-of-may-1808]], [[annus-mirabilis-papers-1905]], [[being-and-time]], [[book-of-optics-ibn-al-haytham]], [[campbells-soup-cans]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Authors: [[abhinavagupta]]
+- Periods: [[high-middle-ages]]
+- Influences: [[advaita-vedanta]]
+- Contradicts: [[anatman]]
+- Synthesizes: [[advaita-vedanta]], [[yoga-darsana]]
+- Mentioned in body: [[advaita-vedanta]], [[anatman]], [[yoga-darsana]], [[abhinavagupta]], [[high-middle-ages]], [[asharism]], [[carvaka-materialism]], [[jain-philosophy]], [[lurianic-kabbalah]], [[maturidism]], [[aryabhatiya]], [[third-of-may-1808]], [[annus-mirabilis-papers-1905]], [[being-and-time]], [[book-of-optics-ibn-al-haytham]], [[campbells-soup-cans]]
+
+## Network Context
+
+- Referenced by figures: [[abhinavagupta]]
+- Referenced by ideas: [[advaita-vedanta]], [[anatman]], [[asharism]], [[carvaka-materialism]], [[jain-philosophy]], [[lurianic-kabbalah]], [[maturidism]], [[mutazilism]], [[navya-nyaya]], [[psychoanalysis]], [[yoga-darsana]]
+<!-- dialectica:auto-links:end -->

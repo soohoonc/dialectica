@@ -19,19 +19,34 @@ tags:
 ---
 # Zen (Soto)
 
-Zen (Soto) is a school-level idea node added to broaden coverage across analytic, theological, eastern, and esoteric traditions.
+Zen (Soto) is represented as a conceptual node for comparing arguments, lineages, and points of conflict across traditions.
 
-## Graph Anchors
+## Core Position
 
-- Period context: [[high-middle-ages]]
-- Comparative links: [[chan-buddhism]], [[ritual-propriety]]
+- Built from: [[chan-buddhism]]
+- In tension with: [[ritual-propriety]]
+- Combined with: [[inner-freedom]], [[chan-buddhism]]
 
-## Ontology Connections
+## Historical Placement
 
-This entry is further connected in the graph through [[inner-freedom]], [[zen-rinzai]], [[gottfried-leibniz]].
+This idea is currently associated with figures [[aristotle]], [[kant]], [[confucius]] and periods [[high-middle-ages]].
 
-## Related Links
+## Study Path
 
-- Idea: [[inner-freedom]]
-- Idea: [[zen-rinzai]]
-- Figure: [[gottfried-leibniz]]
+- Adjacent ideas: [[chan-buddhism]], [[zen-rinzai]], [[huayan-buddhism]], [[pure-land-buddhism]], [[tiantai-buddhism]], [[analytic-philosophy]], [[asharism]], [[carvaka-materialism]]
+- Connected figures: [[aristotle]], [[kant]], [[confucius]]
+- Referencing artifacts: [[aryabhatiya]], [[third-of-may-1808]], [[annus-mirabilis-papers-1905]], [[being-and-time]], [[book-of-optics-ibn-al-haytham]], [[campbells-soup-cans]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Periods: [[high-middle-ages]]
+- Influences: [[chan-buddhism]]
+- Contradicts: [[ritual-propriety]]
+- Synthesizes: [[inner-freedom]], [[chan-buddhism]]
+- Mentioned in body: [[chan-buddhism]], [[ritual-propriety]], [[inner-freedom]], [[aristotle]], [[kant]], [[confucius]], [[high-middle-ages]], [[zen-rinzai]], [[huayan-buddhism]], [[pure-land-buddhism]], [[tiantai-buddhism]], [[analytic-philosophy]], [[asharism]], [[carvaka-materialism]], [[aryabhatiya]], [[third-of-may-1808]]
+
+## Network Context
+
+- Referenced by ideas: [[chan-buddhism]], [[zen-rinzai]]
+<!-- dialectica:auto-links:end -->

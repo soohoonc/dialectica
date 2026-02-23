@@ -15,20 +15,31 @@ tags:
 ---
 # Aryabhata
 
-Aryabhata is a figure node added to strengthen scientific and artistic coverage in the graph.
+Aryabhata is modeled here as a biographical node that connects social context, intellectual debates, and material outputs.
 
-## Graph Anchors
+## Intellectual Context
+
+This figure is currently anchored to locations [[pataliputra]] and periods [[late-antiquity]].
+
+## Debate Surface
+
+High-signal conceptual neighbors include [[huayan-buddhism]], [[neo-daoism]], [[pure-land-buddhism]], [[tiantai-buddhism]] and related artifacts [[aryabhatiya]], [[city-of-god-augustinian]].
+
+## Study Path
+
+- Peer figures: [[augustine-of-hippo]]
+- Related ideas: [[huayan-buddhism]], [[neo-daoism]], [[pure-land-buddhism]], [[tiantai-buddhism]]
+- Related artifacts: [[aryabhatiya]], [[city-of-god-augustinian]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
 
 - Locations: [[pataliputra]]
 - Periods: [[late-antiquity]]
+- Mentioned in body: [[pataliputra]], [[late-antiquity]], [[huayan-buddhism]], [[neo-daoism]], [[pure-land-buddhism]], [[tiantai-buddhism]], [[aryabhatiya]], [[city-of-god-augustinian]], [[augustine-of-hippo]]
 
-## Ontology Connections
+## Network Context
 
-This entry is further connected in the graph through [[al-khwarizmi]], [[montesquieu]], [[high-middle-ages]].
-
-## Related Links
-
-- Figure: [[al-khwarizmi]]
-- Figure: [[montesquieu]]
-- Time: [[high-middle-ages]]
-- Location: [[shaolin]]
+- Referenced by artifacts: [[aryabhatiya]]
+- Referenced by locations: [[pataliputra]]
+<!-- dialectica:auto-links:end -->

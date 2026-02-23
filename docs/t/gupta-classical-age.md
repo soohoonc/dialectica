@@ -3,27 +3,48 @@ type: time
 name: Gupta Classical Age
 start: 320
 end: 550
-locations: []
+locations:
+  - bodh-gaya
+  - pataliputra
+  - changan
+  - xian
+  - beijing
+  - delhi
 tags:
   - intellectual-history
+  - south-asia
+  - religion
 ---
 # Gupta Classical Age
 
-Gupta Classical Age is a time-period node for tracking theological, eastern, and esoteric developments.
+Gupta Classical Age (320-550) is modeled as a historical frame for tracking institutional change, circulation of ideas, and shifts in authority across regions.
 
-## Notes
+## Scope
 
-This entry is a seed node and should be expanded with defining events, institutions, and key figures.
+This period is best read as a connective interval rather than a single doctrine: networks of exchange, conflict, translation, and governance shape what becomes legible as knowledge.
 
-## Ontology Connections
+## Historical Dynamics
 
-This entry is further connected in the graph through [[arabic-latin-translation-era]], [[vienna]], [[marcel-duchamp]].
+- Competing institutions define legitimacy (religious, political, educational, or commercial).
+- Texts and practices travel through translation, trade routes, and imperial administration.
+- Local traditions are reworked under pressure from broader transregional systems.
 
-## Related Links
+## In-Graph Anchors
 
-- Time: [[arabic-latin-translation-era]]
-- Location: [[vienna]]
-- Figure: [[marcel-duchamp]]
-- Time: [[southern-song-era]]
-- Location: [[aksum]]
-- Idea: [[cataphatic-theology]]
+- Adjacent periods: [[late-antiquity]], [[six-dynasties-period]], [[sui-dynasty]], [[bhakti-movement]]
+- Locations: [[bodh-gaya]], [[pataliputra]], [[changan]], [[xian]], [[beijing]], [[delhi]]
+- Figures: [[asanga]], [[vasubandhu]], [[ramanuja]], [[madhva]], [[abhinavagupta]]
+- Ideas: [[dharma]], [[karma]], [[moksha]], [[sunyata]], [[dependent-origination]], [[madhyamaka]]
+- Artifacts: [[upanishads-collection]], [[rigveda-samhita]], [[mulamadhyamakakarika]], [[heart-sutra]], [[lotus-sutra]], [[bhagavata-purana]]
+
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Locations: [[bodh-gaya]], [[pataliputra]], [[changan]], [[xian]], [[beijing]], [[delhi]]
+- Mentioned in body: [[late-antiquity]], [[six-dynasties-period]], [[sui-dynasty]], [[bhakti-movement]], [[bodh-gaya]], [[pataliputra]], [[changan]], [[xian]], [[beijing]], [[delhi]], [[asanga]], [[vasubandhu]], [[ramanuja]], [[madhva]], [[abhinavagupta]], [[dharma]]
+
+## Network Context
+
+- Referenced by times: update as linked nodes are added.
+<!-- dialectica:auto-links:end -->

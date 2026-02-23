@@ -10,7 +10,6 @@ tags:
   - scholarship
   - urban
 ---
-
 # Baghdad
 
 Baghdad is treated in this graph as a place where intellectual traditions were formed, contested, or institutionalized. It is associated with [[islamic-golden-age]] and frequently linked to [[avicenna]].
@@ -24,3 +23,16 @@ As a location node, Baghdad connects figures, ideas, and periods across the onto
 - Figure: [[avicenna]]
 - Period: [[islamic-golden-age]]
 - Related ideas: [[virtue-ethics]], [[deontology]], [[forms]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Mentioned in body: [[islamic-golden-age]], [[avicenna]], [[athens]], [[konigsberg]], [[enlightenment]], [[virtue-ethics]], [[deontology]], [[forms]]
+
+## Network Context
+
+- Referenced by figures: [[al-biruni]], [[al-khwarizmi]], [[avicenna]]
+- Referenced by artifacts: [[kitabal-jabr-wal-muqabala]]
+- Referenced by locations: [[samarkand]]
+- Referenced by times: [[islamic-golden-age]]
+<!-- dialectica:auto-links:end -->

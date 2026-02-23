@@ -19,19 +19,34 @@ tags:
 ---
 # Rosicrucianism
 
-Rosicrucianism is a school-level idea node added to broaden coverage across analytic, theological, eastern, and esoteric traditions.
+Rosicrucianism is represented as a conceptual node for comparing arguments, lineages, and points of conflict across traditions.
 
-## Graph Anchors
+## Core Position
 
-- Period context: [[early-modern-europe]]
-- Comparative links: [[hermeticism]], [[alchemy]]
+- Built from: [[hermeticism]], [[alchemy]]
+- In tension with: [[alchemy]], [[analytic-philosophy]], [[asharism]]
+- Combined with: [[kabbalah]], [[hermeticism]]
 
-## Ontology Connections
+## Historical Placement
 
-This entry is further connected in the graph through [[kabbalah]], [[aleister-crowley]], [[babylonian-astrology-era]].
+This idea is currently associated with figures [[aleister-crowley]], [[emanuel-swedenborg]], [[giordano-bruno]] and periods [[early-modern-europe]].
 
-## Related Links
+## Study Path
 
-- Idea: [[kabbalah]]
-- Figure: [[aleister-crowley]]
-- Time: [[babylonian-astrology-era]]
+- Adjacent ideas: [[alchemy]], [[hermeticism]], [[kabbalah]], [[lurianic-kabbalah]], [[natal-astrology]], [[natural-magic]], [[analytic-philosophy]], [[asharism]]
+- Connected figures: [[aleister-crowley]], [[emanuel-swedenborg]], [[giordano-bruno]]
+- Referencing artifacts: [[aryabhatiya]], [[third-of-may-1808]], [[annus-mirabilis-papers-1905]], [[being-and-time]], [[book-of-optics-ibn-al-haytham]], [[campbells-soup-cans]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Periods: [[early-modern-europe]]
+- Influences: [[hermeticism]], [[alchemy]]
+- Synthesizes: [[kabbalah]], [[hermeticism]]
+- Mentioned in body: [[hermeticism]], [[alchemy]], [[analytic-philosophy]], [[asharism]], [[kabbalah]], [[aleister-crowley]], [[emanuel-swedenborg]], [[giordano-bruno]], [[early-modern-europe]], [[lurianic-kabbalah]], [[natal-astrology]], [[natural-magic]], [[aryabhatiya]], [[third-of-may-1808]], [[annus-mirabilis-papers-1905]], [[being-and-time]]
+
+## Network Context
+
+- Referenced by figures: [[caravaggio]], [[johannes-vermeer]], [[rembrandt-van-rijn]]
+- Referenced by ideas: [[alchemy]], [[hermeticism]], [[kabbalah]], [[natal-astrology]], [[natural-magic]]
+<!-- dialectica:auto-links:end -->

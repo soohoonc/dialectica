@@ -26,14 +26,19 @@ Kant investigates the limits and possibilities of human knowledge, arguing that 
 - **Transcendental Idealism**: The view that space and time are forms of human intuition
 - **The Categories**: Fundamental concepts the mind uses to structure experience
 
-## Ontology Connections
-
-This entry is further connected in the graph through [[konigsberg]], [[abhinavagupta]], [[classical-greece]].
-
 ## Related Links
 
 - Location: [[konigsberg]]
-- Figure: [[abhinavagupta]]
-- Time: [[classical-greece]]
-- Location: [[athens]]
-- Idea: [[forms]]
+- Idea: [[legal-hermeneutics]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Creator: [[kant]]
+- Location: [[konigsberg]]
+- Mentioned in body: [[kant]], [[konigsberg]], [[legal-hermeneutics]]
+
+## Network Context
+
+- No inbound references yet.
+<!-- dialectica:auto-links:end -->

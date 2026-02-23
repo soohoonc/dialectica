@@ -15,20 +15,31 @@ tags:
 ---
 # Johannes Kepler
 
-Johannes Kepler is a figure node added to strengthen scientific and artistic coverage in the graph.
+Johannes Kepler is modeled here as a biographical node that connects social context, intellectual debates, and material outputs.
 
-## Graph Anchors
+## Intellectual Context
+
+This figure is currently anchored to locations [[vienna]] and periods [[scientific-revolution]].
+
+## Debate Surface
+
+High-signal conceptual neighbors include [[causal-determinism]], [[heliocentrism]] and related artifacts [[harmonices-mundi]], [[experiments-on-plant-hybridization]], [[sidereus-nuncius]], [[the-sceptical-chymist]], [[wave-mechanics-paper-1926]].
+
+## Study Path
+
+- Peer figures: [[galileo-galilei]], [[isaac-newton]], [[robert-boyle]], [[erwin-schrodinger]], [[gregor-mendel]]
+- Related ideas: [[causal-determinism]], [[heliocentrism]]
+- Related artifacts: [[harmonices-mundi]], [[experiments-on-plant-hybridization]], [[sidereus-nuncius]], [[the-sceptical-chymist]], [[wave-mechanics-paper-1926]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
 
 - Locations: [[vienna]]
 - Periods: [[scientific-revolution]]
+- Mentioned in body: [[vienna]], [[scientific-revolution]], [[causal-determinism]], [[heliocentrism]], [[harmonices-mundi]], [[experiments-on-plant-hybridization]], [[sidereus-nuncius]], [[the-sceptical-chymist]], [[wave-mechanics-paper-1926]], [[galileo-galilei]], [[isaac-newton]], [[robert-boyle]], [[erwin-schrodinger]], [[gregor-mendel]]
 
-## Ontology Connections
+## Network Context
 
-This entry is further connected in the graph through [[al-khwarizmi]], [[socrates]], [[house-of-wisdom-era]].
-
-## Related Links
-
-- Figure: [[al-khwarizmi]]
-- Figure: [[socrates]]
-- Time: [[house-of-wisdom-era]]
-- Location: [[lalibela]]
+- Referenced by figures: [[erwin-schrodinger]], [[galileo-galilei]], [[robert-boyle]]
+- Referenced by artifacts: [[harmonices-mundi]]
+<!-- dialectica:auto-links:end -->

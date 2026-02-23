@@ -14,20 +14,30 @@ tags:
 ---
 # Amrita Sher-Gil
 
-Amrita Sher-Gil is a figure node added to strengthen scientific and artistic coverage in the graph.
+Amrita Sher-Gil is modeled here as a biographical node that connects social context, intellectual debates, and material outputs.
 
-## Graph Anchors
+## Intellectual Context
 
-- Locations: [[delhi]]
+This figure is currently anchored to locations [[paris]] and periods [[interwar-period]].
+
+## Debate Surface
+
+High-signal conceptual neighbors include [[computability]], [[logical-positivism]], [[symmetry-principle]], [[verificationism]] and related artifacts [[two-fridas]], [[fountain-duchamp]], [[guernica]], [[les-demoiselles-davignon-picasso]], [[noether-theorem-paper]], [[on-computable-numbers]], [[spirit-of-laws]], [[radioactivity-treatise]].
+
+## Study Path
+
+- Peer figures: [[frida-kahlo]], [[claude-monet]], [[edgar-degas]], [[henri-matisse]], [[pablo-picasso]], [[paul-cezanne]], [[salvador-dali]], [[vincent-van-gogh]]
+- Related ideas: [[computability]], [[logical-positivism]], [[symmetry-principle]], [[verificationism]]
+- Related artifacts: [[two-fridas]], [[fountain-duchamp]], [[guernica]], [[les-demoiselles-davignon-picasso]], [[noether-theorem-paper]], [[on-computable-numbers]], [[spirit-of-laws]], [[radioactivity-treatise]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Locations: [[paris]]
 - Periods: [[interwar-period]]
+- Mentioned in body: [[paris]], [[interwar-period]], [[computability]], [[logical-positivism]], [[symmetry-principle]], [[verificationism]], [[two-fridas]], [[fountain-duchamp]], [[guernica]], [[les-demoiselles-davignon-picasso]], [[noether-theorem-paper]], [[on-computable-numbers]], [[spirit-of-laws]], [[radioactivity-treatise]], [[frida-kahlo]], [[claude-monet]]
 
-## Ontology Connections
+## Network Context
 
-This entry is further connected in the graph through [[paris]], [[caravaggio]], [[ibn-al-haytham]].
-
-## Related Links
-
-- Location: [[paris]]
-- Figure: [[caravaggio]]
-- Figure: [[ibn-al-haytham]]
-- Time: [[early-buddhist-councils-era]]
+- Referenced by figures: [[auguste-rodin]], [[claude-monet]], [[edgar-degas]], [[edwin-hubble]], [[erwin-schrodinger]], [[frida-kahlo]], [[paul-cezanne]], [[werner-heisenberg]]
+<!-- dialectica:auto-links:end -->

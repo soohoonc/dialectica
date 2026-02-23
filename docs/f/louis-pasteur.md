@@ -4,8 +4,9 @@ name: Louis Pasteur
 birth: 1822
 death: 1895
 nationality: French
-portrait: https://upload.wikimedia.org/wikipedia/commons/a/a6/Louis_Pasteur%2C_foto_av_Paul_Nadar%2C_Crisco_edit.jpg
-portraitSource: https://en.wikipedia.org/wiki/Louis_Pasteur
+portrait: >-
+  https://upload.wikimedia.org/wikipedia/commons/a/a6/Louis_Pasteur%2C_foto_av_Paul_Nadar%2C_Crisco_edit.jpg
+portraitSource: 'https://en.wikipedia.org/wiki/Louis_Pasteur'
 locations:
   - paris
 periods:
@@ -15,7 +16,6 @@ tags:
   - chemist
   - microbiologist
 ---
-
 # Louis Pasteur
 
 Louis Pasteur was an influential thinker whose work shaped major debates in philosophy, science, and political thought. In Dialectica, this figure is connected to [[germ-theory]] and placed in relation to [[charles-darwin]].
@@ -28,9 +28,15 @@ Louis Pasteur worked across institutions and cities that defined the intellectua
 
 The most important contributions associated with Louis Pasteur can be read through [[germ-theory]]. Their work also sits in productive tension with ideas such as [[deontology]], [[virtue-ethics]], and [[forms]].
 
-## Related Links
+<!-- dialectica:auto-links:start -->
+## Graph Links
 
-- Place: [[paris]]
-- Period: [[nineteenth-century]]
-- Peer: [[charles-darwin]]
-- Idea: [[germ-theory]]
+- Locations: [[paris]]
+- Periods: [[nineteenth-century]]
+- Mentioned in body: [[germ-theory]], [[charles-darwin]], [[nineteenth-century]], [[deontology]], [[virtue-ethics]], [[forms]]
+
+## Network Context
+
+- Referenced by figures: [[bernhard-riemann]], [[carl-friedrich-gauss]], [[claude-monet]], [[edgar-degas]], [[gregor-mendel]], [[marie-curie]]
+- Referenced by ideas: [[germ-theory]], [[microbial-pathogenesis]]
+<!-- dialectica:auto-links:end -->

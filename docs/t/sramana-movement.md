@@ -3,27 +3,48 @@ type: time
 name: Sramana Movement
 start: -600
 end: -200
-locations: []
+locations:
+  - bodh-gaya
+  - pataliputra
+  - changan
+  - xian
+  - beijing
+  - delhi
 tags:
   - intellectual-history
+  - south-asia
+  - religion
 ---
 # Sramana Movement
 
-Sramana Movement is a time-period node for tracking theological, eastern, and esoteric developments.
+Sramana Movement (-600--200) is modeled as a historical frame for tracking institutional change, circulation of ideas, and shifts in authority across regions.
 
-## Notes
+## Scope
 
-This entry is a seed node and should be expanded with defining events, institutions, and key figures.
+This period is best read as a connective interval rather than a single doctrine: networks of exchange, conflict, translation, and governance shape what becomes legible as knowledge.
 
-## Ontology Connections
+## Historical Dynamics
 
-This entry is further connected in the graph through [[arabic-latin-translation-era]], [[vienna]], [[irenaeus-of-lyons]].
+- Competing institutions define legitimacy (religious, political, educational, or commercial).
+- Texts and practices travel through translation, trade routes, and imperial administration.
+- Local traditions are reworked under pressure from broader transregional systems.
 
-## Related Links
+## In-Graph Anchors
 
-- Time: [[arabic-latin-translation-era]]
-- Location: [[vienna]]
-- Figure: [[irenaeus-of-lyons]]
-- Time: [[early-buddhist-councils-era]]
-- Location: [[tbilisi]]
-- Idea: [[advaita-vedanta]]
+- Adjacent periods: [[late-zhou]], [[presocratic-era]], [[roman-republic-era]], [[classical-greece]]
+- Locations: [[bodh-gaya]], [[pataliputra]], [[changan]], [[xian]], [[beijing]], [[delhi]]
+- Figures: [[asanga]], [[vasubandhu]], [[ramanuja]], [[madhva]], [[abhinavagupta]]
+- Ideas: [[dharma]], [[karma]], [[moksha]], [[sunyata]], [[dependent-origination]], [[madhyamaka]]
+- Artifacts: [[upanishads-collection]], [[rigveda-samhita]], [[mulamadhyamakakarika]], [[heart-sutra]], [[lotus-sutra]], [[bhagavata-purana]]
+
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Locations: [[bodh-gaya]], [[pataliputra]], [[changan]], [[xian]], [[beijing]], [[delhi]]
+- Mentioned in body: [[late-zhou]], [[presocratic-era]], [[roman-republic-era]], [[classical-greece]], [[bodh-gaya]], [[pataliputra]], [[changan]], [[xian]], [[beijing]], [[delhi]], [[asanga]], [[vasubandhu]], [[ramanuja]], [[madhva]], [[abhinavagupta]], [[dharma]]
+
+## Network Context
+
+- Referenced by times: update as linked nodes are added.
+<!-- dialectica:auto-links:end -->

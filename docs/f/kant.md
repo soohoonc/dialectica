@@ -4,8 +4,9 @@ name: Immanuel Kant
 birth: 1724
 death: 1804
 nationality: German
-portrait: https://upload.wikimedia.org/wikipedia/commons/7/79/Immanuel_Kant_-_Gemaelde_1.jpg
-portraitSource: https://en.wikipedia.org/wiki/Immanuel_Kant
+portrait: >-
+  https://upload.wikimedia.org/wikipedia/commons/7/79/Immanuel_Kant_-_Gemaelde_1.jpg
+portraitSource: 'https://en.wikipedia.org/wiki/Immanuel_Kant'
 locations:
   - konigsberg
 periods:
@@ -48,11 +49,18 @@ Kant's critical philosophy synthesized rationalist and empiricist traditions, pr
 - Critique of Practical Reason (1788)
 - Critique of Judgment (1790)
 
-## Ontology Connections
+<!-- dialectica:auto-links:start -->
+## Graph Links
 
-This entry is further connected in the graph through [[enlightenment]], [[confucius]].
+- Locations: [[konigsberg]]
+- Periods: [[enlightenment]]
+- Mentioned in body: [[konigsberg]], [[categorical-imperative]], [[deontology]], [[virtue-ethics]]
 
-## Related Links
+## Network Context
 
-- Time: [[enlightenment]]
-- Figure: [[confucius]]
+- Referenced by figures: [[abhinavagupta]], [[ai-weiwei]], [[aleister-crowley]], [[anselm-of-canterbury]], [[asanga]], [[athanasius-of-alexandria]], [[basil-of-caesarea]], [[bonaventure]], [[chaitanya-mahaprabhu]], [[cheng-hao]], [[cheng-yi]], [[david-hume]], [[emanuel-swedenborg]], [[francisco-goya]], [[georg-hegel]], [[giordano-bruno]]
+- Referenced by ideas: [[analytic-philosophy]], [[carvaka-materialism]], [[categorical-imperative]], [[critical-rationalism]], [[deontology]], [[frankfurt-school]], [[huayan-buddhism]], [[jain-philosophy]], [[legalism]], [[logical-positivism]], [[mohism]], [[navya-nyaya]], [[ordinary-language-philosophy]], [[philosophical-hermeneutics]], [[practical-reason]], [[psychoanalysis]]
+- Referenced by artifacts: [[critique-of-pure-reason]]
+- Referenced by locations: [[aksum]], [[amritsar]], [[avignon]], [[babylon]], [[bodh-gaya]], [[canterbury]], [[changan]], [[coimbra]], [[fez-al-qarawiyyin]], [[granada]], [[hangzhou]], [[harran]], [[hiroshima]], [[kaifeng]], [[kamakura]], [[kanchipuram]]
+- Referenced by times: [[apostolic-era]], [[arabic-latin-translation-era]], [[axial-age-core]], [[babylonian-astrology-era]], [[bhakti-movement]], [[caliphate-fragmentation-era]], [[classical-sanskrit-age]], [[columbian-exchange-era]], [[comparative-religion-era]], [[counter-reformation-era]], [[depth-psychology-era]], [[digital-esotericism-era]], [[early-buddhist-councils-era]], [[enlightenment]], [[epic-upanishadic-age]], [[esotericism-academic-turn]]
+<!-- dialectica:auto-links:end -->

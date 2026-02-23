@@ -2,7 +2,7 @@
 type: artifact
 name: Phenomenology of Spirit
 year: 1807
-creator: hegel
+creator: georg-hegel
 location: jena
 medium: book
 tags:
@@ -25,15 +25,19 @@ Hegel traces the development of consciousness from immediate sense-certainty to 
 - **Unhappy Consciousness**: The divided self seeking unity
 - **Absolute Spirit**: The culmination of historical development
 
-## Ontology Connections
-
-This entry is further connected in the graph through [[jena]], [[abhinavagupta]], [[classical-greece]].
-
 ## Related Links
 
+- Figure: [[georg-hegel]]
 - Location: [[jena]]
-- Figure: [[abhinavagupta]]
-- Time: [[classical-greece]]
-- Location: [[athens]]
-- Idea: [[advaita-vedanta]]
-- Artifact: [[being-and-time]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Creator: [[georg-hegel]]
+- Location: [[jena]]
+- Mentioned in body: [[georg-hegel]], [[jena]]
+
+## Network Context
+
+- No inbound references yet.
+<!-- dialectica:auto-links:end -->

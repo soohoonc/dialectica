@@ -26,14 +26,19 @@ Aristotle analyzes the nature of poetry and drama, establishing principles that 
 - **Unity of Action**: A plot should have a single main action
 - **Tragic Hero**: A character of high status with a fatal flaw (hamartia)
 
-## Ontology Connections
-
-This entry is further connected in the graph through [[athens]], [[abhinavagupta]], [[classical-greece]].
-
 ## Related Links
 
 - Location: [[athens]]
-- Figure: [[abhinavagupta]]
-- Time: [[classical-greece]]
-- Idea: [[advaita-vedanta]]
-- Artifact: [[being-and-time]]
+- Idea: [[legal-hermeneutics]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Creator: [[aristotle]]
+- Location: [[athens]]
+- Mentioned in body: [[aristotle]], [[athens]], [[legal-hermeneutics]]
+
+## Network Context
+
+- No inbound references yet.
+<!-- dialectica:auto-links:end -->

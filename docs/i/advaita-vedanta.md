@@ -12,21 +12,30 @@ tags:
 ---
 # Advaita Vedanta
 
-Advaita Vedanta is an idea node connecting theological, eastern, and esoteric threads in the graph.
+Advaita Vedanta is represented as a conceptual node for comparing arguments, lineages, and points of conflict across traditions.
 
-## Conceptual Core
+## Core Position
 
-This entry is a seed node and should be expanded with historical context, arguments, and linked ideas.
+- Built from: [[anatman]], [[buddha-nature]], [[dependent-origination]]
+- In tension with: [[dharma]], [[dvaita-vedanta]], [[karma]]
+- Combined with: [[madhyamaka]], [[mimamsa-hermeneutics]], [[moksha]]
 
-## Ontology Connections
+## Historical Placement
 
-This entry is further connected in the graph through [[abhinavagupta]], [[classical-greece]], [[athens]].
+This idea is currently associated with figures [[abhinavagupta]], [[asanga]], [[chaitanya-mahaprabhu]] and periods [[classical-greece]], [[hellenistic-period]], [[islamic-golden-age]].
 
-## Related Links
+## Study Path
 
-- Figure: [[abhinavagupta]]
-- Time: [[classical-greece]]
-- Location: [[athens]]
-- Idea: [[anatman]]
-- Artifact: [[being-and-time]]
-- Figure: [[vasubandhu]]
+- Adjacent ideas: [[kashmir-shaivism]], [[anatman]], [[buddha-nature]], [[dependent-origination]], [[dharma]], [[dvaita-vedanta]], [[karma]], [[madhyamaka]]
+- Connected figures: [[abhinavagupta]], [[asanga]], [[chaitanya-mahaprabhu]]
+- Referencing artifacts: [[aryabhatiya]], [[third-of-may-1808]], [[annus-mirabilis-papers-1905]], [[being-and-time]], [[book-of-optics-ibn-al-haytham]], [[campbells-soup-cans]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Mentioned in body: [[anatman]], [[buddha-nature]], [[dependent-origination]], [[dharma]], [[dvaita-vedanta]], [[karma]], [[madhyamaka]], [[mimamsa-hermeneutics]], [[moksha]], [[abhinavagupta]], [[asanga]], [[chaitanya-mahaprabhu]], [[classical-greece]], [[hellenistic-period]], [[islamic-golden-age]], [[kashmir-shaivism]]
+
+## Network Context
+
+- Referenced by ideas: [[anatman]], [[buddha-nature]], [[carvaka-materialism]], [[chan-buddhism]], [[dao]], [[dependent-origination]], [[dharma]], [[dvaita-vedanta]], [[jain-philosophy]], [[karma]], [[kashmir-shaivism]], [[madhyamaka]], [[mimamsa-hermeneutics]], [[moksha]], [[navya-nyaya]], [[neo-confucianism]]
+<!-- dialectica:auto-links:end -->

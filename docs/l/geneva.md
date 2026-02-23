@@ -10,7 +10,6 @@ tags:
   - politics
   - enlightenment
 ---
-
 # Geneva
 
 Geneva is treated in this graph as a place where intellectual traditions were formed, contested, or institutionalized. It is associated with [[enlightenment]] and frequently linked to [[jean-jacques-rousseau]].
@@ -24,3 +23,13 @@ As a location node, Geneva connects figures, ideas, and periods across the ontol
 - Figure: [[jean-jacques-rousseau]]
 - Period: [[enlightenment]]
 - Related ideas: [[virtue-ethics]], [[deontology]], [[forms]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Mentioned in body: [[enlightenment]], [[jean-jacques-rousseau]], [[athens]], [[konigsberg]], [[virtue-ethics]], [[deontology]], [[forms]]
+
+## Network Context
+
+- Referenced by figures: [[jean-jacques-rousseau]]
+<!-- dialectica:auto-links:end -->

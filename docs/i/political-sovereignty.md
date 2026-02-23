@@ -17,7 +17,6 @@ tags:
   - state
   - authority
 ---
-
 # Political Sovereignty
 
 Political Sovereignty is treated as a concept linking argument form, historical context, and practical implications. In this graph it is anchored in [[thomas-hobbes]] and situated in [[early-modern-science]].
@@ -31,3 +30,21 @@ This node is read through influences such as [[social-contract]] and [[deontolog
 - Figure: [[thomas-hobbes]]
 - Period: [[early-modern-science]]
 - Anchors: [[deontology]], [[virtue-ethics]], [[forms]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Authors: [[thomas-hobbes]]
+- Periods: [[early-modern-science]]
+- Influences: [[social-contract]], [[deontology]]
+- Contradicts: [[civic-republicanism]]
+- Mentioned in body: [[thomas-hobbes]], [[early-modern-science]], [[social-contract]], [[deontology]], [[civic-republicanism]], [[virtue-ethics]], [[forms]]
+
+## Network Context
+
+- Referenced by figures: [[thomas-hobbes]]
+- Referenced by ideas: [[legalism]], [[mechanism-design]], [[separation-of-powers]]
+- Referenced by artifacts: [[leviathan-hobbes]]
+- Referenced by locations: [[delhi]]
+- Referenced by times: [[protestant-reformation]]
+<!-- dialectica:auto-links:end -->

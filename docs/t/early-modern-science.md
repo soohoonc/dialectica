@@ -12,7 +12,6 @@ tags:
   - method
   - modernity
 ---
-
 # Early Modern Science
 
 Early Modern Science marks a period in which institutions, argument styles, and knowledge practices were reorganized. In this corpus, it is connected to [[rene-descartes]] and the development of [[methodic-doubt]].
@@ -25,4 +24,17 @@ This period is best read through connected place nodes such as [[amsterdam]], [[
 
 - Figure: [[rene-descartes]]
 - Idea: [[methodic-doubt]]
-- Comparative references: [[classical-greece]], [[enlightenment]], [[virtue-ethics]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Locations: [[amsterdam]], [[oxford]], [[london]]
+- Mentioned in body: [[rene-descartes]], [[methodic-doubt]], [[amsterdam]], [[athens]], [[paris]]
+
+## Network Context
+
+- Referenced by figures: [[baruch-spinoza]], [[gottfried-leibniz]], [[rene-descartes]], [[thomas-hobbes]]
+- Referenced by ideas: [[methodic-doubt]], [[political-sovereignty]], [[substance-monism]], [[sufficient-reason]]
+- Referenced by artifacts: [[discourse-on-method]], [[ethics-spinoza]], [[leviathan-hobbes]], [[monadology]]
+- Referenced by locations: [[aksum]], [[amritsar]], [[amsterdam]], [[avignon]], [[babylon]], [[bodh-gaya]], [[canterbury]], [[changan]], [[coimbra]], [[fez-al-qarawiyyin]], [[granada]], [[hangzhou]], [[harran]], [[hiroshima]], [[kaifeng]], [[kamakura]]
+<!-- dialectica:auto-links:end -->

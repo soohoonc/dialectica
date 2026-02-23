@@ -7,21 +7,30 @@ tags:
 ---
 # Pataliputra
 
-Pataliputra is a location node relevant to religious, philosophical, and esoteric intellectual history.
+Pataliputra is modeled as a spatial hub where people, ideas, and artifacts intersect across periods.
 
-## Notes
+## Role in This Graph
 
-This entry is a seed node and should be expanded with historical institutions, figures, and periods connected to this place.
+Current links connect this location to figures [[aryabhata]], ideas [[forms]], [[deontology]], [[virtue-ethics]], [[empiricism]], [[rationalism]], [[dialectic]], [[metaphysical-essence]], [[nihilism]], and artifacts [[aryabhatiya]].
 
-## Ontology Connections
+## Temporal Anchors
 
-This entry is further connected in the graph through [[abhinavagupta]], [[apostolic-era]], [[aksum]].
+The strongest period-level ties currently point to [[twentieth-century]], [[nineteenth-century]], [[interwar-period]], [[enlightenment]], [[postwar-era]], [[islamic-golden-age]], [[early-modern-science]], [[fin-de-siecle]].
 
-## Related Links
+## Study Path
 
-- Figure: [[abhinavagupta]]
-- Time: [[apostolic-era]]
-- Location: [[aksum]]
-- Idea: [[analogy-of-being]]
-- Artifact: [[abhidharmakosa]]
-- Figure: [[edgar-degas]]
+- Related figures: [[aryabhata]]
+- Related ideas: [[forms]], [[deontology]], [[virtue-ethics]], [[empiricism]], [[rationalism]], [[dialectic]], [[metaphysical-essence]], [[nihilism]]
+- Related artifacts: [[aryabhatiya]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Mentioned in body: [[aryabhata]], [[forms]], [[deontology]], [[virtue-ethics]], [[empiricism]], [[rationalism]], [[dialectic]], [[metaphysical-essence]], [[nihilism]], [[aryabhatiya]], [[twentieth-century]], [[nineteenth-century]], [[interwar-period]], [[enlightenment]], [[postwar-era]], [[islamic-golden-age]]
+
+## Network Context
+
+- Referenced by figures: [[aryabhata]]
+- Referenced by artifacts: [[aryabhatiya]]
+- Referenced by times: [[muromachi-period]]
+<!-- dialectica:auto-links:end -->

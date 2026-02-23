@@ -30,10 +30,20 @@ The concept is best understood relationally: it draws from [[virtue-ethics]] and
 - Period context: [[hellenistic-period]]
 - Comparative anchors: [[deontology]], [[virtue-ethics]], [[forms]]
 
-## Ontology Connections
+<!-- dialectica:auto-links:start -->
+## Graph Links
 
-This entry is further connected in the graph through [[late-zhou]].
+- Authors: [[zeno-of-citium]]
+- Periods: [[hellenistic-period]]
+- Influences: [[virtue-ethics]]
+- Contradicts: [[deontology]]
+- Mentioned in body: [[zeno-of-citium]], [[hellenistic-period]], [[virtue-ethics]], [[deontology]], [[forms]]
 
-## Related Links
+## Network Context
 
-- Time: [[late-zhou]]
+- Referenced by figures: [[epicurus]], [[zeno-of-citium]]
+- Referenced by ideas: [[imperial-stoicism]], [[inner-freedom]], [[logos-doctrine]], [[stoic-duty]]
+- Referenced by artifacts: [[discourses-of-epictetus]]
+- Referenced by locations: [[alexandria]]
+- Referenced by times: [[hellenistic-period]]
+<!-- dialectica:auto-links:end -->

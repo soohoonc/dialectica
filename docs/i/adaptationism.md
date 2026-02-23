@@ -17,7 +17,6 @@ tags:
   - evolution
   - selection
 ---
-
 # Adaptationism
 
 Adaptationism is modeled here as a connective concept that links figure, period, and argument structure. This page is anchored in [[charles-darwin]] and historically situated in [[nineteenth-century]].
@@ -26,8 +25,16 @@ Adaptationism is modeled here as a connective concept that links figure, period,
 
 This idea is best approached relationally: it develops themes from [[evolution-by-natural-selection]] while challenging [[forms]]. In this corpus, it is read alongside [[deontology]], [[virtue-ethics]], and [[forms]].
 
+<!-- dialectica:auto-links:start -->
 ## Graph Links
 
-- Figure: [[charles-darwin]]
-- Period: [[nineteenth-century]]
+- Authors: [[charles-darwin]]
+- Periods: [[nineteenth-century]]
 - Influences: [[evolution-by-natural-selection]], [[empiricism]]
+- Contradicts: [[forms]]
+- Mentioned in body: [[charles-darwin]], [[nineteenth-century]], [[evolution-by-natural-selection]], [[forms]], [[deontology]], [[virtue-ethics]]
+
+## Network Context
+
+- Referenced by figures: [[bernhard-riemann]], [[carl-friedrich-gauss]], [[claude-monet]], [[edgar-degas]], [[gregor-mendel]]
+<!-- dialectica:auto-links:end -->

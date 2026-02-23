@@ -8,21 +8,34 @@ tags:
 ---
 # Corpus Hermeticum
 
-Corpus Hermeticum is an artifact node for theology, eastern thought, esoteric traditions, or astrology-related knowledge.
+Corpus Hermeticum is treated as a book and used as a material anchor for conceptual and historical links in the graph.
 
-## Notes
+## Historical Placement
 
-This entry is a seed node and should be expanded with provenance, date, creator, and influence.
+- Creator: not specified
+- Location: not specified
+- Era: not specified
 
-## Ontology Connections
+## Interpretive Threads
 
-This entry is further connected in the graph through [[aleister-crowley]], [[babylonian-astrology-era]], [[alchemy]].
+This artifact is currently read alongside the linked concepts below.
+
+## Study Path
+
+- Nearby artifacts: see related links below.
+- Connected times: see related links below.
 
 ## Related Links
 
-- Figure: [[aleister-crowley]]
-- Time: [[babylonian-astrology-era]]
-- Idea: [[alchemy]]
-- Artifact: [[ars-goetia]]
-- Figure: [[rachel-carson]]
-- Time: [[synthetic-media-era]]
+- Idea: [[hermeticism]]
+- Idea: [[theurgy]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Mentioned in body: [[hermeticism]], [[theurgy]]
+
+## Network Context
+
+- Referenced by ideas: [[hermeticism]], [[theurgy]]
+<!-- dialectica:auto-links:end -->

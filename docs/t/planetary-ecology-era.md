@@ -2,27 +2,46 @@
 type: time
 name: Planetary Ecology Era
 start: 1962
-locations: []
+locations:
+  - new-york
+  - london
+  - beijing
+  - tokyo
 tags:
   - intellectual-history
+  - contemporary
+  - media
 ---
 # Planetary Ecology Era
 
-Planetary Ecology Era is a time-period node for tracking theological, eastern, and esoteric developments.
+Planetary Ecology Era (1962-present) is modeled as a historical frame for tracking institutional change, circulation of ideas, and shifts in authority across regions.
 
-## Notes
+## Scope
 
-This entry is a seed node and should be expanded with defining events, institutions, and key figures.
+This period is best read as a connective interval rather than a single doctrine: networks of exchange, conflict, translation, and governance shape what becomes legible as knowledge.
 
-## Ontology Connections
+## Historical Dynamics
 
-This entry is further connected in the graph through [[arabic-latin-translation-era]], [[vienna]], [[emmy-noether]].
+- Competing institutions define legitimacy (religious, political, educational, or commercial).
+- Texts and practices travel through translation, trade routes, and imperial administration.
+- Local traditions are reworked under pressure from broader transregional systems.
 
-## Related Links
+## In-Graph Anchors
 
-- Time: [[arabic-latin-translation-era]]
-- Location: [[vienna]]
-- Figure: [[emmy-noether]]
-- Time: [[axial-age-core]]
-- Location: [[athens]]
-- Idea: [[theurgy]]
+- Adjacent periods: [[cold-war-era]], [[new-age-movement-era]], [[digital-computing-era]], [[information-age]]
+- Locations: [[new-york]], [[london]], [[beijing]], [[tokyo]]
+- Figures: [[michel-foucault]], [[hannah-arendt]], [[alan-turing]], [[claude-shannon]]
+- Ideas: [[post-structuralism]]
+- Artifacts: [[mathematical-theory-of-communication]], [[on-computable-numbers]], [[sunflower-seeds-ai-weiwei]]
+
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Locations: [[new-york]], [[london]], [[beijing]], [[tokyo]]
+- Mentioned in body: [[cold-war-era]], [[new-age-movement-era]], [[digital-computing-era]], [[information-age]], [[new-york]], [[london]], [[beijing]], [[tokyo]], [[michel-foucault]], [[hannah-arendt]], [[alan-turing]], [[claude-shannon]], [[post-structuralism]], [[mathematical-theory-of-communication]], [[on-computable-numbers]], [[sunflower-seeds-ai-weiwei]]
+
+## Network Context
+
+- Referenced by times: update as linked nodes are added.
+<!-- dialectica:auto-links:end -->

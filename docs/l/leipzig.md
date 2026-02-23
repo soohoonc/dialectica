@@ -10,7 +10,6 @@ tags:
   - print
   - scholarship
 ---
-
 # Leipzig
 
 Leipzig functions in this graph as a site where intellectual exchange, institutions, and political transformations converged. It is linked with [[early-modern-science]] and with figures such as [[gottfried-leibniz]].
@@ -24,3 +23,15 @@ As a location node, Leipzig helps connect people, ideas, and periods across the 
 - Period: [[early-modern-science]]
 - Figure: [[gottfried-leibniz]]
 - Ideas: [[virtue-ethics]], [[deontology]], [[forms]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Mentioned in body: [[early-modern-science]], [[gottfried-leibniz]], [[athens]], [[konigsberg]], [[paris]], [[virtue-ethics]], [[deontology]], [[forms]]
+
+## Network Context
+
+- Referenced by figures: [[gottfried-leibniz]]
+- Referenced by artifacts: [[monadology]]
+- Referenced by times: [[protestant-reformation]]
+<!-- dialectica:auto-links:end -->

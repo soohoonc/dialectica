@@ -16,19 +16,31 @@ tags:
 ---
 # James Clerk Maxwell
 
-James Clerk Maxwell is a figure node added to strengthen scientific and artistic coverage in the graph.
+James Clerk Maxwell is modeled here as a biographical node that connects social context, intellectual debates, and material outputs.
 
-## Graph Anchors
+## Intellectual Context
+
+This figure is currently anchored to locations [[edinburgh]], [[cambridge]] and periods [[second-industrial-revolution]].
+
+## Debate Surface
+
+High-signal conceptual neighbors include [[forms]], [[deontology]], [[virtue-ethics]], [[empiricism]], [[rationalism]], [[dialectic]], [[metaphysical-essence]], [[nihilism]] and related artifacts [[treatise-on-electricity-and-magnetism]], [[on-computable-numbers]].
+
+## Study Path
+
+- Peer figures: [[isaac-newton]], [[alonzo-church]], [[subrahmanyan-chandrasekhar]], [[alan-turing]], [[charles-darwin]], [[edwin-hubble]], [[david-hume]]
+- Related ideas: [[forms]], [[deontology]], [[virtue-ethics]], [[empiricism]], [[rationalism]], [[dialectic]], [[metaphysical-essence]], [[nihilism]]
+- Related artifacts: [[treatise-on-electricity-and-magnetism]], [[on-computable-numbers]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
 
 - Locations: [[edinburgh]], [[cambridge]]
 - Periods: [[second-industrial-revolution]]
+- Mentioned in body: [[edinburgh]], [[cambridge]], [[second-industrial-revolution]], [[forms]], [[deontology]], [[virtue-ethics]], [[empiricism]], [[rationalism]], [[dialectic]], [[metaphysical-essence]], [[nihilism]], [[treatise-on-electricity-and-magnetism]], [[on-computable-numbers]], [[isaac-newton]], [[alonzo-church]], [[subrahmanyan-chandrasekhar]]
 
-## Ontology Connections
+## Network Context
 
-This entry is further connected in the graph through [[ibn-al-haytham]], [[cheng-hao]], [[six-dynasties-period]].
-
-## Related Links
-
-- Figure: [[ibn-al-haytham]]
-- Figure: [[cheng-hao]]
-- Time: [[six-dynasties-period]]
+- Referenced by figures: [[alonzo-church]]
+- Referenced by artifacts: [[treatise-on-electricity-and-magnetism]]
+<!-- dialectica:auto-links:end -->

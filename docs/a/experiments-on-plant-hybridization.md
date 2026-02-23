@@ -12,20 +12,37 @@ tags:
 ---
 # Experiments on Plant Hybridization
 
-Experiments on Plant Hybridization is an artifact seed linked to [[gregor-mendel]] to improve scientist/artist connectivity in the ontology graph.
+Experiments on Plant Hybridization is treated as a manuscript from 1866 and used as a material anchor for conceptual and historical links in the graph.
 
-## Context
+## Historical Placement
 
 - Creator: [[gregor-mendel]]
-- Period: [[nineteenth-century]]
 - Location: [[vienna]]
+- Era: [[nineteenth-century]]
 
-## Ontology Connections
+## Interpretive Threads
 
-This entry is further connected in the graph through [[cold-war-era]], [[cambridge]], [[adaptationism]].
+This artifact is currently read alongside the linked concepts below.
+
+## Study Path
+
+- Nearby artifacts: see related links below.
+- Connected times: see related links below.
 
 ## Related Links
 
-- Time: [[cold-war-era]]
-- Location: [[cambridge]]
-- Idea: [[adaptationism]]
+- Idea: [[empiricism]]
+- Idea: [[causal-determinism]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Creator: [[gregor-mendel]]
+- Location: [[vienna]]
+- Era: [[nineteenth-century]]
+- Mentioned in body: [[gregor-mendel]], [[vienna]], [[nineteenth-century]], [[empiricism]], [[causal-determinism]]
+
+## Network Context
+
+- Referenced by figures: [[bernhard-riemann]], [[carl-friedrich-gauss]], [[claude-monet]], [[edgar-degas]], [[erwin-schrodinger]], [[gregor-mendel]], [[johannes-kepler]]
+<!-- dialectica:auto-links:end -->

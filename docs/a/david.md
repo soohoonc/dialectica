@@ -33,15 +33,19 @@ Originally placed in the Piazza della Signoria in Florence, the original is now 
 
 The statue became a symbol of the Florentine Republic's strength and independence, and remains one of the most recognized works of art in history.
 
-## Ontology Connections
-
-This entry is further connected in the graph through [[michelangelo]], [[florence]], [[aztec-sun-stone]].
-
 ## Related Links
 
 - Figure: [[michelangelo]]
 - Location: [[florence]]
-- Artifact: [[aztec-sun-stone]]
-- Figure: [[baruch-spinoza]]
-- Time: [[meiji-period]]
-- Location: [[lalibela]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Creator: [[michelangelo]]
+- Location: [[florence]]
+- Mentioned in body: [[michelangelo]], [[florence]]
+
+## Network Context
+
+- Referenced by figures: [[galileo-galilei]], [[leonardo-da-vinci]], [[michelangelo]]
+<!-- dialectica:auto-links:end -->

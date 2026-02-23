@@ -24,10 +24,12 @@ The city became emblematic of modern industry, labor conflict, and infrastructur
 - Comparative places: [[london]], [[trier]]
 - Related ideas: [[historical-materialism]], [[empiricism]]
 
-## Ontology Connections
+<!-- dialectica:auto-links:start -->
+## Graph Links
 
-This entry is further connected in the graph through [[turin]].
+- Mentioned in body: [[industrial-revolution]], [[london]], [[trier]], [[historical-materialism]], [[empiricism]]
 
-## Related Links
+## Network Context
 
-- Location: [[turin]]
+- Referenced by times: [[industrial-revolution]], [[victorian-era]]
+<!-- dialectica:auto-links:end -->

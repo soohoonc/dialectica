@@ -37,15 +37,18 @@ First scrolls found by Bedouin shepherds in 1946-1947. Subsequent archaeological
 
 Most scrolls are housed in the Shrine of the Book at the Israel Museum in Jerusalem.
 
-## Ontology Connections
-
-This entry is further connected in the graph through [[book-of-kells]], [[david-hume]], [[french-revolution-era]].
-
 ## Related Links
 
-- Artifact: [[book-of-kells]]
-- Figure: [[david-hume]]
-- Time: [[french-revolution-era]]
-- Location: [[changan]]
-- Idea: [[samsara]]
-- Artifact: [[poetics]]
+- Location: [[qumran]]
+- Idea: [[legal-hermeneutics]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Location: [[qumran]]
+- Mentioned in body: [[qumran]], [[legal-hermeneutics]]
+
+## Network Context
+
+- No inbound references yet.
+<!-- dialectica:auto-links:end -->

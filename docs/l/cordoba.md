@@ -10,7 +10,6 @@ tags:
   - andalusia
   - philosophy
 ---
-
 # Cordoba
 
 Cordoba is treated in this graph as a place where intellectual traditions were formed, contested, or institutionalized. It is associated with [[islamic-golden-age]] and frequently linked to [[averroes]].
@@ -24,3 +23,14 @@ As a location node, Cordoba connects figures, ideas, and periods across the onto
 - Figure: [[averroes]]
 - Period: [[islamic-golden-age]]
 - Related ideas: [[virtue-ethics]], [[deontology]], [[forms]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Mentioned in body: [[islamic-golden-age]], [[averroes]], [[athens]], [[konigsberg]], [[enlightenment]], [[virtue-ethics]], [[deontology]], [[forms]]
+
+## Network Context
+
+- Referenced by figures: [[averroes]]
+- Referenced by times: [[islamic-golden-age]]
+<!-- dialectica:auto-links:end -->

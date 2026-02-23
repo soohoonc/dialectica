@@ -34,15 +34,18 @@ The majority of the bronzes were looted by British forces during the punitive ex
 
 In recent years, many institutions have begun returning Benin Bronzes to Nigeria, acknowledging their violent acquisition and cultural significance.
 
-## Ontology Connections
-
-This entry is further connected in the graph through [[aztec-sun-stone]], [[john-chrysostom]], [[apostolic-era]].
-
 ## Related Links
 
-- Artifact: [[aztec-sun-stone]]
-- Figure: [[john-chrysostom]]
-- Time: [[apostolic-era]]
-- Location: [[ujjain]]
-- Idea: [[stoicism]]
-- Artifact: [[guide-for-the-perplexed]]
+- Location: [[benin-city]]
+- Idea: [[public-action]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Location: [[benin-city]]
+- Mentioned in body: [[benin-city]], [[public-action]]
+
+## Network Context
+
+- No inbound references yet.
+<!-- dialectica:auto-links:end -->

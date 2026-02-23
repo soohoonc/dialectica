@@ -14,20 +14,31 @@ tags:
 ---
 # David Hilbert
 
-David Hilbert is a figure node added to strengthen scientific and artistic coverage in the graph.
+David Hilbert is modeled here as a biographical node that connects social context, intellectual debates, and material outputs.
 
-## Graph Anchors
+## Intellectual Context
+
+This figure is currently anchored to locations [[berlin]] and periods [[fin-de-siecle]].
+
+## Debate Surface
+
+High-signal conceptual neighbors include [[psychoanalysis]], [[radioactivity]] and related artifacts [[foundations-of-geometry-hilbert]], [[planck-quantum-hypothesis-1900]], [[annus-mirabilis-papers-1905]], [[radioactivity-treatise]], [[uncertainty-principle-paper-1927]].
+
+## Study Path
+
+- Peer figures: [[georg-cantor]], [[max-planck]], [[bernhard-riemann]], [[carl-friedrich-gauss]], [[marie-curie]], [[albert-einstein]], [[auguste-rodin]], [[niels-bohr]]
+- Related ideas: [[psychoanalysis]], [[radioactivity]]
+- Related artifacts: [[foundations-of-geometry-hilbert]], [[planck-quantum-hypothesis-1900]], [[annus-mirabilis-papers-1905]], [[radioactivity-treatise]], [[uncertainty-principle-paper-1927]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
 
 - Locations: [[berlin]]
 - Periods: [[fin-de-siecle]]
+- Mentioned in body: [[berlin]], [[fin-de-siecle]], [[psychoanalysis]], [[radioactivity]], [[foundations-of-geometry-hilbert]], [[planck-quantum-hypothesis-1900]], [[annus-mirabilis-papers-1905]], [[radioactivity-treatise]], [[uncertainty-principle-paper-1927]], [[georg-cantor]], [[max-planck]], [[bernhard-riemann]], [[carl-friedrich-gauss]], [[marie-curie]], [[albert-einstein]], [[auguste-rodin]]
 
-## Ontology Connections
+## Network Context
 
-This entry is further connected in the graph through [[al-khwarizmi]], [[michael-faraday]], [[digital-computing-era]].
-
-## Related Links
-
-- Figure: [[al-khwarizmi]]
-- Figure: [[michael-faraday]]
-- Time: [[digital-computing-era]]
-- Location: [[najaf]]
+- Referenced by figures: [[auguste-rodin]], [[bernhard-riemann]], [[carl-friedrich-gauss]], [[georg-cantor]], [[max-planck]]
+- Referenced by artifacts: [[foundations-of-geometry-hilbert]]
+<!-- dialectica:auto-links:end -->

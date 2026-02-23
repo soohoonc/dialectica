@@ -14,20 +14,31 @@ tags:
 ---
 # Rembrandt van Rijn
 
-Rembrandt van Rijn is a figure node added to strengthen scientific and artistic coverage in the graph.
+Rembrandt van Rijn is modeled here as a biographical node that connects social context, intellectual debates, and material outputs.
 
-## Graph Anchors
+## Intellectual Context
+
+This figure is currently anchored to locations [[amsterdam]] and periods [[early-modern-europe]].
+
+## Debate Surface
+
+High-signal conceptual neighbors include [[lurianic-kabbalah]], [[rosicrucianism]] and related artifacts [[night-watch-rembrandt]], [[night-watch]], [[girl-with-a-pearl-earring]], [[discourse-on-method]], [[ethics-spinoza]], [[calling-of-saint-matthew]].
+
+## Study Path
+
+- Peer figures: [[johannes-vermeer]], [[caravaggio]], [[baruch-spinoza]], [[rene-descartes]]
+- Related ideas: [[lurianic-kabbalah]], [[rosicrucianism]]
+- Related artifacts: [[night-watch-rembrandt]], [[night-watch]], [[girl-with-a-pearl-earring]], [[discourse-on-method]], [[ethics-spinoza]], [[calling-of-saint-matthew]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
 
 - Locations: [[amsterdam]]
 - Periods: [[early-modern-europe]]
+- Mentioned in body: [[amsterdam]], [[early-modern-europe]], [[lurianic-kabbalah]], [[rosicrucianism]], [[night-watch-rembrandt]], [[night-watch]], [[girl-with-a-pearl-earring]], [[discourse-on-method]], [[ethics-spinoza]], [[calling-of-saint-matthew]], [[johannes-vermeer]], [[caravaggio]], [[baruch-spinoza]], [[rene-descartes]]
 
-## Ontology Connections
+## Network Context
 
-This entry is further connected in the graph through [[amrita-sher-gil]], [[johannes-vermeer]], [[babylonian-astrology-era]].
-
-## Related Links
-
-- Figure: [[amrita-sher-gil]]
-- Figure: [[johannes-vermeer]]
-- Time: [[babylonian-astrology-era]]
-- Location: [[toledo]]
+- Referenced by figures: [[caravaggio]], [[johannes-vermeer]]
+- Referenced by artifacts: [[night-watch-rembrandt]], [[night-watch]]
+<!-- dialectica:auto-links:end -->

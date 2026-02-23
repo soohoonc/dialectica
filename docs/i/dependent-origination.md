@@ -12,21 +12,30 @@ tags:
 ---
 # Dependent Origination
 
-Dependent Origination is an idea node connecting theological, eastern, and esoteric threads in the graph.
+Dependent Origination is represented as a conceptual node for comparing arguments, lineages, and points of conflict across traditions.
 
-## Conceptual Core
+## Core Position
 
-This entry is a seed node and should be expanded with historical context, arguments, and linked ideas.
+- Built from: [[advaita-vedanta]], [[anatman]], [[buddha-nature]]
+- In tension with: [[dharma]], [[dvaita-vedanta]], [[karma]]
+- Combined with: [[madhyamaka]], [[mimamsa-hermeneutics]], [[moksha]]
 
-## Ontology Connections
+## Historical Placement
 
-This entry is further connected in the graph through [[abhinavagupta]], [[classical-greece]], [[athens]].
+This idea is currently associated with figures [[abhinavagupta]], [[asanga]], [[chaitanya-mahaprabhu]] and periods [[classical-greece]], [[hellenistic-period]], [[islamic-golden-age]].
 
-## Related Links
+## Study Path
 
-- Figure: [[abhinavagupta]]
-- Time: [[classical-greece]]
-- Location: [[athens]]
-- Idea: [[advaita-vedanta]]
-- Artifact: [[being-and-time]]
-- Figure: [[cicero]]
+- Adjacent ideas: [[huayan-buddhism]], [[tiantai-buddhism]], [[advaita-vedanta]], [[anatman]], [[buddha-nature]], [[dharma]], [[dvaita-vedanta]], [[karma]]
+- Connected figures: [[abhinavagupta]], [[asanga]], [[chaitanya-mahaprabhu]]
+- Referencing artifacts: [[aryabhatiya]], [[third-of-may-1808]], [[annus-mirabilis-papers-1905]], [[being-and-time]], [[book-of-optics-ibn-al-haytham]], [[campbells-soup-cans]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Mentioned in body: [[advaita-vedanta]], [[anatman]], [[buddha-nature]], [[dharma]], [[dvaita-vedanta]], [[karma]], [[madhyamaka]], [[mimamsa-hermeneutics]], [[moksha]], [[abhinavagupta]], [[asanga]], [[chaitanya-mahaprabhu]], [[classical-greece]], [[hellenistic-period]], [[islamic-golden-age]], [[huayan-buddhism]]
+
+## Network Context
+
+- Referenced by ideas: [[advaita-vedanta]], [[anatman]], [[buddha-nature]], [[dharma]], [[dvaita-vedanta]], [[huayan-buddhism]], [[karma]], [[madhyamaka]], [[mimamsa-hermeneutics]], [[moksha]], [[nirvana]], [[nyaya-logic]], [[samkhya]], [[samsara]], [[sunyata]], [[tiantai-buddhism]]
+<!-- dialectica:auto-links:end -->

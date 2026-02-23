@@ -14,20 +14,31 @@ tags:
 ---
 # Raphael
 
-Raphael is a figure node added to strengthen scientific and artistic coverage in the graph.
+Raphael is modeled here as a biographical node that connects social context, intellectual debates, and material outputs.
 
-## Graph Anchors
+## Intellectual Context
+
+This figure is currently anchored to locations [[rome]] and periods [[renaissance]].
+
+## Debate Surface
+
+High-signal conceptual neighbors include [[natural-magic]] and related artifacts [[school-of-athens-raphael]], [[sistine-ceiling]], [[city-of-god-augustinian]], [[de-revolutionibus-orbium-coelestium]], [[discourses-of-epictetus]], [[letters-from-a-stoic]], [[meditations-marcus-aurelius]], [[meditations]].
+
+## Study Path
+
+- Peer figures: [[michelangelo]], [[leonardo-da-vinci]], [[caravaggio]], [[nicolaus-copernicus]], [[cicero]], [[epictetus]], [[marcus-aurelius]], [[seneca]]
+- Related ideas: [[natural-magic]]
+- Related artifacts: [[school-of-athens-raphael]], [[sistine-ceiling]], [[city-of-god-augustinian]], [[de-revolutionibus-orbium-coelestium]], [[discourses-of-epictetus]], [[letters-from-a-stoic]], [[meditations-marcus-aurelius]], [[meditations]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
 
 - Locations: [[rome]]
 - Periods: [[renaissance]]
+- Mentioned in body: [[rome]], [[renaissance]], [[natural-magic]], [[school-of-athens-raphael]], [[sistine-ceiling]], [[city-of-god-augustinian]], [[de-revolutionibus-orbium-coelestium]], [[discourses-of-epictetus]], [[letters-from-a-stoic]], [[meditations-marcus-aurelius]], [[meditations]], [[michelangelo]], [[leonardo-da-vinci]], [[caravaggio]], [[nicolaus-copernicus]], [[cicero]]
 
-## Ontology Connections
+## Network Context
 
-This entry is further connected in the graph through [[amrita-sher-gil]], [[heinrich-cornelius-agrippa]], [[muromachi-period]].
-
-## Related Links
-
-- Figure: [[amrita-sher-gil]]
-- Figure: [[heinrich-cornelius-agrippa]]
-- Time: [[muromachi-period]]
-- Location: [[coimbra]]
+- Referenced by figures: [[caravaggio]], [[leonardo-da-vinci]], [[michelangelo]], [[nicolaus-copernicus]]
+- Referenced by artifacts: [[school-of-athens-raphael]]
+<!-- dialectica:auto-links:end -->

@@ -25,15 +25,18 @@ Discovered in 1799 by French soldiers during Napoleon's Egyptian campaign, the s
 
 The decree was issued on behalf of King Ptolemy V, affirming the royal cult of the 13-year-old ruler.
 
-## Ontology Connections
-
-This entry is further connected in the graph through [[code-of-hammurabi]], [[guo-xiang]], [[post-secular-era]].
-
 ## Related Links
 
-- Artifact: [[code-of-hammurabi]]
-- Figure: [[guo-xiang]]
-- Time: [[post-secular-era]]
-- Location: [[tbilisi]]
-- Idea: [[yin-yang]]
-- Artifact: [[spirit-of-laws]]
+- Location: [[egypt]]
+- Idea: [[legal-hermeneutics]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Location: [[egypt]]
+- Mentioned in body: [[egypt]], [[legal-hermeneutics]]
+
+## Network Context
+
+- No inbound references yet.
+<!-- dialectica:auto-links:end -->

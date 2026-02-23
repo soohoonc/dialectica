@@ -12,7 +12,6 @@ tags:
   - networks
   - information
 ---
-
 # Digital Computing Era
 
 Digital Computing Era marks a period in which institutions, argument styles, and knowledge practices were reorganized. In this corpus, it is connected to [[alan-turing]] and the development of [[computability]].
@@ -25,4 +24,14 @@ This period is best read through connected place nodes such as [[cambridge]], [[
 
 - Figure: [[alan-turing]]
 - Idea: [[computability]]
-- Comparative references: [[classical-greece]], [[enlightenment]], [[virtue-ethics]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Locations: [[cambridge]], [[new-york]], [[tokyo]]
+- Mentioned in body: [[alan-turing]], [[computability]], [[cambridge]], [[athens]], [[paris]]
+
+## Network Context
+
+- Referenced by figures: [[alonzo-church]]
+<!-- dialectica:auto-links:end -->

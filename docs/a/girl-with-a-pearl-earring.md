@@ -12,20 +12,37 @@ tags:
 ---
 # Girl with a Pearl Earring
 
-Girl with a Pearl Earring is an artifact seed linked to [[johannes-vermeer]] to improve scientist/artist connectivity in the ontology graph.
+Girl with a Pearl Earring is treated as a painting from 1665 and used as a material anchor for conceptual and historical links in the graph.
 
-## Context
+## Historical Placement
 
 - Creator: [[johannes-vermeer]]
-- Period: [[early-modern-europe]]
 - Location: [[amsterdam]]
+- Era: [[early-modern-europe]]
 
-## Ontology Connections
+## Interpretive Threads
 
-This entry is further connected in the graph through [[renaissance]], [[calling-of-saint-matthew]], [[gregory-palamas]].
+This artifact is currently read alongside the linked concepts below.
+
+## Study Path
+
+- Nearby artifacts: see related links below.
+- Connected times: see related links below.
 
 ## Related Links
 
-- Time: [[renaissance]]
-- Artifact: [[calling-of-saint-matthew]]
-- Figure: [[gregory-palamas]]
+- Idea: [[phenomenology]]
+- Idea: [[metaphysical-essence]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Creator: [[johannes-vermeer]]
+- Location: [[amsterdam]]
+- Era: [[early-modern-europe]]
+- Mentioned in body: [[johannes-vermeer]], [[amsterdam]], [[early-modern-europe]], [[phenomenology]], [[metaphysical-essence]]
+
+## Network Context
+
+- Referenced by figures: [[caravaggio]], [[johannes-vermeer]], [[rembrandt-van-rijn]]
+<!-- dialectica:auto-links:end -->

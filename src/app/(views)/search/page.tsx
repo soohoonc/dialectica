@@ -70,27 +70,33 @@ export default function SearchPage() {
         results.length > 0 ? (
           <div className="grid gap-3">
             {results.map((result) => (
-              <Link
+              <div
                 key={`${result.type}-${result.id}`}
-                href={`/${typePrefix[result.type]}/${result.slug}`}
-                className="block rounded-lg border border-border p-4 hover:bg-muted/50 transition-colors"
+                className="rounded-lg border border-border p-4 transition-colors hover:bg-muted/50"
               >
                 <div className="flex items-center justify-between gap-3">
-                  <h2 className="text-lg font-semibold">{result.title}</h2>
-                  <span className="text-xs text-muted-foreground">
-                    {typeLabel[result.type]}
-                  </span>
+                  <Link
+                    href={`/${typePrefix[result.type]}/${result.slug}`}
+                    className="text-lg font-semibold hover:underline"
+                  >
+                    {result.title}
+                  </Link>
+                  <span className="text-xs text-muted-foreground">{typeLabel[result.type]}</span>
                 </div>
                 {result.tags.length > 0 && (
                   <div className="mt-2 flex flex-wrap gap-2">
                     {result.tags.map((itemTag) => (
-                      <span key={`${result.id}-${itemTag}`} className="tag">
+                      <Link
+                        key={`${result.id}-${itemTag}`}
+                        href={`/tags/${encodeURIComponent(itemTag)}`}
+                        className="tag"
+                      >
                         {itemTag}
-                      </span>
+                      </Link>
                     ))}
                   </div>
                 )}
-              </Link>
+              </div>
             ))}
           </div>
         ) : (
@@ -99,7 +105,7 @@ export default function SearchPage() {
       ) : (
         <div className="flex flex-wrap gap-2">
           {(tagsData ?? []).map((item) => (
-            <Link key={item.tag} href={`/search?tag=${encodeURIComponent(item.tag)}`} className="tag">
+            <Link key={item.tag} href={`/tags/${encodeURIComponent(item.tag)}`} className="tag">
               {item.tag} ({item.count})
             </Link>
           ))}

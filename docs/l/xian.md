@@ -7,21 +7,28 @@ tags:
 ---
 # Xi'an
 
-Xi'an is a location node relevant to religious, philosophical, and esoteric intellectual history.
+Xi'an is modeled as a spatial hub where people, ideas, and artifacts intersect across periods.
 
-## Notes
+## Role in This Graph
 
-This entry is a seed node and should be expanded with historical institutions, figures, and periods connected to this place.
+Current links connect this location to figures [[aristotle]], [[kant]], [[confucius]], [[plato]], [[karl-marx]], [[hannah-arendt]], [[thomas-aquinas]], [[jean-jacques-rousseau]], ideas [[forms]], [[deontology]], [[virtue-ethics]], [[empiricism]], [[rationalism]], [[dialectic]], [[metaphysical-essence]], [[nihilism]], and artifacts [[terracotta-army]].
 
-## Ontology Connections
+## Temporal Anchors
 
-This entry is further connected in the graph through [[abhinavagupta]], [[apostolic-era]], [[aksum]].
+The strongest period-level ties currently point to [[twentieth-century]], [[nineteenth-century]], [[interwar-period]], [[enlightenment]], [[postwar-era]], [[islamic-golden-age]], [[early-modern-science]], [[fin-de-siecle]].
 
-## Related Links
+## Study Path
 
-- Figure: [[abhinavagupta]]
-- Time: [[apostolic-era]]
-- Location: [[aksum]]
-- Idea: [[analogy-of-being]]
-- Artifact: [[abhidharmakosa]]
-- Figure: [[lynn-margulis]]
+- Related figures: [[aristotle]], [[kant]], [[confucius]], [[plato]], [[karl-marx]], [[hannah-arendt]], [[thomas-aquinas]], [[jean-jacques-rousseau]]
+- Related ideas: [[forms]], [[deontology]], [[virtue-ethics]], [[empiricism]], [[rationalism]], [[dialectic]], [[metaphysical-essence]], [[nihilism]]
+- Related artifacts: [[terracotta-army]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Mentioned in body: [[aristotle]], [[kant]], [[confucius]], [[plato]], [[karl-marx]], [[hannah-arendt]], [[thomas-aquinas]], [[jean-jacques-rousseau]], [[forms]], [[deontology]], [[virtue-ethics]], [[empiricism]], [[rationalism]], [[dialectic]], [[metaphysical-essence]], [[nihilism]]
+
+## Network Context
+
+- Referenced by artifacts: [[terracotta-army]]
+<!-- dialectica:auto-links:end -->

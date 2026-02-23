@@ -11,7 +11,6 @@ tags:
   - administration
   - learning
 ---
-
 # Song Dynasty Period
 
 Song Dynasty Period marks a period in which institutions, argument styles, and knowledge practices were reorganized. In this corpus, it is connected to [[confucius]] and the development of [[ritual-propriety]].
@@ -24,4 +23,15 @@ This period is best read through connected place nodes such as [[beijing]], [[at
 
 - Figure: [[confucius]]
 - Idea: [[ritual-propriety]]
-- Comparative references: [[classical-greece]], [[enlightenment]], [[virtue-ethics]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Locations: [[beijing]], [[nanjing]]
+- Mentioned in body: [[confucius]], [[ritual-propriety]], [[beijing]], [[athens]], [[paris]]
+
+## Network Context
+
+- Referenced by figures: [[shen-kuo]]
+- Referenced by locations: [[nanjing]]
+<!-- dialectica:auto-links:end -->

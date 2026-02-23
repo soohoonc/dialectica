@@ -11,7 +11,6 @@ tags:
   - ethology
   - biology
 ---
-
 # In the Shadow of Man
 
 In the Shadow of Man is represented as an artifact node connecting textual or material production with figure, place, and period. It is associated with [[jane-goodall]] and situated in [[postcolonial-period]].
@@ -25,3 +24,21 @@ As an object in this corpus, it links to [[primate-ethology]], [[evolution-by-na
 - Creator: [[jane-goodall]]
 - Location: [[london]]
 - Era: [[postcolonial-period]]
+
+## Related Links
+
+- Idea: [[legal-hermeneutics]]
+- Idea: [[dialectic]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Creator: [[jane-goodall]]
+- Location: [[london]]
+- Era: [[postcolonial-period]]
+- Mentioned in body: [[jane-goodall]], [[postcolonial-period]], [[primate-ethology]], [[evolution-by-natural-selection]], [[deontology]], [[virtue-ethics]], [[forms]], [[london]], [[legal-hermeneutics]], [[dialectic]]
+
+## Network Context
+
+- Referenced by figures: [[abdus-salam]], [[michael-faraday]], [[robert-boyle]], [[subrahmanyan-chandrasekhar]]
+<!-- dialectica:auto-links:end -->

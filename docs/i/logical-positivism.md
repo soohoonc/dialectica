@@ -19,19 +19,35 @@ tags:
 ---
 # Logical Positivism
 
-Logical Positivism is a school-level idea node added to broaden coverage across analytic, theological, eastern, and esoteric traditions.
+Logical Positivism is represented as a conceptual node for comparing arguments, lineages, and points of conflict across traditions.
 
-## Graph Anchors
+## Core Position
 
-- Period context: [[interwar-period]]
-- Comparative links: [[empiricism]], [[metaphysical-essence]]
+- Built from: [[empiricism]]
+- In tension with: [[metaphysical-essence]]
+- Combined with: [[rationalism]], [[empiricism]]
 
-## Ontology Connections
+## Historical Placement
 
-This entry is further connected in the graph through [[rationalism]], [[verificationism]], [[critique-of-pure-reason]].
+This idea is currently associated with figures [[aristotle]], [[kant]], [[confucius]] and periods [[interwar-period]].
 
-## Related Links
+## Study Path
 
-- Idea: [[rationalism]]
-- Idea: [[verificationism]]
-- Artifact: [[critique-of-pure-reason]]
+- Adjacent ideas: [[frankfurt-school]], [[verificationism]], [[analytic-philosophy]], [[critical-rationalism]], [[ordinary-language-philosophy]], [[asharism]], [[carvaka-materialism]], [[empiricism]]
+- Connected figures: [[aristotle]], [[kant]], [[confucius]]
+- Referencing artifacts: [[aryabhatiya]], [[third-of-may-1808]], [[annus-mirabilis-papers-1905]], [[being-and-time]], [[book-of-optics-ibn-al-haytham]], [[campbells-soup-cans]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Periods: [[interwar-period]]
+- Influences: [[empiricism]]
+- Contradicts: [[metaphysical-essence]]
+- Synthesizes: [[rationalism]], [[empiricism]]
+- Mentioned in body: [[empiricism]], [[metaphysical-essence]], [[rationalism]], [[aristotle]], [[kant]], [[confucius]], [[interwar-period]], [[frankfurt-school]], [[verificationism]], [[analytic-philosophy]], [[critical-rationalism]], [[ordinary-language-philosophy]], [[asharism]], [[carvaka-materialism]], [[aryabhatiya]], [[third-of-may-1808]]
+
+## Network Context
+
+- Referenced by figures: [[amrita-sher-gil]], [[edwin-hubble]], [[erwin-schrodinger]], [[frida-kahlo]], [[werner-heisenberg]]
+- Referenced by ideas: [[analytic-philosophy]], [[critical-rationalism]], [[frankfurt-school]], [[ordinary-language-philosophy]], [[verificationism]]
+<!-- dialectica:auto-links:end -->

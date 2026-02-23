@@ -7,21 +7,30 @@ tags:
 ---
 # Toledo
 
-Toledo is a location node relevant to religious, philosophical, and esoteric intellectual history.
+Toledo is modeled as a spatial hub where people, ideas, and artifacts intersect across periods.
 
-## Notes
+## Role in This Graph
 
-This entry is a seed node and should be expanded with historical institutions, figures, and periods connected to this place.
+Current links connect this location to figures [[francisco-goya]], ideas [[forms]], [[deontology]], [[virtue-ethics]], [[empiricism]], [[rationalism]], [[dialectic]], [[metaphysical-essence]], [[nihilism]], and artifacts [[third-of-may-1808]].
 
-## Ontology Connections
+## Temporal Anchors
 
-This entry is further connected in the graph through [[abhinavagupta]], [[apostolic-era]], [[aksum]].
+The strongest period-level ties currently point to [[twentieth-century]], [[nineteenth-century]], [[interwar-period]], [[enlightenment]], [[postwar-era]], [[islamic-golden-age]], [[early-modern-science]], [[fin-de-siecle]].
 
-## Related Links
+## Study Path
 
-- Figure: [[abhinavagupta]]
-- Time: [[apostolic-era]]
-- Location: [[aksum]]
-- Idea: [[analogy-of-being]]
-- Artifact: [[abhidharmakosa]]
-- Figure: [[avicenna]]
+- Related figures: [[francisco-goya]]
+- Related ideas: [[forms]], [[deontology]], [[virtue-ethics]], [[empiricism]], [[rationalism]], [[dialectic]], [[metaphysical-essence]], [[nihilism]]
+- Related artifacts: [[third-of-may-1808]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Mentioned in body: [[francisco-goya]], [[forms]], [[deontology]], [[virtue-ethics]], [[empiricism]], [[rationalism]], [[dialectic]], [[metaphysical-essence]], [[nihilism]], [[third-of-may-1808]], [[twentieth-century]], [[nineteenth-century]], [[interwar-period]], [[enlightenment]], [[postwar-era]], [[islamic-golden-age]]
+
+## Network Context
+
+- Referenced by figures: [[francisco-goya]]
+- Referenced by artifacts: [[third-of-may-1808]]
+- Referenced by times: [[muromachi-period]]
+<!-- dialectica:auto-links:end -->

@@ -18,20 +18,34 @@ tags:
 ---
 # Pure Land Buddhism
 
-Pure Land Buddhism is a school-level idea node added to broaden coverage across analytic, theological, eastern, and esoteric traditions.
+Pure Land Buddhism is represented as a conceptual node for comparing arguments, lineages, and points of conflict across traditions.
 
-## Graph Anchors
+## Core Position
 
-- Period context: [[late-antiquity]]
-- Comparative links: [[pure-land-devotion]]
+- Built from: [[pure-land-devotion]]
+- In tension with: [[mohism]], [[neo-daoism]], [[school-of-names]]
+- Combined with: [[chan-buddhism]], [[ritual-propriety]]
 
-## Ontology Connections
+## Historical Placement
 
-This entry is further connected in the graph through [[chan-buddhism]], [[ritual-propriety]], [[huayan-buddhism]].
+This idea is currently associated with figures [[aristotle]], [[kant]], [[confucius]] and periods [[late-antiquity]].
 
-## Related Links
+## Study Path
 
-- Idea: [[chan-buddhism]]
-- Idea: [[ritual-propriety]]
-- Idea: [[huayan-buddhism]]
-- Figure: [[friedrich-nietzsche]]
+- Adjacent ideas: [[chan-buddhism]], [[pure-land-devotion]], [[huayan-buddhism]], [[tiantai-buddhism]], [[legalism]], [[mohism]], [[neo-daoism]], [[school-of-names]]
+- Connected figures: [[aristotle]], [[kant]], [[confucius]]
+- Referencing artifacts: [[aryabhatiya]], [[third-of-may-1808]], [[annus-mirabilis-papers-1905]], [[being-and-time]], [[book-of-optics-ibn-al-haytham]], [[campbells-soup-cans]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Periods: [[late-antiquity]]
+- Influences: [[pure-land-devotion]]
+- Synthesizes: [[chan-buddhism]], [[ritual-propriety]]
+- Mentioned in body: [[pure-land-devotion]], [[mohism]], [[neo-daoism]], [[school-of-names]], [[chan-buddhism]], [[ritual-propriety]], [[aristotle]], [[kant]], [[confucius]], [[late-antiquity]], [[huayan-buddhism]], [[tiantai-buddhism]], [[legalism]], [[aryabhatiya]], [[third-of-may-1808]], [[annus-mirabilis-papers-1905]]
+
+## Network Context
+
+- Referenced by figures: [[aryabhata]]
+- Referenced by ideas: [[chan-buddhism]], [[huayan-buddhism]], [[legalism]], [[mohism]], [[neo-daoism]], [[pure-land-devotion]], [[school-of-names]], [[tiantai-buddhism]], [[zen-rinzai]], [[zen-soto]]
+<!-- dialectica:auto-links:end -->

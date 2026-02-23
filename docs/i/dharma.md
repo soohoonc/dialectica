@@ -12,21 +12,31 @@ tags:
 ---
 # Dharma
 
-Dharma is an idea node connecting theological, eastern, and esoteric threads in the graph.
+Dharma is represented as a conceptual node for comparing arguments, lineages, and points of conflict across traditions.
 
-## Conceptual Core
+## Core Position
 
-This entry is a seed node and should be expanded with historical context, arguments, and linked ideas.
+- Built from: [[advaita-vedanta]], [[anatman]], [[buddha-nature]]
+- In tension with: [[dependent-origination]], [[dvaita-vedanta]], [[karma]]
+- Combined with: [[madhyamaka]], [[mimamsa-hermeneutics]], [[moksha]]
 
-## Ontology Connections
+## Historical Placement
 
-This entry is further connected in the graph through [[abhinavagupta]], [[classical-greece]], [[athens]].
+This idea is currently associated with figures [[abhinavagupta]], [[asanga]], [[chaitanya-mahaprabhu]] and periods [[classical-greece]], [[hellenistic-period]], [[islamic-golden-age]].
 
-## Related Links
+## Study Path
 
-- Figure: [[abhinavagupta]]
-- Time: [[classical-greece]]
-- Location: [[athens]]
-- Idea: [[advaita-vedanta]]
-- Artifact: [[being-and-time]]
-- Figure: [[mary-wollstonecraft]]
+- Adjacent ideas: [[jain-philosophy]], [[advaita-vedanta]], [[anatman]], [[buddha-nature]], [[dependent-origination]], [[dvaita-vedanta]], [[karma]], [[madhyamaka]]
+- Connected figures: [[abhinavagupta]], [[asanga]], [[chaitanya-mahaprabhu]]
+- Referencing artifacts: [[abhidharmakosa]], [[bhagavata-purana]], [[brahma-sutra-bhashya]], [[dao-de-jing]], [[diamond-sutra]], [[gita-bhashya-ramanuja]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Mentioned in body: [[advaita-vedanta]], [[anatman]], [[buddha-nature]], [[dependent-origination]], [[dvaita-vedanta]], [[karma]], [[madhyamaka]], [[mimamsa-hermeneutics]], [[moksha]], [[abhinavagupta]], [[asanga]], [[chaitanya-mahaprabhu]], [[classical-greece]], [[hellenistic-period]], [[islamic-golden-age]], [[jain-philosophy]]
+
+## Network Context
+
+- Referenced by ideas: [[advaita-vedanta]], [[anatman]], [[buddha-nature]], [[dependent-origination]], [[dvaita-vedanta]], [[jain-philosophy]], [[karma]], [[madhyamaka]], [[mimamsa-hermeneutics]], [[moksha]], [[nirvana]], [[nyaya-logic]], [[samkhya]], [[samsara]], [[sunyata]], [[vishishtadvaita]]
+- Referenced by artifacts: [[abhidharmakosa]], [[bhagavata-purana]], [[brahma-sutra-bhashya]], [[dao-de-jing]], [[diamond-sutra]], [[gita-bhashya-ramanuja]], [[hanfeizi-text]], [[heart-sutra]], [[huangdi-neijing]], [[lotus-sutra]], [[mencius-text]], [[mozi-text]], [[mulamadhyamakakarika]], [[platform-sutra]], [[rigveda-samhita]], [[sribhashya]]
+<!-- dialectica:auto-links:end -->

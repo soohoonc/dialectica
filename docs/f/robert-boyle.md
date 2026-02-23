@@ -14,20 +14,31 @@ tags:
 ---
 # Robert Boyle
 
-Robert Boyle is a figure node added to strengthen scientific and artistic coverage in the graph.
+Robert Boyle is modeled here as a biographical node that connects social context, intellectual debates, and material outputs.
 
-## Graph Anchors
+## Intellectual Context
+
+This figure is currently anchored to locations [[london]] and periods [[scientific-revolution]].
+
+## Debate Surface
+
+High-signal conceptual neighbors include [[causal-determinism]], [[heliocentrism]] and related artifacts [[the-sceptical-chymist]], [[essay-concerning-human-understanding]], [[experimental-researches-in-electricity]], [[harmonices-mundi]], [[in-the-shadow-of-man]], [[leviathan]], [[leviathan-hobbes]], [[photo-51]].
+
+## Study Path
+
+- Peer figures: [[isaac-newton]], [[galileo-galilei]], [[johannes-kepler]], [[michael-faraday]], [[rosalind-franklin]], [[abdus-salam]], [[charles-darwin]], [[jane-goodall]]
+- Related ideas: [[causal-determinism]], [[heliocentrism]]
+- Related artifacts: [[the-sceptical-chymist]], [[essay-concerning-human-understanding]], [[experimental-researches-in-electricity]], [[harmonices-mundi]], [[in-the-shadow-of-man]], [[leviathan]], [[leviathan-hobbes]], [[photo-51]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
 
 - Locations: [[london]]
 - Periods: [[scientific-revolution]]
+- Mentioned in body: [[london]], [[scientific-revolution]], [[causal-determinism]], [[heliocentrism]], [[the-sceptical-chymist]], [[essay-concerning-human-understanding]], [[experimental-researches-in-electricity]], [[harmonices-mundi]], [[in-the-shadow-of-man]], [[leviathan]], [[leviathan-hobbes]], [[photo-51]], [[isaac-newton]], [[galileo-galilei]], [[johannes-kepler]], [[michael-faraday]]
 
-## Ontology Connections
+## Network Context
 
-This entry is further connected in the graph through [[louis-pasteur]], [[athanasius-of-alexandria]], [[mahabharata-redaction-era]].
-
-## Related Links
-
-- Figure: [[louis-pasteur]]
-- Figure: [[athanasius-of-alexandria]]
-- Time: [[mahabharata-redaction-era]]
-- Location: [[pataliputra]]
+- Referenced by figures: [[galileo-galilei]], [[johannes-kepler]], [[michael-faraday]]
+- Referenced by artifacts: [[the-sceptical-chymist]]
+<!-- dialectica:auto-links:end -->

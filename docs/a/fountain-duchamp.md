@@ -12,20 +12,37 @@ tags:
 ---
 # Fountain
 
-Fountain is an artifact seed linked to [[marcel-duchamp]] to improve scientist/artist connectivity in the ontology graph.
+Fountain is treated as a other from 1917 and used as a material anchor for conceptual and historical links in the graph.
 
-## Context
+## Historical Placement
 
 - Creator: [[marcel-duchamp]]
-- Period: [[interwar-period]]
 - Location: [[new-york]]
+- Era: [[interwar-period]]
 
-## Ontology Connections
+## Interpretive Threads
 
-This entry is further connected in the graph through [[renaissance]], [[calling-of-saint-matthew]], [[simone-de-beauvoir]].
+This artifact is currently read alongside the linked concepts below.
+
+## Study Path
+
+- Nearby artifacts: see related links below.
+- Connected times: see related links below.
 
 ## Related Links
 
-- Time: [[renaissance]]
-- Artifact: [[calling-of-saint-matthew]]
-- Figure: [[simone-de-beauvoir]]
+- Idea: [[phenomenology]]
+- Idea: [[metaphysical-essence]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Creator: [[marcel-duchamp]]
+- Location: [[new-york]]
+- Era: [[interwar-period]]
+- Mentioned in body: [[marcel-duchamp]], [[new-york]], [[interwar-period]], [[phenomenology]], [[metaphysical-essence]]
+
+## Network Context
+
+- Referenced by figures: [[amrita-sher-gil]], [[andy-warhol]], [[barbara-mcclintock]], [[edwin-hubble]], [[erwin-schrodinger]], [[frida-kahlo]], [[georgia-okeeffe]], [[jackson-pollock]], [[jean-michel-basquiat]], [[lynn-margulis]], [[marcel-duchamp]], [[mark-rothko]], [[rachel-carson]], [[richard-feynman]], [[vera-rubin]], [[werner-heisenberg]]
+<!-- dialectica:auto-links:end -->

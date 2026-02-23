@@ -8,21 +8,34 @@ tags:
 ---
 # Mencius
 
-Mencius is an artifact node for theology, eastern thought, esoteric traditions, or astrology-related knowledge.
+Mencius is treated as a manuscript and used as a material anchor for conceptual and historical links in the graph.
 
-## Notes
+## Historical Placement
 
-This entry is a seed node and should be expanded with provenance, date, creator, and influence.
+- Creator: not specified
+- Location: not specified
+- Era: not specified
 
-## Ontology Connections
+## Interpretive Threads
 
-This entry is further connected in the graph through [[abhinavagupta]], [[bhakti-movement]], [[aksum]].
+This artifact is currently read alongside the linked concepts below.
+
+## Study Path
+
+- Nearby artifacts: see related links below.
+- Connected times: see related links below.
 
 ## Related Links
 
-- Figure: [[abhinavagupta]]
-- Time: [[bhakti-movement]]
-- Location: [[aksum]]
-- Artifact: [[abhidharmakosa]]
-- Figure: [[nichiren]]
-- Time: [[victorian-era]]
+- Idea: [[dharma]]
+- Idea: [[ritual-propriety]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Mentioned in body: [[dharma]], [[ritual-propriety]]
+
+## Network Context
+
+- No inbound references yet.
+<!-- dialectica:auto-links:end -->

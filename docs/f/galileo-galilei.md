@@ -16,19 +16,31 @@ tags:
 ---
 # Galileo Galilei
 
-Galileo Galilei is a figure node added to strengthen scientific and artistic coverage in the graph.
+Galileo Galilei is modeled here as a biographical node that connects social context, intellectual debates, and material outputs.
 
-## Graph Anchors
+## Intellectual Context
+
+This figure is currently anchored to locations [[florence]], [[venice]] and periods [[scientific-revolution]].
+
+## Debate Surface
+
+High-signal conceptual neighbors include [[causal-determinism]], [[heliocentrism]] and related artifacts [[sidereus-nuncius]], [[david]], [[harmonices-mundi]], [[mona-lisa]], [[the-sceptical-chymist]].
+
+## Study Path
+
+- Peer figures: [[isaac-newton]], [[johannes-kepler]], [[robert-boyle]], [[leonardo-da-vinci]], [[michelangelo]], [[montesquieu]]
+- Related ideas: [[causal-determinism]], [[heliocentrism]]
+- Related artifacts: [[sidereus-nuncius]], [[david]], [[harmonices-mundi]], [[mona-lisa]], [[the-sceptical-chymist]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
 
 - Locations: [[florence]], [[venice]]
 - Periods: [[scientific-revolution]]
+- Mentioned in body: [[florence]], [[venice]], [[scientific-revolution]], [[causal-determinism]], [[heliocentrism]], [[sidereus-nuncius]], [[david]], [[harmonices-mundi]], [[mona-lisa]], [[the-sceptical-chymist]], [[isaac-newton]], [[johannes-kepler]], [[robert-boyle]], [[leonardo-da-vinci]], [[michelangelo]], [[montesquieu]]
 
-## Ontology Connections
+## Network Context
 
-This entry is further connected in the graph through [[subrahmanyan-chandrasekhar]], [[emanuel-swedenborg]], [[high-middle-ages]].
-
-## Related Links
-
-- Figure: [[subrahmanyan-chandrasekhar]]
-- Figure: [[emanuel-swedenborg]]
-- Time: [[high-middle-ages]]
+- Referenced by figures: [[johannes-kepler]], [[leonardo-da-vinci]], [[michelangelo]], [[robert-boyle]]
+- Referenced by artifacts: [[sidereus-nuncius]]
+<!-- dialectica:auto-links:end -->

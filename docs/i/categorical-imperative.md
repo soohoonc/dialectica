@@ -13,6 +13,7 @@ tags:
   - ethics
   - deontology
   - morality
+synthesizes: []
 ---
 # The Categorical Imperative
 
@@ -59,11 +60,18 @@ The categorical imperative has profoundly influenced:
 - Bioethics
 - Contemporary moral philosophy
 
-## Ontology Connections
+<!-- dialectica:auto-links:start -->
+## Graph Links
 
-This entry is further connected in the graph through [[enlightenment]], [[late-zhou]].
+- Authors: [[kant]]
+- Periods: [[enlightenment]]
+- Contradicts: [[virtue-ethics]]
+- Mentioned in body: [[kant]], [[deontology]], [[virtue-ethics]], [[aristotle]]
 
-## Related Links
+## Network Context
 
-- Time: [[enlightenment]]
-- Time: [[late-zhou]]
+- Referenced by figures: [[kant]]
+- Referenced by ideas: [[deontology]], [[virtue-ethics]]
+- Referenced by locations: [[konigsberg]]
+- Referenced by times: [[enlightenment]]
+<!-- dialectica:auto-links:end -->

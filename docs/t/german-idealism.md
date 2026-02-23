@@ -12,7 +12,6 @@ tags:
   - dialectic
   - modern
 ---
-
 # German Idealism
 
 German Idealism marks a period that reshaped institutions, argument styles, and dominant explanatory models. In this corpus it is tied to [[georg-hegel]] and the development of [[dialectic]].
@@ -25,4 +24,16 @@ This period is best studied by combining textual analysis with place-based histo
 
 - Representative figure: [[georg-hegel]]
 - Representative idea: [[dialectic]]
-- Comparative references: [[classical-greece]], [[enlightenment]], [[virtue-ethics]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Locations: [[konigsberg]], [[jena]], [[berlin]]
+- Mentioned in body: [[georg-hegel]], [[dialectic]], [[konigsberg]], [[athens]]
+
+## Network Context
+
+- Referenced by figures: [[georg-hegel]]
+- Referenced by ideas: [[dialectic]]
+- Referenced by locations: [[jena]]
+<!-- dialectica:auto-links:end -->

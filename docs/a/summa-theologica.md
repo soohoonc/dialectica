@@ -2,7 +2,7 @@
 type: artifact
 name: Summa Theologica
 year: 1274
-creator: aquinas
+creator: thomas-aquinas
 location: naples
 medium: book
 tags:
@@ -35,15 +35,19 @@ The work is organized into questions, each divided into articles following a sta
 - The virtues
 - The nature of God
 
-## Ontology Connections
-
-This entry is further connected in the graph through [[abhinavagupta]], [[apostolic-era]], [[aksum]].
-
 ## Related Links
 
-- Figure: [[abhinavagupta]]
-- Time: [[apostolic-era]]
-- Location: [[aksum]]
-- Idea: [[thomism]]
-- Artifact: [[being-and-time]]
-- Figure: [[irenaeus-of-lyons]]
+- Figure: [[thomas-aquinas]]
+- Location: [[naples]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Creator: [[thomas-aquinas]]
+- Location: [[naples]]
+- Mentioned in body: [[thomas-aquinas]], [[naples]]
+
+## Network Context
+
+- No inbound references yet.
+<!-- dialectica:auto-links:end -->

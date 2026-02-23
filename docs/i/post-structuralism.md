@@ -21,18 +21,36 @@ tags:
 ---
 # Post-Structuralism
 
-Post-Structuralism is a school-level idea node added to broaden coverage across analytic, theological, eastern, and esoteric traditions.
+Post-Structuralism is represented as a conceptual node for comparing arguments, lineages, and points of conflict across traditions.
 
-## Graph Anchors
+## Core Position
 
-- Period context: [[postwar-era]]
-- Comparative links: [[structuralism]], [[genealogy-of-morals]], [[metaphysical-essence]]
+- Built from: [[structuralism]], [[genealogy-of-morals]]
+- In tension with: [[metaphysical-essence]]
+- Combined with: [[disciplinary-power]], [[power-knowledge]]
 
-## Ontology Connections
+## Historical Placement
 
-This entry is further connected in the graph through [[michel-foucault]], [[disciplinary-power]].
+This idea is currently associated with figures [[michel-foucault]] and periods [[postwar-era]].
 
-## Related Links
+## Study Path
 
-- Figure: [[michel-foucault]]
-- Idea: [[disciplinary-power]]
+- Adjacent ideas: [[structuralism]], [[analytic-philosophy]], [[asharism]], [[carvaka-materialism]], [[critical-rationalism]], [[frankfurt-school]], [[genealogy-of-morals]], [[huayan-buddhism]]
+- Connected figures: [[michel-foucault]]
+- Referencing artifacts: [[aryabhatiya]], [[third-of-may-1808]], [[annus-mirabilis-papers-1905]], [[being-and-time]], [[book-of-optics-ibn-al-haytham]], [[campbells-soup-cans]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Authors: [[michel-foucault]]
+- Periods: [[postwar-era]]
+- Influences: [[structuralism]], [[genealogy-of-morals]]
+- Contradicts: [[metaphysical-essence]]
+- Synthesizes: [[disciplinary-power]], [[power-knowledge]]
+- Mentioned in body: [[structuralism]], [[genealogy-of-morals]], [[metaphysical-essence]], [[disciplinary-power]], [[power-knowledge]], [[michel-foucault]], [[postwar-era]], [[analytic-philosophy]], [[asharism]], [[carvaka-materialism]], [[critical-rationalism]], [[frankfurt-school]], [[huayan-buddhism]], [[aryabhatiya]], [[third-of-may-1808]], [[annus-mirabilis-papers-1905]]
+
+## Network Context
+
+- Referenced by figures: [[abdus-salam]], [[andy-warhol]], [[jackson-pollock]], [[jean-michel-basquiat]], [[lynn-margulis]], [[mark-rothko]], [[rachel-carson]], [[richard-feynman]], [[vera-rubin]], [[yayoi-kusama]]
+- Referenced by ideas: [[structuralism]]
+<!-- dialectica:auto-links:end -->

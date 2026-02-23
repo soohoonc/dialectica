@@ -2,7 +2,7 @@
 type: artifact
 name: An Essay Concerning Human Understanding
 year: 1689
-creator: locke
+creator: john-locke
 location: london
 medium: book
 tags:
@@ -26,15 +26,19 @@ Locke argues that the mind at birth is a "tabula rasa" (blank slate) and that al
 - **Primary and Secondary Qualities**: Intrinsic properties vs. perception-dependent properties
 - **Personal Identity**: Continuity of consciousness defines the self
 
-## Ontology Connections
-
-This entry is further connected in the graph through [[london]], [[abhinavagupta]], [[classical-greece]].
-
 ## Related Links
 
+- Figure: [[john-locke]]
 - Location: [[london]]
-- Figure: [[abhinavagupta]]
-- Time: [[classical-greece]]
-- Location: [[athens]]
-- Idea: [[advaita-vedanta]]
-- Artifact: [[critique-of-pure-reason]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Creator: [[john-locke]]
+- Location: [[london]]
+- Mentioned in body: [[john-locke]], [[london]]
+
+## Network Context
+
+- Referenced by figures: [[abdus-salam]], [[michael-faraday]], [[robert-boyle]], [[subrahmanyan-chandrasekhar]]
+<!-- dialectica:auto-links:end -->

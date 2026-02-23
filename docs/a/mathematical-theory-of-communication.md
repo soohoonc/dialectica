@@ -11,7 +11,6 @@ tags:
   - information
   - communication
 ---
-
 # A Mathematical Theory of Communication
 
 A Mathematical Theory of Communication is represented as an artifact node connecting textual or material production with figure, place, and period. It is associated with [[claude-shannon]] and situated in [[cold-war-era]].
@@ -25,3 +24,21 @@ As an object in this corpus, it links to [[information-theory]], [[computability
 - Creator: [[claude-shannon]]
 - Location: [[new-york]]
 - Era: [[cold-war-era]]
+
+## Related Links
+
+- Idea: [[legal-hermeneutics]]
+- Idea: [[dialectic]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Creator: [[claude-shannon]]
+- Location: [[new-york]]
+- Era: [[cold-war-era]]
+- Mentioned in body: [[claude-shannon]], [[cold-war-era]], [[information-theory]], [[computability]], [[deontology]], [[virtue-ethics]], [[forms]], [[new-york]], [[legal-hermeneutics]], [[dialectic]]
+
+## Network Context
+
+- Referenced by figures: [[andy-warhol]], [[barbara-mcclintock]], [[georgia-okeeffe]], [[jackson-pollock]], [[jean-michel-basquiat]], [[lynn-margulis]], [[marcel-duchamp]], [[mark-rothko]], [[rachel-carson]], [[richard-feynman]], [[vera-rubin]]
+<!-- dialectica:auto-links:end -->

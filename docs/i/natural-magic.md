@@ -21,18 +21,36 @@ tags:
 ---
 # Natural Magic
 
-Natural Magic is a school-level idea node added to broaden coverage across analytic, theological, eastern, and esoteric traditions.
+Natural Magic is represented as a conceptual node for comparing arguments, lineages, and points of conflict across traditions.
 
-## Graph Anchors
+## Core Position
 
-- Period context: [[renaissance]]
-- Comparative links: [[hermeticism]], [[alchemy]], [[mechanism-design]]
+- Built from: [[hermeticism]], [[alchemy]]
+- In tension with: [[causal-determinism]]
+- Combined with: [[astrology]], [[alchemy]]
 
-## Ontology Connections
+## Historical Placement
 
-This entry is further connected in the graph through [[paracelsus]], [[causal-determinism]].
+This idea is currently associated with figures [[paracelsus]] and periods [[renaissance]].
 
-## Related Links
+## Study Path
 
-- Figure: [[paracelsus]]
-- Idea: [[causal-determinism]]
+- Adjacent ideas: [[alchemy]], [[astrology]], [[hermeticism]], [[lurianic-kabbalah]], [[natal-astrology]], [[rosicrucianism]], [[analytic-philosophy]], [[asharism]]
+- Connected figures: [[paracelsus]]
+- Referencing artifacts: [[aryabhatiya]], [[third-of-may-1808]], [[annus-mirabilis-papers-1905]], [[being-and-time]], [[book-of-optics-ibn-al-haytham]], [[campbells-soup-cans]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Authors: [[paracelsus]]
+- Periods: [[renaissance]]
+- Influences: [[hermeticism]], [[alchemy]]
+- Contradicts: [[causal-determinism]]
+- Synthesizes: [[astrology]], [[alchemy]]
+- Mentioned in body: [[hermeticism]], [[alchemy]], [[causal-determinism]], [[astrology]], [[paracelsus]], [[renaissance]], [[lurianic-kabbalah]], [[natal-astrology]], [[rosicrucianism]], [[analytic-philosophy]], [[asharism]], [[aryabhatiya]], [[third-of-may-1808]], [[annus-mirabilis-papers-1905]], [[being-and-time]], [[book-of-optics-ibn-al-haytham]]
+
+## Network Context
+
+- Referenced by figures: [[leonardo-da-vinci]], [[michelangelo]], [[nicolaus-copernicus]], [[paracelsus]], [[raphael]]
+- Referenced by ideas: [[alchemy]], [[astrology]], [[hermeticism]], [[lurianic-kabbalah]], [[natal-astrology]], [[rosicrucianism]]
+<!-- dialectica:auto-links:end -->

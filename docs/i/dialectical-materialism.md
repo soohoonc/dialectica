@@ -17,7 +17,6 @@ tags:
   - history
   - economy
 ---
-
 # Dialectical Materialism
 
 Dialectical Materialism is modeled here as a connective concept that links figure, period, and argument structure. This page is anchored in [[karl-marx]] and historically situated in [[nineteenth-century]].
@@ -26,8 +25,17 @@ Dialectical Materialism is modeled here as a connective concept that links figur
 
 This idea is best approached relationally: it develops themes from [[dialectic]] while challenging [[rationalism]]. In this corpus, it is read alongside [[deontology]], [[virtue-ethics]], and [[forms]].
 
+<!-- dialectica:auto-links:start -->
 ## Graph Links
 
-- Figure: [[karl-marx]]
-- Period: [[nineteenth-century]]
+- Authors: [[karl-marx]]
+- Periods: [[nineteenth-century]]
 - Influences: [[dialectic]], [[historical-materialism]]
+- Contradicts: [[rationalism]]
+- Mentioned in body: [[karl-marx]], [[nineteenth-century]], [[dialectic]], [[rationalism]], [[deontology]], [[virtue-ethics]], [[forms]]
+
+## Network Context
+
+- Referenced by figures: [[bernhard-riemann]], [[carl-friedrich-gauss]], [[claude-monet]], [[edgar-degas]], [[gregor-mendel]]
+- Referenced by times: [[second-industrial-revolution]]
+<!-- dialectica:auto-links:end -->

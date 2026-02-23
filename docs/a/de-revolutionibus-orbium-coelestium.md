@@ -12,20 +12,37 @@ tags:
 ---
 # De Revolutionibus Orbium Coelestium
 
-De Revolutionibus Orbium Coelestium is an artifact seed linked to [[nicolaus-copernicus]] to improve scientist/artist connectivity in the ontology graph.
+De Revolutionibus Orbium Coelestium is treated as a book from 1543 and used as a material anchor for conceptual and historical links in the graph.
 
-## Context
+## Historical Placement
 
 - Creator: [[nicolaus-copernicus]]
-- Period: [[renaissance]]
 - Location: [[bologna]]
+- Era: [[renaissance]]
 
-## Ontology Connections
+## Interpretive Threads
 
-This entry is further connected in the graph through [[cold-war-era]], [[cambridge]], [[heliocentrism]].
+This artifact is currently read alongside the linked concepts below.
+
+## Study Path
+
+- Nearby artifacts: see related links below.
+- Connected times: see related links below.
 
 ## Related Links
 
-- Time: [[cold-war-era]]
-- Location: [[cambridge]]
-- Idea: [[heliocentrism]]
+- Idea: [[empiricism]]
+- Idea: [[causal-determinism]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Creator: [[nicolaus-copernicus]]
+- Location: [[bologna]]
+- Era: [[renaissance]]
+- Mentioned in body: [[nicolaus-copernicus]], [[bologna]], [[renaissance]], [[empiricism]], [[causal-determinism]]
+
+## Network Context
+
+- Referenced by figures: [[leonardo-da-vinci]], [[michelangelo]], [[nicolaus-copernicus]], [[raphael]]
+<!-- dialectica:auto-links:end -->

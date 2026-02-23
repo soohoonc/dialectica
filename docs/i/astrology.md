@@ -12,21 +12,30 @@ tags:
 ---
 # Astrology
 
-Astrology is an idea node connecting theological, eastern, and esoteric threads in the graph.
+Astrology is represented as a conceptual node for comparing arguments, lineages, and points of conflict across traditions.
 
-## Conceptual Core
+## Core Position
 
-This entry is a seed node and should be expanded with historical context, arguments, and linked ideas.
+- Built from: [[electional-astrology]], [[horoscopic-astrology]], [[mundane-astrology]]
+- In tension with: [[natal-astrology]], [[alchemy]], [[gnosticism]]
+- Combined with: [[hermeticism]], [[kabbalah]], [[lurianic-kabbalah]]
 
-## Ontology Connections
+## Historical Placement
 
-This entry is further connected in the graph through [[aleister-crowley]], [[babylonian-astrology-era]], [[electional-astrology]].
+This idea is currently associated with figures [[aleister-crowley]], [[emanuel-swedenborg]], [[giordano-bruno]] and periods [[babylonian-astrology-era]], [[digital-esotericism-era]], [[esotericism-academic-turn]].
 
-## Related Links
+## Study Path
 
-- Figure: [[aleister-crowley]]
-- Time: [[babylonian-astrology-era]]
-- Idea: [[electional-astrology]]
-- Artifact: [[ars-goetia]]
-- Figure: [[sesshu-toyo]]
-- Time: [[archaic-greece]]
+- Adjacent ideas: [[natal-astrology]], [[natural-magic]], [[electional-astrology]], [[horoscopic-astrology]], [[mundane-astrology]], [[alchemy]], [[gnosticism]], [[hermeticism]]
+- Connected figures: [[aleister-crowley]], [[emanuel-swedenborg]], [[giordano-bruno]]
+- Referencing artifacts: [[aryabhatiya]], [[third-of-may-1808]], [[annus-mirabilis-papers-1905]], [[being-and-time]], [[book-of-optics-ibn-al-haytham]], [[campbells-soup-cans]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Mentioned in body: [[electional-astrology]], [[horoscopic-astrology]], [[mundane-astrology]], [[natal-astrology]], [[alchemy]], [[gnosticism]], [[hermeticism]], [[kabbalah]], [[lurianic-kabbalah]], [[aleister-crowley]], [[emanuel-swedenborg]], [[giordano-bruno]], [[babylonian-astrology-era]], [[digital-esotericism-era]], [[esotericism-academic-turn]], [[natural-magic]]
+
+## Network Context
+
+- Referenced by ideas: [[alchemy]], [[electional-astrology]], [[gnosticism]], [[hermeticism]], [[horoscopic-astrology]], [[kabbalah]], [[mundane-astrology]], [[natal-astrology]], [[natural-magic]], [[sefirot]], [[theurgy]]
+<!-- dialectica:auto-links:end -->

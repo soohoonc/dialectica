@@ -12,7 +12,6 @@ tags:
   - law
   - stoicism
 ---
-
 # Roman Imperial Era
 
 Roman Imperial Era marks a period in which institutions, argument styles, and knowledge practices were reorganized. In this corpus, it is connected to [[marcus-aurelius]] and the development of [[stoic-duty]].
@@ -25,4 +24,17 @@ This period is best read through connected place nodes such as [[rome]], [[athen
 
 - Figure: [[marcus-aurelius]]
 - Idea: [[stoic-duty]]
-- Comparative references: [[classical-greece]], [[enlightenment]], [[virtue-ethics]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Locations: [[rome]], [[byzantium]], [[antioch]]
+- Mentioned in body: [[marcus-aurelius]], [[stoic-duty]], [[rome]], [[athens]], [[paris]]
+
+## Network Context
+
+- Referenced by figures: [[epictetus]], [[marcus-aurelius]], [[seneca]]
+- Referenced by ideas: [[imperial-stoicism]], [[inner-freedom]], [[stoic-duty]]
+- Referenced by artifacts: [[discourses-of-epictetus]], [[letters-from-a-stoic]], [[meditations-marcus-aurelius]]
+- Referenced by locations: [[antioch]], [[byzantium]]
+<!-- dialectica:auto-links:end -->

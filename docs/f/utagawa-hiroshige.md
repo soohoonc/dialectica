@@ -14,20 +14,30 @@ tags:
 ---
 # Utagawa Hiroshige
 
-Utagawa Hiroshige is a figure node added to strengthen scientific and artistic coverage in the graph.
+Utagawa Hiroshige is modeled here as a biographical node that connects social context, intellectual debates, and material outputs.
 
-## Graph Anchors
+## Intellectual Context
+
+This figure is currently anchored to locations [[tokyo]] and periods [[edo-period]].
+
+## Debate Surface
+
+High-signal conceptual neighbors include [[forms]], [[deontology]], [[virtue-ethics]], [[empiricism]], [[rationalism]], [[dialectic]], [[metaphysical-essence]], [[nihilism]] and related artifacts [[south-wind-clear-sky]], [[infinity-mirror-room-kusama]].
+
+## Study Path
+
+- Peer figures: [[katsushika-hokusai]], [[yayoi-kusama]]
+- Related ideas: [[forms]], [[deontology]], [[virtue-ethics]], [[empiricism]], [[rationalism]], [[dialectic]], [[metaphysical-essence]], [[nihilism]]
+- Related artifacts: [[south-wind-clear-sky]], [[infinity-mirror-room-kusama]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
 
 - Locations: [[tokyo]]
 - Periods: [[edo-period]]
+- Mentioned in body: [[tokyo]], [[edo-period]], [[forms]], [[deontology]], [[virtue-ethics]], [[empiricism]], [[rationalism]], [[dialectic]], [[metaphysical-essence]], [[nihilism]], [[south-wind-clear-sky]], [[infinity-mirror-room-kusama]], [[katsushika-hokusai]], [[yayoi-kusama]]
 
-## Ontology Connections
+## Network Context
 
-This entry is further connected in the graph through [[katsushika-hokusai]], [[cicero]], [[renaissance-humanism]].
-
-## Related Links
-
-- Figure: [[katsushika-hokusai]]
-- Figure: [[cicero]]
-- Time: [[renaissance-humanism]]
-- Location: [[seville]]
+- Referenced by figures: [[katsushika-hokusai]]
+<!-- dialectica:auto-links:end -->

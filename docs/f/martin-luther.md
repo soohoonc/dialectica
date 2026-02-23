@@ -9,21 +9,28 @@ tags:
 ---
 # Martin Luther
 
-Martin Luther is a figure node focused on theology, eastern thought, or esoteric traditions.
+Martin Luther is modeled here as a biographical node that connects social context, intellectual debates, and material outputs.
 
-## Notes
+## Intellectual Context
 
-This entry is a seed node and should be expanded with biography, key works, and links to related ideas, periods, and locations.
+This figure is currently anchored to locations [[paris]], [[athens]], [[konigsberg]] and periods [[twentieth-century]], [[nineteenth-century]], [[interwar-period]].
 
-## Ontology Connections
+## Debate Surface
 
-This entry is further connected in the graph through [[anselm-of-canterbury]], [[apostolic-era]], [[aksum]].
+High-signal conceptual neighbors include [[forms]], [[deontology]], [[virtue-ethics]], [[empiricism]], [[rationalism]], [[dialectic]], [[metaphysical-essence]], [[nihilism]] and related artifacts [[aryabhatiya]], [[third-of-may-1808]], [[annus-mirabilis-papers-1905]], [[being-and-time]], [[book-of-optics-ibn-al-haytham]], [[campbells-soup-cans]], [[city-of-god-augustinian]], [[code-of-hammurabi]].
 
-## Related Links
+## Study Path
 
-- Figure: [[anselm-of-canterbury]]
-- Time: [[apostolic-era]]
-- Location: [[aksum]]
-- Idea: [[analogy-of-being]]
-- Artifact: [[asfar-arbaa]]
-- Figure: [[marie-curie]]
+- Peer figures: [[aristotle]], [[kant]], [[confucius]], [[plato]], [[karl-marx]], [[hannah-arendt]], [[thomas-aquinas]], [[jean-jacques-rousseau]]
+- Related ideas: [[forms]], [[deontology]], [[virtue-ethics]], [[empiricism]], [[rationalism]], [[dialectic]], [[metaphysical-essence]], [[nihilism]]
+- Related artifacts: [[aryabhatiya]], [[third-of-may-1808]], [[annus-mirabilis-papers-1905]], [[being-and-time]], [[book-of-optics-ibn-al-haytham]], [[campbells-soup-cans]], [[city-of-god-augustinian]], [[code-of-hammurabi]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Mentioned in body: [[paris]], [[athens]], [[konigsberg]], [[twentieth-century]], [[nineteenth-century]], [[interwar-period]], [[forms]], [[deontology]], [[virtue-ethics]], [[empiricism]], [[rationalism]], [[dialectic]], [[metaphysical-essence]], [[nihilism]], [[aryabhatiya]], [[third-of-may-1808]]
+
+## Network Context
+
+- No inbound references yet.
+<!-- dialectica:auto-links:end -->

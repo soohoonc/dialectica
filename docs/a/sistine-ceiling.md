@@ -12,20 +12,37 @@ tags:
 ---
 # Sistine Chapel Ceiling
 
-Sistine Chapel Ceiling is an artifact seed linked to [[michelangelo]] to improve scientist/artist connectivity in the ontology graph.
+Sistine Chapel Ceiling is treated as a painting from 1512 and used as a material anchor for conceptual and historical links in the graph.
 
-## Context
+## Historical Placement
 
 - Creator: [[michelangelo]]
-- Period: [[renaissance]]
 - Location: [[rome]]
+- Era: [[renaissance]]
 
-## Ontology Connections
+## Interpretive Threads
 
-This entry is further connected in the graph through [[calling-of-saint-matthew]], [[julian-of-norwich]], [[roman-imperial-era]].
+This artifact is currently read alongside the linked concepts below.
+
+## Study Path
+
+- Nearby artifacts: see related links below.
+- Connected times: see related links below.
 
 ## Related Links
 
-- Artifact: [[calling-of-saint-matthew]]
-- Figure: [[julian-of-norwich]]
-- Time: [[roman-imperial-era]]
+- Idea: [[phenomenology]]
+- Idea: [[metaphysical-essence]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Creator: [[michelangelo]]
+- Location: [[rome]]
+- Era: [[renaissance]]
+- Mentioned in body: [[michelangelo]], [[rome]], [[renaissance]], [[phenomenology]], [[metaphysical-essence]]
+
+## Network Context
+
+- Referenced by figures: [[leonardo-da-vinci]], [[michelangelo]], [[nicolaus-copernicus]], [[raphael]]
+<!-- dialectica:auto-links:end -->

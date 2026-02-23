@@ -11,7 +11,6 @@ tags:
   - early-modern
   - order
 ---
-
 # Edo Period
 
 Edo Period marks a period in which institutions, argument styles, and knowledge practices were reorganized. In this corpus, it is connected to [[confucius]] and the development of [[ritual-propriety]].
@@ -24,4 +23,16 @@ This period is best read through connected place nodes such as [[kyoto]], [[athe
 
 - Figure: [[confucius]]
 - Idea: [[ritual-propriety]]
-- Comparative references: [[classical-greece]], [[enlightenment]], [[virtue-ethics]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Locations: [[kyoto]], [[tokyo]]
+- Mentioned in body: [[confucius]], [[ritual-propriety]], [[kyoto]], [[athens]], [[paris]]
+
+## Network Context
+
+- Referenced by figures: [[katsushika-hokusai]], [[utagawa-hiroshige]]
+- Referenced by artifacts: [[south-wind-clear-sky]]
+- Referenced by locations: [[kyoto]]
+<!-- dialectica:auto-links:end -->

@@ -16,19 +16,30 @@ tags:
 ---
 # Subrahmanyan Chandrasekhar
 
-Subrahmanyan Chandrasekhar is a figure node added to strengthen scientific and artistic coverage in the graph.
+Subrahmanyan Chandrasekhar is modeled here as a biographical node that connects social context, intellectual debates, and material outputs.
 
-## Graph Anchors
+## Intellectual Context
 
-- Locations: [[cambridge]], [[delhi]]
+This figure is currently anchored to locations [[cambridge]], [[london]] and periods [[twentieth-century]].
+
+## Debate Surface
+
+High-signal conceptual neighbors include [[analytic-philosophy]], [[banality-of-evil]], [[biopolitics]], [[critical-rationalism]], [[disciplinary-power]], [[existential-freedom]], [[existentialism]], [[frankfurt-school]] and related artifacts [[essay-concerning-human-understanding]], [[annus-mirabilis-papers-1905]], [[composition-viii-kandinsky]], [[experimental-researches-in-electricity]], [[in-the-shadow-of-man]], [[les-demoiselles-davignon-picasso]], [[leviathan]], [[leviathan-hobbes]].
+
+## Study Path
+
+- Peer figures: [[isaac-newton]], [[albert-einstein]], [[charles-darwin]], [[niels-bohr]], [[abdus-salam]], [[alan-turing]], [[barbara-mcclintock]], [[edwin-hubble]]
+- Related ideas: [[analytic-philosophy]], [[banality-of-evil]], [[biopolitics]], [[critical-rationalism]], [[disciplinary-power]], [[existential-freedom]], [[existentialism]], [[frankfurt-school]]
+- Related artifacts: [[essay-concerning-human-understanding]], [[annus-mirabilis-papers-1905]], [[composition-viii-kandinsky]], [[experimental-researches-in-electricity]], [[in-the-shadow-of-man]], [[les-demoiselles-davignon-picasso]], [[leviathan]], [[leviathan-hobbes]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Locations: [[cambridge]], [[london]]
 - Periods: [[twentieth-century]]
+- Mentioned in body: [[cambridge]], [[london]], [[twentieth-century]], [[analytic-philosophy]], [[banality-of-evil]], [[biopolitics]], [[critical-rationalism]], [[disciplinary-power]], [[existential-freedom]], [[existentialism]], [[frankfurt-school]], [[essay-concerning-human-understanding]], [[annus-mirabilis-papers-1905]], [[composition-viii-kandinsky]], [[experimental-researches-in-electricity]], [[in-the-shadow-of-man]]
 
-## Ontology Connections
+## Network Context
 
-This entry is further connected in the graph through [[london]], [[galileo-galilei]], [[zhiyi]].
-
-## Related Links
-
-- Location: [[london]]
-- Figure: [[galileo-galilei]]
-- Figure: [[zhiyi]]
+- Referenced by figures: [[abdus-salam]], [[albert-einstein]], [[alonzo-church]], [[barbara-mcclintock]], [[edwin-hubble]], [[james-clerk-maxwell]], [[michael-faraday]], [[niels-bohr]]
+<!-- dialectica:auto-links:end -->

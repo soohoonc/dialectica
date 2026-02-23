@@ -41,11 +41,15 @@ Konigsberg is famous in mathematics for the Seven Bridges Problem, solved by Leo
 
 After World War II, Konigsberg became part of the Soviet Union and was renamed Kaliningrad. Much of the historic German architecture was destroyed during the war and subsequent Soviet reconstruction.
 
-## Ontology Connections
+<!-- dialectica:auto-links:start -->
+## Graph Links
 
-This entry is further connected in the graph through [[abhinavagupta]], [[classical-greece]].
+- Mentioned in body: [[kant]], [[enlightenment]], [[categorical-imperative]], [[deontology]]
 
-## Related Links
+## Network Context
 
-- Figure: [[abhinavagupta]]
-- Time: [[classical-greece]]
+- Referenced by figures: [[abhinavagupta]], [[aleister-crowley]], [[anselm-of-canterbury]], [[asanga]], [[athanasius-of-alexandria]], [[basil-of-caesarea]], [[bonaventure]], [[chaitanya-mahaprabhu]], [[cheng-hao]], [[cheng-yi]], [[emanuel-swedenborg]], [[giordano-bruno]], [[gregory-of-nyssa]], [[gregory-palamas]], [[guo-xiang]], [[heinrich-cornelius-agrippa]]
+- Referenced by artifacts: [[critique-of-pure-reason]]
+- Referenced by locations: [[amsterdam]], [[antioch]], [[baghdad]], [[basel]], [[beijing]], [[berlin]], [[bologna]], [[byzantium]], [[cairo]], [[cambridge]], [[carthage]], [[cordoba]], [[edinburgh]], [[ephesus]], [[geneva]], [[heidelberg]]
+- Referenced by times: [[age-of-revolutions]], [[apostolic-era]], [[arabic-latin-translation-era]], [[archaic-greece]], [[axial-age-core]], [[babylonian-astrology-era]], [[bhakti-movement]], [[caliphate-fragmentation-era]], [[classical-sanskrit-age]], [[columbian-exchange-era]], [[comparative-religion-era]], [[counter-reformation-era]], [[depth-psychology-era]], [[digital-esotericism-era]], [[early-buddhist-councils-era]], [[early-modern-europe]]
+<!-- dialectica:auto-links:end -->

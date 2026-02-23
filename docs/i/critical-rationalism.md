@@ -20,18 +20,35 @@ tags:
 ---
 # Critical Rationalism
 
-Critical Rationalism is a school-level idea node added to broaden coverage across analytic, theological, eastern, and esoteric traditions.
+Critical Rationalism is represented as a conceptual node for comparing arguments, lineages, and points of conflict across traditions.
 
-## Graph Anchors
+## Core Position
 
-- Period context: [[twentieth-century]]
-- Comparative links: [[rationalism]], [[empiricism]], [[verificationism]]
+- Built from: [[rationalism]], [[empiricism]]
+- In tension with: [[verificationism]]
+- Combined with: [[rationalism]], [[moral-skepticism]]
 
-## Ontology Connections
+## Historical Placement
 
-This entry is further connected in the graph through [[moral-skepticism]], [[cold-war-era]].
+This idea is currently associated with figures [[aristotle]], [[kant]], [[confucius]] and periods [[twentieth-century]].
 
-## Related Links
+## Study Path
 
-- Idea: [[moral-skepticism]]
-- Time: [[cold-war-era]]
+- Adjacent ideas: [[verificationism]], [[empiricism]], [[logical-positivism]], [[analytic-philosophy]], [[asharism]], [[carvaka-materialism]], [[frankfurt-school]], [[heliocentrism]]
+- Connected figures: [[aristotle]], [[kant]], [[confucius]]
+- Referencing artifacts: [[aryabhatiya]], [[third-of-may-1808]], [[annus-mirabilis-papers-1905]], [[being-and-time]], [[book-of-optics-ibn-al-haytham]], [[campbells-soup-cans]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Periods: [[twentieth-century]]
+- Influences: [[rationalism]], [[empiricism]]
+- Contradicts: [[verificationism]]
+- Synthesizes: [[rationalism]], [[moral-skepticism]]
+- Mentioned in body: [[rationalism]], [[empiricism]], [[verificationism]], [[moral-skepticism]], [[aristotle]], [[kant]], [[confucius]], [[twentieth-century]], [[logical-positivism]], [[analytic-philosophy]], [[asharism]], [[carvaka-materialism]], [[frankfurt-school]], [[heliocentrism]], [[aryabhatiya]], [[third-of-may-1808]]
+
+## Network Context
+
+- Referenced by figures: [[albert-einstein]], [[barbara-mcclintock]], [[constantin-brancusi]], [[diego-rivera]], [[georgia-okeeffe]], [[henri-matisse]], [[marcel-duchamp]], [[niels-bohr]], [[pablo-picasso]], [[salvador-dali]], [[subrahmanyan-chandrasekhar]], [[wassily-kandinsky]]
+- Referenced by ideas: [[logical-positivism]], [[ordinary-language-philosophy]], [[philosophical-hermeneutics]], [[post-structuralism]], [[psychoanalysis]], [[structuralism]], [[verificationism]]
+<!-- dialectica:auto-links:end -->

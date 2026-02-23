@@ -11,7 +11,6 @@ tags:
   - law
   - antiquity
 ---
-
 # Roman Republic Era
 
 Roman Republic Era marks a period in which institutions, argument styles, and knowledge practices were reorganized. In this corpus, it is connected to [[cicero]] and the development of [[republican-virtue]].
@@ -24,4 +23,17 @@ This period is best read through connected place nodes such as [[rome]], [[athen
 
 - Figure: [[cicero]]
 - Idea: [[republican-virtue]]
-- Comparative references: [[classical-greece]], [[enlightenment]], [[virtue-ethics]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Locations: [[rome]], [[carthage]]
+- Mentioned in body: [[cicero]], [[republican-virtue]], [[rome]], [[athens]], [[paris]]
+
+## Network Context
+
+- Referenced by figures: [[cicero]]
+- Referenced by ideas: [[republican-virtue]]
+- Referenced by artifacts: [[on-duties-cicero]]
+- Referenced by locations: [[carthage]]
+<!-- dialectica:auto-links:end -->

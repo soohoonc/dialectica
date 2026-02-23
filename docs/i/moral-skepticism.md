@@ -17,7 +17,6 @@ tags:
   - epistemology
   - skepticism
 ---
-
 # Moral Skepticism
 
 Moral Skepticism is modeled here as a connective concept that links figure, period, and argument structure. This page is anchored in [[david-hume]] and historically situated in [[scottish-enlightenment]].
@@ -26,8 +25,16 @@ Moral Skepticism is modeled here as a connective concept that links figure, peri
 
 This idea is best approached relationally: it develops themes from [[empiricism]] while challenging [[deontology]]. In this corpus, it is read alongside [[deontology]], [[virtue-ethics]], and [[forms]].
 
+<!-- dialectica:auto-links:start -->
 ## Graph Links
 
-- Figure: [[david-hume]]
-- Period: [[scottish-enlightenment]]
+- Authors: [[david-hume]]
+- Periods: [[scottish-enlightenment]]
 - Influences: [[empiricism]], [[social-contract]]
+- Contradicts: [[deontology]]
+- Mentioned in body: [[david-hume]], [[scottish-enlightenment]], [[empiricism]], [[deontology]], [[virtue-ethics]], [[forms]]
+
+## Network Context
+
+- Referenced by ideas: [[critical-rationalism]], [[practical-reason]]
+<!-- dialectica:auto-links:end -->

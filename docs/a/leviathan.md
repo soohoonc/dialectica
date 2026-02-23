@@ -2,7 +2,7 @@
 type: artifact
 name: Leviathan
 year: 1651
-creator: hobbes
+creator: thomas-hobbes
 location: london
 medium: book
 tags:
@@ -25,15 +25,19 @@ Hobbes argues for a powerful sovereign authority to prevent the "war of all agai
 - **Absolute Sovereignty**: The sovereign must have unlimited power to maintain peace
 - **Materialist Psychology**: Human actions driven by desires and aversions
 
-## Ontology Connections
-
-This entry is further connected in the graph through [[london]], [[abhinavagupta]], [[classical-greece]].
-
 ## Related Links
 
+- Figure: [[thomas-hobbes]]
 - Location: [[london]]
-- Figure: [[abhinavagupta]]
-- Time: [[classical-greece]]
-- Location: [[athens]]
-- Idea: [[advaita-vedanta]]
-- Artifact: [[the-republic]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Creator: [[thomas-hobbes]]
+- Location: [[london]]
+- Mentioned in body: [[thomas-hobbes]], [[london]]
+
+## Network Context
+
+- Referenced by figures: [[abdus-salam]], [[michael-faraday]], [[robert-boyle]], [[subrahmanyan-chandrasekhar]]
+<!-- dialectica:auto-links:end -->

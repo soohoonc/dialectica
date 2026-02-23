@@ -12,7 +12,6 @@ tags:
   - rights
   - state
 ---
-
 # Age of Revolutions
 
 Age of Revolutions marks a period that reshaped institutions, argument styles, and dominant explanatory models. In this corpus it is tied to [[karl-marx]] and the development of [[historical-materialism]].
@@ -25,4 +24,15 @@ This period is best studied by combining textual analysis with place-based histo
 
 - Representative figure: [[karl-marx]]
 - Representative idea: [[historical-materialism]]
-- Comparative references: [[classical-greece]], [[enlightenment]], [[virtue-ethics]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Locations: [[paris]], [[london]], [[new-york]]
+- Mentioned in body: [[karl-marx]], [[historical-materialism]], [[paris]], [[athens]], [[konigsberg]]
+
+## Network Context
+
+- Referenced by figures: [[francisco-goya]]
+- Referenced by artifacts: [[third-of-may-1808]]
+<!-- dialectica:auto-links:end -->

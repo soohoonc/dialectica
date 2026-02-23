@@ -24,11 +24,13 @@ Stagira helps ground discussions of Aristotelian development by connecting regio
 - Period: [[classical-greece]]
 - Related ideas: [[virtue-ethics]], [[forms]]
 
-## Ontology Connections
+<!-- dialectica:auto-links:start -->
+## Graph Links
 
-This entry is further connected in the graph through [[archaic-greece]], [[athens]].
+- Mentioned in body: [[aristotle]], [[classical-greece]], [[virtue-ethics]], [[forms]]
 
-## Related Links
+## Network Context
 
-- Time: [[archaic-greece]]
-- Location: [[athens]]
+- Referenced by figures: [[aristotle]]
+- Referenced by times: [[apostolic-era]], [[arabic-latin-translation-era]], [[archaic-greece]], [[axial-age-core]], [[babylonian-astrology-era]], [[bhakti-movement]], [[caliphate-fragmentation-era]], [[classical-sanskrit-age]], [[columbian-exchange-era]], [[comparative-religion-era]], [[counter-reformation-era]], [[depth-psychology-era]], [[digital-esotericism-era]], [[early-buddhist-councils-era]], [[epic-upanishadic-age]], [[esotericism-academic-turn]]
+<!-- dialectica:auto-links:end -->

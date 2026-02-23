@@ -12,7 +12,6 @@ tags:
   - technology
   - capital
 ---
-
 # Second Industrial Revolution
 
 Second Industrial Revolution marks a period in which institutions, argument styles, and knowledge practices were reorganized. In this corpus, it is connected to [[karl-marx]] and the development of [[dialectical-materialism]].
@@ -25,4 +24,15 @@ This period is best read through connected place nodes such as [[london]], [[ath
 
 - Figure: [[karl-marx]]
 - Idea: [[dialectical-materialism]]
-- Comparative references: [[classical-greece]], [[enlightenment]], [[virtue-ethics]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Locations: [[london]], [[berlin]], [[new-york]]
+- Mentioned in body: [[karl-marx]], [[dialectical-materialism]], [[london]], [[athens]], [[paris]]
+
+## Network Context
+
+- Referenced by figures: [[james-clerk-maxwell]]
+- Referenced by artifacts: [[treatise-on-electricity-and-magnetism]]
+<!-- dialectica:auto-links:end -->

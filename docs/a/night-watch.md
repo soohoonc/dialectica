@@ -2,7 +2,7 @@
 type: artifact
 name: The Night Watch
 year: 1642
-creator: rembrandt
+creator: rembrandt-van-rijn
 location: amsterdam
 medium: painting
 tags:
@@ -33,15 +33,19 @@ The painting was called "The Night Watch" due to its darkened varnish; it actual
 
 Housed in the Rijksmuseum in Amsterdam, it is the museum's most famous piece and the centerpiece of its Gallery of Honour.
 
-## Ontology Connections
-
-This entry is further connected in the graph through [[amsterdam]], [[guernica]], [[michel-foucault]].
-
 ## Related Links
 
+- Figure: [[rembrandt-van-rijn]]
 - Location: [[amsterdam]]
-- Artifact: [[guernica]]
-- Figure: [[michel-foucault]]
-- Time: [[age-of-revolutions]]
-- Location: [[hiroshima]]
-- Idea: [[separation-of-powers]]
+
+<!-- dialectica:auto-links:start -->
+## Graph Links
+
+- Creator: [[rembrandt-van-rijn]]
+- Location: [[amsterdam]]
+- Mentioned in body: [[rembrandt-van-rijn]], [[amsterdam]]
+
+## Network Context
+
+- Referenced by figures: [[johannes-vermeer]], [[rembrandt-van-rijn]]
+<!-- dialectica:auto-links:end -->
